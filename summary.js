@@ -1,6 +1,23 @@
 const fs = require('fs')
 const moment = require('moment')
-const { pipe, omit, pick, assoc, map, isEmpty } = require('ramda')
+const {
+  pipe,
+  omit,
+  pick,
+  assoc,
+  map,
+  isEmpty,
+  flatten,
+  sortBy,
+  prop,
+  values,
+  uniq,
+  pluck,
+  filter,
+  not,
+  isNil,
+  tap,
+} = require('ramda')
 
 const statNames = {
   1: 'strength',
@@ -11,7 +28,11 @@ const statNames = {
   6: 'charisma',
 }
 
+const sources = ['race', 'background', 'class', 'item', 'feat']
+
 const getStatName = (id) => statNames[id]
+
+const notNil = not(isNil)
 
 const getStatObject = (property, data) =>
   Object.fromEntries(
@@ -30,15 +51,11 @@ const getInventoryItem = (item, characterValues) => {
 }
 
 const getActions = (actions) => {
-  const actionTypes = ['race', 'background', 'class', 'item', 'feat']
-
   const actionList = []
-
-  actionTypes.forEach((at) => {
+  sources.forEach((at) => {
     actions[at]?.forEach((a) => actionList.push(a.name))
   })
-
-  return actionList
+  return actionList.sort()
 }
 
 const summarize = (player) => {
@@ -59,7 +76,10 @@ const summarize = (player) => {
     feats,
     classSpells,
     dateModified,
+    modifiers,
   } = data
+
+  const { cp, sp, gp, ep, pp } = currencies
 
   const final = {
     name,
@@ -86,9 +106,17 @@ const summarize = (player) => {
       .map((cs) => cs.spells?.map((s) => s.definition.name))
       .flat()
       .sort(),
-    actions: getActions(actions).sort(),
+    actions: pipe(values, flatten, filter(Boolean), sortBy(prop('name')), pluck('name'))(actions),
+    modifiers: pipe(
+      values,
+      flatten,
+      sortBy(prop('type')),
+      map((x) => `${x.friendlyTypeName} | ${x.friendlySubtypeName}`),
+      uniq,
+    )(modifiers),
     inventory: inventory.map((i) => getInventoryItem(i, characterValues)).sort(),
     currencies,
+    money: cp / 100 + sp / 10 + ep / 2 + gp + pp * 10,
     notes,
     dateModified: moment(dateModified).format('LLLL'),
   }

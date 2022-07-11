@@ -31,6 +31,35 @@
     "Thunderwave"
   ],
   "actions": ["Bardic Inspiration", "Magical Inspiration"],
+  "modifiers": [
+    "Advantage | Saving Throws",
+    "Bonus | Dexterity Score",
+    "Bonus | Charisma Score",
+    "Bonus | Armor Class",
+    "Bonus | Saving Throws",
+    "Half Proficiency | Ability Checks",
+    "Half Proficiency | Initiative",
+    "Language | Common",
+    "Language | Halfling",
+    "Language | Celestial",
+    "Language | Dwarvish",
+    "Proficiency | Light Armor",
+    "Proficiency | Simple Weapons",
+    "Proficiency | Crossbow, Hand",
+    "Proficiency | Longsword",
+    "Proficiency | Rapier",
+    "Proficiency | Shortsword",
+    "Proficiency | Flute",
+    "Proficiency | Bagpipes",
+    "Proficiency | Pan Flute",
+    "Proficiency | Dexterity Saving Throws",
+    "Proficiency | Charisma Saving Throws",
+    "Proficiency | Deception",
+    "Proficiency | Perception",
+    "Proficiency | Investigation",
+    "Proficiency | Survival",
+    "Proficiency | Arcana"
+  ],
   "inventory": [
     "Cloak of Protection",
     "Leather",
@@ -43,6 +72,7 @@
     "Whip"
   ],
   "currencies": { "cp": 0, "sp": 0, "gp": 75, "ep": 0, "pp": 0 },
+  "money": 75,
   "notes": {
     "allies": null,
     "personalPossessions": "Deed of house\nDeed of Windmill\nWill of Durst, Gustav and Elizabeth\n\n",

@@ -23,6 +23,30 @@
   "feats": [],
   "spells": [],
   "actions": ["Divine Sense", "Divine Smite", "Lay on Hands Pool"],
+  "modifiers": [
+    "Advantage | Charisma Saving Throws",
+    "Advantage | Intelligence Saving Throws",
+    "Advantage | Wisdom Saving Throws",
+    "Bonus | Intelligence Score",
+    "Bonus | Dexterity Score",
+    "Language | Common",
+    "Language | Gnomish",
+    "Proficiency | Light Armor",
+    "Proficiency | Medium Armor",
+    "Proficiency | Heavy Armor",
+    "Proficiency | Shields",
+    "Proficiency | Wisdom Saving Throws",
+    "Proficiency | Charisma Saving Throws",
+    "Proficiency | Persuasion",
+    "Proficiency | Insight",
+    "Proficiency | Simple Weapons",
+    "Proficiency | Martial Weapons",
+    "Proficiency | Athletics",
+    "Proficiency | Intimidation",
+    "Proficiency | Playing Card Set",
+    "Proficiency | Vehicles (Land)",
+    "Set Base | Darkvision"
+  ],
   "inventory": [
     "Backpack",
     "Bedroll",
@@ -41,6 +65,7 @@
     "Waterskin"
   ],
   "currencies": { "cp": 0, "sp": 0, "gp": 13, "ep": 0, "pp": 0 },
+  "money": 13,
   "notes": {
     "allies": null,
     "personalPossessions": null,

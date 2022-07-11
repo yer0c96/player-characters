@@ -39,6 +39,30 @@
     "Healing Hands",
     "Vigilant Blessing"
   ],
+  "modifiers": [
+    "Bonus | Wisdom Score",
+    "Bonus | Constitution Score",
+    "Language | Common",
+    "Language | Celestial",
+    "Language | Draconic",
+    "Language | Sylvan",
+    "Proficiency | Light Armor",
+    "Proficiency | Medium Armor",
+    "Proficiency | Shields",
+    "Proficiency | Simple Weapons",
+    "Proficiency | Wisdom Saving Throws",
+    "Proficiency | Charisma Saving Throws",
+    "Proficiency | Insight",
+    "Proficiency | Persuasion",
+    "Proficiency | Martial Weapons",
+    "Proficiency | Heavy Armor",
+    "Proficiency | Perception",
+    "Proficiency | Religion",
+    "Resistance | Necrotic",
+    "Resistance | Radiant",
+    "Set | Subclass",
+    "Set Base | Darkvision"
+  ],
   "inventory": [
     "Alms Box",
     "Amulet",
@@ -59,6 +83,7 @@
     "Waterskin"
   ],
   "currencies": { "cp": 0, "sp": 0, "gp": 30, "ep": 0, "pp": 0 },
+  "money": 30,
   "notes": {
     "allies": null,
     "personalPossessions": "a prayer book\n5 sticks of incense",

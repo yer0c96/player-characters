@@ -31,6 +31,28 @@
     "Thunderwave"
   ],
   "actions": ["Convert Sorcery Points", "Sorcery Points", "Telepathic Speech"],
+  "modifiers": [
+    "Bonus | Dexterity Score",
+    "Bonus | Wisdom Score",
+    "Language | Common",
+    "Language | Auran",
+    "Language | Choose a Language",
+    "Proficiency | Sleight of Hand",
+    "Proficiency | Deception",
+    "Proficiency | Dagger",
+    "Proficiency | Dart",
+    "Proficiency | Sling",
+    "Proficiency | Quarterstaff",
+    "Proficiency | Crossbow, Light",
+    "Proficiency | Constitution Saving Throws",
+    "Proficiency | Charisma Saving Throws",
+    "Proficiency | Arcana",
+    "Proficiency | Persuasion",
+    "Proficiency | Athletics",
+    "Proficiency | Survival",
+    "Proficiency | Birdpipes",
+    "Set | Subclass"
+  ],
   "inventory": [
     "Backpack",
     "Bedroll",
@@ -45,6 +67,7 @@
     "Waterskin"
   ],
   "currencies": { "cp": 3, "sp": 61, "gp": 21, "ep": 0, "pp": 0 },
+  "money": 27.13,
   "notes": {
     "allies": "Lancelot",
     "personalPossessions": "Sack of feathers\n\n",

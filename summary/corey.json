@@ -29,6 +29,29 @@
     "Step of the Wind",
     "Unarmed Strike"
   ],
+  "modifiers": [
+    "Bonus | Strength Score",
+    "Bonus | Dexterity Score",
+    "Bonus | Constitution Score",
+    "Bonus | Intelligence Score",
+    "Bonus | Wisdom Score",
+    "Bonus | Charisma Score",
+    "Bonus | Unarmored Movement",
+    "Language | Common",
+    "Language | Elvish",
+    "Language | Dwarvish",
+    "Proficiency | Simple Weapons",
+    "Proficiency | Shortsword",
+    "Proficiency | Cook's Utensils",
+    "Proficiency | Strength Saving Throws",
+    "Proficiency | Dexterity Saving Throws",
+    "Proficiency | Acrobatics",
+    "Proficiency | Stealth",
+    "Proficiency | Medicine",
+    "Proficiency | Religion",
+    "Proficiency | Herbalism Kit",
+    "Set | Unarmored Armor Class"
+  ],
   "inventory": [
     "Backpack",
     "Bedroll",
@@ -46,6 +69,7 @@
     "Waterskin"
   ],
   "currencies": { "cp": 0, "sp": 0, "gp": 85, "ep": 0, "pp": 0 },
+  "money": 85,
   "notes": {
     "allies": null,
     "personalPossessions": "A scroll case stuffed full of notes from your studies or prayers",

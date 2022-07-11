@@ -118,7 +118,7 @@ const summarize = (player) => {
     currencies,
     money: cp / 100 + sp / 10 + ep / 2 + gp + pp * 10,
     notes,
-    dateModified: moment(dateModified).format('LLLL'),
+    // dateModified: moment(dateModified).format('LLLL'),
   }
 
   fs.writeFileSync(`summary/${player}.json`, JSON.stringify(final))

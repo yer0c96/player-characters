@@ -1,6 +1,6 @@
 {
   "name": "The Bird",
-  "classes": ["Level 2 Sorcerer | Aberrant Mind"],
+  "classes": ["Level 3 Sorcerer | Aberrant Mind"],
   "stats": {
     "strength": 8,
     "dexterity": 12,
@@ -9,13 +9,12 @@
     "wisdom": 15,
     "charisma": 10
   },
-  "hitPoints": { "base": 10, "current": 7, "temp": 0 },
+  "hitPoints": { "base": 14, "current": 11, "temp": 0 },
   "traits": {
-    "personalityTraits": "I feel far more comfortable around animals than people.\nI have a lesson for every situation, drawn from observing nature.\n",
+    "personalityTraits": "I feel far more comfortable around animals than people.\nI have a lesson for every situation, drawn from observing nature.",
     "ideals": "Change. Life is like the seasons, in constant change, and we must change with it. (Chaotic)",
     "bonds": "I will bring terrible wrath down on the evildoers who destroyed my homeland.",
-    "flaws": "I remember every insult I’ve received and nurse a silent resentment toward anyone who’s ever wronged me.",
-    "appearance": null
+    "flaws": "I remember every insult I’ve received and nurse a silent resentment toward anyone who’s ever wronged me."
   },
   "bonusStats": {},
   "overrideStats": {},
@@ -23,8 +22,10 @@
   "feats": [],
   "spells": [
     "Arms of Hadar",
+    "Calm Emotions",
     "Color Spray",
     "Control Flames",
+    "Detect Thoughts",
     "Disguise Self",
     "Dissonant Whispers",
     "Fire Bolt",
@@ -73,7 +74,7 @@
   "money": 27.13,
   "notes": {
     "allies": "Lancelot",
-    "personalPossessions": "Sack of feathers\n\n",
+    "personalPossessions": "Sack of feathers",
     "organizations": "",
     "backstory": ""
   }

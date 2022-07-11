@@ -21,6 +21,7 @@ const {
   ascend,
   append,
   concat,
+  trim,
 } = require('ramda')
 
 const statNames = {
@@ -35,6 +36,8 @@ const statNames = {
 const sources = ['race', 'background', 'class', 'item', 'feat']
 
 const getStatName = (id) => statNames[id]
+
+const mapTrim = (obj) => map((x) => trim(x), removeNulls(obj))
 
 const removeNulls = (obj) => Object.fromEntries(Object.entries(obj).filter(([_, v]) => v != null))
 
@@ -109,7 +112,7 @@ const summarize = (player) => {
       current: data.baseHitPoints - data.removedHitPoints,
       temp: data.temporaryHitPoints,
     },
-    traits,
+    traits: mapTrim(traits),
     bonusStats: getStatObject('bonusStats', data),
     overrideStats: getStatObject('overrideStats', data),
     background: background.hasCustomBackground
@@ -128,7 +131,7 @@ const summarize = (player) => {
     inventory: inventory.map((i) => getInventoryItem(i, characterValues)).sort(),
     currencies,
     money: cp / 100 + sp / 10 + ep / 2 + gp + pp * 10,
-    notes: removeNulls(notes),
+    notes: mapTrim(notes),
     // dateModified: moment(dateModified).format('LLLL'),
   }
 

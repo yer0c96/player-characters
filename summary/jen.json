@@ -1,6 +1,6 @@
 {
   "name": "Vercey Whispermouse",
-  "classes": ["Level 2 Bard"],
+  "classes": ["Level 3 Bard | College of Spirits"],
   "stats": {
     "strength": 8,
     "dexterity": 14,
@@ -9,13 +9,12 @@
     "wisdom": 12,
     "charisma": 15
   },
-  "hitPoints": { "base": 13, "current": 10, "temp": 5 },
+  "hitPoints": { "base": 18, "current": 15, "temp": 5 },
   "traits": {
     "personalityTraits": "I don’t run from evil. Evil runs from me.\nI spend money freely and live life to the fullest, knowing that tomorrow I might die.",
     "ideals": "I kill monsters to make the world a safer place, and to exorcise my own demons. (Good)",
     "bonds": "A terrible guilt consumes me. I hope that I can find redemption through my actions.",
-    "flaws": "I feel no compassion for the dead. They’re the lucky ones.",
-    "appearance": null
+    "flaws": "I feel no compassion for the dead. They’re the lucky ones."
   },
   "bonusStats": {},
   "overrideStats": {},
@@ -24,19 +23,27 @@
   "spells": [
     "Blade Ward",
     "Cure Wounds",
+    "Guidance",
     "Heroism",
     "Hideous Laughter",
     "Prestidigitation",
     "Silent Image",
     "Thunderwave"
   ],
-  "actions": ["Bardic Inspiration", "Magical Inspiration"],
+  "actions": [
+    "Bardic Inspiration",
+    "Magical Inspiration",
+    "Tales from Beyond: Bestow Tale",
+    "Tales from Beyond: Determine Tale"
+  ],
   "modifiers": [
     "Advantage | Saving Throws",
     "Bonus | Dexterity Score",
     "Bonus | Charisma Score",
     "Bonus | Armor Class",
     "Bonus | Saving Throws",
+    "Expertise | Arcana",
+    "Expertise | Perception",
     "Half Proficiency | Ability Checks",
     "Half Proficiency | Initiative",
     "Language | Common",
@@ -58,7 +65,8 @@
     "Proficiency | Perception",
     "Proficiency | Investigation",
     "Proficiency | Survival",
-    "Proficiency | Arcana"
+    "Proficiency | Arcana",
+    "Set | Subclass"
   ],
   "inventory": [
     "Cloak of Protection",
@@ -74,7 +82,7 @@
   "currencies": { "cp": 0, "sp": 0, "gp": 75, "ep": 0, "pp": 0 },
   "money": 75,
   "notes": {
-    "personalPossessions": "Deed of house\nDeed of Windmill\nWill of Durst, Gustav and Elizabeth\n\n",
+    "personalPossessions": "Deed of house\nDeed of Windmill\nWill of Durst, Gustav and Elizabeth",
     "organizations": ""
   }
 }

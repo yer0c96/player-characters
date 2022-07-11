@@ -11,11 +11,10 @@
   },
   "hitPoints": { "base": 13, "current": 13, "temp": 7 },
   "traits": {
-    "personalityTraits": "\n\nI’ve enjoyed fine food, drink, and high society among my temple’s elite. Rough living grates on me.\nI’ve spent so long in the temple that I have little practical experience dealing with people in the outside world.",
+    "personalityTraits": "I’ve enjoyed fine food, drink, and high society among my temple’s elite. Rough living grates on me.\nI’ve spent so long in the temple that I have little practical experience dealing with people in the outside world.",
     "ideals": "Change. We must help bring about the changes the gods are constantly working in the world. (Chaotic)",
     "bonds": "I would die to recover an ancient relic of my faith that was lost long ago.",
-    "flaws": "My piety sometimes leads me to blindly trust those that profess faith in my god.",
-    "appearance": null
+    "flaws": "My piety sometimes leads me to blindly trust those that profess faith in my god."
   },
   "bonusStats": {},
   "overrideStats": {},

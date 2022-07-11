@@ -6,7 +6,7 @@
     "id": 72209867,
     "userId": 112947280,
     "readonlyUrl": "https://dndbeyond.com/characters/72209867",
-    "avatarUrl": "https://www.dndbeyond.com/avatars/17/465/636377891214338261.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
+    "avatarUrl": "https://www.dndbeyond.com/avatars/27028/461/1581111423-72209867.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
     "frameAvatarUrl": null,
     "backdropAvatarUrl": null,
     "smallBackdropAvatarUrl": null,
@@ -18,7 +18,7 @@
       "largeBackdropAvatarUrl": "https://www.dndbeyond.com/avatars/61/550/636453168592234629.jpeg",
       "thumbnailBackdropAvatarUrl": "https://www.dndbeyond.com/avatars/61/551/636453168592547146.jpeg"
     },
-    "avatarId": 17465,
+    "avatarId": 27028461,
     "frameAvatarId": null,
     "backdropAvatarId": null,
     "smallBackdropAvatarId": null,
@@ -37,7 +37,7 @@
       "decorationKey": "440"
     },
     "decorations": {
-      "avatarUrl": "https://www.dndbeyond.com/avatars/17/465/636377891214338261.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
+      "avatarUrl": "https://www.dndbeyond.com/avatars/27028/461/1581111423-72209867.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
       "frameAvatarUrl": null,
       "backdropAvatarUrl": null,
       "smallBackdropAvatarUrl": null,
@@ -49,8 +49,8 @@
         "largeBackdropAvatarUrl": "https://www.dndbeyond.com/avatars/61/550/636453168592234629.jpeg",
         "thumbnailBackdropAvatarUrl": "https://www.dndbeyond.com/avatars/61/551/636453168592547146.jpeg"
       },
-      "avatarId": 17465,
-      "portraitDecorationKey": "326",
+      "avatarId": 27028461,
+      "portraitDecorationKey": null,
       "frameAvatarDecorationKey": null,
       "frameAvatarId": null,
       "backdropAvatarDecorationKey": null,
@@ -84,7 +84,7 @@
     "height": "5'",
     "weight": 95,
     "inspiration": true,
-    "baseHitPoints": 10,
+    "baseHitPoints": 14,
     "bonusHitPoints": null,
     "overrideHitPoints": null,
     "removedHitPoints": 3,
@@ -593,7 +593,7 @@
     "raceDefinitionTypeId": null,
     "notes": {
       "allies": "Lancelot",
-      "personalPossessions": "Sack of feathers\n\n",
+      "personalPossessions": "Sack of feathers\n",
       "otherHoldings": null,
       "organizations": "",
       "enemies": null,
@@ -1477,7 +1477,7 @@
       {
         "id": 95903657,
         "entityTypeId": 1446578651,
-        "level": 2,
+        "level": 3,
         "isStartingClass": true,
         "hitDiceUsed": 0,
         "definitionId": 0,
@@ -2894,6 +2894,183 @@
           "componentId": 2986533,
           "componentTypeId": 12168134,
           "spellListId": null
+        },
+        {
+          "overrideSaveDc": null,
+          "limitedUse": null,
+          "id": 1332885,
+          "entityTypeId": 420821570,
+          "definition": {
+            "id": 2023,
+            "name": "Calm Emotions",
+            "level": 2,
+            "school": "Enchantment",
+            "duration": {
+              "durationInterval": 1,
+              "durationUnit": "Minute",
+              "durationType": "Concentration"
+            },
+            "activation": { "activationTime": 1, "activationType": 1 },
+            "range": { "origin": "Ranged", "rangeValue": 60, "aoeType": "Sphere", "aoeValue": 20 },
+            "asPartOfWeaponAttack": false,
+            "description": "<p>You attempt to suppress strong emotions in a group of people. Each humanoid in a 20-foot-radius sphere centered on a point you choose within range must make a Charisma saving throw; a creature can choose to fail this saving throw if it wishes. If a creature fails its saving throw, choose one of the following two effects.</p>\r\n<p>You can suppress any effect causing a target to be charmed or frightened. When this spell ends, any suppressed effect resumes, provided that its duration has not expired in the meantime.</p>\r\n<p>Alternatively, you can make a target indifferent about creatures of your choice that it is hostile toward. This indifference ends if the target is attacked or harmed by a spell or if it witnesses any of its friends being harmed. When the spell ends, the creature becomes hostile again, unless the DM rules otherwise.</p>",
+            "snippet": "",
+            "concentration": true,
+            "ritual": false,
+            "rangeArea": null,
+            "damageEffect": null,
+            "components": [1, 2],
+            "componentsDescription": "",
+            "saveDcAbilityId": 6,
+            "healing": null,
+            "healingDice": [],
+            "tempHpDice": [],
+            "attackType": null,
+            "canCastAtHigherLevel": false,
+            "isHomebrew": false,
+            "version": null,
+            "sourceId": null,
+            "sourcePageNumber": 221,
+            "requiresSavingThrow": true,
+            "requiresAttackRoll": false,
+            "atHigherLevels": {
+              "scaleType": null,
+              "higherLevelDefinitions": [],
+              "additionalAttacks": [],
+              "additionalTargets": [],
+              "areaOfEffect": [],
+              "duration": [],
+              "creatures": [],
+              "special": [],
+              "points": []
+            },
+            "modifiers": [],
+            "conditions": [
+              {
+                "type": 3,
+                "conditionId": 2,
+                "conditionDuration": 1,
+                "durationUnit": "Minute",
+                "exception": ""
+              },
+              {
+                "type": 3,
+                "conditionId": 5,
+                "conditionDuration": 1,
+                "durationUnit": "Minute",
+                "exception": ""
+              }
+            ],
+            "tags": ["Social"],
+            "castingTimeDescription": "",
+            "scaleType": null,
+            "sources": [
+              { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+              { "sourceId": 2, "pageNumber": 221, "sourceType": 1 }
+            ],
+            "spellGroups": []
+          },
+          "definitionId": 0,
+          "prepared": false,
+          "countsAsKnownSpell": false,
+          "usesSpellSlot": true,
+          "castAtLevel": null,
+          "alwaysPrepared": true,
+          "restriction": "",
+          "spellCastingAbilityId": null,
+          "displayAsAttack": null,
+          "additionalDescription": "",
+          "castOnlyAsRitual": false,
+          "ritualCastingType": null,
+          "range": { "origin": "Ranged", "rangeValue": 60, "aoeType": "Sphere", "aoeValue": 20 },
+          "activation": { "activationTime": 1, "activationType": 1 },
+          "baseLevelAtWill": false,
+          "atWillLimitedUseLevel": null,
+          "isSignatureSpell": null,
+          "componentId": 2986533,
+          "componentTypeId": 12168134,
+          "spellListId": null
+        },
+        {
+          "overrideSaveDc": null,
+          "limitedUse": null,
+          "id": 1332886,
+          "entityTypeId": 420821570,
+          "definition": {
+            "id": 2067,
+            "name": "Detect Thoughts",
+            "level": 2,
+            "school": "Divination",
+            "duration": {
+              "durationInterval": 1,
+              "durationUnit": "Minute",
+              "durationType": "Concentration"
+            },
+            "activation": { "activationTime": 1, "activationType": 1 },
+            "range": { "origin": "Self", "rangeValue": 0, "aoeType": null, "aoeValue": null },
+            "asPartOfWeaponAttack": false,
+            "description": "<p>For the duration, you can read the thoughts of certain creatures. When you cast the spell and as your action on each turn until the spell ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn't speak any language, the creature is unaffected.</p>\r\n<p>You initially learn the surface thoughts of the creature--what is most on its mind in that moment. As an action, you can either shift your attention to another creature's thoughts or attempt to probe deeper into the same creature's mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature's thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check; if it succeeds, the spell ends.</p>\r\n<p>Questions verbally directed at the target creature naturally shape the course of its thoughts, so this spell is particularly effective as part of an interrogation.</p>\r\n<p>You can also use this spell to detect the presence of thinking creatures you can't see. When you cast the spell or as your action during the duration, you can search for thoughts within 30 feet of you. The spell can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you. You can't detect a creature with an Intelligence of 3 or lower or one that doesn't speak any language.</p>\r\n<p>Once you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can't see it, but it must still be within range.</p>",
+            "snippet": "",
+            "concentration": true,
+            "ritual": false,
+            "rangeArea": null,
+            "damageEffect": null,
+            "components": [1, 2, 3],
+            "componentsDescription": "a copper piece",
+            "saveDcAbilityId": 5,
+            "healing": null,
+            "healingDice": [],
+            "tempHpDice": [],
+            "attackType": null,
+            "canCastAtHigherLevel": false,
+            "isHomebrew": false,
+            "version": null,
+            "sourceId": null,
+            "sourcePageNumber": 231,
+            "requiresSavingThrow": true,
+            "requiresAttackRoll": false,
+            "atHigherLevels": {
+              "scaleType": null,
+              "higherLevelDefinitions": [],
+              "additionalAttacks": [],
+              "additionalTargets": [],
+              "areaOfEffect": [],
+              "duration": [],
+              "creatures": [],
+              "special": [],
+              "points": []
+            },
+            "modifiers": [],
+            "conditions": [],
+            "tags": ["Social", "Detection"],
+            "castingTimeDescription": "",
+            "scaleType": null,
+            "sources": [
+              { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+              { "sourceId": 2, "pageNumber": 231, "sourceType": 1 }
+            ],
+            "spellGroups": []
+          },
+          "definitionId": 0,
+          "prepared": false,
+          "countsAsKnownSpell": false,
+          "usesSpellSlot": true,
+          "castAtLevel": null,
+          "alwaysPrepared": true,
+          "restriction": "",
+          "spellCastingAbilityId": null,
+          "displayAsAttack": null,
+          "additionalDescription": "",
+          "castOnlyAsRitual": false,
+          "ritualCastingType": null,
+          "range": { "origin": "Self", "rangeValue": 0, "aoeType": null, "aoeValue": null },
+          "activation": { "activationTime": 1, "activationType": 1 },
+          "baseLevelAtWill": false,
+          "atWillLimitedUseLevel": null,
+          "isSignatureSpell": null,
+          "componentId": 2986533,
+          "componentTypeId": 12168134,
+          "spellListId": null
         }
       ],
       "background": null,
@@ -2947,6 +3124,140 @@
         }
       ],
       "class": [
+        {
+          "componentId": 372,
+          "componentTypeId": 12168134,
+          "id": "3-24",
+          "parentChoiceId": null,
+          "type": 3,
+          "subType": null,
+          "optionValue": null,
+          "label": "Choose a Level 3 Option",
+          "isOptional": false,
+          "isInfinite": false,
+          "defaultSubtypes": [],
+          "displayOrder": 3,
+          "options": [
+            {
+              "id": 106,
+              "label": "Careful Spell",
+              "description": "<p class=\"compendium-hr\">When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell’s full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw again<span class=\"No-Break\">st the spell.</span></p>"
+            },
+            {
+              "id": 107,
+              "label": "Distant Spell",
+              "description": "<p class=\"compendium-hr\">When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range <span class=\"No-Break\">of the spell.</span></p>\r\n<p class=\"Core-Styles_Core-Body\">When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the s<span class=\"No-Break\">pell 30 feet.</span></p>"
+            },
+            {
+              "id": 108,
+              "label": "Empowered Spell",
+              "description": "<p class=\"Core-Styles_Core-Body\">When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use t<span class=\"No-Break\">he new rolls.</span></p>\r\n<p class=\"Core-Styles_Core-Body\">You can use Empowered Spell even if you have already used a different Metamagic option during the casting <span class=\"No-Break\">of the spell.</span></p>"
+            },
+            {
+              "id": 109,
+              "label": "Extended Spell",
+              "description": "<p class=\"Core-Styles_Core-Body\">When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration<span class=\"No-Break\"> of 24 hours.</span></p>"
+            },
+            {
+              "id": 110,
+              "label": "Heightened Spell",
+              "description": "<p class=\"Core-Styles_Core-Body\">When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made again<span class=\"No-Break\">st the spell.</span></p>"
+            },
+            {
+              "id": 111,
+              "label": "Quickened Spell",
+              "description": "<p class=\"Core-Styles_Core-Body\">When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for <span class=\"No-Break\">this casting.</span></p>"
+            },
+            {
+              "id": 112,
+              "label": "Subtle Spell",
+              "description": "<p class=\"Core-Styles_Core-Body\">When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verba<span class=\"No-Break\">l components.</span></p>"
+            },
+            {
+              "id": 113,
+              "label": "Twinned Spell",
+              "description": "<p class=\"Core-Styles_Core-Body\">When you cast a spell that targets only one creature and doesn’t have a range of self, you can spend a number of sorcery points equal to the spell’s level to target a second creature in range with the same spell (1 sorcery point if the spell i<span class=\"No-Break\">s a cantrip).</span></p>\r\n<p class=\"Core-Styles_Core-Body\">To be eligible, a spell must be incapable of targeting more than one creature at the spell’s current level. For example, <span class=\"Serif-Character-Style_Italic-Serif\">magic missile</span>&nbsp;and <span class=\"Serif-Character-Style_Italic-Serif\">scorching ray</span> aren’t eligible, but <span class=\"Serif-Character-Style_Italic-Serif\">ray of frost</span> and <span class=\"Serif-Character-Style_Italic-Serif\">chrom</span><span class=\"No-Break\"><span class=\"Serif-Character-Style_Italic-Serif\">atic orb</span></span><span class=\"No-Break\"> are.</span></p>"
+            },
+            {
+              "id": 1306598,
+              "label": "Seeking Spell",
+              "description": "<p>If you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the d20, and you must use the new roll.</p>\r\n<p>You can use Seeking Spell even if you have already used a different Metamagic option during the casting of the spell.</p>"
+            },
+            {
+              "id": 1306600,
+              "label": "Transmuted Spell",
+              "description": "<p>When you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder.</p>"
+            }
+          ],
+          "optionIds": []
+        },
+        {
+          "componentId": 372,
+          "componentTypeId": 12168134,
+          "id": "3-26",
+          "parentChoiceId": null,
+          "type": 3,
+          "subType": null,
+          "optionValue": null,
+          "label": "Choose a Level 3 Option",
+          "isOptional": false,
+          "isInfinite": false,
+          "defaultSubtypes": [],
+          "displayOrder": 3,
+          "options": [
+            {
+              "id": 106,
+              "label": "Careful Spell",
+              "description": "<p class=\"compendium-hr\">When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell’s full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw again<span class=\"No-Break\">st the spell.</span></p>"
+            },
+            {
+              "id": 107,
+              "label": "Distant Spell",
+              "description": "<p class=\"compendium-hr\">When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range <span class=\"No-Break\">of the spell.</span></p>\r\n<p class=\"Core-Styles_Core-Body\">When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the s<span class=\"No-Break\">pell 30 feet.</span></p>"
+            },
+            {
+              "id": 108,
+              "label": "Empowered Spell",
+              "description": "<p class=\"Core-Styles_Core-Body\">When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use t<span class=\"No-Break\">he new rolls.</span></p>\r\n<p class=\"Core-Styles_Core-Body\">You can use Empowered Spell even if you have already used a different Metamagic option during the casting <span class=\"No-Break\">of the spell.</span></p>"
+            },
+            {
+              "id": 109,
+              "label": "Extended Spell",
+              "description": "<p class=\"Core-Styles_Core-Body\">When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration<span class=\"No-Break\"> of 24 hours.</span></p>"
+            },
+            {
+              "id": 110,
+              "label": "Heightened Spell",
+              "description": "<p class=\"Core-Styles_Core-Body\">When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made again<span class=\"No-Break\">st the spell.</span></p>"
+            },
+            {
+              "id": 111,
+              "label": "Quickened Spell",
+              "description": "<p class=\"Core-Styles_Core-Body\">When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for <span class=\"No-Break\">this casting.</span></p>"
+            },
+            {
+              "id": 112,
+              "label": "Subtle Spell",
+              "description": "<p class=\"Core-Styles_Core-Body\">When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verba<span class=\"No-Break\">l components.</span></p>"
+            },
+            {
+              "id": 113,
+              "label": "Twinned Spell",
+              "description": "<p class=\"Core-Styles_Core-Body\">When you cast a spell that targets only one creature and doesn’t have a range of self, you can spend a number of sorcery points equal to the spell’s level to target a second creature in range with the same spell (1 sorcery point if the spell i<span class=\"No-Break\">s a cantrip).</span></p>\r\n<p class=\"Core-Styles_Core-Body\">To be eligible, a spell must be incapable of targeting more than one creature at the spell’s current level. For example, <span class=\"Serif-Character-Style_Italic-Serif\">magic missile</span>&nbsp;and <span class=\"Serif-Character-Style_Italic-Serif\">scorching ray</span> aren’t eligible, but <span class=\"Serif-Character-Style_Italic-Serif\">ray of frost</span> and <span class=\"Serif-Character-Style_Italic-Serif\">chrom</span><span class=\"No-Break\"><span class=\"Serif-Character-Style_Italic-Serif\">atic orb</span></span><span class=\"No-Break\"> are.</span></p>"
+            },
+            {
+              "id": 1306598,
+              "label": "Seeking Spell",
+              "description": "<p>If you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the d20, and you must use the new roll.</p>\r\n<p>You can use Seeking Spell even if you have already used a different Metamagic option during the casting of the spell.</p>"
+            },
+            {
+              "id": 1306600,
+              "label": "Transmuted Spell",
+              "description": "<p>When you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder.</p>"
+            }
+          ],
+          "optionIds": []
+        },
         {
           "componentId": 370,
           "componentTypeId": 12168134,
@@ -3184,7 +3495,7 @@
             "numberUsed": 0,
             "minNumberConsumed": 1,
             "maxNumberConsumed": 1,
-            "maxUses": 2,
+            "maxUses": 3,
             "operator": 1,
             "useProficiencyBonus": false,
             "proficiencyBonusOperator": 1,
@@ -4661,7 +4972,7 @@
           "characterId": 71559602,
           "characterName": "Ruffle Manfaers",
           "characterUrl": "/profile/jotynas_saloris_nekrojinn/characters/71559602",
-          "avatarUrl": "https://www.dndbeyond.com/avatars/25044/673/1581111423-71559602.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
+          "avatarUrl": "https://www.dndbeyond.com/avatars/27028/476/1581111423-71559602.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
           "privacyType": 3,
           "campaignId": null,
           "isAssigned": true
@@ -4672,7 +4983,7 @@
           "characterId": 71560080,
           "characterName": "Jassin Highwind",
           "characterUrl": "/profile/Yer0c/characters/71560080",
-          "avatarUrl": null,
+          "avatarUrl": "https://www.dndbeyond.com/avatars/27028/464/1581111423-71560080.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
           "privacyType": 3,
           "campaignId": null,
           "isAssigned": true
@@ -4683,7 +4994,7 @@
           "characterId": 71562753,
           "characterName": "Nova Beren",
           "characterUrl": "/profile/gamel/characters/71562753",
-          "avatarUrl": "https://www.dndbeyond.com/avatars/25195/217/1581111423-71562753.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
+          "avatarUrl": "https://www.dndbeyond.com/avatars/27028/473/1581111423-71562753.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
           "privacyType": 3,
           "campaignId": null,
           "isAssigned": true
@@ -4694,7 +5005,7 @@
           "characterId": 71942288,
           "characterName": "Vercey Whispermouse",
           "characterUrl": "/profile/Ametolie/characters/71942288",
-          "avatarUrl": "https://www.dndbeyond.com/avatars/25474/451/1581111423-71942288.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
+          "avatarUrl": "https://www.dndbeyond.com/avatars/27028/470/1581111423-71942288.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
           "privacyType": 3,
           "campaignId": null,
           "isAssigned": true
@@ -4705,7 +5016,7 @@
           "characterId": 72209867,
           "characterName": "The Bird",
           "characterUrl": "/profile/AllBeesNoKnees/characters/72209867",
-          "avatarUrl": "https://www.dndbeyond.com/avatars/17/465/636377891214338261.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
+          "avatarUrl": "https://www.dndbeyond.com/avatars/27028/461/1581111423-72209867.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
           "privacyType": 3,
           "campaignId": null,
           "isAssigned": true
@@ -4715,7 +5026,7 @@
     "creatures": [],
     "optionalOrigins": [],
     "optionalClassFeatures": [],
-    "dateModified": "2022-06-25T23:50:50.35Z",
+    "dateModified": "2022-07-11T18:24:46.573Z",
     "providedFrom": "storage"
   },
   "pagination": null

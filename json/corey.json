@@ -6,7 +6,7 @@
     "id": 71560080,
     "userId": 106981478,
     "readonlyUrl": "https://dndbeyond.com/characters/71560080",
-    "avatarUrl": null,
+    "avatarUrl": "https://www.dndbeyond.com/avatars/27028/464/1581111423-71560080.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
     "frameAvatarUrl": null,
     "backdropAvatarUrl": null,
     "smallBackdropAvatarUrl": null,
@@ -18,7 +18,7 @@
       "largeBackdropAvatarUrl": "https://www.dndbeyond.com/avatars/61/524/636453154645377290.jpeg",
       "thumbnailBackdropAvatarUrl": "https://www.dndbeyond.com/avatars/61/525/636453154645689772.jpeg"
     },
-    "avatarId": null,
+    "avatarId": 27028464,
     "frameAvatarId": null,
     "backdropAvatarId": null,
     "smallBackdropAvatarId": null,
@@ -37,7 +37,7 @@
       "decorationKey": "434"
     },
     "decorations": {
-      "avatarUrl": null,
+      "avatarUrl": "https://www.dndbeyond.com/avatars/27028/464/1581111423-71560080.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
       "frameAvatarUrl": null,
       "backdropAvatarUrl": null,
       "smallBackdropAvatarUrl": null,
@@ -49,7 +49,7 @@
         "largeBackdropAvatarUrl": "https://www.dndbeyond.com/avatars/61/524/636453154645377290.jpeg",
         "thumbnailBackdropAvatarUrl": "https://www.dndbeyond.com/avatars/61/525/636453154645689772.jpeg"
       },
-      "avatarId": null,
+      "avatarId": 27028464,
       "portraitDecorationKey": null,
       "frameAvatarDecorationKey": null,
       "frameAvatarId": null,
@@ -4127,7 +4127,7 @@
     "creatures": [],
     "optionalOrigins": [],
     "optionalClassFeatures": [],
-    "dateModified": "2022-06-26T00:52:10.943Z",
+    "dateModified": "2022-07-06T15:10:40.947Z",
     "providedFrom": "storage"
   },
   "pagination": null

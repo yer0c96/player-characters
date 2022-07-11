@@ -10,13 +10,7 @@
     "charisma": 15
   },
   "hitPoints": { "base": 16, "current": 9, "temp": 0 },
-  "traits": {
-    "personalityTraits": null,
-    "ideals": null,
-    "bonds": null,
-    "flaws": null,
-    "appearance": null
-  },
+  "traits": {},
   "bonusStats": {},
   "overrideStats": {},
   "background": "Soldier",

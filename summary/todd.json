@@ -1,0 +1,54 @@
+{
+  "name": "Ruffle Manfaers",
+  "classes": ["Level 2 Paladin"],
+  "stats": {
+    "strength": 14,
+    "dexterity": 12,
+    "constitution": 13,
+    "intelligence": 8,
+    "wisdom": 10,
+    "charisma": 15
+  },
+  "hitPoints": { "base": 16, "current": 9, "temp": 0 },
+  "traits": {
+    "personalityTraits": null,
+    "ideals": null,
+    "bonds": null,
+    "flaws": null,
+    "appearance": null
+  },
+  "bonusStats": {},
+  "overrideStats": {},
+  "background": "Soldier",
+  "feats": [],
+  "spells": [],
+  "actions": { "class": ["Divine Sense", "Divine Smite", "Lay on Hands Pool"] },
+  "inventory": [
+    "Backpack",
+    "Bedroll",
+    "Chain Mail",
+    "Clothes, Traveler's",
+    "Emblem",
+    "Longsword",
+    "Mess Kit",
+    "Potion of Healing",
+    "Rations (1 day)",
+    "Rope, Hempen (50 feet)",
+    "Shield",
+    "Soap",
+    "Tinderbox",
+    "Torch",
+    "Waterskin"
+  ],
+  "currencies": { "cp": 0, "sp": 0, "gp": 13, "ep": 0, "pp": 0 },
+  "notes": {
+    "allies": null,
+    "personalPossessions": null,
+    "otherHoldings": null,
+    "organizations": null,
+    "enemies": null,
+    "backstory": null,
+    "otherNotes": null
+  },
+  "dateModified": "Saturday, June 25, 2022 7:39 PM"
+}

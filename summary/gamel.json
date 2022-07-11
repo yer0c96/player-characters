@@ -1,0 +1,74 @@
+{
+  "name": "Nova Beren",
+  "classes": ["Level 2 Cleric | Twilight Domain"],
+  "stats": {
+    "strength": 14,
+    "dexterity": 8,
+    "constitution": 13,
+    "intelligence": 10,
+    "wisdom": 15,
+    "charisma": 12
+  },
+  "hitPoints": { "base": 13, "current": 13, "temp": 7 },
+  "traits": {
+    "personalityTraits": "\n\nI’ve enjoyed fine food, drink, and high society among my temple’s elite. Rough living grates on me.\nI’ve spent so long in the temple that I have little practical experience dealing with people in the outside world.",
+    "ideals": "Change. We must help bring about the changes the gods are constantly working in the world. (Chaotic)",
+    "bonds": "I would die to recover an ancient relic of my faith that was lost long ago.",
+    "flaws": "My piety sometimes leads me to blindly trust those that profess faith in my god.",
+    "appearance": null
+  },
+  "bonusStats": {},
+  "overrideStats": {},
+  "background": "Acolyte",
+  "feats": [],
+  "spells": [
+    "Bless",
+    "Guidance",
+    "Guiding Bolt",
+    "Healing Word",
+    "Sacred Flame",
+    "Sanctuary",
+    "Toll the Dead"
+  ],
+  "actions": {
+    "race": ["Healing Hands"],
+    "class": [
+      "Channel Divinity",
+      "Channel Divinity: Turn Undead",
+      "Channel Divinity: Twilight Sanctuary",
+      "Eyes of Night",
+      "Harness Divine Power",
+      "Vigilant Blessing"
+    ]
+  },
+  "inventory": [
+    "Alms Box",
+    "Amulet",
+    "Backpack",
+    "Blanket",
+    "Block of Incense",
+    "Candle",
+    "Censer",
+    "Chain Mail",
+    "Clothes, Common",
+    "Mace",
+    "Rations (1 day)",
+    "Shield",
+    "Tinderbox",
+    "Vestments",
+    "Vestments",
+    "Warhammer",
+    "Waterskin"
+  ],
+  "currencies": { "cp": 0, "sp": 0, "gp": 30, "ep": 0, "pp": 0 },
+  "notes": {
+    "allies": null,
+    "personalPossessions": "a prayer book\n5 sticks of incense",
+    "otherHoldings": null,
+    "organizations": null,
+    "enemies": null,
+    "backstory": null,
+    "otherNotes": null
+  },
+  "dateModified": "Saturday, June 25, 2022 6:38 PM"
+}

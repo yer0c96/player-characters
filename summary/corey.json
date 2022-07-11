@@ -1,0 +1,61 @@
+{
+  "name": "Jassin Highwind",
+  "classes": ["Level 2 Monk"],
+  "stats": {
+    "strength": 11,
+    "dexterity": 15,
+    "constitution": 13,
+    "intelligence": 8,
+    "wisdom": 15,
+    "charisma": 9
+  },
+  "hitPoints": { "base": 13, "current": 13, "temp": 0 },
+  "traits": {
+    "personalityTraits": "I feel tremendous empathy for all who suffer.",
+    "ideals": "Greater Good. My gifts are meant to be shared with all, not used for my own benefit. (Good)",
+    "bonds": "I’m still seeking the enlightenment I pursued in my seclusion, and it still eludes me.",
+    "flaws": "Now that I’ve returned to the world, I enjoy its delights a little too much.",
+    "appearance": null
+  },
+  "bonusStats": {},
+  "overrideStats": {},
+  "background": "Hermit",
+  "feats": [],
+  "spells": [],
+  "actions": {
+    "class": [
+      "Flurry of Blows",
+      "Ki Points",
+      "Patient Defense",
+      "Step of the Wind",
+      "Unarmed Strike"
+    ]
+  },
+  "inventory": [
+    "Backpack",
+    "Bedroll",
+    "Blanket",
+    "Clothes, Common",
+    "Dart",
+    "Herbalism Kit",
+    "Mess Kit",
+    "Potion of Healing",
+    "Rations (1 day)",
+    "Rope, Hempen (50 feet)",
+    "Shortsword",
+    "Tinderbox",
+    "Torch",
+    "Waterskin"
+  ],
+  "currencies": { "cp": 0, "sp": 0, "gp": 85, "ep": 0, "pp": 0 },
+  "notes": {
+    "allies": null,
+    "personalPossessions": "A scroll case stuffed full of notes from your studies or prayers",
+    "otherHoldings": null,
+    "organizations": null,
+    "enemies": null,
+    "backstory": null,
+    "otherNotes": null
+  },
+  "dateModified": "Saturday, June 25, 2022 7:52 PM"
+}

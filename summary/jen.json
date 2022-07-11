@@ -1,0 +1,56 @@
+{
+  "name": "Vercey Whispermouse",
+  "classes": ["Level 2 Bard"],
+  "stats": {
+    "strength": 8,
+    "dexterity": 14,
+    "constitution": 13,
+    "intelligence": 10,
+    "wisdom": 12,
+    "charisma": 15
+  },
+  "hitPoints": { "base": 13, "current": 10, "temp": 5 },
+  "traits": {
+    "personalityTraits": "I don’t run from evil. Evil runs from me.\nI spend money freely and live life to the fullest, knowing that tomorrow I might die.",
+    "ideals": "I kill monsters to make the world a safer place, and to exorcise my own demons. (Good)",
+    "bonds": "A terrible guilt consumes me. I hope that I can find redemption through my actions.",
+    "flaws": "I feel no compassion for the dead. They’re the lucky ones.",
+    "appearance": null
+  },
+  "bonusStats": {},
+  "overrideStats": {},
+  "background": "Haunted One",
+  "feats": [],
+  "spells": [
+    "Blade Ward",
+    "Cure Wounds",
+    "Heroism",
+    "Hideous Laughter",
+    "Prestidigitation",
+    "Silent Image",
+    "Thunderwave"
+  ],
+  "actions": { "class": ["Bardic Inspiration", "Magical Inspiration"] },
+  "inventory": [
+    "Cloak of Protection",
+    "Leather",
+    "Lute",
+    "Rations (1 day)",
+    "Scroll: Bless",
+    "Scroll: Poison Protection",
+    "Scroll: Spiritual Weapon",
+    "Whip",
+    "Whip"
+  ],
+  "currencies": { "cp": 0, "sp": 0, "gp": 75, "ep": 0, "pp": 0 },
+  "notes": {
+    "allies": null,
+    "personalPossessions": "Deed of house\nDeed of Windmill\nWill of Durst, Gustav and Elizabeth\n\n",
+    "otherHoldings": null,
+    "organizations": "",
+    "enemies": null,
+    "backstory": null,
+    "otherNotes": null
+  },
+  "dateModified": "Saturday, June 25, 2022 6:29 PM"
+}

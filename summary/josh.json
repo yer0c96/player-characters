@@ -1,0 +1,58 @@
+{
+  "name": "The Bird",
+  "classes": ["Level 2 Sorcerer | Aberrant Mind"],
+  "stats": {
+    "strength": 8,
+    "dexterity": 12,
+    "constitution": 13,
+    "intelligence": 14,
+    "wisdom": 15,
+    "charisma": 10
+  },
+  "hitPoints": { "base": 10, "current": 7, "temp": 0 },
+  "traits": {
+    "personalityTraits": "I feel far more comfortable around animals than people.\nI have a lesson for every situation, drawn from observing nature.\n",
+    "ideals": "Change. Life is like the seasons, in constant change, and we must change with it. (Chaotic)",
+    "bonds": "I will bring terrible wrath down on the evildoers who destroyed my homeland.",
+    "flaws": "I remember every insult I’ve received and nurse a silent resentment toward anyone who’s ever wronged me.",
+    "appearance": null
+  },
+  "bonusStats": {},
+  "overrideStats": {},
+  "background": "Outlander",
+  "feats": [],
+  "spells": [
+    "Color Spray",
+    "Control Flames",
+    "Disguise Self",
+    "Fire Bolt",
+    "Friends",
+    "Sword Burst",
+    "Thunderwave"
+  ],
+  "actions": { "class": ["Convert Sorcery Points", "Sorcery Points", "Telepathic Speech"] },
+  "inventory": [
+    "Backpack",
+    "Bedroll",
+    "Blanket",
+    "Clothes, Traveler's",
+    "Mess Kit",
+    "Potion of Healing",
+    "Rations (1 day)",
+    "Rope, Hempen (50 feet)",
+    "Spellbook",
+    "Staff",
+    "Waterskin"
+  ],
+  "currencies": { "cp": 3, "sp": 61, "gp": 21, "ep": 0, "pp": 0 },
+  "notes": {
+    "allies": "Lancelot",
+    "personalPossessions": "Sack of feathers\n\n",
+    "otherHoldings": null,
+    "organizations": "",
+    "enemies": null,
+    "backstory": "",
+    "otherNotes": null
+  },
+  "dateModified": "Saturday, June 25, 2022 6:50 PM"
+}

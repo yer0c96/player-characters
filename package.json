@@ -13,9 +13,15 @@
     "jen": "curl -o json/jen.json https://character-service.dndbeyond.com/character/v3/character/71942288",
     "all": "yarn corey && yarn gamel && yarn todd && yarn josh && yarn jen",
     "start": "yarn all && prettier json --write",
+    "collect": "yarn all && prettier json --write",
+    "summarize": "node summary && prettier summary --write",
     "test": "curl -o json/dummy.json https://character-service.dndbeyond.com/character/v3/character/72082608 && prettier json/dummy.json --write"
   },
   "devDependencies": {
     "prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "moment": "^2.29.4",
+    "ramda": "^0.28.0"
   }
 }

@@ -17,6 +17,10 @@ const {
   not,
   isNil,
   tap,
+  sort,
+  ascend,
+  append,
+  concat,
 } = require('ramda')
 
 const statNames = {
@@ -32,7 +36,7 @@ const sources = ['race', 'background', 'class', 'item', 'feat']
 
 const getStatName = (id) => statNames[id]
 
-const notNil = not(isNil)
+const removeNulls = (obj) => Object.fromEntries(Object.entries(obj).filter(([_, v]) => v != null))
 
 const getStatObject = (property, data) =>
   Object.fromEntries(
@@ -74,12 +78,22 @@ const summarize = (player) => {
     currencies,
     actions,
     feats,
+    spells,
     classSpells,
     dateModified,
     modifiers,
   } = data
 
   const { cp, sp, gp, ep, pp } = currencies
+
+  const _spells = pipe(
+    values,
+    flatten,
+    filter(Boolean),
+    map((x) => x.definition?.name),
+  )(spells)
+
+  const _classSpells = classSpells.map((cs) => cs.spells?.map((s) => s.definition.name)).flat()
 
   const final = {
     name,
@@ -102,10 +116,7 @@ const summarize = (player) => {
       ? background.customBackground.name
       : background.definition.name,
     feats,
-    spells: classSpells
-      .map((cs) => cs.spells?.map((s) => s.definition.name))
-      .flat()
-      .sort(),
+    spells: _spells.concat(_classSpells).sort(),
     actions: pipe(values, flatten, filter(Boolean), sortBy(prop('name')), pluck('name'))(actions),
     modifiers: pipe(
       values,
@@ -117,7 +128,7 @@ const summarize = (player) => {
     inventory: inventory.map((i) => getInventoryItem(i, characterValues)).sort(),
     currencies,
     money: cp / 100 + sp / 10 + ep / 2 + gp + pp * 10,
-    notes,
+    notes: removeNulls(notes),
     // dateModified: moment(dateModified).format('LLLL'),
   }
 

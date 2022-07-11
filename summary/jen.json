@@ -74,12 +74,7 @@
   "currencies": { "cp": 0, "sp": 0, "gp": 75, "ep": 0, "pp": 0 },
   "money": 75,
   "notes": {
-    "allies": null,
     "personalPossessions": "Deed of house\nDeed of Windmill\nWill of Durst, Gustav and Elizabeth\n\n",
-    "otherHoldings": null,
-    "organizations": "",
-    "enemies": null,
-    "backstory": null,
-    "otherNotes": null
+    "organizations": ""
   }
 }

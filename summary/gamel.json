@@ -26,6 +26,7 @@
     "Guidance",
     "Guiding Bolt",
     "Healing Word",
+    "Light",
     "Sacred Flame",
     "Sanctuary",
     "Toll the Dead"
@@ -84,13 +85,5 @@
   ],
   "currencies": { "cp": 0, "sp": 0, "gp": 30, "ep": 0, "pp": 0 },
   "money": 30,
-  "notes": {
-    "allies": null,
-    "personalPossessions": "a prayer book\n5 sticks of incense",
-    "otherHoldings": null,
-    "organizations": null,
-    "enemies": null,
-    "backstory": null,
-    "otherNotes": null
-  }
+  "notes": { "personalPossessions": "a prayer book\n5 sticks of incense" }
 }

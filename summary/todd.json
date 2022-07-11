@@ -21,7 +21,7 @@
   "overrideStats": {},
   "background": "Soldier",
   "feats": [],
-  "spells": [],
+  "spells": ["Minor Illusion", "Spare the Dying", "Word of Radiance"],
   "actions": ["Divine Sense", "Divine Smite", "Lay on Hands Pool"],
   "modifiers": [
     "Advantage | Charisma Saving Throws",
@@ -66,13 +66,5 @@
   ],
   "currencies": { "cp": 0, "sp": 0, "gp": 13, "ep": 0, "pp": 0 },
   "money": 13,
-  "notes": {
-    "allies": null,
-    "personalPossessions": null,
-    "otherHoldings": null,
-    "organizations": null,
-    "enemies": null,
-    "backstory": null,
-    "otherNotes": null
-  }
+  "notes": {}
 }

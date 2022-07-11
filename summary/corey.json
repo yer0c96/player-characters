@@ -71,12 +71,6 @@
   "currencies": { "cp": 0, "sp": 0, "gp": 85, "ep": 0, "pp": 0 },
   "money": 85,
   "notes": {
-    "allies": null,
-    "personalPossessions": "A scroll case stuffed full of notes from your studies or prayers",
-    "otherHoldings": null,
-    "organizations": null,
-    "enemies": null,
-    "backstory": null,
-    "otherNotes": null
+    "personalPossessions": "A scroll case stuffed full of notes from your studies or prayers"
   }
 }

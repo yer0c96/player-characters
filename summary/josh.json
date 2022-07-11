@@ -22,11 +22,14 @@
   "background": "Outlander",
   "feats": [],
   "spells": [
+    "Arms of Hadar",
     "Color Spray",
     "Control Flames",
     "Disguise Self",
+    "Dissonant Whispers",
     "Fire Bolt",
     "Friends",
+    "Mind Sliver",
     "Sword Burst",
     "Thunderwave"
   ],
@@ -71,10 +74,7 @@
   "notes": {
     "allies": "Lancelot",
     "personalPossessions": "Sack of feathers\n\n",
-    "otherHoldings": null,
     "organizations": "",
-    "enemies": null,
-    "backstory": "",
-    "otherNotes": null
+    "backstory": ""
   }
 }

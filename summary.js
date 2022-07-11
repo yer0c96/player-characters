@@ -1,28 +1,5 @@
 const fs = require('fs')
-const moment = require('moment')
-const {
-  pipe,
-  omit,
-  pick,
-  assoc,
-  map,
-  isEmpty,
-  flatten,
-  sortBy,
-  prop,
-  values,
-  uniq,
-  pluck,
-  filter,
-  not,
-  isNil,
-  tap,
-  sort,
-  ascend,
-  append,
-  concat,
-  trim,
-} = require('ramda')
+const { pipe, map, flatten, sortBy, prop, values, uniq, pluck, filter, trim } = require('ramda')
 
 const statNames = {
   1: 'strength',
@@ -50,19 +27,16 @@ const getStatObject = (property, data) =>
 
 const getInventoryItem = (item, characterValues) => {
   const name = item.definition.name
-  if (name.includes('Spell Scroll (')) {
-    const spell = characterValues.find((cv) => cv.valueId === item.id.toString())
-    return `Scroll: ${spell.value}`
+  const charVal = characterValues.find((cv) => cv.valueId === item.id.toString())
+
+  if (charVal) {
+    console.log(charVal)
+    if (name.includes('Spell Scroll (')) {
+      return `Scroll: ${charVal.value}`
+    }
+    return charVal.value
   }
   return name
-}
-
-const getActions = (actions) => {
-  const actionList = []
-  sources.forEach((at) => {
-    actions[at]?.forEach((a) => actionList.push(a.name))
-  })
-  return actionList.sort()
 }
 
 const summarize = (player) => {

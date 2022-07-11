@@ -29,6 +29,18 @@ const getInventoryItem = (item, characterValues) => {
   return name
 }
 
+const getActions = (actions) => {
+  const actionTypes = ['race', 'background', 'class', 'item', 'feat']
+
+  const actionList = []
+
+  actionTypes.forEach((at) => {
+    actions[at]?.forEach((a) => actionList.push(a.name))
+  })
+
+  return actionList
+}
+
 const summarize = (player) => {
   const raw = fs.readFileSync(`json/${player}.json`)
 
@@ -74,16 +86,7 @@ const summarize = (player) => {
       .map((cs) => cs.spells?.map((s) => s.definition.name))
       .flat()
       .sort(),
-    actions: {
-      race: isEmpty(actions.race) ? undefined : actions.race?.map((a) => a.name).sort(),
-      class: isEmpty(actions.class) ? undefined : actions.class?.map((a) => a.name).sort(),
-      background: isEmpty(actions.background)
-        ? undefined
-        : actions.background?.map((a) => a.name).sort(),
-      item: isEmpty(actions.item) ? undefined : actions.item?.map((a) => a.name).sort(),
-      feat: isEmpty(actions.feat) ? undefined : actions.feat?.map((a) => a.name).sort(),
-    },
-
+    actions: getActions(actions).sort(),
     inventory: inventory.map((i) => getInventoryItem(i, characterValues)).sort(),
     currencies,
     notes,

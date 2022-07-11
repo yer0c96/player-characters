@@ -22,7 +22,7 @@
   "background": "Soldier",
   "feats": [],
   "spells": [],
-  "actions": { "class": ["Divine Sense", "Divine Smite", "Lay on Hands Pool"] },
+  "actions": ["Divine Sense", "Divine Smite", "Lay on Hands Pool"],
   "inventory": [
     "Backpack",
     "Bedroll",

@@ -22,15 +22,13 @@
   "background": "Hermit",
   "feats": [],
   "spells": [],
-  "actions": {
-    "class": [
-      "Flurry of Blows",
-      "Ki Points",
-      "Patient Defense",
-      "Step of the Wind",
-      "Unarmed Strike"
-    ]
-  },
+  "actions": [
+    "Flurry of Blows",
+    "Ki Points",
+    "Patient Defense",
+    "Step of the Wind",
+    "Unarmed Strike"
+  ],
   "inventory": [
     "Backpack",
     "Bedroll",

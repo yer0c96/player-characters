@@ -30,7 +30,7 @@
     "Sword Burst",
     "Thunderwave"
   ],
-  "actions": { "class": ["Convert Sorcery Points", "Sorcery Points", "Telepathic Speech"] },
+  "actions": ["Convert Sorcery Points", "Sorcery Points", "Telepathic Speech"],
   "inventory": [
     "Backpack",
     "Bedroll",

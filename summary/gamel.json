@@ -30,17 +30,15 @@
     "Sanctuary",
     "Toll the Dead"
   ],
-  "actions": {
-    "race": ["Healing Hands"],
-    "class": [
-      "Channel Divinity",
-      "Channel Divinity: Turn Undead",
-      "Channel Divinity: Twilight Sanctuary",
-      "Eyes of Night",
-      "Harness Divine Power",
-      "Vigilant Blessing"
-    ]
-  },
+  "actions": [
+    "Channel Divinity",
+    "Channel Divinity: Turn Undead",
+    "Channel Divinity: Twilight Sanctuary",
+    "Eyes of Night",
+    "Harness Divine Power",
+    "Healing Hands",
+    "Vigilant Blessing"
+  ],
   "inventory": [
     "Alms Box",
     "Amulet",

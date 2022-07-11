@@ -30,7 +30,7 @@
     "Silent Image",
     "Thunderwave"
   ],
-  "actions": { "class": ["Bardic Inspiration", "Magical Inspiration"] },
+  "actions": ["Bardic Inspiration", "Magical Inspiration"],
   "inventory": [
     "Cloak of Protection",
     "Leather",

@@ -29,10 +29,17 @@ const getInventoryItem = (item, characterValues) => {
   const name = item.definition.name
   const charVal = characterValues.find((cv) => cv.valueId === item.id.toString())
 
-  if (charVal && typeof charVal.value === 'string') {
-    if (name.includes('Spell Scroll (')) {
-      return `Scroll: ${charVal.value}`
-    }
+  if (charVal) {
+    const { typeId, value } = charVal
+
+    const isSilvered = value === true && typeId === 20
+
+    console.log(isSilvered)
+
+    if (name.includes('Spell Scroll (')) return `Scroll: ${charVal.value}`
+
+    if (isSilvered) return `Silvered ${name}`
+
     return charVal.value
   }
   return name

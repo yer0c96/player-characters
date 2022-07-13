@@ -29,7 +29,7 @@ const getInventoryItem = (item, characterValues) => {
   const name = item.definition.name
   const charVal = characterValues.find((cv) => cv.valueId === item.id.toString())
 
-  if (charVal) {
+  if (charVal && typeof charVal.value === 'string') {
     if (name.includes('Spell Scroll (')) {
       return `Scroll: ${charVal.value}`
     }
@@ -111,4 +111,4 @@ const summarize = (player) => {
   fs.writeFileSync(`summary/${player}.json`, JSON.stringify(final))
 }
 
-;['josh', 'corey', 'todd', 'gamel', 'jen'].forEach((player) => summarize(player))
+;['josh', 'corey', 'todd', 'gamel', 'jen', 'dummy'].forEach((player) => summarize(player))

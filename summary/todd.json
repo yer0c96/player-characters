@@ -1,6 +1,6 @@
 {
   "name": "Ruffle Manfaers",
-  "classes": ["Level 2 Paladin"],
+  "classes": ["Level 3 Paladin | Oath of Redemption"],
   "stats": {
     "strength": 14,
     "dexterity": 12,
@@ -9,20 +9,29 @@
     "wisdom": 10,
     "charisma": 15
   },
-  "hitPoints": { "base": 16, "current": 9, "temp": 0 },
+  "hitPoints": { "base": 22, "current": 15, "temp": 0 },
   "traits": {},
   "bonusStats": {},
   "overrideStats": {},
   "background": "Soldier",
   "feats": [],
   "spells": ["Minor Illusion", "Spare the Dying", "Word of Radiance"],
-  "actions": ["Divine Sense", "Divine Smite", "Lay on Hands Pool"],
+  "actions": [
+    "Channel Divinity",
+    "Channel Divinity: Emissary of Peace",
+    "Channel Divinity: Rebuke the Violent",
+    "Divine Sense",
+    "Divine Smite",
+    "Harness Divine Power",
+    "Lay on Hands Pool"
+  ],
   "modifiers": [
     "Advantage: Charisma Saving Throws",
     "Advantage: Intelligence Saving Throws",
     "Advantage: Wisdom Saving Throws",
     "Bonus: Intelligence Score",
     "Bonus: Dexterity Score",
+    "Immunity: Disease",
     "Language: Common",
     "Language: Gnomish",
     "Proficiency: Light Armor",
@@ -39,6 +48,7 @@
     "Proficiency: Intimidation",
     "Proficiency: Playing Card Set",
     "Proficiency: Vehicles (Land)",
+    "Set: Subclass",
     "Set Base: Darkvision"
   ],
   "inventory": [
@@ -47,6 +57,7 @@
     "Chain Mail",
     "Clothes, Traveler's",
     "Emblem",
+    "Longsword",
     "Longsword",
     "Mess Kit",
     "Potion of Healing",

@@ -89,8 +89,8 @@ const summarize = (player) => {
     bonusStats: getStatObject('bonusStats', data),
     overrideStats: getStatObject('overrideStats', data),
     background: background.hasCustomBackground
-      ? background.customBackground.name
-      : background.definition.name,
+      ? background.customBackground?.name
+      : background.definition?.name,
     feats,
     spells: _spells.concat(_classSpells).sort(),
     actions: pipe(values, flatten, filter(Boolean), sortBy(prop('name')), pluck('name'))(actions),

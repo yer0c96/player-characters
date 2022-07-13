@@ -27,20 +27,16 @@ const getStatObject = (property, data) =>
 
 const getInventoryItem = (item, characterValues) => {
   const name = item.definition.name
-  const charVal = characterValues.find((cv) => cv.valueId === item.id.toString())
+  const charVals = characterValues.filter((cv) => cv.valueId === item.id.toString())
 
-  if (charVal) {
-    const { typeId, value } = charVal
+  if (charVals) {
+    const isSilvered = charVals.some((cv) => cv.typeId === 20 && cv.value === true)
+    const hasCustomName = charVals.some((cv) => cv.typeId === 8)
+    const customName = hasCustomName ? charVals.find((cv) => cv.typeId === 8).value : null
 
-    const isSilvered = value === true && typeId === 20
-
-    console.log(isSilvered)
-
-    if (name.includes('Spell Scroll (')) return `Scroll: ${charVal.value}`
-
+    if (name.includes('Spell Scroll (')) return `Scroll: ${customName}`
+    if (hasCustomName) return customName
     if (isSilvered) return `Silvered ${name}`
-
-    return charVal.value
   }
   return name
 }

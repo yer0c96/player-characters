@@ -15,7 +15,6 @@ const partySummary = () => {
     inventory: pipe(pluck('inventory'), flatten, sortBy(identity))(party),
   }
 
-  console.log(summary)
   fs.writeFileSync(`summary/party.json`, JSON.stringify(summary))
 }
 

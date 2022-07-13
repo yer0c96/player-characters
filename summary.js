@@ -30,7 +30,6 @@ const getInventoryItem = (item, characterValues) => {
   const charVal = characterValues.find((cv) => cv.valueId === item.id.toString())
 
   if (charVal) {
-    console.log(charVal)
     if (name.includes('Spell Scroll (')) {
       return `Scroll: ${charVal.value}`
     }
@@ -99,7 +98,7 @@ const summarize = (player) => {
       values,
       flatten,
       sortBy(prop('type')),
-      map((x) => `${x.friendlyTypeName} | ${x.friendlySubtypeName}`),
+      map((x) => `${x.friendlyTypeName}: ${x.friendlySubtypeName}`),
       uniq,
     )(modifiers),
     inventory: inventory.map((i) => getInventoryItem(i, characterValues)).sort(),

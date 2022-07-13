@@ -622,7 +622,95 @@
       "showHelpText": false
     },
     "lifestyle": null,
-    "inventory": [],
+    "inventory": [
+      {
+        "id": 864080720,
+        "entityTypeId": 1439493548,
+        "definition": {
+          "id": 4,
+          "baseTypeId": 1782728300,
+          "entityTypeId": 1782728300,
+          "canEquip": true,
+          "magic": false,
+          "name": "Longsword",
+          "snippet": null,
+          "weight": 3.0,
+          "weightMultiplier": 1,
+          "capacity": null,
+          "capacityWeight": 0,
+          "type": "Longsword",
+          "description": "<p>Proficiency with a longsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.</p>",
+          "canAttune": false,
+          "attunementDescription": null,
+          "rarity": "Common",
+          "isHomebrew": false,
+          "version": null,
+          "sourceId": null,
+          "sourcePageNumber": null,
+          "stackable": false,
+          "bundleSize": 1,
+          "avatarUrl": null,
+          "largeAvatarUrl": null,
+          "filterType": "Weapon",
+          "cost": 15.0,
+          "isPack": false,
+          "tags": ["Damage", "Combat"],
+          "grantedModifiers": [],
+          "subType": null,
+          "isConsumable": false,
+          "weaponBehaviors": [],
+          "baseItemId": 4,
+          "baseArmorName": null,
+          "strengthRequirement": null,
+          "armorClass": null,
+          "stealthCheck": null,
+          "damage": {
+            "diceCount": 1,
+            "diceValue": 8,
+            "diceMultiplier": null,
+            "fixedValue": null,
+            "diceString": "1d8"
+          },
+          "damageType": "Slashing",
+          "fixedDamage": null,
+          "properties": [
+            {
+              "id": 12,
+              "name": "Versatile",
+              "description": "This weapon can be used with one or two hands. A damage value in parentheses appears with the property--the damage when the weapon is used with two hands to make a melee attack.\r\n\r\n",
+              "notes": "1d10"
+            }
+          ],
+          "attackType": 1,
+          "categoryId": 2,
+          "range": 5,
+          "longRange": 5,
+          "isMonkWeapon": false,
+          "levelInfusionGranted": null,
+          "sources": [],
+          "armorTypeId": null,
+          "gearTypeId": null,
+          "groupedId": null,
+          "canBeAddedToInventory": true,
+          "isContainer": false,
+          "isCustomItem": false
+        },
+        "definitionId": 0,
+        "definitionTypeId": 0,
+        "displayAsAttack": null,
+        "quantity": 1,
+        "isAttuned": false,
+        "equipped": false,
+        "equippedEntityTypeId": null,
+        "equippedEntityId": null,
+        "chargesUsed": 0,
+        "limitedUse": null,
+        "containerEntityId": 72798822,
+        "containerEntityTypeId": 1581111423,
+        "containerDefinitionKey": "1581111423:72798822",
+        "currency": null
+      }
+    ],
     "currencies": { "cp": 0, "sp": 0, "gp": 0, "ep": 0, "pp": 0 },
     "classes": [
       {
@@ -2669,8 +2757,8 @@
     "creatures": [],
     "optionalOrigins": [],
     "optionalClassFeatures": [],
-    "dateModified": "2022-07-13T15:44:18.08Z",
-    "providedFrom": "storage"
+    "dateModified": "2022-07-13T15:44:39.76Z",
+    "providedFrom": "database"
   },
   "pagination": null
 }

@@ -42,7 +42,7 @@
     "Proficiency: Constitution Saving Throws",
     "Set Base: Darkvision"
   ],
-  "inventory": [],
+  "inventory": ["Longsword"],
   "currencies": { "cp": 0, "sp": 0, "gp": 0, "ep": 0, "pp": 0 },
   "money": 0,
   "notes": {}

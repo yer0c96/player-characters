@@ -1618,7 +1618,7 @@
       {
         "id": 96994691,
         "entityTypeId": 1446578651,
-        "level": 2,
+        "level": 3,
         "isStartingClass": true,
         "hitDiceUsed": 0,
         "definitionId": 0,
@@ -1958,8 +1958,555 @@
             }
           ]
         },
-        "subclassDefinition": null,
+        "subclassDefinition": {
+          "id": 653703,
+          "name": "Way of the Astral Self",
+          "description": "<p>A monk who follows the Way of the Astral Self believes their body is an illusion. They see their ki as a representation of their true form, an astral self.&nbsp;</p>",
+          "equipmentDescription": null,
+          "parentClassId": 11,
+          "avatarUrl": null,
+          "largeAvatarUrl": null,
+          "portraitAvatarUrl": null,
+          "moreDetailsUrl": "/characters/classes/monk#WayoftheAstralSelf",
+          "spellCastingAbilityId": null,
+          "sourceIds": [],
+          "sources": [{ "sourceId": 67, "pageNumber": 50, "sourceType": 1 }],
+          "hitDice": 8,
+          "classFeatures": [
+            {
+              "id": 2992431,
+              "name": "Arms of the Astral Self",
+              "prerequisite": null,
+              "description": "<p><em>3rd-level Way of the Astral Self feature </em></p>\r\n<p>Your mastery of your ki allows you to summon a portion of your astral self. As a bonus action, you can spend 1 ki point to summon the arms of your astral self. When you do so, each creature of your choice that you can see within 10 feet of you must succeed on a Dexterity saving throw or take force damage equal to two rolls of your Martial Arts die.</p>\r\n<p>For 10 minutes, these spectral arms hover near your shoulders or surround your arms (your choice). You determine the arms’ appearance, and they vanish early if you are incapacitated or die. While the spectral arms are present, you gain the following benefits:</p>\r\n<ul>\r\n<li>You can use your Wisdom modifier in place of your Strength modifier when making Strength checks and Strength saving throws.</li>\r\n<li>You can use the spectral arms to make unarmed strikes.</li>\r\n<li>When you make an unarmed strike with the arms on your turn, your reach for it is 5 feet greater than normal.</li>\r\n<li>The unarmed strikes you make with the arms can use your Wisdom modifier in place of your Strength or Dexterity modifier for the attack and damage rolls, and their damage type is force.</li>\r\n</ul>",
+              "requiredLevel": 3,
+              "displayOrder": 1
+            },
+            {
+              "id": 2992462,
+              "name": "Visage of the Astral Self",
+              "prerequisite": null,
+              "description": "<p><em>6th-level Way of the Astral Self feature </em></p>\r\n<p>You can summon the visage of your astral self. As a bonus action, or as part of the bonus action you take to activate Arms of the Astral Self, you can spend 1 ki point to summon this visage for 10 minutes. It vanishes early if you are incapacitated or die.</p>\r\n<p>The spectral visage covers your face like a helmet or mask. You determine its appearance.</p>\r\n<p>While the spectral visage is present, you gain the following benefits.</p>\r\n<p><em><strong>Astral Sight.</strong></em> You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.</p>\r\n<p><em><strong>Wisdom of the Spirit.</strong></em> You have advantage on Wisdom (Insight) and Charisma (Intimidation) checks.</p>\r\n<p><em><strong>Word of the Spirit.</strong></em> When you speak, you can direct your words to a creature of your choice that you can see within 60 feet of you, making it so only that creature can hear you. Alternatively, you can amplify your voice so that all creatures within 600 feet can hear you.</p>",
+              "requiredLevel": 6,
+              "displayOrder": 2
+            },
+            {
+              "id": 2992479,
+              "name": "Body of the Astral Self",
+              "prerequisite": null,
+              "description": "<p><em>11th-level Way of the Astral Self feature</em></p>\r\n<p>When you have both your astral arms and visage summoned, you can cause the body of your astral self to appear (no action required). This spectral body covers your physical form like a suit of armor, connecting with the arms and visage. You determine its appearance.</p>\r\n<p>While the spectral body is present, you gain the following benefits.</p>\r\n<p><em><strong>Deflect Energy.</strong></em> When you take acid, cold, fire, force, lightning, or thunder damage, you can use your reaction to deflect it. When you do so, the damage you take is reduced by 1d10 + your Wisdom modifier (minimum reduction of 1).</p>\r\n<p><em><strong>Empowered Arms.</strong></em> Once on each of your turns when you hit a target with the Arms of the Astral Self, you can deal extra damage to the target equal to your Martial Arts die.</p>",
+              "requiredLevel": 11,
+              "displayOrder": 3
+            },
+            {
+              "id": 2992524,
+              "name": "Awakened Astral Self",
+              "prerequisite": null,
+              "description": "<p><em>17th-level Way of the Astral Self feature</em></p>\r\n<p>Your connection to your astral self is complete, allowing you to unleash its full potential. As a bonus action, you can spend 5 ki points to summon the arms, visage, and body of your astral self and awaken it for 10 minutes. This awakening ends early if you are incapacitated or die.</p>\r\n<p>While your astral self is awakened, you gain the following benefits.</p>\r\n<p><em><strong>Armor of the Spirit.</strong></em> You gain a +2 bonus to Armor Class.</p>\r\n<p><em><strong>Astral Barrage.</strong></em> Whenever you use the Extra Attack feature to attack twice, you can instead attack three times if all the attacks are made with your astral arms.</p>",
+              "requiredLevel": 17,
+              "displayOrder": 4
+            },
+            {
+              "id": 226,
+              "name": "Unarmored Defense",
+              "prerequisite": null,
+              "description": "<p class=\"compendium-hr\">Beginning at 1st level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier.</p>",
+              "requiredLevel": 1,
+              "displayOrder": 3
+            },
+            {
+              "id": 227,
+              "name": "Martial Arts",
+              "prerequisite": null,
+              "description": "<p class=\"compendium-hr\">At 1st level, your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are shortswords and any simple melee weapons that don’t have the two-handed or heavy property.</p>\r\n<p class=\"Core-Styles_Core-Body-Last--to-apply-extra-space-\">You gain the following benefits while you are unarmed or wielding only monk weapons and you aren’t wearing armor or wielding a shield:</p>\r\n<ul>\r\n<li class=\"Core-Styles_Core-Bulleted\">You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and monk weapons.</li>\r\n<li class=\"Core-Styles_Core-Bulleted\">You can roll a d4 in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.</li>\r\n<li class=\"Core-Styles_Core-Bulleted-Last\">When you use the Attack action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the Attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven’t already taken a bonus action this turn.</li>\r\n</ul>\r\n<p class=\"Core-Styles_Core-Body\">Certain monasteries use specialized forms of the monk weapons. For example, you might use a club that is two lengths of wood connected by a short chain (called a nunchaku) or a sickle with a shorter, straighter blade (called a kama). Whatever name you use for a monk weapon, you can use the game statistics provided for the weapon in the <a title=\"Weapons\" href=\"https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#Weapons\">Weapons</a> section.</p>",
+              "requiredLevel": 1,
+              "displayOrder": 4
+            },
+            {
+              "id": 228,
+              "name": "Ki",
+              "prerequisite": null,
+              "description": "<p class=\"Core-Styles_Core-Body\">Starting at 2nd level, your training allows you to harness the mystic energy of ki. Your access to this energy is represented by a number of ki points. Your monk level determines the number of points you have, as shown in the Ki Points column of the Monk table.</p>\r\n<p class=\"Core-Styles_Core-Body\">You can spend these points to fuel various ki features. You start knowing three such features: <strong>Flurry of Blows</strong>, <strong>Patient Defense</strong>, and <strong>Step of the Wind</strong>. You learn more ki features as you gain levels in this class.</p>\r\n<p class=\"Core-Styles_Core-Body\">When you spend a ki point, it is unavailable until you finish a short or long rest, at the end of which you draw all of your expended ki back into yourself. You must spend at least 30 minutes of the rest meditating to regain your ki points.</p>\r\n<p class=\"Core-Styles_Core-Body-Last--to-apply-extra-space-\">Some of your ki features require your target to make a saving throw to resist the feature’s effects. The saving throw DC is calculated as follows:</p>\r\n<p class=\"List-Styles_List-Item-Centered\"><strong><span class=\"Sans-Serif-Character-Styles_Bold-Sans-Serif\">Ki save DC </span></strong>= 8 + your proficiency bonus + your Wisdom modifier</p>\r\n<h5 class=\"compendium-hr\">Flurry of Blows</h5>\r\n<p class=\"Core-Styles_Core-Body\">Immediately after you take the Attack action on your turn, you can spend 1 ki point to make two unarmed strikes as a bonus action.</p>\r\n<h5 class=\"compendium-hr\">Patient Defense</h5>\r\n<p class=\"Core-Styles_Core-Body\">You can spend 1 ki point to take the Dodge action as a bonus action on your turn.</p>\r\n<h5 class=\"compendium-hr\">Step of the Wind</h5>\r\n<p class=\"Core-Styles_Core-Body\">You can spend 1 ki point to take the Disengage or Dash action as a bonus action on your turn, and your jump distance is doubled for the turn.</p>",
+              "requiredLevel": 2,
+              "displayOrder": 5
+            },
+            {
+              "id": 229,
+              "name": "Unarmored Movement",
+              "prerequisite": null,
+              "description": "<p class=\"Core-Styles_Core-Body\">Starting at 2nd level, your speed increases by 10 feet while you are not wearing armor or wielding a shield. This bonus increases when you reach certain monk levels, as shown in the Monk table.</p>\r\n<p class=\"Core-Styles_Core-Body\">At 9th level, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the move.</p>",
+              "requiredLevel": 2,
+              "displayOrder": 6
+            },
+            {
+              "id": 230,
+              "name": "Monastic Tradition",
+              "prerequisite": null,
+              "description": "<p class=\"Core-Styles_Core-Body\">When you reach 3rd level, you commit yourself to a monastic tradition: the Way of the Open Hand, detailed at the end of the class description or one from another source. Your tradition grants you features at 3rd level and again at 6th, 11th, and 17th level.</p>",
+              "requiredLevel": 3,
+              "displayOrder": 7
+            },
+            {
+              "id": 231,
+              "name": "Deflect Missiles",
+              "prerequisite": null,
+              "description": "<p class=\"Core-Styles_Core-Body\">Starting at 3rd level, you can use your reaction to deflect or catch the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by 1d10 + your Dexterity modifier + your monk level.</p>\r\n<p class=\"Core-Styles_Core-Body\">If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can spend 1 ki point to make a ranged attack with the weapon or piece of ammunition you just caught, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the missile counts as a monk weapon for the attack, which has a normal range of 20 feet and a long range of 60 feet.</p>",
+              "requiredLevel": 3,
+              "displayOrder": 8
+            },
+            {
+              "id": 232,
+              "name": "Ability Score Improvement",
+              "prerequisite": null,
+              "description": "<p class=\"Core-Styles_Core-Body\">When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>\r\n<p class=\"Core-Styles_Core-Body\">Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>",
+              "requiredLevel": 4,
+              "displayOrder": 9
+            },
+            {
+              "id": 233,
+              "name": "Slow Fall",
+              "prerequisite": null,
+              "description": "<p class=\"Core-Styles_Core-Body\">Beginning at 4th level, you can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your monk level.</p>",
+              "requiredLevel": 4,
+              "displayOrder": 10
+            },
+            {
+              "id": 234,
+              "name": "Extra Attack",
+              "prerequisite": null,
+              "description": "<p class=\"Core-Styles_Core-Body\">Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>",
+              "requiredLevel": 5,
+              "displayOrder": 11
+            },
+            {
+              "id": 235,
+              "name": "Stunning Strike",
+              "prerequisite": null,
+              "description": "<p class=\"Core-Styles_Core-Body\">Starting at 5th level, you can interfere with the flow of ki in an opponent’s body. When you hit another creature with a melee weapon attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn.</p>",
+              "requiredLevel": 5,
+              "displayOrder": 12
+            },
+            {
+              "id": 236,
+              "name": "Ki-Empowered Strikes",
+              "prerequisite": null,
+              "description": "<p class=\"Core-Styles_Core-Body\">Starting at 6th level, your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>",
+              "requiredLevel": 6,
+              "displayOrder": 13
+            },
+            {
+              "id": 237,
+              "name": "Evasion",
+              "prerequisite": null,
+              "description": "<p class=\"Core-Styles_Core-Body\">At 7th level, your instinctive agility lets you dodge out of the way of certain area effects, such as a blue dragon’s lightning breath or a <span class=\"Serif-Character-Style_Italic-Serif\">fireball</span> spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</p>",
+              "requiredLevel": 7,
+              "displayOrder": 15
+            },
+            {
+              "id": 238,
+              "name": "Stillness of Mind",
+              "prerequisite": null,
+              "description": "<p class=\"Core-Styles_Core-Body\">Starting at 7th level, you can use your action to end one effect on yourself that is causing you to be charmed or frightened.</p>",
+              "requiredLevel": 7,
+              "displayOrder": 16
+            },
+            {
+              "id": 239,
+              "name": "Purity of Body",
+              "prerequisite": null,
+              "description": "<p class=\"Core-Styles_Core-Body\">At 10th level, your mastery of the ki flowing through you makes you immune to disease and poison.</p>",
+              "requiredLevel": 10,
+              "displayOrder": 19
+            },
+            {
+              "id": 240,
+              "name": "Tongue of the Sun and Moon",
+              "prerequisite": null,
+              "description": "<p class=\"Core-Styles_Core-Body\">Starting at 13th level, you learn to touch the ki of other minds so that you understand all spoken languages. Moreover, any creature that can understand a language can understand what you say.</p>",
+              "requiredLevel": 13,
+              "displayOrder": 22
+            },
+            {
+              "id": 241,
+              "name": "Diamond Soul",
+              "prerequisite": null,
+              "description": "<p class=\"Core-Styles_Core-Body\">Beginning at 14th level, your mastery of ki grants you proficiency in all saving throws.</p>\r\n<p class=\"Core-Styles_Core-Body\">Additionally, whenever you make a saving throw and fail, you can spend 1 ki point to reroll it and take the second result.</p>",
+              "requiredLevel": 14,
+              "displayOrder": 23
+            },
+            {
+              "id": 242,
+              "name": "Timeless Body",
+              "prerequisite": null,
+              "description": "<p class=\"Core-Styles_Core-Body\">At 15th level, your ki sustains you so that you suffer none of the frailty of old age, and you can’t be aged magically. You can still die of old age, however. In addition, you no longer need food or water.</p>",
+              "requiredLevel": 15,
+              "displayOrder": 25
+            },
+            {
+              "id": 243,
+              "name": "Empty Body",
+              "prerequisite": null,
+              "description": "<p class=\"Core-Styles_Core-Body\">Beginning at 18th level, you can use your action to spend 4 ki points to become invisible for 1 minute. During that time, you also have resistance to all damage but force damage.</p>\r\n<p class=\"Core-Styles_Core-Body\">Additionally, you can spend 8 ki points to cast the <span class=\"Serif-Character-Style_Italic-Serif\">astral projection</span> spell, without needing material components. When you do so, you can’t take any other creatures with you.</p>",
+              "requiredLevel": 18,
+              "displayOrder": 27
+            },
+            {
+              "id": 244,
+              "name": "Perfect Self",
+              "prerequisite": null,
+              "description": "<p class=\"Core-Styles_Core-Body\">At 20th level, when you roll for initiative and have no ki points remaining, you regain 4 ki points.</p>",
+              "requiredLevel": 20,
+              "displayOrder": 30
+            },
+            {
+              "id": 245,
+              "name": "Unarmored Movement Improvement",
+              "prerequisite": null,
+              "description": "<p class=\"Core-Styles_Core-Body\">At 9th level, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during your move.</p>",
+              "requiredLevel": 9,
+              "displayOrder": 18
+            },
+            {
+              "id": 246,
+              "name": "Ability Score Improvement",
+              "prerequisite": null,
+              "description": "<p class=\"Core-Styles_Core-Body\">When you reach 8th level, and again at 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>\r\n<p class=\"Core-Styles_Core-Body\">Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>",
+              "requiredLevel": 8,
+              "displayOrder": 17
+            },
+            {
+              "id": 247,
+              "name": "Ability Score Improvement",
+              "prerequisite": null,
+              "description": "<p class=\"Core-Styles_Core-Body\">When you reach 12th level, and again at 16th and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>\r\n<p class=\"Core-Styles_Core-Body\">Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>",
+              "requiredLevel": 12,
+              "displayOrder": 21
+            },
+            {
+              "id": 248,
+              "name": "Ability Score Improvement",
+              "prerequisite": null,
+              "description": "<p class=\"Core-Styles_Core-Body\">When you reach 16th level, and again at 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>\r\n<p class=\"Core-Styles_Core-Body\">Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>",
+              "requiredLevel": 16,
+              "displayOrder": 26
+            },
+            {
+              "id": 249,
+              "name": "Ability Score Improvement",
+              "prerequisite": null,
+              "description": "<p class=\"Core-Styles_Core-Body\">When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>\r\n<p class=\"Core-Styles_Core-Body\">Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>",
+              "requiredLevel": 19,
+              "displayOrder": 29
+            },
+            {
+              "id": 455,
+              "name": "Unarmored Movement",
+              "prerequisite": null,
+              "description": "<p class=\"Core-Styles_Core-Body\">At 6th level, your Unarmored Speed speed bonus increases to 15 feet while you are not wearing armor or wielding a shield.</p>",
+              "requiredLevel": 6,
+              "displayOrder": 14
+            },
+            {
+              "id": 456,
+              "name": "Unarmored Movement",
+              "prerequisite": null,
+              "description": "<p>At 10th level, your Unarmored Speed speed bonus increases to 20 feet while you are not wearing armor or wielding a shield.</p>",
+              "requiredLevel": 10,
+              "displayOrder": 20
+            },
+            {
+              "id": 457,
+              "name": "Unarmored Movement",
+              "prerequisite": null,
+              "description": "<p>At 14th level, your Unarmored Speed speed bonus increases to 25 feet while you are not wearing armor or wielding a shield.</p>",
+              "requiredLevel": 14,
+              "displayOrder": 24
+            },
+            {
+              "id": 458,
+              "name": "Unarmored Movement",
+              "prerequisite": null,
+              "description": "<p>At 18th level, your Unarmored Speed speed bonus increases to 30 feet while you are not wearing armor or wielding a shield.</p>",
+              "requiredLevel": 18,
+              "displayOrder": 28
+            },
+            {
+              "id": 464,
+              "name": "Proficiencies",
+              "prerequisite": null,
+              "description": "<p><strong><span class=\"Serif-Character-Style_Bold-Serif\">Armor: </span></strong>None<br /><strong><span class=\"Serif-Character-Style_Bold-Serif\">Weapons: </span></strong>Simple weapons, shortswords<br /><strong><span class=\"Serif-Character-Style_Bold-Serif\">Tools: </span></strong>Choose one type of artisan’s tools or one musical instrument<br /><strong><span class=\"Serif-Character-Style_Bold-Serif\">Saving Throws: </span></strong>Strength, Dexterity<br /><strong><span class=\"Serif-Character-Style_Bold-Serif\">Skills:</span></strong> Choose two from Acrobatics, Athletics, History, Insight, Religion, and Stealth</p>",
+              "requiredLevel": 1,
+              "displayOrder": 2
+            },
+            {
+              "id": 536,
+              "name": "Hit Points",
+              "prerequisite": null,
+              "description": "<p><strong><span class=\"Serif-Character-Style_Bold-Serif\">Hit Dice:</span></strong> 1d8 per monk level<br /><strong><span class=\"Serif-Character-Style_Bold-Serif\">Hit Points at 1st Level:</span></strong> 8 + your Constitution modifier<br /><strong><span class=\"Serif-Character-Style_Bold-Serif\">Hit Points at Higher Levels:</span></strong> 1d8 (or 5) + your Constitution modifier per monk level after 1st</p>",
+              "requiredLevel": 1,
+              "displayOrder": 1
+            }
+          ],
+          "classFeatureDefinitions": null,
+          "wealthDice": null,
+          "canCastSpells": false,
+          "knowsAllSpells": null,
+          "spellPrepareType": null,
+          "spellContainerName": null,
+          "sourceId": null,
+          "sourcePageNumber": 50,
+          "subclassDefinition": null,
+          "isHomebrew": false,
+          "primaryAbilities": null,
+          "spellRules": null,
+          "prerequisites": null
+        },
         "classFeatures": [
+          {
+            "definition": {
+              "id": 2992431,
+              "definitionKey": "class-feature:2992431",
+              "entityTypeId": 12168134,
+              "displayOrder": 100,
+              "name": "Arms of the Astral Self",
+              "description": "<p><em>3rd-level Way of the Astral Self feature </em></p>\r\n<p>Your mastery of your ki allows you to summon a portion of your astral self. As a bonus action, you can spend 1 ki point to summon the arms of your astral self. When you do so, each creature of your choice that you can see within 10 feet of you must succeed on a Dexterity saving throw or take force damage equal to two rolls of your Martial Arts die.</p>\r\n<p>For 10 minutes, these spectral arms hover near your shoulders or surround your arms (your choice). You determine the arms’ appearance, and they vanish early if you are incapacitated or die. While the spectral arms are present, you gain the following benefits:</p>\r\n<ul>\r\n<li>You can use your Wisdom modifier in place of your Strength modifier when making Strength checks and Strength saving throws.</li>\r\n<li>You can use the spectral arms to make unarmed strikes.</li>\r\n<li>When you make an unarmed strike with the arms on your turn, your reach for it is 5 feet greater than normal.</li>\r\n<li>The unarmed strikes you make with the arms can use your Wisdom modifier in place of your Strength or Dexterity modifier for the attack and damage rolls, and their damage type is force.</li>\r\n</ul>",
+              "snippet": "As a bonus action, you can spend 1 ki point to summon the arms of your astral self. When you do so, each creature of your choice that you can see within 10 ft. of you must succeed on a DEX saving throw (DC:{{savedc:wis}}) or take {{scalevalue}} force damage.\r\nFor 10 minutes:\r\n- You can use your WIS modifier in place of your STR modifier when making STR checks/saving throws.\r\n- You can use the spectral arms to make unarmed strikes.\r\n- When you make an unarmed strike with the arms on your turn, your reach for it is 5 ft. greater than normal.\r\n- The unarmed strikes you make with the arms can use your WIS modifier in place of your STR or DEX modifier for the attack and damage rolls, and their damage type is force.",
+              "activation": null,
+              "multiClassDescription": "",
+              "requiredLevel": 3,
+              "isSubClassFeature": false,
+              "limitedUse": [
+                { "level": null, "uses": 1 },
+                { "level": null, "uses": 1 },
+                { "level": null, "uses": 1 }
+              ],
+              "hideInBuilder": false,
+              "hideInSheet": false,
+              "sourceId": 67,
+              "sourcePageNumber": 50,
+              "creatureRules": [],
+              "levelScales": [
+                {
+                  "id": 386749,
+                  "level": 1,
+                  "description": "1d4 martial arts die",
+                  "dice": {
+                    "diceCount": 2,
+                    "diceValue": 4,
+                    "diceMultiplier": null,
+                    "fixedValue": null,
+                    "diceString": "2d4"
+                  },
+                  "fixedValue": null
+                },
+                {
+                  "id": 386750,
+                  "level": 5,
+                  "description": "1d6 martial arts die",
+                  "dice": {
+                    "diceCount": 2,
+                    "diceValue": 6,
+                    "diceMultiplier": null,
+                    "fixedValue": null,
+                    "diceString": "2d6"
+                  },
+                  "fixedValue": null
+                },
+                {
+                  "id": 386751,
+                  "level": 11,
+                  "description": "1d8 martial arts die",
+                  "dice": {
+                    "diceCount": 2,
+                    "diceValue": 8,
+                    "diceMultiplier": null,
+                    "fixedValue": null,
+                    "diceString": "2d8"
+                  },
+                  "fixedValue": null
+                },
+                {
+                  "id": 386752,
+                  "level": 17,
+                  "description": "1d10 martial arts die",
+                  "dice": {
+                    "diceCount": 2,
+                    "diceValue": 10,
+                    "diceMultiplier": null,
+                    "fixedValue": null,
+                    "diceString": "2d10"
+                  },
+                  "fixedValue": null
+                }
+              ],
+              "infusionRules": [],
+              "spellListIds": [],
+              "classId": 653703,
+              "featureType": 1,
+              "sources": [{ "sourceId": 67, "pageNumber": 50, "sourceType": 1 }],
+              "affectedFeatureDefinitionKeys": [],
+              "entityType": "class-feature",
+              "entityID": "2992431"
+            },
+            "levelScale": {
+              "id": 386749,
+              "level": 1,
+              "description": "1d4 martial arts die",
+              "dice": {
+                "diceCount": 2,
+                "diceValue": 4,
+                "diceMultiplier": null,
+                "fixedValue": null,
+                "diceString": "2d4"
+              },
+              "fixedValue": null
+            }
+          },
+          {
+            "definition": {
+              "id": 2992462,
+              "definitionKey": "class-feature:2992462",
+              "entityTypeId": 12168134,
+              "displayOrder": 200,
+              "name": "Visage of the Astral Self",
+              "description": "<p><em>6th-level Way of the Astral Self feature </em></p>\r\n<p>You can summon the visage of your astral self. As a bonus action, or as part of the bonus action you take to activate Arms of the Astral Self, you can spend 1 ki point to summon this visage for 10 minutes. It vanishes early if you are incapacitated or die.</p>\r\n<p>The spectral visage covers your face like a helmet or mask. You determine its appearance.</p>\r\n<p>While the spectral visage is present, you gain the following benefits.</p>\r\n<p><em><strong>Astral Sight.</strong></em> You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.</p>\r\n<p><em><strong>Wisdom of the Spirit.</strong></em> You have advantage on Wisdom (Insight) and Charisma (Intimidation) checks.</p>\r\n<p><em><strong>Word of the Spirit.</strong></em> When you speak, you can direct your words to a creature of your choice that you can see within 60 feet of you, making it so only that creature can hear you. Alternatively, you can amplify your voice so that all creatures within 600 feet can hear you.</p>",
+              "snippet": "As a bonus action, or as part of the bonus action you take to activate Arms of the Astral Self, you can spend 1 ki point to summon the visage of your astral self for 10 minutes.\r\nWhile the spectral visage is present, you gain the following benefits.\r\n- <strong>Astral Sight.</strong> You can see normally in darkness, both magical and nonmagical, to a distance of 120 ft.\r\n- <strong>Wisdom of the Spirit.</strong> You have advantage on WIS (Insight) and CHA (Intimidation) checks.\r\n- <strong>Word of the Spirit.</strong> When you speak, you can direct your words to a creature of your choice that you can see within 60 ft. of you, making it so only that creature can hear you. Alternatively, you can amplify your voice so that all creatures within 600 ft. can hear you.",
+              "activation": null,
+              "multiClassDescription": "",
+              "requiredLevel": 6,
+              "isSubClassFeature": false,
+              "limitedUse": [{ "level": null, "uses": 1 }],
+              "hideInBuilder": false,
+              "hideInSheet": false,
+              "sourceId": 67,
+              "sourcePageNumber": 50,
+              "creatureRules": [],
+              "levelScales": [],
+              "infusionRules": [],
+              "spellListIds": [],
+              "classId": 653703,
+              "featureType": 1,
+              "sources": [{ "sourceId": 67, "pageNumber": 50, "sourceType": 1 }],
+              "affectedFeatureDefinitionKeys": [],
+              "entityType": "class-feature",
+              "entityID": "2992462"
+            },
+            "levelScale": null
+          },
+          {
+            "definition": {
+              "id": 2992479,
+              "definitionKey": "class-feature:2992479",
+              "entityTypeId": 12168134,
+              "displayOrder": 300,
+              "name": "Body of the Astral Self",
+              "description": "<p><em>11th-level Way of the Astral Self feature</em></p>\r\n<p>When you have both your astral arms and visage summoned, you can cause the body of your astral self to appear (no action required). This spectral body covers your physical form like a suit of armor, connecting with the arms and visage. You determine its appearance.</p>\r\n<p>While the spectral body is present, you gain the following benefits.</p>\r\n<p><em><strong>Deflect Energy.</strong></em> When you take acid, cold, fire, force, lightning, or thunder damage, you can use your reaction to deflect it. When you do so, the damage you take is reduced by 1d10 + your Wisdom modifier (minimum reduction of 1).</p>\r\n<p><em><strong>Empowered Arms.</strong></em> Once on each of your turns when you hit a target with the Arms of the Astral Self, you can deal extra damage to the target equal to your Martial Arts die.</p>",
+              "snippet": "When you have both your astral arms and visage summoned, you can cause the body of your astral self to appear (no action required) granting the following benefits:\r\n- <strong>Deflect Energy.</strong> When you take acid, cold, fire, force, lightning, or thunder damage, you can use your reaction to deflect it. When you do so, the damage you take is reduced by <strong>1d10</strong>{{modifier:wis#signed}} (minimum reduction of 1).\r\n- <strong>Empowered Arms.</strong> Once on each of your turns when you hit a target with the Arms of the Astral Self, you can deal extra {{scalevalue}} damage to the target.",
+              "activation": null,
+              "multiClassDescription": "",
+              "requiredLevel": 11,
+              "isSubClassFeature": false,
+              "limitedUse": [{ "level": null, "uses": 1 }],
+              "hideInBuilder": false,
+              "hideInSheet": false,
+              "sourceId": 67,
+              "sourcePageNumber": 51,
+              "creatureRules": [],
+              "levelScales": [
+                {
+                  "id": 386799,
+                  "level": 1,
+                  "description": "1d4 martial arts die",
+                  "dice": {
+                    "diceCount": 1,
+                    "diceValue": 4,
+                    "diceMultiplier": null,
+                    "fixedValue": null,
+                    "diceString": "1d4"
+                  },
+                  "fixedValue": null
+                },
+                {
+                  "id": 386800,
+                  "level": 5,
+                  "description": "1d6 martial arts die",
+                  "dice": {
+                    "diceCount": 1,
+                    "diceValue": 6,
+                    "diceMultiplier": null,
+                    "fixedValue": null,
+                    "diceString": "1d6"
+                  },
+                  "fixedValue": null
+                },
+                {
+                  "id": 386801,
+                  "level": 11,
+                  "description": "1d8 martial arts die",
+                  "dice": {
+                    "diceCount": 1,
+                    "diceValue": 8,
+                    "diceMultiplier": null,
+                    "fixedValue": null,
+                    "diceString": "1d8"
+                  },
+                  "fixedValue": null
+                },
+                {
+                  "id": 386802,
+                  "level": 17,
+                  "description": "1d10 martial arts die",
+                  "dice": {
+                    "diceCount": 1,
+                    "diceValue": 10,
+                    "diceMultiplier": null,
+                    "fixedValue": null,
+                    "diceString": "1d10"
+                  },
+                  "fixedValue": null
+                }
+              ],
+              "infusionRules": [],
+              "spellListIds": [],
+              "classId": 653703,
+              "featureType": 1,
+              "sources": [{ "sourceId": 67, "pageNumber": 51, "sourceType": 1 }],
+              "affectedFeatureDefinitionKeys": [],
+              "entityType": "class-feature",
+              "entityID": "2992479"
+            },
+            "levelScale": null
+          },
+          {
+            "definition": {
+              "id": 2992524,
+              "definitionKey": "class-feature:2992524",
+              "entityTypeId": 12168134,
+              "displayOrder": 400,
+              "name": "Awakened Astral Self",
+              "description": "<p><em>17th-level Way of the Astral Self feature</em></p>\r\n<p>Your connection to your astral self is complete, allowing you to unleash its full potential. As a bonus action, you can spend 5 ki points to summon the arms, visage, and body of your astral self and awaken it for 10 minutes. This awakening ends early if you are incapacitated or die.</p>\r\n<p>While your astral self is awakened, you gain the following benefits.</p>\r\n<p><em><strong>Armor of the Spirit.</strong></em> You gain a +2 bonus to Armor Class.</p>\r\n<p><em><strong>Astral Barrage.</strong></em> Whenever you use the Extra Attack feature to attack twice, you can instead attack three times if all the attacks are made with your astral arms.</p>",
+              "snippet": "As a bonus action, you can spend 5 ki points to summon the arms, visage, and body of your astral self and awaken it for 10 minutes. While your astral self is awakened, you gain the following benefits:\r\n- <strong>Armor of the Spirit.</strong> You gain a +2 bonus to Armor Class.\r\n- <strong>Astral Barrage.</strong> Whenever you use the Extra Attack feature to attack twice, you can instead attack three times if all the attacks are made with your astral arms.",
+              "activation": null,
+              "multiClassDescription": "",
+              "requiredLevel": 17,
+              "isSubClassFeature": false,
+              "limitedUse": [{ "level": null, "uses": 1 }],
+              "hideInBuilder": false,
+              "hideInSheet": false,
+              "sourceId": 67,
+              "sourcePageNumber": 51,
+              "creatureRules": [],
+              "levelScales": [],
+              "infusionRules": [],
+              "spellListIds": [],
+              "classId": 653703,
+              "featureType": 1,
+              "sources": [{ "sourceId": 67, "pageNumber": 51, "sourceType": 1 }],
+              "affectedFeatureDefinitionKeys": [],
+              "entityType": "class-feature",
+              "entityID": "2992524"
+            },
+            "levelScale": null
+          },
           {
             "definition": {
               "id": 226,
@@ -3064,7 +3611,7 @@
           "parentChoiceId": null,
           "type": 7,
           "subType": null,
-          "optionValue": null,
+          "optionValue": 653703,
           "label": null,
           "isOptional": false,
           "isInfinite": false,
@@ -3405,7 +3952,7 @@
             "numberUsed": 0,
             "minNumberConsumed": 1,
             "maxNumberConsumed": 1,
-            "maxUses": 2,
+            "maxUses": 3,
             "operator": 1,
             "useProficiencyBonus": false,
             "proficiencyBonusOperator": 1,
@@ -3553,6 +4100,258 @@
             "minimumRange": null
           },
           "activation": { "activationTime": null, "activationType": 3 },
+          "numberOfTargets": null,
+          "fixedToHit": null,
+          "ammunition": null
+        },
+        {
+          "componentId": 231,
+          "componentTypeId": 12168134,
+          "id": "53365",
+          "entityTypeId": "222216831",
+          "limitedUse": null,
+          "name": "Deflect Missiles",
+          "description": "<p class=\"Core-Styles_Core-Body\">Starting at 3rd level, you can use your reaction to deflect or catch the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by 1d10 + your Dexterity modifier + your monk level.</p>\r\n<p class=\"Core-Styles_Core-Body\">If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can spend 1 ki point to make a ranged attack with the weapon or piece of ammunition you just caught, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the missile counts as a monk weapon for the attack, which has a normal range of 20 feet and a long range of 60 feet.</p>",
+          "snippet": "You can use your reaction to deflect or catch the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by 1d10 {{(modifier:dex+classlevel)#signed}}. If you reduce damage to 0 and have a free hand, you can spend 1 ki point to make a ranged attack (as with a monk weapon) with a range of 20/60.",
+          "abilityModifierStatId": null,
+          "onMissDescription": "",
+          "saveFailDescription": "",
+          "saveSuccessDescription": "",
+          "saveStatId": null,
+          "fixedSaveDc": null,
+          "attackTypeRange": null,
+          "actionType": 3,
+          "attackSubtype": null,
+          "dice": {
+            "diceCount": 1,
+            "diceValue": 10,
+            "diceMultiplier": null,
+            "fixedValue": 3,
+            "diceString": "1d10 + 3"
+          },
+          "value": null,
+          "damageTypeId": null,
+          "isMartialArts": true,
+          "isProficient": false,
+          "spellRangeType": null,
+          "displayAsAttack": true,
+          "range": {
+            "range": null,
+            "longRange": null,
+            "aoeType": null,
+            "aoeSize": null,
+            "hasAoeSpecialDescription": false,
+            "minimumRange": null
+          },
+          "activation": { "activationTime": 1, "activationType": 4 },
+          "numberOfTargets": null,
+          "fixedToHit": null,
+          "ammunition": null
+        },
+        {
+          "componentId": 231,
+          "componentTypeId": 12168134,
+          "id": "53609",
+          "entityTypeId": "222216831",
+          "limitedUse": null,
+          "name": "Deflect Missiles Attack",
+          "description": "",
+          "snippet": "If you reduce damage to 0 and have a free hand, you can spend 1 ki point to make a ranged attack (as with a monk weapon).",
+          "abilityModifierStatId": 2,
+          "onMissDescription": "",
+          "saveFailDescription": "",
+          "saveSuccessDescription": "",
+          "saveStatId": null,
+          "fixedSaveDc": null,
+          "attackTypeRange": 2,
+          "actionType": 1,
+          "attackSubtype": null,
+          "dice": null,
+          "value": null,
+          "damageTypeId": null,
+          "isMartialArts": true,
+          "isProficient": true,
+          "spellRangeType": null,
+          "displayAsAttack": true,
+          "range": {
+            "range": 20,
+            "longRange": 60,
+            "aoeType": null,
+            "aoeSize": null,
+            "hasAoeSpecialDescription": false,
+            "minimumRange": null
+          },
+          "activation": { "activationTime": null, "activationType": 4 },
+          "numberOfTargets": null,
+          "fixedToHit": null,
+          "ammunition": null
+        },
+        {
+          "componentId": 3035383,
+          "componentTypeId": 12168134,
+          "id": "2437974",
+          "entityTypeId": "222216831",
+          "limitedUse": null,
+          "name": "Ki-Fueled Attack",
+          "description": "<p><em>3rd-level monk feature</em><br />If you spend 1 ki point or more as part of your action on your turn, you can make one attack with an unarmed strike or a monk weapon as a bonus action before the end of the turn.</p>",
+          "snippet": "If you spend 1 ki point or more as part of your action on your turn, you can make one attack with an unarmed strike or a monk weapon as a bonus action before the end of the turn.",
+          "abilityModifierStatId": null,
+          "onMissDescription": "",
+          "saveFailDescription": "",
+          "saveSuccessDescription": "",
+          "saveStatId": null,
+          "fixedSaveDc": null,
+          "attackTypeRange": null,
+          "actionType": 3,
+          "attackSubtype": null,
+          "dice": null,
+          "value": null,
+          "damageTypeId": null,
+          "isMartialArts": false,
+          "isProficient": false,
+          "spellRangeType": null,
+          "displayAsAttack": null,
+          "range": {
+            "range": null,
+            "longRange": null,
+            "aoeType": null,
+            "aoeSize": null,
+            "hasAoeSpecialDescription": false,
+            "minimumRange": null
+          },
+          "activation": { "activationTime": null, "activationType": 8 },
+          "numberOfTargets": null,
+          "fixedToHit": null,
+          "ammunition": null
+        },
+        {
+          "componentId": 2992431,
+          "componentTypeId": 12168134,
+          "id": "2417708",
+          "entityTypeId": "222216831",
+          "limitedUse": null,
+          "name": "Arms of the Astral Self: Summon",
+          "description": "<p><em>3rd-level Way of the Astral Self feature</em></p>\r\n<p>Your mastery of your ki allows you to summon a portion of your astral self. As a bonus action, you can spend 1 ki point to summon the arms of your astral self. When you do so, each creature of your choice that you can see within 10 feet of you must succeed on a Dexterity saving throw or take force damage equal to two rolls of your Martial Arts die.</p>\r\n<p>For 10 minutes, these spectral arms hover near your shoulders or surround your arms (your choice). You determine the arms&rsquo; appearance, and they vanish early if you are incapacitated or die. While the spectral arms are present, you gain the following benefits:</p>\r\n<ul>\r\n<li>You can use your Wisdom modifier in place of your Strength modifier when making Strength checks and Strength saving throws.</li>\r\n<li>You can use the spectral arms to make unarmed strikes.</li>\r\n<li>When you make an unarmed strike with the arms on your turn, your reach for it is 5 feet greater than normal.</li>\r\n<li>The unarmed strikes you make with the arms can use your Wisdom modifier in place of your Strength or Dexterity modifier for the attack and damage rolls, and their damage type is force.</li>\r\n</ul>",
+          "snippet": "As a bonus action, you can spend 1 ki point to summon the arms of your astral self. When you do so, each creature of your choice that you can see within 10 ft. of you must succeed on a DEX saving throw (DC:{{savedc:wis}}) or take {{scalevalue}} force damage.\r\nFor 10 minutes:\r\n- You can use WIS in place of STR when making STR checks/saving throws.\r\n- You can use the spectral arms to make unarmed strikes.",
+          "abilityModifierStatId": 5,
+          "onMissDescription": "",
+          "saveFailDescription": "",
+          "saveSuccessDescription": "",
+          "saveStatId": 2,
+          "fixedSaveDc": null,
+          "attackTypeRange": null,
+          "actionType": 3,
+          "attackSubtype": null,
+          "dice": {
+            "diceCount": 2,
+            "diceValue": 4,
+            "diceMultiplier": null,
+            "fixedValue": null,
+            "diceString": "2d4"
+          },
+          "value": null,
+          "damageTypeId": 13,
+          "isMartialArts": false,
+          "isProficient": false,
+          "spellRangeType": null,
+          "displayAsAttack": true,
+          "range": {
+            "range": null,
+            "longRange": null,
+            "aoeType": null,
+            "aoeSize": null,
+            "hasAoeSpecialDescription": false,
+            "minimumRange": null
+          },
+          "activation": { "activationTime": null, "activationType": 3 },
+          "numberOfTargets": null,
+          "fixedToHit": null,
+          "ammunition": null
+        },
+        {
+          "componentId": 2992431,
+          "componentTypeId": 12168134,
+          "id": "2475493",
+          "entityTypeId": "222216831",
+          "limitedUse": null,
+          "name": "Arms of the Astral Self (WIS)",
+          "description": "<p><em>3rd-level Way of the Astral Self feature</em></p>\r\n<p>Your mastery of your ki allows you to summon a portion of your astral self. As a bonus action, you can spend 1 ki point to summon the arms of your astral self. When you do so, each creature of your choice that you can see within 10 feet of you must succeed on a Dexterity saving throw or take force damage equal to two rolls of your Martial Arts die.</p>\r\n<p>For 10 minutes, these spectral arms hover near your shoulders or surround your arms (your choice). You determine the arms&rsquo; appearance, and they vanish early if you are [condition]incapacitated[/condition] or die. While the spectral arms are present, you gain the following benefits:</p>\r\n<ul>\r\n<li>You can use your Wisdom modifier in place of your Strength modifier when making Strength checks and Strength saving throws.</li>\r\n<li>You can use the spectral arms to make unarmed strikes.</li>\r\n<li>When you make an unarmed strike with the arms on your turn, your reach for it is 5 feet greater than normal.</li>\r\n<li>The unarmed strikes you make with the arms can use your Wisdom modifier in place of your Strength or Dexterity modifier for the attack and damage rolls, and their damage type is force.</li>\r\n</ul>",
+          "snippet": "Whilst your Arms of the Astral Self are summoned, you can use the spectral arms to make unarmed strikes and can use your Wisdom modifier in place of your Strength or Dexterity modifier for the attack and damage rolls.",
+          "abilityModifierStatId": 5,
+          "onMissDescription": "",
+          "saveFailDescription": "",
+          "saveSuccessDescription": "",
+          "saveStatId": null,
+          "fixedSaveDc": null,
+          "attackTypeRange": 1,
+          "actionType": 1,
+          "attackSubtype": 3,
+          "dice": {
+            "diceCount": 1,
+            "diceValue": 4,
+            "diceMultiplier": null,
+            "fixedValue": null,
+            "diceString": "1d4"
+          },
+          "value": null,
+          "damageTypeId": 13,
+          "isMartialArts": true,
+          "isProficient": true,
+          "spellRangeType": null,
+          "displayAsAttack": true,
+          "range": {
+            "range": 10,
+            "longRange": null,
+            "aoeType": null,
+            "aoeSize": null,
+            "hasAoeSpecialDescription": false,
+            "minimumRange": null
+          },
+          "activation": { "activationTime": null, "activationType": 1 },
+          "numberOfTargets": null,
+          "fixedToHit": null,
+          "ammunition": null
+        },
+        {
+          "componentId": 2992431,
+          "componentTypeId": 12168134,
+          "id": "2475501",
+          "entityTypeId": "222216831",
+          "limitedUse": null,
+          "name": "Arms of the Astral Self (DEX/STR)",
+          "description": "<p><em>3rd-level Way of the Astral Self feature</em></p>\r\n<p>Your mastery of your ki allows you to summon a portion of your astral self. As a bonus action, you can spend 1 ki point to summon the arms of your astral self. When you do so, each creature of your choice that you can see within 10 feet of you must succeed on a Dexterity saving throw or take force damage equal to two rolls of your Martial Arts die.</p>\r\n<p>For 10 minutes, these spectral arms hover near your shoulders or surround your arms (your choice). You determine the arms&rsquo; appearance, and they vanish early if you are [condition]incapacitated[/condition] or die. While the spectral arms are present, you gain the following benefits:</p>\r\n<ul>\r\n<li>You can use your Wisdom modifier in place of your Strength modifier when making Strength checks and Strength saving throws.</li>\r\n<li>You can use the spectral arms to make unarmed strikes.</li>\r\n<li>When you make an unarmed strike with the arms on your turn, your reach for it is 5 feet greater than normal.</li>\r\n<li>The unarmed strikes you make with the arms can use your Wisdom modifier in place of your Strength or Dexterity modifier for the attack and damage rolls, and their damage type is force.</li>\r\n</ul>",
+          "snippet": "Whilst your Arms of the Astral Self are summoned, you can use the spectral arms to make unarmed strikes.",
+          "abilityModifierStatId": 1,
+          "onMissDescription": "",
+          "saveFailDescription": "",
+          "saveSuccessDescription": "",
+          "saveStatId": null,
+          "fixedSaveDc": null,
+          "attackTypeRange": 1,
+          "actionType": 1,
+          "attackSubtype": 3,
+          "dice": {
+            "diceCount": 1,
+            "diceValue": 4,
+            "diceMultiplier": null,
+            "fixedValue": null,
+            "diceString": "1d4"
+          },
+          "value": null,
+          "damageTypeId": 13,
+          "isMartialArts": true,
+          "isProficient": true,
+          "spellRangeType": null,
+          "displayAsAttack": true,
+          "range": {
+            "range": 10,
+            "longRange": null,
+            "aoeType": null,
+            "aoeSize": null,
+            "hasAoeSpecialDescription": false,
+            "minimumRange": null
+          },
+          "activation": { "activationTime": null, "activationType": 1 },
           "numberOfTargets": null,
           "fixedToHit": null,
           "ammunition": null
@@ -3956,6 +4755,29 @@
           "modifierSubTypeId": 1685,
           "componentId": 229,
           "componentTypeId": 12168134
+        },
+        {
+          "fixedValue": null,
+          "id": "2030",
+          "entityId": null,
+          "entityTypeId": null,
+          "type": "set",
+          "subType": "subclass",
+          "dice": null,
+          "restriction": "",
+          "statId": null,
+          "requiresAttunement": false,
+          "duration": null,
+          "friendlyTypeName": "Set",
+          "friendlySubtypeName": "Subclass",
+          "isGranted": true,
+          "bonusTypes": [],
+          "value": null,
+          "availableToMulticlass": true,
+          "modifierTypeId": 9,
+          "modifierSubTypeId": 779,
+          "componentId": 230,
+          "componentTypeId": 12168134
         }
       ],
       "background": [
@@ -4127,7 +4949,7 @@
     "creatures": [],
     "optionalOrigins": [],
     "optionalClassFeatures": [],
-    "dateModified": "2022-07-06T15:10:40.947Z",
+    "dateModified": "2022-07-15T05:11:34.523Z",
     "providedFrom": "storage"
   },
   "pagination": null

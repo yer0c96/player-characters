@@ -1,6 +1,6 @@
 {
   "name": "Jassin Highwind",
-  "classes": ["Level 2 Monk"],
+  "classes": ["Level 3 Monk | Way of the Astral Self"],
   "stats": {
     "strength": 11,
     "dexterity": 15,
@@ -22,8 +22,14 @@
   "feats": [],
   "spells": [],
   "actions": [
+    "Arms of the Astral Self (DEX/STR)",
+    "Arms of the Astral Self (WIS)",
+    "Arms of the Astral Self: Summon",
+    "Deflect Missiles",
+    "Deflect Missiles Attack",
     "Flurry of Blows",
     "Ki Points",
+    "Ki-Fueled Attack",
     "Patient Defense",
     "Step of the Wind",
     "Unarmed Strike"
@@ -49,7 +55,8 @@
     "Proficiency: Medicine",
     "Proficiency: Religion",
     "Proficiency: Herbalism Kit",
-    "Set: Unarmored Armor Class"
+    "Set: Unarmored Armor Class",
+    "Set: Subclass"
   ],
   "inventory": [
     "Backpack",

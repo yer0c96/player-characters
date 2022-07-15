@@ -1,4 +1,11 @@
 {
+  "classes": [
+    ["Level 3 Sorcerer | Aberrant Mind"],
+    ["Level 3 Monk | Way of the Astral Self"],
+    ["Level 3 Paladin | Oath of Redemption"],
+    ["Level 2 Cleric | Twilight Domain"],
+    ["Level 3 Bard | College of Spirits"]
+  ],
   "money": 230.13,
   "inventory": [
     "Alms Box",

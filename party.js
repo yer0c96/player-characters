@@ -11,6 +11,7 @@ const partySummary = () => {
   const party = [josh, corey, todd, gamel, jen]
 
   const summary = {
+    classes: pipe(pluck('classes'))(party),
     money: sum(pluck('money', party)),
     inventory: pipe(pluck('inventory'), flatten, sortBy(identity))(party),
   }

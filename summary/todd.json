@@ -9,7 +9,7 @@
     "wisdom": 10,
     "charisma": 15
   },
-  "hitPoints": { "base": 22, "current": 15, "temp": 0 },
+  "hitPoints": { "base": 22, "current": 22, "temp": 0 },
   "traits": {},
   "bonusStats": {},
   "overrideStats": {},
@@ -69,7 +69,7 @@
     "Torch",
     "Waterskin"
   ],
-  "currencies": { "cp": 0, "sp": 0, "gp": 13, "ep": 0, "pp": 0 },
-  "money": 13,
+  "currencies": { "cp": 0, "sp": 0, "gp": 12, "ep": 0, "pp": 0 },
+  "money": 12,
   "notes": {}
 }

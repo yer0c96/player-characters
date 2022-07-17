@@ -88,7 +88,7 @@
     "bonusHitPoints": null,
     "overrideHitPoints": null,
     "removedHitPoints": 0,
-    "temporaryHitPoints": 7,
+    "temporaryHitPoints": 0,
     "currentXp": 0,
     "alignmentId": 3,
     "lifestyleId": null,
@@ -1999,7 +1999,7 @@
         "currency": null
       }
     ],
-    "currencies": { "cp": 0, "sp": 0, "gp": 30, "ep": 0, "pp": 0 },
+    "currencies": { "cp": 0, "sp": 0, "gp": 29, "ep": 0, "pp": 0 },
     "classes": [
       {
         "id": 95770444,
@@ -3110,7 +3110,7 @@
     "deathSaves": { "failCount": null, "successCount": null, "isStabilized": false },
     "adjustmentXp": null,
     "spellSlots": [
-      { "level": 1, "used": 3, "available": 0 },
+      { "level": 1, "used": 0, "available": 0 },
       { "level": 2, "used": 0, "available": 0 },
       { "level": 3, "used": 0, "available": 0 },
       { "level": 4, "used": 0, "available": 0 },
@@ -3502,7 +3502,7 @@
             "name": null,
             "statModifierUsesId": null,
             "resetType": 2,
-            "numberUsed": 1,
+            "numberUsed": 0,
             "minNumberConsumed": 1,
             "maxNumberConsumed": 1,
             "maxUses": 1,
@@ -5636,7 +5636,7 @@
           "characterId": 71559602,
           "characterName": "Ruffle Manfaers",
           "characterUrl": "/profile/jotynas_saloris_nekrojinn/characters/71559602",
-          "avatarUrl": "https://www.dndbeyond.com/avatars/25044/673/1581111423-71559602.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
+          "avatarUrl": "https://www.dndbeyond.com/avatars/27028/476/1581111423-71559602.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
           "privacyType": 3,
           "campaignId": null,
           "isAssigned": true
@@ -5647,7 +5647,7 @@
           "characterId": 71560080,
           "characterName": "Jassin Highwind",
           "characterUrl": "/profile/Yer0c/characters/71560080",
-          "avatarUrl": null,
+          "avatarUrl": "https://www.dndbeyond.com/avatars/27028/464/1581111423-71560080.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
           "privacyType": 3,
           "campaignId": null,
           "isAssigned": true
@@ -5658,7 +5658,7 @@
           "characterId": 71562753,
           "characterName": "Nova Beren",
           "characterUrl": "/profile/gamel/characters/71562753",
-          "avatarUrl": "https://www.dndbeyond.com/avatars/25195/217/1581111423-71562753.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
+          "avatarUrl": "https://www.dndbeyond.com/avatars/27028/473/1581111423-71562753.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
           "privacyType": 3,
           "campaignId": null,
           "isAssigned": true
@@ -5669,7 +5669,7 @@
           "characterId": 71942288,
           "characterName": "Vercey Whispermouse",
           "characterUrl": "/profile/Ametolie/characters/71942288",
-          "avatarUrl": "https://www.dndbeyond.com/avatars/25474/451/1581111423-71942288.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
+          "avatarUrl": "https://www.dndbeyond.com/avatars/27028/470/1581111423-71942288.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
           "privacyType": 3,
           "campaignId": null,
           "isAssigned": true
@@ -5680,7 +5680,7 @@
           "characterId": 72209867,
           "characterName": "The Bird",
           "characterUrl": "/profile/AllBeesNoKnees/characters/72209867",
-          "avatarUrl": "https://www.dndbeyond.com/avatars/17/465/636377891214338261.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
+          "avatarUrl": "https://www.dndbeyond.com/avatars/27028/461/1581111423-72209867.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
           "privacyType": 3,
           "campaignId": null,
           "isAssigned": true
@@ -5703,7 +5703,7 @@
       }
     ],
     "optionalClassFeatures": [],
-    "dateModified": "2022-07-15T21:10:18.807Z",
+    "dateModified": "2022-07-17T02:00:56.003Z",
     "providedFrom": "storage"
   },
   "pagination": null

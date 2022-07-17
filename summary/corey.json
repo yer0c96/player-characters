@@ -60,6 +60,7 @@
   ],
   "inventory": [
     "Backpack",
+    "Ball Bearings (bag of 1,000)",
     "Bedroll",
     "Blanket",
     "Butterfly Sword",
@@ -74,8 +75,8 @@
     "Torch",
     "Waterskin"
   ],
-  "currencies": { "cp": 0, "sp": 0, "gp": 85, "ep": 0, "pp": 0 },
-  "money": 85,
+  "currencies": { "cp": 0, "sp": 0, "gp": 75, "ep": 0, "pp": 0 },
+  "money": 75,
   "notes": {
     "personalPossessions": "A scroll case stuffed full of notes from your studies or prayers"
   }

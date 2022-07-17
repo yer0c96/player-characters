@@ -9,7 +9,7 @@
     "wisdom": 15,
     "charisma": 10
   },
-  "hitPoints": { "base": 14, "current": 11, "temp": 0 },
+  "hitPoints": { "base": 14, "current": 14, "temp": 0 },
   "traits": {
     "personalityTraits": "I feel far more comfortable around animals than people.\nI have a lesson for every situation, drawn from observing nature.",
     "ideals": "Change. Life is like the seasons, in constant change, and we must change with it. (Chaotic)",
@@ -30,9 +30,10 @@
     "Dissonant Whispers",
     "Fire Bolt",
     "Friends",
+    "Gust of Wind",
     "Mind Sliver",
-    "Sword Burst",
-    "Thunderwave"
+    "Spider Climb",
+    "Sword Burst"
   ],
   "actions": ["Convert Sorcery Points", "Sorcery Points", "Telepathic Speech"],
   "modifiers": [
@@ -62,6 +63,7 @@
     "Bedroll",
     "Blanket",
     "Clothes, Traveler's",
+    "Lantern, Hooded",
     "Mess Kit",
     "Potion of Healing",
     "Rations (1 day)",

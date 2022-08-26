@@ -22,12 +22,14 @@
   "feats": [],
   "spells": [
     "Bless",
+    "Ceremony",
+    "Enhance Ability",
     "Guidance",
     "Guiding Bolt",
     "Healing Word",
     "Light",
     "Sacred Flame",
-    "Sanctuary",
+    "Spiritual Weapon",
     "Toll the Dead"
   ],
   "actions": [
@@ -85,5 +87,5 @@
   ],
   "currencies": { "cp": 0, "sp": 0, "gp": 29, "ep": 0, "pp": 0 },
   "money": 29,
-  "notes": { "personalPossessions": "a prayer book\n5 sticks of incense" }
+  "notes": { "allies": "", "personalPossessions": "a prayer book\n5 sticks of incense" }
 }

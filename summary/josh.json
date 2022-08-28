@@ -1,5 +1,5 @@
 {
-  "name": "The Bird",
+  "name": "Tenebrae",
   "classes": ["Level 3 Sorcerer | Aberrant Mind"],
   "stats": {
     "strength": 8,
@@ -9,7 +9,7 @@
     "wisdom": 15,
     "charisma": 10
   },
-  "hitPoints": { "base": 14, "current": 14, "temp": 0 },
+  "hitPoints": { "base": 14, "current": 14, "temp": 6 },
   "traits": {
     "personalityTraits": "I feel far more comfortable around animals than people.\nI have a lesson for every situation, drawn from observing nature.",
     "ideals": "Change. Life is like the seasons, in constant change, and we must change with it. (Chaotic)",

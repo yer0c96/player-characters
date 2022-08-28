@@ -73,7 +73,7 @@
         "decorationKey": "440"
       }
     },
-    "name": "The Bird",
+    "name": "Tenebrae",
     "socialName": null,
     "gender": "Male",
     "faith": "",
@@ -88,7 +88,7 @@
     "bonusHitPoints": null,
     "overrideHitPoints": null,
     "removedHitPoints": 0,
-    "temporaryHitPoints": 0,
+    "temporaryHitPoints": 6,
     "currentXp": 0,
     "alignmentId": 3,
     "lifestyleId": 4,
@@ -3545,7 +3545,9 @@
             { "id": 5197, "label": "Naush", "description": null },
             { "id": 5198, "label": "Marquesian", "description": null },
             { "id": 5199, "label": "Zemnian", "description": null },
-            { "id": 5206, "label": "Leonin", "description": null }
+            { "id": 5206, "label": "Leonin", "description": null },
+            { "id": 5928, "label": "Hadozee", "description": null },
+            { "id": 5929, "label": "Thri-kreen", "description": null }
           ],
           "optionIds": []
         }
@@ -5096,6 +5098,15 @@
         "cost": null,
         "quantity": 1,
         "notes": "Religious symbol of unknown origin"
+      },
+      {
+        "id": 13655505,
+        "name": "Clove of Garlic",
+        "description": "Blehhhh",
+        "weight": null,
+        "cost": null,
+        "quantity": 2,
+        "notes": null
       }
     ],
     "campaign": {
@@ -5155,7 +5166,7 @@
           "userId": 112947280,
           "username": "AllBeesNoKnees",
           "characterId": 72209867,
-          "characterName": "The Bird",
+          "characterName": "Tenebrae",
           "characterUrl": "/profile/AllBeesNoKnees/characters/72209867",
           "avatarUrl": "https://www.dndbeyond.com/avatars/27028/461/1581111423-72209867.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
           "privacyType": 3,
@@ -5167,7 +5178,7 @@
     "creatures": [],
     "optionalOrigins": [],
     "optionalClassFeatures": [],
-    "dateModified": "2022-07-17T02:00:47.797Z",
+    "dateModified": "2022-08-28T01:07:55.237Z",
     "providedFrom": "storage"
   },
   "pagination": null

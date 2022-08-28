@@ -3,10 +3,10 @@
     ["Level 3 Sorcerer | Aberrant Mind"],
     ["Level 3 Monk | Way of the Astral Self"],
     ["Level 3 Paladin | Oath of Redemption"],
-    ["Level 3 Cleric | Twilight Domain"],
+    ["Level 4 Cleric | Twilight Domain"],
     ["Level 3 Bard | College of Spirits"]
   ],
-  "money": 216.13,
+  "money": 239.99,
   "inventory": [
     "Alms Box",
     "Amulet",
@@ -58,6 +58,8 @@
     "Potion of Healing",
     "Potion of Healing",
     "Potion of Healing",
+    "Potion of Healing (Greater)",
+    "Potion of Healing (Greater)",
     "Rations (1 day)",
     "Rations (1 day)",
     "Rations (1 day)",

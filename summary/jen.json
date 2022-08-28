@@ -9,7 +9,7 @@
     "wisdom": 12,
     "charisma": 15
   },
-  "hitPoints": { "base": 18, "current": 18, "temp": 0 },
+  "hitPoints": { "base": 18, "current": 18, "temp": 5 },
   "traits": {
     "personalityTraits": "I don’t run from evil. Evil runs from me.\nI spend money freely and live life to the fullest, knowing that tomorrow I might die.",
     "ideals": "I kill monsters to make the world a safer place, and to exorcise my own demons. (Good)",
@@ -43,6 +43,7 @@
     "Bonus: Charisma Score",
     "Bonus: Armor Class",
     "Bonus: Saving Throws",
+    "Bonus: Hit Points",
     "Expertise: Arcana",
     "Expertise: Perception",
     "Half Proficiency: Ability Checks",
@@ -85,6 +86,8 @@
     "Manacles",
     "Mirror, Steel",
     "Oil (flask)",
+    "Potion of Healing (Greater)",
+    "Potion of Healing (Greater)",
     "Rations (1 day)",
     "Rope, Hempen (50 feet)",
     "Scroll: Bless",
@@ -97,10 +100,10 @@
     "Whip",
     "Whip"
   ],
-  "currencies": { "cp": 0, "sp": 0, "gp": 73, "ep": 0, "pp": 0 },
-  "money": 73,
+  "currencies": { "cp": 0, "sp": 0, "gp": 98, "ep": 0, "pp": 0 },
+  "money": 98,
   "notes": {
-    "personalPossessions": "Deed of house\nDeed of Windmill\nWill of Durst, Gustav and Elizabeth\n\n\n\na silver coin",
+    "personalPossessions": "Deed of house\nDeed of Windmill\nWill of Durst, Gustav and Elizabeth\n\n\n\na silver coin\nbulb of garlic",
     "organizations": ""
   }
 }

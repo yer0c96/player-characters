@@ -88,10 +88,10 @@
     "bonusHitPoints": null,
     "overrideHitPoints": null,
     "removedHitPoints": 0,
-    "temporaryHitPoints": 0,
+    "temporaryHitPoints": 8,
     "currentXp": 0,
     "alignmentId": null,
-    "lifestyleId": null,
+    "lifestyleId": 3,
     "stats": [
       { "id": 1, "name": null, "value": 14 },
       { "id": 2, "name": null, "value": 12 },
@@ -703,7 +703,7 @@
           "weightMultiplier": 1,
           "capacity": null,
           "capacityWeight": 0,
-          "type": "",
+          "type": "Shield",
           "description": "<p>A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.</p>",
           "canAttune": false,
           "attunementDescription": null,
@@ -777,7 +777,7 @@
           "weightMultiplier": 1,
           "capacity": null,
           "capacityWeight": 0,
-          "type": "",
+          "type": "Heavy Armor",
           "description": "<p>Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.</p>",
           "canAttune": false,
           "attunementDescription": null,
@@ -1413,7 +1413,7 @@
           "isPack": false,
           "tags": ["Healing", "Combat", "Consumable"],
           "grantedModifiers": [],
-          "subType": null,
+          "subType": "Potion",
           "isConsumable": true,
           "weaponBehaviors": [],
           "baseItemId": null,
@@ -1899,7 +1899,7 @@
         "currency": null
       }
     ],
-    "currencies": { "cp": 0, "sp": 0, "gp": 12, "ep": 0, "pp": 0 },
+    "currencies": { "cp": 100, "sp": 19, "gp": 9, "ep": 0, "pp": 0 },
     "classes": [
       {
         "id": 94972015,
@@ -3289,6 +3289,15 @@
         "valueTypeId": "1439493548",
         "contextId": null,
         "contextTypeId": null
+      },
+      {
+        "typeId": 9,
+        "value": "laced with garlic",
+        "notes": null,
+        "valueId": "785191928",
+        "valueTypeId": "1439493548",
+        "contextId": null,
+        "contextTypeId": null
       }
     ],
     "conditions": [],
@@ -4053,7 +4062,8 @@
             { "id": 4345, "label": "Vehicles (Land)", "description": null },
             { "id": 4346, "label": "Vehicles (Water)", "description": null },
             { "id": 4377, "label": "Dragonchess Set", "description": null },
-            { "id": 4378, "label": "Three-Dragon Ante Set", "description": null }
+            { "id": 4378, "label": "Three-Dragon Ante Set", "description": null },
+            { "id": 5888, "label": "Vehicles (Space)", "description": null }
           ],
           "optionIds": []
         }
@@ -4074,7 +4084,7 @@
             "name": null,
             "statModifierUsesId": 6,
             "resetType": 2,
-            "numberUsed": 1,
+            "numberUsed": 0,
             "minNumberConsumed": 1,
             "maxNumberConsumed": 1,
             "maxUses": 1,
@@ -4948,7 +4958,17 @@
       "condition": []
     },
     "classSpells": [{ "entityTypeId": 1446578651, "characterClassId": 94972015, "spells": [] }],
-    "customItems": [],
+    "customItems": [
+      {
+        "id": 13657719,
+        "name": "Wolf Tooth",
+        "description": null,
+        "weight": 1.0,
+        "cost": null,
+        "quantity": 5,
+        "notes": null
+      }
+    ],
     "campaign": {
       "id": 778968,
       "name": "The Curse of Strahd",
@@ -4986,7 +5006,7 @@
           "characterId": 71562753,
           "characterName": "Nova Beren",
           "characterUrl": "/profile/gamel/characters/71562753",
-          "avatarUrl": "https://www.dndbeyond.com/avatars/27028/473/1581111423-71562753.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
+          "avatarUrl": "https://www.dndbeyond.com/avatars/28407/681/1581111423-71562753.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
           "privacyType": 3,
           "campaignId": null,
           "isAssigned": true
@@ -5006,7 +5026,7 @@
           "userId": 112947280,
           "username": "AllBeesNoKnees",
           "characterId": 72209867,
-          "characterName": "The Bird",
+          "characterName": "Tenebrae",
           "characterUrl": "/profile/AllBeesNoKnees/characters/72209867",
           "avatarUrl": "https://www.dndbeyond.com/avatars/27028/461/1581111423-72209867.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
           "privacyType": 3,
@@ -5018,7 +5038,7 @@
     "creatures": [],
     "optionalOrigins": [],
     "optionalClassFeatures": [],
-    "dateModified": "2022-07-17T00:23:21.703Z",
+    "dateModified": "2022-08-28T00:13:22.49Z",
     "providedFrom": "storage"
   },
   "pagination": null

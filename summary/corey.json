@@ -9,7 +9,7 @@
     "wisdom": 15,
     "charisma": 9
   },
-  "hitPoints": { "base": 13, "current": 13, "temp": 0 },
+  "hitPoints": { "base": 13, "current": 6, "temp": 9 },
   "traits": {
     "personalityTraits": "I feel tremendous empathy for all who suffer.",
     "ideals": "Greater Good. My gifts are meant to be shared with all, not used for my own benefit. (Good)",
@@ -75,8 +75,8 @@
     "Torch",
     "Waterskin"
   ],
-  "currencies": { "cp": 0, "sp": 0, "gp": 75, "ep": 0, "pp": 0 },
-  "money": 75,
+  "currencies": { "cp": 96, "sp": 10, "gp": 72, "ep": 0, "pp": 0 },
+  "money": 73.96,
   "notes": {
     "personalPossessions": "A scroll case stuffed full of notes from your studies or prayers"
   }

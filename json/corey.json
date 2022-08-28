@@ -87,8 +87,8 @@
     "baseHitPoints": 13,
     "bonusHitPoints": null,
     "overrideHitPoints": null,
-    "removedHitPoints": 0,
-    "temporaryHitPoints": 0,
+    "removedHitPoints": 7,
+    "temporaryHitPoints": 9,
     "currentXp": 0,
     "alignmentId": 2,
     "lifestyleId": 6,
@@ -1687,7 +1687,7 @@
         "currency": null
       }
     ],
-    "currencies": { "cp": 0, "sp": 0, "gp": 75, "ep": 0, "pp": 0 },
+    "currencies": { "cp": 96, "sp": 10, "gp": 72, "ep": 0, "pp": 0 },
     "classes": [
       {
         "id": 96994691,
@@ -3672,7 +3672,9 @@
             { "id": 5197, "label": "Naush", "description": null },
             { "id": 5198, "label": "Marquesian", "description": null },
             { "id": 5199, "label": "Zemnian", "description": null },
-            { "id": 5206, "label": "Leonin", "description": null }
+            { "id": 5206, "label": "Leonin", "description": null },
+            { "id": 5928, "label": "Hadozee", "description": null },
+            { "id": 5929, "label": "Thri-kreen", "description": null }
           ],
           "optionIds": []
         }
@@ -3919,7 +3921,8 @@
             { "id": 4345, "label": "Vehicles (Land)", "description": null },
             { "id": 4346, "label": "Vehicles (Water)", "description": null },
             { "id": 4377, "label": "Dragonchess Set", "description": null },
-            { "id": 4378, "label": "Three-Dragon Ante Set", "description": null }
+            { "id": 4378, "label": "Three-Dragon Ante Set", "description": null },
+            { "id": 5888, "label": "Vehicles (Space)", "description": null }
           ],
           "optionIds": []
         },
@@ -3964,7 +3967,9 @@
             { "id": 5197, "label": "Naush", "description": null },
             { "id": 5198, "label": "Marquesian", "description": null },
             { "id": 5199, "label": "Zemnian", "description": null },
-            { "id": 5206, "label": "Leonin", "description": null }
+            { "id": 5206, "label": "Leonin", "description": null },
+            { "id": 5928, "label": "Hadozee", "description": null },
+            { "id": 5929, "label": "Thri-kreen", "description": null }
           ],
           "optionIds": []
         }
@@ -4953,7 +4958,17 @@
       "condition": []
     },
     "classSpells": [{ "entityTypeId": 1446578651, "characterClassId": 96994691, "spells": [] }],
-    "customItems": [],
+    "customItems": [
+      {
+        "id": 13655494,
+        "name": "Garlic bulb",
+        "description": null,
+        "weight": null,
+        "cost": null,
+        "quantity": 3,
+        "notes": null
+      }
+    ],
     "campaign": {
       "id": 778968,
       "name": "The Curse of Strahd",
@@ -5023,7 +5038,7 @@
     "creatures": [],
     "optionalOrigins": [],
     "optionalClassFeatures": [],
-    "dateModified": "2022-07-17T02:00:54.127Z",
+    "dateModified": "2022-08-28T01:06:57.937Z",
     "providedFrom": "storage"
   },
   "pagination": null

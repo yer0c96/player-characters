@@ -14,7 +14,7 @@
     "personalityTraits": "I feel tremendous empathy for all who suffer.",
     "ideals": "Greater Good. My gifts are meant to be shared with all, not used for my own benefit. (Good)",
     "bonds": "I’m still seeking the enlightenment I pursued in my seclusion, and it still eludes me.",
-    "flaws": "Now that I’ve returned to the world, I enjoy its delights a little too much."
+    "flaws": "Now that I’ve returned to the world, I enjoy its delights a little too much.\n\nBeing followed chills my blood.\n\nFear of The Seer"
   },
   "bonusStats": {},
   "overrideStats": {},
@@ -78,6 +78,7 @@
   "currencies": { "cp": 96, "sp": 10, "gp": 72, "ep": 0, "pp": 0 },
   "money": 73.96,
   "notes": {
-    "personalPossessions": "A scroll case stuffed full of notes from your studies or prayers"
+    "personalPossessions": "A scroll case stuffed full of notes from your studies or prayers",
+    "otherNotes": "Represented by The Marionette"
   }
 }

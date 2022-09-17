@@ -10,7 +10,9 @@
     "charisma": 15
   },
   "hitPoints": { "base": 22, "current": 22, "temp": 8 },
-  "traits": {},
+  "traits": {
+    "flaws": "I can’t be comfortable around creatures larger than I am.\n\nFear of The Executioner."
+  },
   "bonusStats": {},
   "overrideStats": {},
   "background": "Soldier",
@@ -71,5 +73,5 @@
   ],
   "currencies": { "cp": 100, "sp": 19, "gp": 9, "ep": 0, "pp": 0 },
   "money": 11.9,
-  "notes": {}
+  "notes": { "otherNotes": "Represented by The Beast" }
 }

@@ -1,6 +1,6 @@
 {
   "name": "Vercey Whispermouse",
-  "classes": ["Level 3 Bard | College of Spirits"],
+  "classes": ["Level 4 Bard | College of Spirits"],
   "stats": {
     "strength": 8,
     "dexterity": 14,
@@ -9,21 +9,60 @@
     "wisdom": 12,
     "charisma": 15
   },
-  "hitPoints": { "base": 18, "current": 18, "temp": 5 },
+  "hitPoints": { "base": 23, "current": 23, "temp": 0 },
   "traits": {
     "personalityTraits": "I don’t run from evil. Evil runs from me.\nI spend money freely and live life to the fullest, knowing that tomorrow I might die.",
     "ideals": "I kill monsters to make the world a safer place, and to exorcise my own demons. (Good)",
     "bonds": "A terrible guilt consumes me. I hope that I can find redemption through my actions.",
-    "flaws": "I feel no compassion for the dead. They’re the lucky ones."
+    "flaws": "I feel no compassion for the dead. They’re the lucky ones.\n\nI can’t stand heights.\n\nFear of The Broken One"
   },
   "bonusStats": {},
   "overrideStats": {},
   "background": "Haunted One",
-  "feats": [],
+  "feats": [
+    {
+      "componentTypeId": 12168134,
+      "componentId": 87,
+      "definition": {
+        "id": 46,
+        "entityTypeId": 1088085227,
+        "definitionKey": "1088085227:46",
+        "name": "Spell Sniper (Bard, Sorcerer, Warlock)",
+        "description": "<p>You have learned techniques to enhance your attacks with certain kinds of spells, gaining the following benefits:</p>\r\n<ul>\r\n<li>When you cast a spell that requires you to make an attack roll, the spell's range is doubled.</li>\r\n<li>Your ranged spell attacks ignore half cover and three-quarters cover.</li>\r\n<li>You learn one cantrip that requires an attack roll. Choose the cantrip from the bard, sorcerer, or warlock spell list. Your spellcasting ability for this cantrip is Charisma.</li>\r\n</ul>",
+        "snippet": "When you cast a spell that requires you to make an attack roll, the spell's range is doubled. Your ranged spell attacks ignore half cover and three-quarters cover. You learn one cantrip that requires an attack roll from your chosen class spell list (CHA is your spellcasting ability for it).",
+        "activation": { "activationTime": null, "activationType": null },
+        "sourceId": null,
+        "sourcePageNumber": null,
+        "creatureRules": [],
+        "prerequisites": [
+          {
+            "description": "The ability to cast at least one spell",
+            "prerequisiteMappings": [
+              {
+                "id": 34,
+                "entityId": null,
+                "entityTypeId": null,
+                "type": "custom-value",
+                "subType": "the-ability-to-cast-at-least-one-spell",
+                "value": null,
+                "friendlyTypeName": "Custom Value",
+                "friendlySubTypeName": "The ability to cast at least one spell"
+              }
+            ]
+          }
+        ],
+        "isHomebrew": false,
+        "sources": [{ "sourceId": 2, "pageNumber": 170, "sourceType": 1 }],
+        "spellListIds": []
+      },
+      "definitionId": 0
+    }
+  ],
   "spells": [
     "Blade Ward",
     "Cure Wounds",
     "Detect Thoughts",
+    "Eldritch Blast",
     "Guidance",
     "Heroism",
     "Hideous Laughter",
@@ -41,9 +80,11 @@
     "Advantage: Saving Throws",
     "Bonus: Dexterity Score",
     "Bonus: Charisma Score",
+    "Bonus: Choose an Ability Score",
     "Bonus: Armor Class",
     "Bonus: Saving Throws",
     "Bonus: Hit Points",
+    "Bonus: Spell Attack Range Multiplier",
     "Expertise: Arcana",
     "Expertise: Perception",
     "Half Proficiency: Ability Checks",
@@ -104,6 +145,7 @@
   "money": 98,
   "notes": {
     "personalPossessions": "Deed of house\nDeed of Windmill\nWill of Durst, Gustav and Elizabeth\n\n\n\na silver coin\nbulb of garlic",
-    "organizations": ""
+    "organizations": "",
+    "otherNotes": "Represented by The Raven"
   }
 }

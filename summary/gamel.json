@@ -1,6 +1,6 @@
 {
   "name": "Nova Beren",
-  "classes": ["Level 3 Cleric | Twilight Domain"],
+  "classes": ["Level 4 Cleric | Twilight Domain"],
   "stats": {
     "strength": 14,
     "dexterity": 8,
@@ -9,17 +9,39 @@
     "wisdom": 15,
     "charisma": 12
   },
-  "hitPoints": { "base": 18, "current": 18, "temp": 0 },
+  "hitPoints": { "base": 23, "current": 23, "temp": 0 },
   "traits": {
     "personalityTraits": "I’ve enjoyed fine food, drink, and high society among my temple’s elite. Rough living grates on me.\nI’ve spent so long in the temple that I have little practical experience dealing with people in the outside world.",
     "ideals": "Change. We must help bring about the changes the gods are constantly working in the world. (Chaotic)",
     "bonds": "I would die to recover an ancient relic of my faith that was lost long ago.",
-    "flaws": "My piety sometimes leads me to blindly trust those that profess faith in my god."
+    "flaws": "My piety sometimes leads me to blindly trust those that profess faith in my god.\n\nI am scared of harm coming to those that don't deserve it.\n\nFear of The Ghost."
   },
   "bonusStats": {},
   "overrideStats": {},
   "background": "Acolyte",
-  "feats": [],
+  "feats": [
+    {
+      "componentTypeId": 12168134,
+      "componentId": 111,
+      "definition": {
+        "id": 456476,
+        "entityTypeId": 1088085227,
+        "definitionKey": "1088085227:456476",
+        "name": "Skill Expert",
+        "description": "<p>You have honed your proficiency with particular skills, granting you the following benefits:</p>\r\n<ul>\r\n<li>Increase one ability score of your choice by 1, to a maximum of 20.</li>\r\n<li>You gain proficiency in one skill of your choice.</li>\r\n<li>Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn’t already benefiting from a feature, such as Expertise, that doubles your proficiency bonus.</li>\r\n</ul>",
+        "snippet": "You gain proficiency in a skill. You also gain expertise in a skill which you are already proficient in.",
+        "activation": { "activationTime": null, "activationType": null },
+        "sourceId": null,
+        "sourcePageNumber": null,
+        "creatureRules": [],
+        "prerequisites": [],
+        "isHomebrew": false,
+        "sources": [{ "sourceId": 67, "pageNumber": 80, "sourceType": 1 }],
+        "spellListIds": []
+      },
+      "definitionId": 0
+    }
+  ],
   "spells": [
     "Bless",
     "Ceremony",
@@ -45,6 +67,8 @@
   "modifiers": [
     "Bonus: Wisdom Score",
     "Bonus: Constitution Score",
+    "Bonus: Choose an Ability Score",
+    "Expertise: Perception",
     "Language: Common",
     "Language: Celestial",
     "Language: Draconic",
@@ -61,6 +85,7 @@
     "Proficiency: Heavy Armor",
     "Proficiency: Perception",
     "Proficiency: Religion",
+    "Proficiency: Survival",
     "Resistance: Necrotic",
     "Resistance: Radiant",
     "Set: Subclass",
@@ -85,7 +110,11 @@
     "Warhammer",
     "Waterskin"
   ],
-  "currencies": { "cp": 0, "sp": 0, "gp": 29, "ep": 0, "pp": 0 },
+  "currencies": { "cp": 10, "sp": 9, "gp": 28, "ep": 0, "pp": 0 },
   "money": 29,
-  "notes": { "allies": "", "personalPossessions": "a prayer book\n5 sticks of incense" }
+  "notes": {
+    "allies": "",
+    "personalPossessions": "a prayer book\n5 sticks of incense",
+    "otherNotes": "Represented by The Darklord"
+  }
 }

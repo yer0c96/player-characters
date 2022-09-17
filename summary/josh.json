@@ -14,7 +14,7 @@
     "personalityTraits": "I feel far more comfortable around animals than people.\nI have a lesson for every situation, drawn from observing nature.",
     "ideals": "Change. Life is like the seasons, in constant change, and we must change with it. (Chaotic)",
     "bonds": "I will bring terrible wrath down on the evildoers who destroyed my homeland.",
-    "flaws": "I remember every insult I’ve received and nurse a silent resentment toward anyone who’s ever wronged me."
+    "flaws": "I remember every insult I’ve received and nurse a silent resentment toward anyone who’s ever wronged me.\n\nI’m terrified of a particular kind of animal.\n\nFear of The Artifact"
   },
   "bonusStats": {},
   "overrideStats": {},
@@ -78,6 +78,7 @@
     "allies": "Lancelot",
     "personalPossessions": "Sack of feathers",
     "organizations": "",
-    "backstory": ""
+    "backstory": "",
+    "otherNotes": "Represented by The Horseman"
   }
 }

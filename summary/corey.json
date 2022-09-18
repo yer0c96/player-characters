@@ -1,6 +1,6 @@
 {
   "name": "Jassin Highwind",
-  "classes": ["Level 3 Monk | Way of the Astral Self"],
+  "classes": ["Level 4 Monk | Way of the Astral Self"],
   "stats": {
     "strength": 11,
     "dexterity": 15,
@@ -9,7 +9,7 @@
     "wisdom": 15,
     "charisma": 9
   },
-  "hitPoints": { "base": 13, "current": 6, "temp": 9 },
+  "hitPoints": { "base": 23, "current": 16, "temp": 9 },
   "traits": {
     "personalityTraits": "I feel tremendous empathy for all who suffer.",
     "ideals": "Greater Good. My gifts are meant to be shared with all, not used for my own benefit. (Good)",
@@ -19,7 +19,29 @@
   "bonusStats": {},
   "overrideStats": {},
   "background": "Hermit",
-  "feats": [],
+  "feats": [
+    {
+      "componentTypeId": 12168134,
+      "componentId": 232,
+      "definition": {
+        "id": 37,
+        "entityTypeId": 1088085227,
+        "definitionKey": "1088085227:37",
+        "name": "Observant",
+        "description": "<p>Quick to notice details of your environment, you gain the following benefits:</p>\r\n<ul>\r\n<li>Increase your Intelligence or Wisdom score by 1, to a maximum of 20.</li>\r\n<li>If you can see a creature's mouth while it is speaking a language you understand, you can interpret what it's saying by reading its lips.</li>\r\n<li>You have a +5 bonus to your passive Wisdom (Perception) and passive Intelligence (Investigation) scores.</li>\r\n</ul>",
+        "snippet": "Increase your INT or WIS score by 1. If you can see a creature's mouth while it is speaking a language you understand, you can interpret what it's saying by reading its lips. You have a +5 bonus to your passive Perception and passive Investigation scores.",
+        "activation": { "activationTime": null, "activationType": null },
+        "sourceId": null,
+        "sourcePageNumber": null,
+        "creatureRules": [],
+        "prerequisites": [],
+        "isHomebrew": false,
+        "sources": [{ "sourceId": 2, "pageNumber": 168, "sourceType": 1 }],
+        "spellListIds": []
+      },
+      "definitionId": 0
+    }
+  ],
   "spells": [],
   "actions": [
     "Arms of the Astral Self (DEX/STR)",
@@ -31,6 +53,8 @@
     "Ki Points",
     "Ki-Fueled Attack",
     "Patient Defense",
+    "Quickened Healing",
+    "Slow Fall",
     "Step of the Wind",
     "Unarmed Strike"
   ],
@@ -42,6 +66,9 @@
     "Bonus: Wisdom Score",
     "Bonus: Charisma Score",
     "Bonus: Unarmored Movement",
+    "Bonus: Choose an Ability Score",
+    "Bonus: Passive Perception",
+    "Bonus: Passive Investigation",
     "Language: Common",
     "Language: Elvish",
     "Language: Dwarvish",

@@ -84,7 +84,7 @@
     "height": "5'",
     "weight": 95,
     "inspiration": true,
-    "baseHitPoints": 14,
+    "baseHitPoints": 18,
     "bonusHitPoints": null,
     "overrideHitPoints": null,
     "removedHitPoints": 0,
@@ -683,7 +683,10 @@
           "longRange": null,
           "isMonkWeapon": false,
           "levelInfusionGranted": null,
-          "sources": [],
+          "sources": [
+            { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+            { "sourceId": 2, "pageNumber": null, "sourceType": 1 }
+          ],
           "armorTypeId": null,
           "gearTypeId": 1,
           "groupedId": null,
@@ -758,7 +761,10 @@
           "longRange": null,
           "isMonkWeapon": false,
           "levelInfusionGranted": null,
-          "sources": [],
+          "sources": [
+            { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+            { "sourceId": 2, "pageNumber": null, "sourceType": 1 }
+          ],
           "armorTypeId": null,
           "gearTypeId": 1,
           "groupedId": null,
@@ -833,7 +839,10 @@
           "longRange": null,
           "isMonkWeapon": false,
           "levelInfusionGranted": null,
-          "sources": [],
+          "sources": [
+            { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+            { "sourceId": 2, "pageNumber": null, "sourceType": 1 }
+          ],
           "armorTypeId": null,
           "gearTypeId": 1,
           "groupedId": null,
@@ -935,7 +944,10 @@
           "longRange": null,
           "isMonkWeapon": false,
           "levelInfusionGranted": null,
-          "sources": [],
+          "sources": [
+            { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+            { "sourceId": 2, "pageNumber": null, "sourceType": 1 }
+          ],
           "armorTypeId": null,
           "gearTypeId": 1,
           "groupedId": null,
@@ -1010,7 +1022,10 @@
           "longRange": null,
           "isMonkWeapon": false,
           "levelInfusionGranted": null,
-          "sources": [],
+          "sources": [
+            { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+            { "sourceId": 2, "pageNumber": null, "sourceType": 1 }
+          ],
           "armorTypeId": null,
           "gearTypeId": 1,
           "groupedId": null,
@@ -1085,7 +1100,10 @@
           "longRange": null,
           "isMonkWeapon": false,
           "levelInfusionGranted": null,
-          "sources": [],
+          "sources": [
+            { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+            { "sourceId": 2, "pageNumber": null, "sourceType": 1 }
+          ],
           "armorTypeId": null,
           "gearTypeId": 1,
           "groupedId": null,
@@ -1160,7 +1178,10 @@
           "longRange": null,
           "isMonkWeapon": false,
           "levelInfusionGranted": null,
-          "sources": [],
+          "sources": [
+            { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+            { "sourceId": 2, "pageNumber": null, "sourceType": 1 }
+          ],
           "armorTypeId": null,
           "gearTypeId": 1,
           "groupedId": null,
@@ -1235,7 +1256,10 @@
           "longRange": null,
           "isMonkWeapon": false,
           "levelInfusionGranted": null,
-          "sources": [],
+          "sources": [
+            { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+            { "sourceId": 2, "pageNumber": null, "sourceType": 1 }
+          ],
           "armorTypeId": null,
           "gearTypeId": 6,
           "groupedId": null,
@@ -1310,7 +1334,10 @@
           "longRange": null,
           "isMonkWeapon": false,
           "levelInfusionGranted": null,
-          "sources": [],
+          "sources": [
+            { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+            { "sourceId": 2, "pageNumber": null, "sourceType": 1 }
+          ],
           "armorTypeId": null,
           "gearTypeId": 1,
           "groupedId": null,
@@ -1385,7 +1412,10 @@
           "longRange": null,
           "isMonkWeapon": false,
           "levelInfusionGranted": null,
-          "sources": [],
+          "sources": [
+            { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+            { "sourceId": 2, "pageNumber": null, "sourceType": 1 }
+          ],
           "armorTypeId": null,
           "gearTypeId": 1,
           "groupedId": null,
@@ -1460,7 +1490,10 @@
           "longRange": null,
           "isMonkWeapon": false,
           "levelInfusionGranted": null,
-          "sources": [],
+          "sources": [
+            { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+            { "sourceId": 2, "pageNumber": null, "sourceType": 1 }
+          ],
           "armorTypeId": null,
           "gearTypeId": 1,
           "groupedId": null,
@@ -1535,7 +1568,10 @@
           "longRange": null,
           "isMonkWeapon": false,
           "levelInfusionGranted": null,
-          "sources": [],
+          "sources": [
+            { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+            { "sourceId": 2, "pageNumber": null, "sourceType": 1 }
+          ],
           "armorTypeId": null,
           "gearTypeId": 1,
           "groupedId": null,
@@ -1564,7 +1600,7 @@
       {
         "id": 95903657,
         "entityTypeId": 1446578651,
-        "level": 3,
+        "level": 4,
         "isStartingClass": true,
         "hitDiceUsed": 0,
         "definitionId": 0,
@@ -2489,7 +2525,45 @@
         ]
       }
     ],
-    "feats": [],
+    "feats": [
+      {
+        "componentTypeId": 12168134,
+        "componentId": 318,
+        "definition": {
+          "id": 46,
+          "entityTypeId": 1088085227,
+          "definitionKey": "1088085227:46",
+          "name": "Spell Sniper (Bard, Sorcerer, Warlock)",
+          "description": "<p>You have learned techniques to enhance your attacks with certain kinds of spells, gaining the following benefits:</p>\r\n<ul>\r\n<li>When you cast a spell that requires you to make an attack roll, the spell's range is doubled.</li>\r\n<li>Your ranged spell attacks ignore half cover and three-quarters cover.</li>\r\n<li>You learn one cantrip that requires an attack roll. Choose the cantrip from the bard, sorcerer, or warlock spell list. Your spellcasting ability for this cantrip is Charisma.</li>\r\n</ul>",
+          "snippet": "When you cast a spell that requires you to make an attack roll, the spell's range is doubled. Your ranged spell attacks ignore half cover and three-quarters cover. You learn one cantrip that requires an attack roll from your chosen class spell list (CHA is your spellcasting ability for it).",
+          "activation": { "activationTime": null, "activationType": null },
+          "sourceId": null,
+          "sourcePageNumber": null,
+          "creatureRules": [],
+          "prerequisites": [
+            {
+              "description": "The ability to cast at least one spell",
+              "prerequisiteMappings": [
+                {
+                  "id": 34,
+                  "entityId": null,
+                  "entityTypeId": null,
+                  "type": "custom-value",
+                  "subType": "the-ability-to-cast-at-least-one-spell",
+                  "value": null,
+                  "friendlyTypeName": "Custom Value",
+                  "friendlySubTypeName": "The ability to cast at least one spell"
+                }
+              ]
+            }
+          ],
+          "isHomebrew": false,
+          "sources": [{ "sourceId": 2, "pageNumber": 170, "sourceType": 1 }],
+          "spellListIds": []
+        },
+        "definitionId": 0
+      }
+    ],
     "customDefenseAdjustments": [],
     "customSenses": [],
     "customSpeeds": [],
@@ -3162,7 +3236,35 @@
       ],
       "background": null,
       "item": [],
-      "feat": []
+      "feat": [
+        {
+          "overrideSaveDc": null,
+          "limitedUse": null,
+          "id": null,
+          "entityTypeId": null,
+          "definition": null,
+          "definitionId": 0,
+          "prepared": false,
+          "countsAsKnownSpell": null,
+          "usesSpellSlot": false,
+          "castAtLevel": null,
+          "alwaysPrepared": false,
+          "restriction": null,
+          "spellCastingAbilityId": null,
+          "displayAsAttack": null,
+          "additionalDescription": null,
+          "castOnlyAsRitual": false,
+          "ritualCastingType": null,
+          "range": null,
+          "activation": null,
+          "baseLevelAtWill": false,
+          "atWillLimitedUseLevel": null,
+          "isSignatureSpell": null,
+          "componentId": 0,
+          "componentTypeId": 0,
+          "spellListId": null
+        }
+      ]
     },
     "options": { "race": [], "class": [], "background": null, "item": null, "feat": [] },
     "choices": {
@@ -3343,6 +3445,41 @@
               "description": "<p>When you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder.</p>"
             }
           ],
+          "optionIds": []
+        },
+        {
+          "componentId": 318,
+          "componentTypeId": 12168134,
+          "id": "1-318",
+          "parentChoiceId": null,
+          "type": 1,
+          "subType": null,
+          "optionValue": 696,
+          "label": null,
+          "isOptional": false,
+          "isInfinite": false,
+          "defaultSubtypes": [],
+          "displayOrder": null,
+          "options": [
+            { "id": 695, "label": "Ability Score Improvement", "description": null },
+            { "id": 696, "label": "Feat", "description": null }
+          ],
+          "optionIds": []
+        },
+        {
+          "componentId": 318,
+          "componentTypeId": 12168134,
+          "id": "6-318",
+          "parentChoiceId": "1-318",
+          "type": 6,
+          "subType": null,
+          "optionValue": 46,
+          "label": "Choose a Feat",
+          "isOptional": false,
+          "isInfinite": false,
+          "defaultSubtypes": [],
+          "displayOrder": null,
+          "options": [],
           "optionIds": []
         },
         {
@@ -3566,7 +3703,65 @@
         }
       ],
       "item": null,
-      "feat": [],
+      "feat": [
+        {
+          "componentId": 46,
+          "componentTypeId": 1088085227,
+          "id": "4-333",
+          "parentChoiceId": null,
+          "type": 4,
+          "subType": null,
+          "optionValue": null,
+          "label": "Choose a Spell",
+          "isOptional": false,
+          "isInfinite": false,
+          "defaultSubtypes": [],
+          "displayOrder": null,
+          "options": [
+            {
+              "id": 2026,
+              "label": "Chill Touch",
+              "description": "<p>You create a ghostly, skeletal hand in the space of a creature within range. Make a ranged spell attack against the creature to assail it with the chill of the grave. On a hit, the target takes 1d8 necrotic damage, and it can't regain hit points until the start of your next turn. Until then, the hand clings to the target.</p>\r\n<p>If you hit an undead target, it also has disadvantage on attack rolls against you until the end of your next turn.</p>\r\n<p>This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>"
+            },
+            {
+              "id": 2082,
+              "label": "Eldritch Blast",
+              "description": "<p>A beam of crackling energy streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 force damage.</p>\r\n<p>The spell creates more than one beam when you reach higher levels: two beams at 5th level, three beams at 11th level, and four beams at 17th level. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam.</p>"
+            },
+            {
+              "id": 2103,
+              "label": "Fire Bolt",
+              "description": "<p>You hurl a mote of fire at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 fire damage. A flammable object hit by this spell ignites if it isn't being worn or carried.</p>\r\n<p>This spell's damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</p>"
+            },
+            {
+              "id": 2226,
+              "label": "Ray of Frost",
+              "description": "<p>A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 cold damage, and its speed is reduced by 10 feet until the start of your next turn.</p>\r\n<p>The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>"
+            },
+            {
+              "id": 2250,
+              "label": "Shocking Grasp",
+              "description": "<p>Lightning springs from your hand to deliver a shock to a creature you try to touch. Make a melee spell attack against the target. You have advantage on the attack roll if the target is wearing armor made of metal. On a hit, the target takes 1d8 lightning damage, and it can't take reactions until the start of its next turn.</p>\r\n<p>The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>"
+            },
+            {
+              "id": 2391,
+              "label": "Magic Stone",
+              "description": "<p>You touch one to three pebbles and imbue them with magic. You or someone else can make a ranged spell attack with one of the pebbles by throwing it or hurling it with a sling. If thrown, it has a range of 60 feet. If someone else attacks with the pebble, that attacker adds your spellcasting ability modifier, not the attacker’s, to the attack roll. On a hit, the target takes bludgeoning damage equal to 1d6 + your spellcasting ability modifier. Hit or miss, the spell then ends on the stone.</p>\r\n<p>If you cast this spell again, the spell ends early on any pebbles still affected by it.</p>"
+            },
+            {
+              "id": 2410,
+              "label": "Booming Blade",
+              "description": "<p>You brandish the weapon used in the spell’s casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack’s normal effects and then becomes sheathed in booming energy until the start of your next turn. If the target willingly moves 5 feet or more before then, the target takes 1d8 thunder damage, and the spell ends.</p>\r\n<p>This spell’s damage increases when you reach certain levels. At 5th level, the melee attack deals an extra 1d8 thunder damage to the target on a hit, and the damage the target takes for moving increases to 2d8. Both damage rolls increase by 1d8 at 11th level (2d8 and 3d8) and again at 17th level (3d8 and 4d8).</p>"
+            },
+            {
+              "id": 2411,
+              "label": "Green-Flame Blade",
+              "description": "<p>You brandish the weapon used in the spell’s casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack’s normal effects, and you can cause green fire to leap from the target to a different creature of your choice that you can see within 5 feet of it. The second creature takes fire damage equal to your spellcasting ability modifier.</p>\r\n<p>This spell’s damage increases when you reach certain levels. At 5th level, the melee attack deals an extra 1d8 fire damage to the target on a hit, and the fire damage to the second creature increases to 1d8 + your spellcasting ability modifier. Both damage rolls increase by 1d8 at 11th level (2d8 and 2d8) and 17th level (3d8 and 3d8).</p>"
+            }
+          ],
+          "optionIds": []
+        }
+      ],
       "choiceDefinitions": []
     },
     "actions": {
@@ -3584,7 +3779,7 @@
             "numberUsed": 0,
             "minNumberConsumed": 1,
             "maxNumberConsumed": 1,
-            "maxUses": 3,
+            "maxUses": 4,
             "operator": 1,
             "useProficiencyBonus": false,
             "proficiencyBonusOperator": 1,
@@ -3845,6 +4040,52 @@
         }
       ],
       "class": [
+        {
+          "fixedValue": 1,
+          "id": "1759",
+          "entityId": null,
+          "entityTypeId": null,
+          "type": "bonus",
+          "subType": "choose-an-ability-score",
+          "dice": null,
+          "restriction": null,
+          "statId": null,
+          "requiresAttunement": false,
+          "duration": null,
+          "friendlyTypeName": "Bonus",
+          "friendlySubtypeName": "Choose an Ability Score",
+          "isGranted": true,
+          "bonusTypes": [],
+          "value": 1,
+          "availableToMulticlass": true,
+          "modifierTypeId": 1,
+          "modifierSubTypeId": 695,
+          "componentId": 318,
+          "componentTypeId": 12168134
+        },
+        {
+          "fixedValue": 1,
+          "id": "1836",
+          "entityId": null,
+          "entityTypeId": null,
+          "type": "bonus",
+          "subType": "choose-an-ability-score",
+          "dice": null,
+          "restriction": null,
+          "statId": null,
+          "requiresAttunement": false,
+          "duration": null,
+          "friendlyTypeName": "Bonus",
+          "friendlySubtypeName": "Choose an Ability Score",
+          "isGranted": true,
+          "bonusTypes": [],
+          "value": 1,
+          "availableToMulticlass": true,
+          "modifierTypeId": 1,
+          "modifierSubTypeId": 695,
+          "componentId": 318,
+          "componentTypeId": 12168134
+        },
         {
           "fixedValue": null,
           "id": "2034",
@@ -4171,7 +4412,31 @@
         }
       ],
       "item": [],
-      "feat": [],
+      "feat": [
+        {
+          "fixedValue": 2,
+          "id": "2064",
+          "entityId": null,
+          "entityTypeId": null,
+          "type": "bonus",
+          "subType": "spell-attack-range-multiplier",
+          "dice": null,
+          "restriction": "",
+          "statId": null,
+          "requiresAttunement": false,
+          "duration": null,
+          "friendlyTypeName": "Bonus",
+          "friendlySubtypeName": "Spell Attack Range Multiplier",
+          "isGranted": true,
+          "bonusTypes": [],
+          "value": 2,
+          "availableToMulticlass": true,
+          "modifierTypeId": 1,
+          "modifierSubTypeId": 700,
+          "componentId": 46,
+          "componentTypeId": 1088085227
+        }
+      ],
       "condition": []
     },
     "classSpells": [
@@ -5089,6 +5354,314 @@
             "componentId": 0,
             "componentTypeId": 0,
             "spellListId": null
+          },
+          {
+            "overrideSaveDc": null,
+            "limitedUse": null,
+            "id": 138698,
+            "entityTypeId": 435869154,
+            "definition": {
+              "id": 2246,
+              "name": "Shatter",
+              "level": 2,
+              "school": "Evocation",
+              "duration": {
+                "durationInterval": 0,
+                "durationUnit": null,
+                "durationType": "Instantaneous"
+              },
+              "activation": { "activationTime": 1, "activationType": 1 },
+              "range": {
+                "origin": "Ranged",
+                "rangeValue": 60,
+                "aoeType": "Sphere",
+                "aoeValue": 10
+              },
+              "asPartOfWeaponAttack": false,
+              "description": "<p>A sudden loud ringing noise, painfully intense, erupts from a point of your choice within range. Each creature in a 10-foot-radius sphere centered on that point must make a Constitution saving throw. A creature takes 3d8 thunder damage on a failed save, or half as much damage on a successful one. A creature made of inorganic material such as stone, crystal, or metal has disadvantage on this saving throw.</p>\r\n<p>A nonmagical object that isn't being worn or carried also takes the damage if it's in the spell's area.</p>\r\n<p><strong>At Higher Levels.&nbsp;</strong>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.</p>",
+              "snippet": "",
+              "concentration": false,
+              "ritual": false,
+              "rangeArea": null,
+              "damageEffect": null,
+              "components": [1, 2, 3],
+              "componentsDescription": "a chip of mica",
+              "saveDcAbilityId": 3,
+              "healing": null,
+              "healingDice": [],
+              "tempHpDice": [],
+              "attackType": null,
+              "canCastAtHigherLevel": true,
+              "isHomebrew": false,
+              "version": null,
+              "sourceId": null,
+              "sourcePageNumber": 275,
+              "requiresSavingThrow": true,
+              "requiresAttackRoll": false,
+              "atHigherLevels": {
+                "scaleType": "spellscale",
+                "higherLevelDefinitions": [],
+                "additionalAttacks": [],
+                "additionalTargets": [],
+                "areaOfEffect": [],
+                "duration": [],
+                "creatures": [],
+                "special": [],
+                "points": []
+              },
+              "modifiers": [
+                {
+                  "fixedValue": null,
+                  "id": "spell_2246_248",
+                  "entityId": null,
+                  "entityTypeId": null,
+                  "type": "damage",
+                  "subType": "thunder",
+                  "dice": null,
+                  "restriction": "",
+                  "statId": null,
+                  "requiresAttunement": false,
+                  "duration": null,
+                  "friendlyTypeName": "Damage",
+                  "friendlySubtypeName": "Thunder",
+                  "isGranted": false,
+                  "bonusTypes": [],
+                  "value": null,
+                  "availableToMulticlass": null,
+                  "modifierTypeId": 0,
+                  "modifierSubTypeId": 0,
+                  "componentId": 0,
+                  "componentTypeId": 0,
+                  "die": {
+                    "diceCount": 3,
+                    "diceValue": 8,
+                    "diceMultiplier": null,
+                    "fixedValue": null,
+                    "diceString": "3d8"
+                  },
+                  "count": 1,
+                  "durationUnit": null,
+                  "usePrimaryStat": false,
+                  "atHigherLevels": {
+                    "scaleType": "spellscale",
+                    "higherLevelDefinitions": [
+                      {
+                        "level": 1,
+                        "typeId": 15,
+                        "dice": {
+                          "diceCount": 1,
+                          "diceValue": 8,
+                          "diceMultiplier": null,
+                          "fixedValue": 0,
+                          "diceString": "1d8"
+                        },
+                        "value": null,
+                        "details": ""
+                      }
+                    ],
+                    "additionalAttacks": [],
+                    "additionalTargets": [],
+                    "areaOfEffect": [],
+                    "duration": [],
+                    "creatures": [],
+                    "special": [],
+                    "points": []
+                  }
+                }
+              ],
+              "conditions": [],
+              "tags": ["Damage"],
+              "castingTimeDescription": "",
+              "scaleType": "spellscale",
+              "sources": [
+                { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+                { "sourceId": 2, "pageNumber": 275, "sourceType": 1 }
+              ],
+              "spellGroups": []
+            },
+            "definitionId": 0,
+            "prepared": false,
+            "countsAsKnownSpell": true,
+            "usesSpellSlot": true,
+            "castAtLevel": null,
+            "alwaysPrepared": false,
+            "restriction": null,
+            "spellCastingAbilityId": null,
+            "displayAsAttack": null,
+            "additionalDescription": null,
+            "castOnlyAsRitual": false,
+            "ritualCastingType": null,
+            "range": { "origin": "Ranged", "rangeValue": 60, "aoeType": "Sphere", "aoeValue": 10 },
+            "activation": { "activationTime": 1, "activationType": 1 },
+            "baseLevelAtWill": false,
+            "atWillLimitedUseLevel": null,
+            "isSignatureSpell": null,
+            "componentId": 0,
+            "componentTypeId": 0,
+            "spellListId": null
+          },
+          {
+            "overrideSaveDc": null,
+            "limitedUse": null,
+            "id": 31466,
+            "entityTypeId": 435869154,
+            "definition": {
+              "id": 2412,
+              "name": "Lightning Lure",
+              "level": 0,
+              "school": "Evocation",
+              "duration": {
+                "durationInterval": 0,
+                "durationUnit": null,
+                "durationType": "Instantaneous"
+              },
+              "activation": { "activationTime": 1, "activationType": 1 },
+              "range": { "origin": "Self", "rangeValue": 15, "aoeType": null, "aoeValue": null },
+              "asPartOfWeaponAttack": false,
+              "description": "<p>You create a lash of lightning energy that strikes at one creature of your choice that you can see within 15 feet of you. The target must succeed on a Strength saving throw or be pulled up to 10 feet in a straight line toward you and then take 1d8 lightning damage if it is within 5 feet of you.</p>\r\n<p>This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>",
+              "snippet": "",
+              "concentration": false,
+              "ritual": false,
+              "rangeArea": null,
+              "damageEffect": null,
+              "components": [1],
+              "componentsDescription": "",
+              "saveDcAbilityId": 1,
+              "healing": null,
+              "healingDice": [],
+              "tempHpDice": [],
+              "attackType": null,
+              "canCastAtHigherLevel": true,
+              "isHomebrew": false,
+              "version": null,
+              "sourceId": null,
+              "sourcePageNumber": 143,
+              "requiresSavingThrow": true,
+              "requiresAttackRoll": false,
+              "atHigherLevels": {
+                "scaleType": "characterlevel",
+                "higherLevelDefinitions": [],
+                "additionalAttacks": [],
+                "additionalTargets": [],
+                "areaOfEffect": [],
+                "duration": [],
+                "creatures": [],
+                "special": [],
+                "points": []
+              },
+              "modifiers": [
+                {
+                  "fixedValue": null,
+                  "id": "spell_2412_460",
+                  "entityId": null,
+                  "entityTypeId": null,
+                  "type": "damage",
+                  "subType": "lightning",
+                  "dice": null,
+                  "restriction": "target must be within 5 ft",
+                  "statId": null,
+                  "requiresAttunement": false,
+                  "duration": null,
+                  "friendlyTypeName": "Damage",
+                  "friendlySubtypeName": "Lightning",
+                  "isGranted": false,
+                  "bonusTypes": [],
+                  "value": null,
+                  "availableToMulticlass": null,
+                  "modifierTypeId": 0,
+                  "modifierSubTypeId": 0,
+                  "componentId": 0,
+                  "componentTypeId": 0,
+                  "die": {
+                    "diceCount": 1,
+                    "diceValue": 8,
+                    "diceMultiplier": null,
+                    "fixedValue": null,
+                    "diceString": "1d8"
+                  },
+                  "count": 1,
+                  "durationUnit": null,
+                  "usePrimaryStat": false,
+                  "atHigherLevels": {
+                    "scaleType": "characterlevel",
+                    "higherLevelDefinitions": [
+                      {
+                        "level": 5,
+                        "typeId": 15,
+                        "dice": {
+                          "diceCount": 2,
+                          "diceValue": 8,
+                          "diceMultiplier": null,
+                          "fixedValue": 0,
+                          "diceString": "2d8"
+                        },
+                        "value": null,
+                        "details": ""
+                      },
+                      {
+                        "level": 11,
+                        "typeId": 15,
+                        "dice": {
+                          "diceCount": 3,
+                          "diceValue": 8,
+                          "diceMultiplier": null,
+                          "fixedValue": 0,
+                          "diceString": "3d8"
+                        },
+                        "value": null,
+                        "details": ""
+                      },
+                      {
+                        "level": 17,
+                        "typeId": 15,
+                        "dice": {
+                          "diceCount": 4,
+                          "diceValue": 8,
+                          "diceMultiplier": null,
+                          "fixedValue": 0,
+                          "diceString": "4d8"
+                        },
+                        "value": null,
+                        "details": ""
+                      }
+                    ],
+                    "additionalAttacks": [],
+                    "additionalTargets": [],
+                    "areaOfEffect": [],
+                    "duration": [],
+                    "creatures": [],
+                    "special": [],
+                    "points": []
+                  }
+                }
+              ],
+              "conditions": [],
+              "tags": ["Damage", "Control", "Combat"],
+              "castingTimeDescription": "",
+              "scaleType": "characterlevel",
+              "sources": [{ "sourceId": 13, "pageNumber": 143, "sourceType": 1 }],
+              "spellGroups": []
+            },
+            "definitionId": 0,
+            "prepared": false,
+            "countsAsKnownSpell": true,
+            "usesSpellSlot": false,
+            "castAtLevel": null,
+            "alwaysPrepared": false,
+            "restriction": null,
+            "spellCastingAbilityId": null,
+            "displayAsAttack": null,
+            "additionalDescription": null,
+            "castOnlyAsRitual": false,
+            "ritualCastingType": null,
+            "range": { "origin": "Self", "rangeValue": 15, "aoeType": null, "aoeValue": null },
+            "activation": { "activationTime": 1, "activationType": 1 },
+            "baseLevelAtWill": false,
+            "atWillLimitedUseLevel": null,
+            "isSignatureSpell": null,
+            "componentId": 0,
+            "componentTypeId": 0,
+            "spellListId": null
           }
         ]
       }
@@ -5159,7 +5732,7 @@
           "characterId": 71562753,
           "characterName": "Nova Beren",
           "characterUrl": "/profile/gamel/characters/71562753",
-          "avatarUrl": "https://www.dndbeyond.com/avatars/28407/681/1581111423-71562753.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
+          "avatarUrl": "https://www.dndbeyond.com/avatars/28717/318/1581111423-71562753.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
           "privacyType": 3,
           "campaignId": null,
           "isAssigned": true
@@ -5170,7 +5743,7 @@
           "characterId": 71942288,
           "characterName": "Vercey Whispermouse",
           "characterUrl": "/profile/Ametolie/characters/71942288",
-          "avatarUrl": "https://www.dndbeyond.com/avatars/27028/470/1581111423-71942288.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
+          "avatarUrl": "https://www.dndbeyond.com/avatars/28417/823/1581111423-71942288.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
           "privacyType": 3,
           "campaignId": null,
           "isAssigned": true
@@ -5191,7 +5764,7 @@
     "creatures": [],
     "optionalOrigins": [],
     "optionalClassFeatures": [],
-    "dateModified": "2022-08-28T12:30:14.433Z",
+    "dateModified": "2022-09-18T17:40:28.63Z",
     "providedFrom": "storage"
   },
   "pagination": null

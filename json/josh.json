@@ -88,7 +88,7 @@
     "bonusHitPoints": null,
     "overrideHitPoints": null,
     "removedHitPoints": 0,
-    "temporaryHitPoints": 6,
+    "temporaryHitPoints": 9,
     "currentXp": 0,
     "alignmentId": 3,
     "lifestyleId": 4,
@@ -97,8 +97,8 @@
       { "id": 2, "name": null, "value": 12 },
       { "id": 3, "name": null, "value": 13 },
       { "id": 4, "name": null, "value": 14 },
-      { "id": 5, "name": null, "value": 15 },
-      { "id": 6, "name": null, "value": 10 }
+      { "id": 5, "name": null, "value": 10 },
+      { "id": 6, "name": null, "value": 15 }
     ],
     "bonusStats": [
       { "id": 1, "name": null, "value": null },
@@ -605,7 +605,7 @@
       "personalityTraits": "I feel far more comfortable around animals than people.\nI have a lesson for every situation, drawn from observing nature.\n",
       "ideals": "Change. Life is like the seasons, in constant change, and we must change with it. (Chaotic)",
       "bonds": "I will bring terrible wrath down on the evildoers who destroyed my homeland.",
-      "flaws": "I remember every insult I’ve received and nurse a silent resentment toward anyone who’s ever wronged me.\n\nI’m terrified of a particular kind of animal.\n\nFear of The Artifact\n",
+      "flaws": "I remember every insult I’ve received and nurse a silent resentment toward anyone who’s ever wronged me.\n\nI’m terrified of spiders.\n\nFear of The Artifact\n",
       "appearance": null
     },
     "preferences": {
@@ -1238,7 +1238,7 @@
           "isPack": false,
           "tags": ["Healing", "Combat", "Consumable"],
           "grantedModifiers": [],
-          "subType": null,
+          "subType": "Potion",
           "isConsumable": true,
           "weaponBehaviors": [],
           "baseItemId": null,
@@ -2585,8 +2585,8 @@
     "deathSaves": { "failCount": null, "successCount": null, "isStabilized": false },
     "adjustmentXp": null,
     "spellSlots": [
-      { "level": 1, "used": 0, "available": 0 },
-      { "level": 2, "used": 0, "available": 0 },
+      { "level": 1, "used": 3, "available": 0 },
+      { "level": 2, "used": 3, "available": 0 },
       { "level": 3, "used": 0, "available": 0 },
       { "level": 4, "used": 0, "available": 0 },
       { "level": 5, "used": 0, "available": 0 },
@@ -3240,33 +3240,164 @@
         {
           "overrideSaveDc": null,
           "limitedUse": null,
-          "id": null,
-          "entityTypeId": null,
-          "definition": null,
+          "id": 333,
+          "entityTypeId": 420821570,
+          "definition": {
+            "id": 2391,
+            "name": "Magic Stone",
+            "level": 0,
+            "school": "Transmutation",
+            "duration": { "durationInterval": 1, "durationUnit": "Minute", "durationType": "Time" },
+            "activation": { "activationTime": 1, "activationType": 3 },
+            "range": { "origin": "Touch", "rangeValue": null, "aoeType": null, "aoeValue": null },
+            "asPartOfWeaponAttack": false,
+            "description": "<p>You touch one to three pebbles and imbue them with magic. You or someone else can make a ranged spell attack with one of the pebbles by throwing it or hurling it with a sling. If thrown, it has a range of 60 feet. If someone else attacks with the pebble, that attacker adds your spellcasting ability modifier, not the attacker’s, to the attack roll. On a hit, the target takes bludgeoning damage equal to 1d6 + your spellcasting ability modifier. Hit or miss, the spell then ends on the stone.</p>\r\n<p>If you cast this spell again, the spell ends early on any pebbles still affected by it.</p>",
+            "snippet": "",
+            "concentration": false,
+            "ritual": false,
+            "rangeArea": null,
+            "damageEffect": null,
+            "components": [1, 2],
+            "componentsDescription": "",
+            "saveDcAbilityId": null,
+            "healing": null,
+            "healingDice": [],
+            "tempHpDice": [],
+            "attackType": 2,
+            "canCastAtHigherLevel": false,
+            "isHomebrew": false,
+            "version": null,
+            "sourceId": null,
+            "sourcePageNumber": 160,
+            "requiresSavingThrow": false,
+            "requiresAttackRoll": true,
+            "atHigherLevels": {
+              "scaleType": null,
+              "higherLevelDefinitions": [],
+              "additionalAttacks": [],
+              "additionalTargets": [],
+              "areaOfEffect": [],
+              "duration": [],
+              "creatures": [],
+              "special": [],
+              "points": []
+            },
+            "modifiers": [
+              {
+                "fixedValue": null,
+                "id": "spell_2391_430",
+                "entityId": null,
+                "entityTypeId": null,
+                "type": "damage",
+                "subType": "bludgeoning",
+                "dice": null,
+                "restriction": "",
+                "statId": null,
+                "requiresAttunement": false,
+                "duration": null,
+                "friendlyTypeName": "Damage",
+                "friendlySubtypeName": "Bludgeoning",
+                "isGranted": false,
+                "bonusTypes": [],
+                "value": null,
+                "availableToMulticlass": null,
+                "modifierTypeId": 0,
+                "modifierSubTypeId": 0,
+                "componentId": 0,
+                "componentTypeId": 0,
+                "die": {
+                  "diceCount": 1,
+                  "diceValue": 6,
+                  "diceMultiplier": null,
+                  "fixedValue": null,
+                  "diceString": "1d6"
+                },
+                "count": 1,
+                "durationUnit": null,
+                "usePrimaryStat": true,
+                "atHigherLevels": {
+                  "scaleType": null,
+                  "higherLevelDefinitions": [],
+                  "additionalAttacks": [],
+                  "additionalTargets": [],
+                  "areaOfEffect": [],
+                  "duration": [],
+                  "creatures": [],
+                  "special": [],
+                  "points": []
+                }
+              }
+            ],
+            "conditions": [],
+            "tags": ["Damage"],
+            "castingTimeDescription": "",
+            "scaleType": null,
+            "sources": [{ "sourceId": 4, "pageNumber": 160, "sourceType": 1 }],
+            "spellGroups": []
+          },
           "definitionId": 0,
           "prepared": false,
-          "countsAsKnownSpell": null,
+          "countsAsKnownSpell": false,
           "usesSpellSlot": false,
           "castAtLevel": null,
           "alwaysPrepared": false,
-          "restriction": null,
-          "spellCastingAbilityId": null,
+          "restriction": "",
+          "spellCastingAbilityId": 6,
           "displayAsAttack": null,
           "additionalDescription": null,
           "castOnlyAsRitual": false,
           "ritualCastingType": null,
-          "range": null,
-          "activation": null,
+          "range": { "origin": "Touch", "rangeValue": null, "aoeType": null, "aoeValue": null },
+          "activation": { "activationTime": 1, "activationType": 3 },
           "baseLevelAtWill": false,
           "atWillLimitedUseLevel": null,
           "isSignatureSpell": null,
-          "componentId": 0,
-          "componentTypeId": 0,
+          "componentId": 46,
+          "componentTypeId": 1088085227,
           "spellListId": null
         }
       ]
     },
-    "options": { "race": [], "class": [], "background": null, "item": null, "feat": [] },
+    "options": {
+      "race": [],
+      "class": [
+        {
+          "componentId": 372,
+          "componentTypeId": 12168134,
+          "definition": {
+            "id": 106,
+            "entityTypeId": 258900837,
+            "name": "Careful Spell",
+            "description": "<p class=\"compendium-hr\">When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell’s full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw again<span class=\"No-Break\">st the spell.</span></p>",
+            "snippet": "You can spend <strong>1 sorcery point</strong> to allow up to {{modifier:cha@min:1#unsigned}} creatures to automatically succeed on the saving throw of a spell you cast.",
+            "activation": null,
+            "sourceId": 2,
+            "sourcePageNumber": null,
+            "creatureRules": [],
+            "spellListIds": []
+          }
+        },
+        {
+          "componentId": 372,
+          "componentTypeId": 12168134,
+          "definition": {
+            "id": 108,
+            "entityTypeId": 258900837,
+            "name": "Empowered Spell",
+            "description": "<p class=\"Core-Styles_Core-Body\">When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use t<span class=\"No-Break\">he new rolls.</span></p>\r\n<p class=\"Core-Styles_Core-Body\">You can use Empowered Spell even if you have already used a different Metamagic option during the casting <span class=\"No-Break\">of the spell.</span></p>",
+            "snippet": "When you roll damage for a spell, you can spend <strong>1 sorcery point</strong> to reroll up to {{modifier:cha@min:1#unsigned}} of the dice. You must use the new rolls and you can use this option even if you've already used another Metamagic option.",
+            "activation": null,
+            "sourceId": 2,
+            "sourcePageNumber": null,
+            "creatureRules": [],
+            "spellListIds": []
+          }
+        }
+      ],
+      "background": null,
+      "item": null,
+      "feat": []
+    },
     "choices": {
       "race": [
         {
@@ -3316,11 +3447,11 @@
         {
           "componentId": 372,
           "componentTypeId": 12168134,
-          "id": "3-24",
+          "id": "3-24-241841893",
           "parentChoiceId": null,
           "type": 3,
           "subType": null,
-          "optionValue": null,
+          "optionValue": 106,
           "label": "Choose a Level 3 Option",
           "isOptional": false,
           "isInfinite": false,
@@ -3328,19 +3459,9 @@
           "displayOrder": 3,
           "options": [
             {
-              "id": 106,
-              "label": "Careful Spell",
-              "description": "<p class=\"compendium-hr\">When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell’s full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw again<span class=\"No-Break\">st the spell.</span></p>"
-            },
-            {
               "id": 107,
               "label": "Distant Spell",
               "description": "<p class=\"compendium-hr\">When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range <span class=\"No-Break\">of the spell.</span></p>\r\n<p class=\"Core-Styles_Core-Body\">When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the s<span class=\"No-Break\">pell 30 feet.</span></p>"
-            },
-            {
-              "id": 108,
-              "label": "Empowered Spell",
-              "description": "<p class=\"Core-Styles_Core-Body\">When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use t<span class=\"No-Break\">he new rolls.</span></p>\r\n<p class=\"Core-Styles_Core-Body\">You can use Empowered Spell even if you have already used a different Metamagic option during the casting <span class=\"No-Break\">of the spell.</span></p>"
             },
             {
               "id": 109,
@@ -3376,6 +3497,11 @@
               "id": 1306600,
               "label": "Transmuted Spell",
               "description": "<p>When you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder.</p>"
+            },
+            {
+              "id": 106,
+              "label": "Careful Spell",
+              "description": "<p class=\"compendium-hr\">When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell’s full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw again<span class=\"No-Break\">st the spell.</span></p>"
             }
           ],
           "optionIds": []
@@ -3383,11 +3509,11 @@
         {
           "componentId": 372,
           "componentTypeId": 12168134,
-          "id": "3-26",
+          "id": "3-26-241842479",
           "parentChoiceId": null,
           "type": 3,
           "subType": null,
-          "optionValue": null,
+          "optionValue": 108,
           "label": "Choose a Level 3 Option",
           "isOptional": false,
           "isInfinite": false,
@@ -3395,19 +3521,9 @@
           "displayOrder": 3,
           "options": [
             {
-              "id": 106,
-              "label": "Careful Spell",
-              "description": "<p class=\"compendium-hr\">When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell’s full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw again<span class=\"No-Break\">st the spell.</span></p>"
-            },
-            {
               "id": 107,
               "label": "Distant Spell",
               "description": "<p class=\"compendium-hr\">When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range <span class=\"No-Break\">of the spell.</span></p>\r\n<p class=\"Core-Styles_Core-Body\">When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the s<span class=\"No-Break\">pell 30 feet.</span></p>"
-            },
-            {
-              "id": 108,
-              "label": "Empowered Spell",
-              "description": "<p class=\"Core-Styles_Core-Body\">When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use t<span class=\"No-Break\">he new rolls.</span></p>\r\n<p class=\"Core-Styles_Core-Body\">You can use Empowered Spell even if you have already used a different Metamagic option during the casting <span class=\"No-Break\">of the spell.</span></p>"
             },
             {
               "id": 109,
@@ -3443,6 +3559,11 @@
               "id": 1306600,
               "label": "Transmuted Spell",
               "description": "<p>When you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder.</p>"
+            },
+            {
+              "id": 108,
+              "label": "Empowered Spell",
+              "description": "<p class=\"Core-Styles_Core-Body\">When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use t<span class=\"No-Break\">he new rolls.</span></p>\r\n<p class=\"Core-Styles_Core-Body\">You can use Empowered Spell even if you have already used a different Metamagic option during the casting <span class=\"No-Break\">of the spell.</span></p>"
             }
           ],
           "optionIds": []
@@ -3661,7 +3782,7 @@
           "parentChoiceId": null,
           "type": 2,
           "subType": 3,
-          "optionValue": null,
+          "optionValue": 4055,
           "label": "Choose a Language",
           "isOptional": false,
           "isInfinite": false,
@@ -3707,11 +3828,11 @@
         {
           "componentId": 46,
           "componentTypeId": 1088085227,
-          "id": "4-333",
+          "id": "4-333-46392999",
           "parentChoiceId": null,
           "type": 4,
           "subType": null,
-          "optionValue": null,
+          "optionValue": 2391,
           "label": "Choose a Spell",
           "isOptional": false,
           "isInfinite": false,
@@ -3889,6 +4010,82 @@
             "minimumRange": null
           },
           "activation": { "activationTime": null, "activationType": 3 },
+          "numberOfTargets": null,
+          "fixedToHit": null,
+          "ammunition": null
+        },
+        {
+          "componentId": 106,
+          "componentTypeId": 258900837,
+          "id": "2772328",
+          "entityTypeId": "222216831",
+          "limitedUse": null,
+          "name": "Metamagic - Careful Spell",
+          "description": "<p>When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell&rsquo;s full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw again<span class=\"No-Break\">st the spell.</span></p>",
+          "snippet": "You can spend <strong>1 sorcery point</strong> to allow up to {{modifier:cha@min:1#unsigned}} creatures to automatically succeed on the saving throw of a spell you cast.",
+          "abilityModifierStatId": null,
+          "onMissDescription": "",
+          "saveFailDescription": "",
+          "saveSuccessDescription": "",
+          "saveStatId": null,
+          "fixedSaveDc": null,
+          "attackTypeRange": null,
+          "actionType": 3,
+          "attackSubtype": null,
+          "dice": null,
+          "value": null,
+          "damageTypeId": null,
+          "isMartialArts": false,
+          "isProficient": false,
+          "spellRangeType": null,
+          "displayAsAttack": null,
+          "range": {
+            "range": null,
+            "longRange": null,
+            "aoeType": null,
+            "aoeSize": null,
+            "hasAoeSpecialDescription": false,
+            "minimumRange": null
+          },
+          "activation": { "activationTime": null, "activationType": 8 },
+          "numberOfTargets": null,
+          "fixedToHit": null,
+          "ammunition": null
+        },
+        {
+          "componentId": 108,
+          "componentTypeId": 258900837,
+          "id": "2772320",
+          "entityTypeId": "222216831",
+          "limitedUse": null,
+          "name": "Metamagic - Empowered Spell",
+          "description": "<p class=\"Core-Styles_Core-Body\">When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use t<span class=\"No-Break\">he new rolls.</span></p>\r\n<p class=\"Core-Styles_Core-Body\">You can use Empowered Spell even if you have already used a different Metamagic option during the casting&nbsp;<span class=\"No-Break\">of the spell.</span></p>",
+          "snippet": "When you roll damage for a spell, you can spend <strong>1 sorcery point</strong> to reroll up to {{modifier:cha@min:1#unsigned}} of the dice. You must use the new rolls and you can use this option even if you've already used another Metamagic option.",
+          "abilityModifierStatId": null,
+          "onMissDescription": "",
+          "saveFailDescription": "",
+          "saveSuccessDescription": "",
+          "saveStatId": null,
+          "fixedSaveDc": null,
+          "attackTypeRange": null,
+          "actionType": 3,
+          "attackSubtype": null,
+          "dice": null,
+          "value": null,
+          "damageTypeId": null,
+          "isMartialArts": false,
+          "isProficient": false,
+          "spellRangeType": null,
+          "displayAsAttack": null,
+          "range": {
+            "range": null,
+            "longRange": null,
+            "aoeType": null,
+            "aoeSize": null,
+            "hasAoeSpecialDescription": false,
+            "minimumRange": null
+          },
+          "activation": { "activationTime": null, "activationType": 8 },
           "numberOfTargets": null,
           "fixedToHit": null,
           "ammunition": null
@@ -4390,23 +4587,23 @@
         {
           "fixedValue": null,
           "id": "2185",
-          "entityId": null,
-          "entityTypeId": null,
+          "entityId": 3,
+          "entityTypeId": 906033267,
           "type": "language",
-          "subType": "choose-a-language",
+          "subType": "elvish",
           "dice": null,
           "restriction": "",
           "statId": null,
           "requiresAttunement": false,
           "duration": null,
           "friendlyTypeName": "Language",
-          "friendlySubtypeName": "Choose a Language",
-          "isGranted": true,
+          "friendlySubtypeName": "Elvish",
+          "isGranted": false,
           "bonusTypes": [],
           "value": null,
           "availableToMulticlass": true,
           "modifierTypeId": 11,
-          "modifierSubTypeId": 392,
+          "modifierSubTypeId": 359,
           "componentId": 17,
           "componentTypeId": 1669830167
         }
@@ -5764,7 +5961,7 @@
     "creatures": [],
     "optionalOrigins": [],
     "optionalClassFeatures": [],
-    "dateModified": "2022-09-18T17:40:28.63Z",
+    "dateModified": "2022-09-19T01:31:46.137Z",
     "providedFrom": "storage"
   },
   "pagination": null

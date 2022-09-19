@@ -83,12 +83,12 @@
     "skin": "Tan",
     "height": "3'0''",
     "weight": 35,
-    "inspiration": true,
+    "inspiration": false,
     "baseHitPoints": 23,
     "bonusHitPoints": null,
     "overrideHitPoints": null,
     "removedHitPoints": 0,
-    "temporaryHitPoints": 0,
+    "temporaryHitPoints": 10,
     "currentXp": 0,
     "alignmentId": 3,
     "lifestyleId": 6,
@@ -643,7 +643,7 @@
       "otherHoldings": null,
       "organizations": "",
       "enemies": null,
-      "backstory": null,
+      "backstory": "hateful towards witches. Effect from haunted past.\n\nA witch took over her brothers image and attacked her.  Having thought she had killed him, she found that it was a witch. she has been hunting witches ever since. she has followed a lead about witches in Barovia.",
       "otherNotes": "Represented by The Raven"
     },
     "traits": {
@@ -817,7 +817,7 @@
           "weightMultiplier": 1,
           "capacity": null,
           "capacityWeight": 0,
-          "type": "Light Armor",
+          "type": "",
           "description": "<p>The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.</p>",
           "canAttune": false,
           "attunementDescription": null,
@@ -853,7 +853,10 @@
           "longRange": null,
           "isMonkWeapon": false,
           "levelInfusionGranted": null,
-          "sources": [],
+          "sources": [
+            { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+            { "sourceId": 2, "pageNumber": null, "sourceType": 1 }
+          ],
           "armorTypeId": 1,
           "gearTypeId": null,
           "groupedId": null,
@@ -947,7 +950,10 @@
           "longRange": 10,
           "isMonkWeapon": false,
           "levelInfusionGranted": null,
-          "sources": [],
+          "sources": [
+            { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+            { "sourceId": 2, "pageNumber": null, "sourceType": 1 }
+          ],
           "armorTypeId": null,
           "gearTypeId": null,
           "groupedId": null,
@@ -1041,7 +1047,10 @@
           "longRange": 10,
           "isMonkWeapon": false,
           "levelInfusionGranted": null,
-          "sources": [],
+          "sources": [
+            { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+            { "sourceId": 2, "pageNumber": null, "sourceType": 1 }
+          ],
           "armorTypeId": null,
           "gearTypeId": null,
           "groupedId": null,
@@ -1116,7 +1125,10 @@
           "longRange": null,
           "isMonkWeapon": false,
           "levelInfusionGranted": null,
-          "sources": [],
+          "sources": [
+            { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+            { "sourceId": 2, "pageNumber": null, "sourceType": 1 }
+          ],
           "armorTypeId": null,
           "gearTypeId": 1,
           "groupedId": null,
@@ -1191,7 +1203,10 @@
           "longRange": null,
           "isMonkWeapon": false,
           "levelInfusionGranted": null,
-          "sources": [],
+          "sources": [
+            { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+            { "sourceId": 2, "pageNumber": null, "sourceType": 1 }
+          ],
           "armorTypeId": null,
           "gearTypeId": 1,
           "groupedId": null,
@@ -1266,7 +1281,10 @@
           "longRange": null,
           "isMonkWeapon": false,
           "levelInfusionGranted": null,
-          "sources": [],
+          "sources": [
+            { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+            { "sourceId": 2, "pageNumber": null, "sourceType": 1 }
+          ],
           "armorTypeId": null,
           "gearTypeId": 1,
           "groupedId": null,
@@ -1323,7 +1341,7 @@
           "isPack": false,
           "tags": ["Instrument"],
           "grantedModifiers": [],
-          "subType": "Tool",
+          "subType": null,
           "isConsumable": false,
           "weaponBehaviors": [],
           "baseItemId": null,
@@ -1341,7 +1359,10 @@
           "longRange": null,
           "isMonkWeapon": false,
           "levelInfusionGranted": null,
-          "sources": [],
+          "sources": [
+            { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+            { "sourceId": 2, "pageNumber": null, "sourceType": 1 }
+          ],
           "armorTypeId": null,
           "gearTypeId": 11,
           "groupedId": null,
@@ -1891,7 +1912,10 @@
           "longRange": null,
           "isMonkWeapon": false,
           "levelInfusionGranted": null,
-          "sources": [],
+          "sources": [
+            { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+            { "sourceId": 2, "pageNumber": null, "sourceType": 1 }
+          ],
           "armorTypeId": null,
           "gearTypeId": 1,
           "groupedId": null,
@@ -1966,7 +1990,10 @@
           "longRange": null,
           "isMonkWeapon": false,
           "levelInfusionGranted": null,
-          "sources": [],
+          "sources": [
+            { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+            { "sourceId": 2, "pageNumber": null, "sourceType": 1 }
+          ],
           "armorTypeId": null,
           "gearTypeId": 1,
           "groupedId": null,
@@ -2041,7 +2068,10 @@
           "longRange": null,
           "isMonkWeapon": false,
           "levelInfusionGranted": null,
-          "sources": [],
+          "sources": [
+            { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+            { "sourceId": 2, "pageNumber": null, "sourceType": 1 }
+          ],
           "armorTypeId": null,
           "gearTypeId": 1,
           "groupedId": null,
@@ -2116,7 +2146,10 @@
           "longRange": null,
           "isMonkWeapon": false,
           "levelInfusionGranted": null,
-          "sources": [],
+          "sources": [
+            { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+            { "sourceId": 2, "pageNumber": null, "sourceType": 1 }
+          ],
           "armorTypeId": null,
           "gearTypeId": 1,
           "groupedId": null,
@@ -2191,7 +2224,10 @@
           "longRange": null,
           "isMonkWeapon": false,
           "levelInfusionGranted": null,
-          "sources": [],
+          "sources": [
+            { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+            { "sourceId": 2, "pageNumber": null, "sourceType": 1 }
+          ],
           "armorTypeId": null,
           "gearTypeId": 1,
           "groupedId": null,
@@ -2266,7 +2302,10 @@
           "longRange": null,
           "isMonkWeapon": false,
           "levelInfusionGranted": null,
-          "sources": [],
+          "sources": [
+            { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+            { "sourceId": 2, "pageNumber": null, "sourceType": 1 }
+          ],
           "armorTypeId": null,
           "gearTypeId": 1,
           "groupedId": null,
@@ -2341,7 +2380,10 @@
           "longRange": null,
           "isMonkWeapon": false,
           "levelInfusionGranted": null,
-          "sources": [],
+          "sources": [
+            { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+            { "sourceId": 2, "pageNumber": null, "sourceType": 1 }
+          ],
           "armorTypeId": null,
           "gearTypeId": 1,
           "groupedId": null,
@@ -2416,7 +2458,10 @@
           "longRange": null,
           "isMonkWeapon": false,
           "levelInfusionGranted": null,
-          "sources": [],
+          "sources": [
+            { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+            { "sourceId": 2, "pageNumber": null, "sourceType": 1 }
+          ],
           "armorTypeId": null,
           "gearTypeId": 1,
           "groupedId": null,
@@ -2516,7 +2561,10 @@
           "longRange": 60,
           "isMonkWeapon": true,
           "levelInfusionGranted": null,
-          "sources": [],
+          "sources": [
+            { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+            { "sourceId": 2, "pageNumber": null, "sourceType": 1 }
+          ],
           "armorTypeId": null,
           "gearTypeId": null,
           "groupedId": null,
@@ -2591,7 +2639,10 @@
           "longRange": null,
           "isMonkWeapon": false,
           "levelInfusionGranted": null,
-          "sources": [],
+          "sources": [
+            { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+            { "sourceId": 2, "pageNumber": null, "sourceType": 1 }
+          ],
           "armorTypeId": null,
           "gearTypeId": 1,
           "groupedId": null,
@@ -2666,7 +2717,10 @@
           "longRange": null,
           "isMonkWeapon": false,
           "levelInfusionGranted": null,
-          "sources": [],
+          "sources": [
+            { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+            { "sourceId": 2, "pageNumber": null, "sourceType": 1 }
+          ],
           "armorTypeId": null,
           "gearTypeId": 1,
           "groupedId": null,
@@ -2741,7 +2795,10 @@
           "longRange": null,
           "isMonkWeapon": false,
           "levelInfusionGranted": null,
-          "sources": [],
+          "sources": [
+            { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+            { "sourceId": 2, "pageNumber": null, "sourceType": 1 }
+          ],
           "armorTypeId": null,
           "gearTypeId": 1,
           "groupedId": null,
@@ -2816,7 +2873,10 @@
           "longRange": null,
           "isMonkWeapon": false,
           "levelInfusionGranted": null,
-          "sources": [],
+          "sources": [
+            { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+            { "sourceId": 2, "pageNumber": null, "sourceType": 1 }
+          ],
           "armorTypeId": null,
           "gearTypeId": 1,
           "groupedId": null,
@@ -2891,7 +2951,10 @@
           "longRange": null,
           "isMonkWeapon": false,
           "levelInfusionGranted": null,
-          "sources": [],
+          "sources": [
+            { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+            { "sourceId": 2, "pageNumber": null, "sourceType": 1 }
+          ],
           "armorTypeId": null,
           "gearTypeId": 1,
           "groupedId": null,
@@ -2966,7 +3029,10 @@
           "longRange": null,
           "isMonkWeapon": false,
           "levelInfusionGranted": null,
-          "sources": [],
+          "sources": [
+            { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+            { "sourceId": 2, "pageNumber": null, "sourceType": 1 }
+          ],
           "armorTypeId": null,
           "gearTypeId": 1,
           "groupedId": null,
@@ -4505,12 +4571,12 @@
         "contextTypeId": null
       }
     ],
-    "conditions": [],
+    "conditions": [{ "id": 3, "level": null }],
     "deathSaves": { "failCount": null, "successCount": null, "isStabilized": false },
     "adjustmentXp": null,
     "spellSlots": [
       { "level": 1, "used": 0, "available": 0 },
-      { "level": 2, "used": 0, "available": 0 },
+      { "level": 2, "used": 1, "available": 0 },
       { "level": 3, "used": 0, "available": 0 },
       { "level": 4, "used": 0, "available": 0 },
       { "level": 5, "used": 0, "available": 0 },
@@ -5355,7 +5421,7 @@
             "name": null,
             "statModifierUsesId": 6,
             "resetType": 2,
-            "numberUsed": 0,
+            "numberUsed": 2,
             "minNumberConsumed": 1,
             "maxNumberConsumed": 1,
             "maxUses": 0,
@@ -7328,7 +7394,26 @@
         ]
       }
     ],
-    "customItems": [],
+    "customItems": [
+      {
+        "id": 13985357,
+        "name": "Youth",
+        "description": "Yellow/Gold liquid",
+        "weight": null,
+        "cost": null,
+        "quantity": 1,
+        "notes": null
+      },
+      {
+        "id": 13985376,
+        "name": "Laughter",
+        "description": "Red Tea like",
+        "weight": null,
+        "cost": null,
+        "quantity": 1,
+        "notes": null
+      }
+    ],
     "campaign": {
       "id": 778968,
       "name": "The Curse of Strahd",
@@ -7366,7 +7451,7 @@
           "characterId": 71562753,
           "characterName": "Nova Beren",
           "characterUrl": "/profile/gamel/characters/71562753",
-          "avatarUrl": "https://www.dndbeyond.com/avatars/28433/737/1581111423-71562753.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
+          "avatarUrl": "https://www.dndbeyond.com/avatars/28717/318/1581111423-71562753.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
           "privacyType": 3,
           "campaignId": null,
           "isAssigned": true
@@ -7398,7 +7483,7 @@
     "creatures": [],
     "optionalOrigins": [],
     "optionalClassFeatures": [],
-    "dateModified": "2022-08-28T17:39:10.903Z",
+    "dateModified": "2022-09-19T02:21:48.533Z",
     "providedFrom": "storage"
   },
   "pagination": null

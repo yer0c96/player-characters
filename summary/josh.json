@@ -6,15 +6,15 @@
     "dexterity": 12,
     "constitution": 13,
     "intelligence": 14,
-    "wisdom": 15,
-    "charisma": 10
+    "wisdom": 10,
+    "charisma": 15
   },
-  "hitPoints": { "base": 18, "current": 18, "temp": 6 },
+  "hitPoints": { "base": 18, "current": 18, "temp": 9 },
   "traits": {
     "personalityTraits": "I feel far more comfortable around animals than people.\nI have a lesson for every situation, drawn from observing nature.",
     "ideals": "Change. Life is like the seasons, in constant change, and we must change with it. (Chaotic)",
     "bonds": "I will bring terrible wrath down on the evildoers who destroyed my homeland.",
-    "flaws": "I remember every insult I’ve received and nurse a silent resentment toward anyone who’s ever wronged me.\n\nI’m terrified of a particular kind of animal.\n\nFear of The Artifact"
+    "flaws": "I remember every insult I’ve received and nurse a silent resentment toward anyone who’s ever wronged me.\n\nI’m terrified of spiders.\n\nFear of The Artifact"
   },
   "bonusStats": {},
   "overrideStats": {},
@@ -70,13 +70,19 @@
     "Friends",
     "Gust of Wind",
     "Lightning Lure",
+    "Magic Stone",
     "Mind Sliver",
     "Shatter",
     "Spider Climb",
-    "Sword Burst",
-    null
+    "Sword Burst"
   ],
-  "actions": ["Convert Sorcery Points", "Sorcery Points", "Telepathic Speech"],
+  "actions": [
+    "Convert Sorcery Points",
+    "Metamagic - Careful Spell",
+    "Metamagic - Empowered Spell",
+    "Sorcery Points",
+    "Telepathic Speech"
+  ],
   "modifiers": [
     "Bonus: Dexterity Score",
     "Bonus: Wisdom Score",
@@ -84,7 +90,7 @@
     "Bonus: Spell Attack Range Multiplier",
     "Language: Common",
     "Language: Auran",
-    "Language: Choose a Language",
+    "Language: Elvish",
     "Proficiency: Sleight of Hand",
     "Proficiency: Deception",
     "Proficiency: Dagger",

@@ -6,8 +6,8 @@
     "id": 71560080,
     "userId": 106981478,
     "readonlyUrl": "https://dndbeyond.com/characters/71560080",
-    "avatarUrl": "https://www.dndbeyond.com/avatars/27028/464/1581111423-71560080.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
-    "frameAvatarUrl": null,
+    "avatarUrl": "https://www.dndbeyond.com/avatars/29053/66/1581111423-71560080.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
+    "frameAvatarUrl": "https://www.dndbeyond.com/avatars/13825/694/637407891132983082.png",
     "backdropAvatarUrl": null,
     "smallBackdropAvatarUrl": null,
     "largeBackdropAvatarUrl": null,
@@ -18,8 +18,8 @@
       "largeBackdropAvatarUrl": "https://www.dndbeyond.com/avatars/61/524/636453154645377290.jpeg",
       "thumbnailBackdropAvatarUrl": "https://www.dndbeyond.com/avatars/61/525/636453154645689772.jpeg"
     },
-    "avatarId": 27028464,
-    "frameAvatarId": null,
+    "avatarId": 29053066,
+    "frameAvatarId": 13825694,
     "backdropAvatarId": null,
     "smallBackdropAvatarId": null,
     "largeBackdropAvatarId": null,
@@ -37,8 +37,8 @@
       "decorationKey": "434"
     },
     "decorations": {
-      "avatarUrl": "https://www.dndbeyond.com/avatars/27028/464/1581111423-71560080.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
-      "frameAvatarUrl": null,
+      "avatarUrl": "https://www.dndbeyond.com/avatars/29053/66/1581111423-71560080.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
+      "frameAvatarUrl": "https://www.dndbeyond.com/avatars/13825/694/637407891132983082.png",
       "backdropAvatarUrl": null,
       "smallBackdropAvatarUrl": null,
       "largeBackdropAvatarUrl": null,
@@ -49,10 +49,10 @@
         "largeBackdropAvatarUrl": "https://www.dndbeyond.com/avatars/61/524/636453154645377290.jpeg",
         "thumbnailBackdropAvatarUrl": "https://www.dndbeyond.com/avatars/61/525/636453154645689772.jpeg"
       },
-      "avatarId": 27028464,
+      "avatarId": 29053066,
       "portraitDecorationKey": null,
-      "frameAvatarDecorationKey": null,
-      "frameAvatarId": null,
+      "frameAvatarDecorationKey": "6c2a5e3f-0821-4812-82ff-1962587c5666",
+      "frameAvatarId": 13825694,
       "backdropAvatarDecorationKey": null,
       "backdropAvatarId": null,
       "smallBackdropAvatarDecorationKey": "",
@@ -5368,8 +5368,8 @@
     "creatures": [],
     "optionalOrigins": [],
     "optionalClassFeatures": [],
-    "dateModified": "2022-09-19T01:47:18.67Z",
-    "providedFrom": "storage"
+    "dateModified": "2022-09-23T14:03:07.947Z",
+    "providedFrom": "cache"
   },
   "pagination": null
 }

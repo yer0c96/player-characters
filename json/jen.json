@@ -81,7 +81,7 @@
     "hair": "White",
     "eyes": "Purple",
     "skin": "Tan",
-    "height": "3'0''",
+    "height": "3'2\"",
     "weight": 35,
     "inspiration": false,
     "baseHitPoints": 23,
@@ -7483,7 +7483,7 @@
     "creatures": [],
     "optionalOrigins": [],
     "optionalClassFeatures": [],
-    "dateModified": "2022-09-23T14:03:56.897Z",
+    "dateModified": "2022-09-23T20:18:25.113Z",
     "providedFrom": "storage"
   },
   "pagination": null

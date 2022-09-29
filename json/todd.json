@@ -81,7 +81,7 @@
     "hair": "Salt n Pepper",
     "eyes": "Gold pupils",
     "skin": "Scarred",
-    "height": "small",
+    "height": "2'11\"",
     "weight": null,
     "inspiration": false,
     "baseHitPoints": 28,
@@ -5214,7 +5214,7 @@
     "creatures": [],
     "optionalOrigins": [],
     "optionalClassFeatures": [],
-    "dateModified": "2022-09-23T14:03:23.46Z",
+    "dateModified": "2022-09-23T20:17:59.51Z",
     "providedFrom": "storage"
   },
   "pagination": null

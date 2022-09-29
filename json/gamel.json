@@ -81,7 +81,7 @@
     "hair": null,
     "eyes": null,
     "skin": null,
-    "height": null,
+    "height": "6'",
     "weight": null,
     "inspiration": true,
     "baseHitPoints": 23,
@@ -6582,7 +6582,7 @@
       }
     ],
     "optionalClassFeatures": [],
-    "dateModified": "2022-09-23T14:03:34.61Z",
+    "dateModified": "2022-09-23T20:18:08.873Z",
     "providedFrom": "storage"
   },
   "pagination": null

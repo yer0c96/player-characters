@@ -9,7 +9,7 @@
     "wisdom": 15,
     "charisma": 9
   },
-  "hitPoints": { "base": 23, "current": 23, "temp": 10 },
+  "hitPoints": { "base": 23, "current": 5, "temp": 10 },
   "traits": {
     "personalityTraits": "I feel tremendous empathy for all who suffer.",
     "ideals": "Greater Good. My gifts are meant to be shared with all, not used for my own benefit. (Good)",
@@ -59,6 +59,7 @@
     "Unarmed Strike"
   ],
   "modifiers": [
+    "Advantage: Perception",
     "Bonus: Strength Score",
     "Bonus: Dexterity Score",
     "Bonus: Constitution Score",
@@ -93,17 +94,19 @@
     "Butterfly Sword",
     "Clothes, Common",
     "Dart",
+    "Eyes of the Eagle",
     "Herbalism Kit",
     "Mess Kit",
     "Potion of Healing",
     "Rations (1 day)",
     "Rope, Hempen (50 feet)",
+    "Scroll: null",
     "Tinderbox",
     "Torch",
     "Waterskin"
   ],
-  "currencies": { "cp": 96, "sp": 10, "gp": 70, "ep": 0, "pp": 0 },
-  "money": 71.96,
+  "currencies": { "cp": 96, "sp": 10, "gp": 69, "ep": 0, "pp": 0 },
+  "money": 70.96,
   "notes": {
     "personalPossessions": "A scroll case stuffed full of notes from your studies or prayers",
     "otherNotes": "Represented by The Marionette"

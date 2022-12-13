@@ -87,8 +87,8 @@
     "baseHitPoints": 28,
     "bonusHitPoints": null,
     "overrideHitPoints": null,
-    "removedHitPoints": 6,
-    "temporaryHitPoints": 10,
+    "removedHitPoints": 17,
+    "temporaryHitPoints": 7,
     "currentXp": 0,
     "alignmentId": null,
     "lifestyleId": 3,
@@ -269,7 +269,8 @@
         ],
         "isHomebrew": false,
         "sources": [{ "sourceId": 1, "pageNumber": null, "sourceType": 1 }],
-        "spellListIds": []
+        "spellListIds": [],
+        "grantedFeatIds": []
       },
       "definitionId": null,
       "customBackground": {
@@ -705,7 +706,7 @@
           "weightMultiplier": 1,
           "capacity": null,
           "capacityWeight": 0,
-          "type": "",
+          "type": "Shield",
           "description": "<p>A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.</p>",
           "canAttune": false,
           "attunementDescription": null,
@@ -783,7 +784,7 @@
           "weightMultiplier": 1,
           "capacity": null,
           "capacityWeight": 0,
-          "type": "Heavy Armor",
+          "type": "",
           "description": "<p>Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.</p>",
           "canAttune": false,
           "attunementDescription": null,
@@ -1964,7 +1965,7 @@
         "currency": null
       }
     ],
-    "currencies": { "cp": 100, "sp": 19, "gp": 9, "ep": 0, "pp": 0 },
+    "currencies": { "cp": 100, "sp": 19, "gp": 8, "ep": 0, "pp": 0 },
     "classes": [
       {
         "id": 94972015,
@@ -3369,7 +3370,7 @@
     "deathSaves": { "failCount": null, "successCount": null, "isStabilized": false },
     "adjustmentXp": null,
     "spellSlots": [
-      { "level": 1, "used": 3, "available": 0 },
+      { "level": 1, "used": 2, "available": 0 },
       { "level": 2, "used": 0, "available": 0 },
       { "level": 3, "used": 0, "available": 0 },
       { "level": 4, "used": 0, "available": 0 },
@@ -3386,7 +3387,7 @@
       { "level": 4, "used": 0, "available": 0 },
       { "level": 5, "used": 0, "available": 0 }
     ],
-    "activeSourceCategories": [1],
+    "activeSourceCategories": [1, 14],
     "spells": {
       "race": [
         {
@@ -4016,11 +4017,11 @@
           "displayOrder": null,
           "options": [
             { "id": 4123, "label": "Athletics", "description": null },
+            { "id": 4128, "label": "Religion", "description": null },
             { "id": 4124, "label": "Insight", "description": null },
-            { "id": 4125, "label": "Intimidation", "description": null },
             { "id": 4126, "label": "Medicine", "description": null },
-            { "id": 4127, "label": "Persuasion", "description": null },
-            { "id": 4128, "label": "Religion", "description": null }
+            { "id": 4125, "label": "Intimidation", "description": null },
+            { "id": 4127, "label": "Persuasion", "description": null }
           ],
           "optionIds": []
         },
@@ -4039,11 +4040,11 @@
           "displayOrder": null,
           "options": [
             { "id": 4123, "label": "Athletics", "description": null },
+            { "id": 4128, "label": "Religion", "description": null },
             { "id": 4124, "label": "Insight", "description": null },
-            { "id": 4125, "label": "Intimidation", "description": null },
             { "id": 4126, "label": "Medicine", "description": null },
-            { "id": 4127, "label": "Persuasion", "description": null },
-            { "id": 4128, "label": "Religion", "description": null }
+            { "id": 4125, "label": "Intimidation", "description": null },
+            { "id": 4127, "label": "Persuasion", "description": null }
           ],
           "optionIds": []
         }
@@ -4135,8 +4136,8 @@
           "options": [
             { "id": 3894, "label": "Dice Set", "description": null },
             { "id": 3895, "label": "Playing Card Set", "description": null },
-            { "id": 4379, "label": "Dragonchess Set", "description": null },
-            { "id": 4380, "label": "Three-Dragon Ante Set", "description": null }
+            { "id": 4380, "label": "Three-Dragon Ante Set", "description": null },
+            { "id": 4379, "label": "Dragonchess Set", "description": null }
           ],
           "optionIds": []
         },
@@ -4191,8 +4192,8 @@
             { "id": 3964, "label": "Viol", "description": null },
             { "id": 4345, "label": "Vehicles (Land)", "description": null },
             { "id": 4346, "label": "Vehicles (Water)", "description": null },
-            { "id": 4377, "label": "Dragonchess Set", "description": null },
             { "id": 4378, "label": "Three-Dragon Ante Set", "description": null },
+            { "id": 4377, "label": "Dragonchess Set", "description": null },
             { "id": 5888, "label": "Vehicles (Space)", "description": null }
           ],
           "optionIds": []
@@ -4264,7 +4265,7 @@
             "name": null,
             "statModifierUsesId": null,
             "resetType": 2,
-            "numberUsed": 0,
+            "numberUsed": 20,
             "minNumberConsumed": 1,
             "maxNumberConsumed": 1,
             "maxUses": 20,
@@ -5160,7 +5161,7 @@
           "characterId": 71559602,
           "characterName": "Ruffle Manfaers",
           "characterUrl": "/profile/jotynas_saloris_nekrojinn/characters/71559602",
-          "avatarUrl": "https://www.dndbeyond.com/avatars/27028/476/1581111423-71559602.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
+          "avatarUrl": "https://www.dndbeyond.com/avatars/29053/75/1581111423-71559602.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
           "privacyType": 3,
           "campaignId": null,
           "isAssigned": true
@@ -5171,7 +5172,7 @@
           "characterId": 71560080,
           "characterName": "Jassin Highwind",
           "characterUrl": "/profile/Yer0c/characters/71560080",
-          "avatarUrl": "https://www.dndbeyond.com/avatars/27028/464/1581111423-71560080.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
+          "avatarUrl": "https://www.dndbeyond.com/avatars/29053/66/1581111423-71560080.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
           "privacyType": 3,
           "campaignId": null,
           "isAssigned": true
@@ -5182,7 +5183,7 @@
           "characterId": 71562753,
           "characterName": "Nova Beren",
           "characterUrl": "/profile/gamel/characters/71562753",
-          "avatarUrl": "https://www.dndbeyond.com/avatars/28717/318/1581111423-71562753.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
+          "avatarUrl": "https://www.dndbeyond.com/avatars/29053/81/1581111423-71562753.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
           "privacyType": 3,
           "campaignId": null,
           "isAssigned": true
@@ -5193,7 +5194,7 @@
           "characterId": 71942288,
           "characterName": "Vercey Whispermouse",
           "characterUrl": "/profile/Ametolie/characters/71942288",
-          "avatarUrl": "https://www.dndbeyond.com/avatars/28417/823/1581111423-71942288.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
+          "avatarUrl": "https://www.dndbeyond.com/avatars/29053/84/1581111423-71942288.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
           "privacyType": 3,
           "campaignId": null,
           "isAssigned": true
@@ -5204,7 +5205,7 @@
           "characterId": 72209867,
           "characterName": "Tenebrae",
           "characterUrl": "/profile/AllBeesNoKnees/characters/72209867",
-          "avatarUrl": "https://www.dndbeyond.com/avatars/27028/461/1581111423-72209867.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
+          "avatarUrl": "https://www.dndbeyond.com/avatars/29053/38/1581111423-72209867.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
           "privacyType": 3,
           "campaignId": null,
           "isAssigned": true
@@ -5214,7 +5215,7 @@
     "creatures": [],
     "optionalOrigins": [],
     "optionalClassFeatures": [],
-    "dateModified": "2022-09-23T20:17:59.51Z",
+    "dateModified": "2022-12-11T02:14:51.657Z",
     "providedFrom": "storage"
   },
   "pagination": null

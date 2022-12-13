@@ -9,7 +9,7 @@
     "wisdom": 10,
     "charisma": 15
   },
-  "hitPoints": { "base": 28, "current": 22, "temp": 10 },
+  "hitPoints": { "base": 28, "current": 11, "temp": 7 },
   "traits": {
     "flaws": "I can’t be comfortable around creatures larger than I am.\n\nFear of The Executioner."
   },
@@ -73,7 +73,7 @@
     "Torch",
     "Waterskin"
   ],
-  "currencies": { "cp": 100, "sp": 19, "gp": 9, "ep": 0, "pp": 0 },
-  "money": 11.9,
+  "currencies": { "cp": 100, "sp": 19, "gp": 8, "ep": 0, "pp": 0 },
+  "money": 10.9,
   "notes": { "otherNotes": "Represented by The Beast" }
 }

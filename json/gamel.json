@@ -83,12 +83,12 @@
     "skin": null,
     "height": "6'",
     "weight": null,
-    "inspiration": true,
+    "inspiration": false,
     "baseHitPoints": 23,
-    "bonusHitPoints": null,
+    "bonusHitPoints": -2,
     "overrideHitPoints": null,
-    "removedHitPoints": 7,
-    "temporaryHitPoints": 9,
+    "removedHitPoints": 14,
+    "temporaryHitPoints": 1,
     "currentXp": 0,
     "alignmentId": 3,
     "lifestyleId": null,
@@ -269,7 +269,8 @@
         ],
         "isHomebrew": false,
         "sources": [{ "sourceId": 1, "pageNumber": null, "sourceType": 1 }],
-        "spellListIds": []
+        "spellListIds": [],
+        "grantedFeatIds": []
       },
       "definitionId": null,
       "customBackground": {
@@ -2068,7 +2069,7 @@
         "currency": null
       }
     ],
-    "currencies": { "cp": 10, "sp": 9, "gp": 28, "ep": 0, "pp": 0 },
+    "currencies": { "cp": 10, "sp": 9, "gp": 27, "ep": 0, "pp": 0 },
     "classes": [
       {
         "id": 95770444,
@@ -2129,7 +2130,7 @@
               "id": 112,
               "name": "Destroy Undead",
               "prerequisite": null,
-              "description": "<p class=\"Core-Styles_Core-Body\">Starting at 5th level, when an undead fails its saving throw against your Turn Undead feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold, as shown in the Destroy Undead table.</p>\r\n<h4 class=\"Table-Styles_Table-Title\">Destroy Undead Table</h4>\r\n<table>\r\n<thead>\r\n<tr class=\"Table _idGenTableRowColumn-3\">\r\n<th class=\"Table Table-Header\">\r\n<p class=\"Table-Styles_Header--for-Table-Cell-Style- ParaOverride-3\">Cleric Level</p>\r\n</th>\r\n<th class=\"Table Table-Header _idGenCellOverride-1\">\r\n<p class=\"Table-Styles_Header--for-Table-Cell-Style-\">Destroys Undead of CR ...</p>\r\n</th>\r\n</tr>\r\n</thead>\r\n<tbody>\r\n<tr class=\"Table _idGenTableRowColumn-4\">\r\n<td class=\"Table Table-Body _idGenCellOverride-2\">\r\n<p class=\"Table-Styles_Table-Body--for-Table-Cell-Style- ParaOverride-3\">5th</p>\r\n</td>\r\n<td class=\"Table Table-Body _idGenCellOverride-2\">\r\n<p class=\"Table-Styles_Table-Body--for-Table-Cell-Style-\">1/2 or lower</p>\r\n</td>\r\n</tr>\r\n<tr class=\"Table _idGenTableRowColumn-5\">\r\n<td class=\"Table Table-Body\">\r\n<p class=\"Table-Styles_Table-Body--for-Table-Cell-Style- ParaOverride-3\">8th</p>\r\n</td>\r\n<td class=\"Table Table-Body\">\r\n<p class=\"Table-Styles_Table-Body--for-Table-Cell-Style-\">1 or lower</p>\r\n</td>\r\n</tr>\r\n<tr class=\"Table _idGenTableRowColumn-4\">\r\n<td class=\"Table Table-Body\">\r\n<p class=\"Table-Styles_Table-Body--for-Table-Cell-Style- ParaOverride-3\">11th</p>\r\n</td>\r\n<td class=\"Table Table-Body\">\r\n<p class=\"Table-Styles_Table-Body--for-Table-Cell-Style-\">2 or lower</p>\r\n</td>\r\n</tr>\r\n<tr class=\"Table _idGenTableRowColumn-5\">\r\n<td class=\"Table Table-Body\">\r\n<p class=\"Table-Styles_Table-Body--for-Table-Cell-Style- ParaOverride-3\">14th</p>\r\n</td>\r\n<td class=\"Table Table-Body\">\r\n<p class=\"Table-Styles_Table-Body--for-Table-Cell-Style-\">3 or lower</p>\r\n</td>\r\n</tr>\r\n<tr class=\"Table _idGenTableRowColumn-4\">\r\n<td class=\"Table Table-Body\">\r\n<p class=\"Table-Styles_Table-Body--for-Table-Cell-Style- ParaOverride-3\">17th</p>\r\n</td>\r\n<td class=\"Table Table-Body\">\r\n<p class=\"Table-Styles_Table-Body--for-Table-Cell-Style-\">4 or lower</p>\r\n</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<p>&nbsp;</p>",
+              "description": "<p>Starting at 5th level, when an undead fails its saving throw against your Turn Undead feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold, as shown in the Destroy Undead table.</p>\r\n<table class=\"compendium-left-aligned-table\"><caption>\r\n<h5 id=\"DestroyUndeadTable\" style=\"text-align: left;\">Destroy Undead</h5>\r\n</caption>\r\n<thead>\r\n<tr>\r\n<th>Cleric Level</th>\r\n<th>Destroys Undead of CR &hellip;</th>\r\n</tr>\r\n</thead>\r\n<tbody>\r\n<tr>\r\n<td>5th</td>\r\n<td>1/2 or lower</td>\r\n</tr>\r\n<tr>\r\n<td>8th</td>\r\n<td>1 or lower</td>\r\n</tr>\r\n<tr>\r\n<td>11th</td>\r\n<td>2 or lower</td>\r\n</tr>\r\n<tr>\r\n<td>14th</td>\r\n<td>3 or lower</td>\r\n</tr>\r\n<tr>\r\n<td>17th</td>\r\n<td>4 or lower</td>\r\n</tr>\r\n</tbody>\r\n</table>",
               "requiredLevel": 5,
               "displayOrder": 7
             },
@@ -2372,7 +2373,7 @@
               "id": 112,
               "name": "Destroy Undead",
               "prerequisite": null,
-              "description": "<p class=\"Core-Styles_Core-Body\">Starting at 5th level, when an undead fails its saving throw against your Turn Undead feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold, as shown in the Destroy Undead table.</p>\r\n<h4 class=\"Table-Styles_Table-Title\">Destroy Undead Table</h4>\r\n<table>\r\n<thead>\r\n<tr class=\"Table _idGenTableRowColumn-3\">\r\n<th class=\"Table Table-Header\">\r\n<p class=\"Table-Styles_Header--for-Table-Cell-Style- ParaOverride-3\">Cleric Level</p>\r\n</th>\r\n<th class=\"Table Table-Header _idGenCellOverride-1\">\r\n<p class=\"Table-Styles_Header--for-Table-Cell-Style-\">Destroys Undead of CR ...</p>\r\n</th>\r\n</tr>\r\n</thead>\r\n<tbody>\r\n<tr class=\"Table _idGenTableRowColumn-4\">\r\n<td class=\"Table Table-Body _idGenCellOverride-2\">\r\n<p class=\"Table-Styles_Table-Body--for-Table-Cell-Style- ParaOverride-3\">5th</p>\r\n</td>\r\n<td class=\"Table Table-Body _idGenCellOverride-2\">\r\n<p class=\"Table-Styles_Table-Body--for-Table-Cell-Style-\">1/2 or lower</p>\r\n</td>\r\n</tr>\r\n<tr class=\"Table _idGenTableRowColumn-5\">\r\n<td class=\"Table Table-Body\">\r\n<p class=\"Table-Styles_Table-Body--for-Table-Cell-Style- ParaOverride-3\">8th</p>\r\n</td>\r\n<td class=\"Table Table-Body\">\r\n<p class=\"Table-Styles_Table-Body--for-Table-Cell-Style-\">1 or lower</p>\r\n</td>\r\n</tr>\r\n<tr class=\"Table _idGenTableRowColumn-4\">\r\n<td class=\"Table Table-Body\">\r\n<p class=\"Table-Styles_Table-Body--for-Table-Cell-Style- ParaOverride-3\">11th</p>\r\n</td>\r\n<td class=\"Table Table-Body\">\r\n<p class=\"Table-Styles_Table-Body--for-Table-Cell-Style-\">2 or lower</p>\r\n</td>\r\n</tr>\r\n<tr class=\"Table _idGenTableRowColumn-5\">\r\n<td class=\"Table Table-Body\">\r\n<p class=\"Table-Styles_Table-Body--for-Table-Cell-Style- ParaOverride-3\">14th</p>\r\n</td>\r\n<td class=\"Table Table-Body\">\r\n<p class=\"Table-Styles_Table-Body--for-Table-Cell-Style-\">3 or lower</p>\r\n</td>\r\n</tr>\r\n<tr class=\"Table _idGenTableRowColumn-4\">\r\n<td class=\"Table Table-Body\">\r\n<p class=\"Table-Styles_Table-Body--for-Table-Cell-Style- ParaOverride-3\">17th</p>\r\n</td>\r\n<td class=\"Table Table-Body\">\r\n<p class=\"Table-Styles_Table-Body--for-Table-Cell-Style-\">4 or lower</p>\r\n</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<p>&nbsp;</p>",
+              "description": "<p>Starting at 5th level, when an undead fails its saving throw against your Turn Undead feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold, as shown in the Destroy Undead table.</p>\r\n<table class=\"compendium-left-aligned-table\"><caption>\r\n<h5 id=\"DestroyUndeadTable\" style=\"text-align: left;\">Destroy Undead</h5>\r\n</caption>\r\n<thead>\r\n<tr>\r\n<th>Cleric Level</th>\r\n<th>Destroys Undead of CR &hellip;</th>\r\n</tr>\r\n</thead>\r\n<tbody>\r\n<tr>\r\n<td>5th</td>\r\n<td>1/2 or lower</td>\r\n</tr>\r\n<tr>\r\n<td>8th</td>\r\n<td>1 or lower</td>\r\n</tr>\r\n<tr>\r\n<td>11th</td>\r\n<td>2 or lower</td>\r\n</tr>\r\n<tr>\r\n<td>14th</td>\r\n<td>3 or lower</td>\r\n</tr>\r\n<tr>\r\n<td>17th</td>\r\n<td>4 or lower</td>\r\n</tr>\r\n</tbody>\r\n</table>",
               "requiredLevel": 5,
               "displayOrder": 7
             },
@@ -2857,13 +2858,13 @@
               "entityTypeId": 12168134,
               "displayOrder": 7,
               "name": "Destroy Undead",
-              "description": "<p class=\"Core-Styles_Core-Body\">Starting at 5th level, when an undead fails its saving throw against your Turn Undead feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold, as shown in the Destroy Undead table.</p>\r\n<h4 class=\"Table-Styles_Table-Title\">Destroy Undead Table</h4>\r\n<table>\r\n<thead>\r\n<tr class=\"Table _idGenTableRowColumn-3\">\r\n<th class=\"Table Table-Header\">\r\n<p class=\"Table-Styles_Header--for-Table-Cell-Style- ParaOverride-3\">Cleric Level</p>\r\n</th>\r\n<th class=\"Table Table-Header _idGenCellOverride-1\">\r\n<p class=\"Table-Styles_Header--for-Table-Cell-Style-\">Destroys Undead of CR ...</p>\r\n</th>\r\n</tr>\r\n</thead>\r\n<tbody>\r\n<tr class=\"Table _idGenTableRowColumn-4\">\r\n<td class=\"Table Table-Body _idGenCellOverride-2\">\r\n<p class=\"Table-Styles_Table-Body--for-Table-Cell-Style- ParaOverride-3\">5th</p>\r\n</td>\r\n<td class=\"Table Table-Body _idGenCellOverride-2\">\r\n<p class=\"Table-Styles_Table-Body--for-Table-Cell-Style-\">1/2 or lower</p>\r\n</td>\r\n</tr>\r\n<tr class=\"Table _idGenTableRowColumn-5\">\r\n<td class=\"Table Table-Body\">\r\n<p class=\"Table-Styles_Table-Body--for-Table-Cell-Style- ParaOverride-3\">8th</p>\r\n</td>\r\n<td class=\"Table Table-Body\">\r\n<p class=\"Table-Styles_Table-Body--for-Table-Cell-Style-\">1 or lower</p>\r\n</td>\r\n</tr>\r\n<tr class=\"Table _idGenTableRowColumn-4\">\r\n<td class=\"Table Table-Body\">\r\n<p class=\"Table-Styles_Table-Body--for-Table-Cell-Style- ParaOverride-3\">11th</p>\r\n</td>\r\n<td class=\"Table Table-Body\">\r\n<p class=\"Table-Styles_Table-Body--for-Table-Cell-Style-\">2 or lower</p>\r\n</td>\r\n</tr>\r\n<tr class=\"Table _idGenTableRowColumn-5\">\r\n<td class=\"Table Table-Body\">\r\n<p class=\"Table-Styles_Table-Body--for-Table-Cell-Style- ParaOverride-3\">14th</p>\r\n</td>\r\n<td class=\"Table Table-Body\">\r\n<p class=\"Table-Styles_Table-Body--for-Table-Cell-Style-\">3 or lower</p>\r\n</td>\r\n</tr>\r\n<tr class=\"Table _idGenTableRowColumn-4\">\r\n<td class=\"Table Table-Body\">\r\n<p class=\"Table-Styles_Table-Body--for-Table-Cell-Style- ParaOverride-3\">17th</p>\r\n</td>\r\n<td class=\"Table Table-Body\">\r\n<p class=\"Table-Styles_Table-Body--for-Table-Cell-Style-\">4 or lower</p>\r\n</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<p>&nbsp;</p>",
+              "description": "<p>Starting at 5th level, when an undead fails its saving throw against your Turn Undead feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold, as shown in the Destroy Undead table.</p>\r\n<table class=\"compendium-left-aligned-table\"><caption>\r\n<h5 id=\"DestroyUndeadTable\" style=\"text-align: left;\">Destroy Undead</h5>\r\n</caption>\r\n<thead>\r\n<tr>\r\n<th>Cleric Level</th>\r\n<th>Destroys Undead of CR &hellip;</th>\r\n</tr>\r\n</thead>\r\n<tbody>\r\n<tr>\r\n<td>5th</td>\r\n<td>1/2 or lower</td>\r\n</tr>\r\n<tr>\r\n<td>8th</td>\r\n<td>1 or lower</td>\r\n</tr>\r\n<tr>\r\n<td>11th</td>\r\n<td>2 or lower</td>\r\n</tr>\r\n<tr>\r\n<td>14th</td>\r\n<td>3 or lower</td>\r\n</tr>\r\n<tr>\r\n<td>17th</td>\r\n<td>4 or lower</td>\r\n</tr>\r\n</tbody>\r\n</table>",
               "snippet": "When an undead fails its saving throw against your Turn Undead feature, it is instantly destroyed if its CR is lower than the threshold for your level.",
               "activation": null,
               "multiClassDescription": "",
               "requiredLevel": 5,
               "isSubClassFeature": false,
-              "limitedUse": [],
+              "limitedUse": [{ "level": null, "uses": 1 }],
               "hideInBuilder": false,
               "hideInSheet": false,
               "sourceId": 2,
@@ -2881,7 +2882,7 @@
                     "fixedValue": null,
                     "diceString": null
                   },
-                  "fixedValue": null
+                  "fixedValue": 1
                 },
                 {
                   "id": 11264,
@@ -2894,7 +2895,7 @@
                     "fixedValue": null,
                     "diceString": null
                   },
-                  "fixedValue": null
+                  "fixedValue": 1
                 },
                 {
                   "id": 11265,
@@ -2907,7 +2908,7 @@
                     "fixedValue": null,
                     "diceString": null
                   },
-                  "fixedValue": null
+                  "fixedValue": 2
                 },
                 {
                   "id": 11266,
@@ -2920,7 +2921,7 @@
                     "fixedValue": null,
                     "diceString": null
                   },
-                  "fixedValue": null
+                  "fixedValue": 3
                 },
                 {
                   "id": 11267,
@@ -2933,7 +2934,7 @@
                     "fixedValue": null,
                     "diceString": null
                   },
-                  "fixedValue": null
+                  "fixedValue": 4
                 }
               ],
               "infusionRules": [],
@@ -3197,12 +3198,12 @@
     "spellDefenses": null,
     "customActions": [],
     "characterValues": [],
-    "conditions": [],
+    "conditions": [{ "id": 6, "level": null }],
     "deathSaves": { "failCount": null, "successCount": null, "isStabilized": false },
     "adjustmentXp": null,
     "spellSlots": [
-      { "level": 1, "used": 1, "available": 0 },
-      { "level": 2, "used": 2, "available": 0 },
+      { "level": 1, "used": 0, "available": 0 },
+      { "level": 2, "used": 1, "available": 0 },
       { "level": 3, "used": 0, "available": 0 },
       { "level": 4, "used": 0, "available": 0 },
       { "level": 5, "used": 0, "available": 0 },
@@ -3218,7 +3219,7 @@
       { "level": 4, "used": 0, "available": 0 },
       { "level": 5, "used": 0, "available": 0 }
     ],
-    "activeSourceCategories": [1],
+    "activeSourceCategories": [1, 14],
     "spells": {
       "race": [
         {
@@ -3421,10 +3422,10 @@
           "displayOrder": null,
           "options": [
             { "id": 4096, "label": "History", "description": null },
+            { "id": 4100, "label": "Religion", "description": null },
             { "id": 4097, "label": "Insight", "description": null },
             { "id": 4098, "label": "Medicine", "description": null },
-            { "id": 4099, "label": "Persuasion", "description": null },
-            { "id": 4100, "label": "Religion", "description": null }
+            { "id": 4099, "label": "Persuasion", "description": null }
           ],
           "optionIds": []
         },
@@ -3443,10 +3444,10 @@
           "displayOrder": null,
           "options": [
             { "id": 4096, "label": "History", "description": null },
+            { "id": 4100, "label": "Religion", "description": null },
             { "id": 4097, "label": "Insight", "description": null },
             { "id": 4098, "label": "Medicine", "description": null },
-            { "id": 4099, "label": "Persuasion", "description": null },
-            { "id": 4100, "label": "Religion", "description": null }
+            { "id": 4099, "label": "Persuasion", "description": null }
           ],
           "optionIds": []
         }
@@ -3501,36 +3502,47 @@
           "defaultSubtypes": [],
           "displayOrder": null,
           "options": [
-            { "id": 4045, "label": "Abyssal", "description": null },
-            { "id": 4049, "label": "Celestial", "description": null },
             { "id": 4050, "label": "Common", "description": null },
-            { "id": 4051, "label": "Deep Speech", "description": null },
-            { "id": 4052, "label": "Draconic", "description": null },
             { "id": 4054, "label": "Dwarvish", "description": null },
             { "id": 4055, "label": "Elvish", "description": null },
             { "id": 4056, "label": "Giant", "description": null },
             { "id": 4061, "label": "Gnomish", "description": null },
             { "id": 4062, "label": "Goblin", "description": null },
             { "id": 4063, "label": "Halfling", "description": null },
-            { "id": 4065, "label": "Infernal", "description": null },
             { "id": 4066, "label": "Orc", "description": null },
+            { "id": 4045, "label": "Abyssal", "description": null },
+            { "id": 4049, "label": "Celestial", "description": null },
+            { "id": 4052, "label": "Draconic", "description": null },
+            { "id": 4051, "label": "Deep Speech", "description": null },
+            { "id": 4065, "label": "Infernal", "description": null },
             { "id": 4068, "label": "Primordial", "description": null },
             { "id": 4071, "label": "Sylvan", "description": null },
             { "id": 4074, "label": "Undercommon", "description": null },
             { "id": 5064, "label": "Gith", "description": null },
-            { "id": 5108, "label": "Minotaur", "description": null },
+            { "id": 5172, "label": "Quori", "description": null },
             { "id": 5109, "label": "Loxodon", "description": null },
+            { "id": 5108, "label": "Minotaur", "description": null },
             { "id": 5110, "label": "Kraul", "description": null },
             { "id": 5111, "label": "Vedalken", "description": null },
-            { "id": 5172, "label": "Quori", "description": null },
             { "id": 5173, "label": "Daelkyr", "description": null },
             { "id": 5174, "label": "Riedran", "description": null },
-            { "id": 5197, "label": "Naush", "description": null },
-            { "id": 5198, "label": "Marquesian", "description": null },
             { "id": 5199, "label": "Zemnian", "description": null },
+            { "id": 5198, "label": "Marquesian", "description": null },
+            { "id": 5197, "label": "Naush", "description": null },
             { "id": 5206, "label": "Leonin", "description": null },
             { "id": 5928, "label": "Hadozee", "description": null },
-            { "id": 5929, "label": "Thri-kreen", "description": null }
+            { "id": 5929, "label": "Thri-kreen", "description": null },
+            { "id": 5954, "label": "Solamnic", "description": null },
+            { "id": 5955, "label": "Kenderspeak", "description": null },
+            { "id": 5956, "label": "Abanasinian", "description": null },
+            { "id": 5957, "label": "Ergot", "description": null },
+            { "id": 5958, "label": "Kharolian", "description": null },
+            { "id": 5959, "label": "Khur", "description": null },
+            { "id": 5960, "label": "Nordmaarian", "description": null },
+            { "id": 5961, "label": "Istarian", "description": null },
+            { "id": 5962, "label": "Kothian", "description": null },
+            { "id": 5963, "label": "Nerakese", "description": null },
+            { "id": 5964, "label": "Ogre", "description": null }
           ],
           "optionIds": []
         },
@@ -3548,36 +3560,47 @@
           "defaultSubtypes": [],
           "displayOrder": null,
           "options": [
-            { "id": 4045, "label": "Abyssal", "description": null },
-            { "id": 4049, "label": "Celestial", "description": null },
             { "id": 4050, "label": "Common", "description": null },
-            { "id": 4051, "label": "Deep Speech", "description": null },
-            { "id": 4052, "label": "Draconic", "description": null },
             { "id": 4054, "label": "Dwarvish", "description": null },
             { "id": 4055, "label": "Elvish", "description": null },
             { "id": 4056, "label": "Giant", "description": null },
             { "id": 4061, "label": "Gnomish", "description": null },
             { "id": 4062, "label": "Goblin", "description": null },
             { "id": 4063, "label": "Halfling", "description": null },
-            { "id": 4065, "label": "Infernal", "description": null },
             { "id": 4066, "label": "Orc", "description": null },
+            { "id": 4045, "label": "Abyssal", "description": null },
+            { "id": 4049, "label": "Celestial", "description": null },
+            { "id": 4052, "label": "Draconic", "description": null },
+            { "id": 4051, "label": "Deep Speech", "description": null },
+            { "id": 4065, "label": "Infernal", "description": null },
             { "id": 4068, "label": "Primordial", "description": null },
             { "id": 4071, "label": "Sylvan", "description": null },
             { "id": 4074, "label": "Undercommon", "description": null },
             { "id": 5064, "label": "Gith", "description": null },
-            { "id": 5108, "label": "Minotaur", "description": null },
+            { "id": 5172, "label": "Quori", "description": null },
             { "id": 5109, "label": "Loxodon", "description": null },
+            { "id": 5108, "label": "Minotaur", "description": null },
             { "id": 5110, "label": "Kraul", "description": null },
             { "id": 5111, "label": "Vedalken", "description": null },
-            { "id": 5172, "label": "Quori", "description": null },
             { "id": 5173, "label": "Daelkyr", "description": null },
             { "id": 5174, "label": "Riedran", "description": null },
-            { "id": 5197, "label": "Naush", "description": null },
-            { "id": 5198, "label": "Marquesian", "description": null },
             { "id": 5199, "label": "Zemnian", "description": null },
+            { "id": 5198, "label": "Marquesian", "description": null },
+            { "id": 5197, "label": "Naush", "description": null },
             { "id": 5206, "label": "Leonin", "description": null },
             { "id": 5928, "label": "Hadozee", "description": null },
-            { "id": 5929, "label": "Thri-kreen", "description": null }
+            { "id": 5929, "label": "Thri-kreen", "description": null },
+            { "id": 5954, "label": "Solamnic", "description": null },
+            { "id": 5955, "label": "Kenderspeak", "description": null },
+            { "id": 5956, "label": "Abanasinian", "description": null },
+            { "id": 5957, "label": "Ergot", "description": null },
+            { "id": 5958, "label": "Kharolian", "description": null },
+            { "id": 5959, "label": "Khur", "description": null },
+            { "id": 5960, "label": "Nordmaarian", "description": null },
+            { "id": 5961, "label": "Istarian", "description": null },
+            { "id": 5962, "label": "Kothian", "description": null },
+            { "id": 5963, "label": "Nerakese", "description": null },
+            { "id": 5964, "label": "Ogre", "description": null }
           ],
           "optionIds": []
         },
@@ -3776,7 +3799,7 @@
             "name": null,
             "statModifierUsesId": null,
             "resetType": 2,
-            "numberUsed": 0,
+            "numberUsed": 1,
             "minNumberConsumed": 1,
             "maxNumberConsumed": 1,
             "maxUses": 1,
@@ -3828,7 +3851,7 @@
             "name": null,
             "statModifierUsesId": null,
             "resetType": 1,
-            "numberUsed": 0,
+            "numberUsed": 1,
             "minNumberConsumed": 1,
             "maxNumberConsumed": 1,
             "maxUses": 1,
@@ -4277,52 +4300,6 @@
           "componentTypeId": 12168134
         },
         {
-          "fixedValue": 1,
-          "id": "1685",
-          "entityId": null,
-          "entityTypeId": null,
-          "type": "bonus",
-          "subType": "choose-an-ability-score",
-          "dice": null,
-          "restriction": null,
-          "statId": null,
-          "requiresAttunement": false,
-          "duration": null,
-          "friendlyTypeName": "Bonus",
-          "friendlySubtypeName": "Choose an Ability Score",
-          "isGranted": true,
-          "bonusTypes": [],
-          "value": 1,
-          "availableToMulticlass": true,
-          "modifierTypeId": 1,
-          "modifierSubTypeId": 695,
-          "componentId": 111,
-          "componentTypeId": 12168134
-        },
-        {
-          "fixedValue": 1,
-          "id": "1799",
-          "entityId": null,
-          "entityTypeId": null,
-          "type": "bonus",
-          "subType": "choose-an-ability-score",
-          "dice": null,
-          "restriction": null,
-          "statId": null,
-          "requiresAttunement": false,
-          "duration": null,
-          "friendlyTypeName": "Bonus",
-          "friendlySubtypeName": "Choose an Ability Score",
-          "isGranted": true,
-          "bonusTypes": [],
-          "value": 1,
-          "availableToMulticlass": true,
-          "modifierTypeId": 1,
-          "modifierSubTypeId": 695,
-          "componentId": 111,
-          "componentTypeId": 12168134
-        },
-        {
           "fixedValue": null,
           "id": "1497",
           "entityId": 1,
@@ -4504,6 +4481,52 @@
           "modifierTypeId": 10,
           "modifierSubTypeId": 253,
           "componentId": 461,
+          "componentTypeId": 12168134
+        },
+        {
+          "fixedValue": 1,
+          "id": "1685",
+          "entityId": null,
+          "entityTypeId": null,
+          "type": "bonus",
+          "subType": "choose-an-ability-score",
+          "dice": null,
+          "restriction": null,
+          "statId": null,
+          "requiresAttunement": false,
+          "duration": null,
+          "friendlyTypeName": "Bonus",
+          "friendlySubtypeName": "Choose an Ability Score",
+          "isGranted": true,
+          "bonusTypes": [],
+          "value": 1,
+          "availableToMulticlass": true,
+          "modifierTypeId": 1,
+          "modifierSubTypeId": 695,
+          "componentId": 111,
+          "componentTypeId": 12168134
+        },
+        {
+          "fixedValue": 1,
+          "id": "1799",
+          "entityId": null,
+          "entityTypeId": null,
+          "type": "bonus",
+          "subType": "choose-an-ability-score",
+          "dice": null,
+          "restriction": null,
+          "statId": null,
+          "requiresAttunement": false,
+          "duration": null,
+          "friendlyTypeName": "Bonus",
+          "friendlySubtypeName": "Choose an Ability Score",
+          "isGranted": true,
+          "bonusTypes": [],
+          "value": 1,
+          "availableToMulticlass": true,
+          "modifierTypeId": 1,
+          "modifierSubTypeId": 695,
+          "componentId": 111,
           "componentTypeId": 12168134
         },
         {
@@ -5153,7 +5176,7 @@
               "activation": { "activationTime": 1, "activationType": 3 },
               "range": { "origin": "Ranged", "rangeValue": 60, "aoeType": null, "aoeValue": null },
               "asPartOfWeaponAttack": false,
-              "description": "<p>A creature of your choice that you can see within range regains hit points equal to 1d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs.</p>\r\n<p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d4 for each slot level above 1st.</p>",
+              "description": "<p>A creature of your choice that you can see within range regains hit points equal to 1d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs.</p>\r\n<p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d4 for each slot level above 1st.</p>",
               "snippet": "",
               "concentration": false,
               "ritual": false,
@@ -6548,7 +6571,7 @@
           "characterId": 71942288,
           "characterName": "Vercey Whispermouse",
           "characterUrl": "/profile/Ametolie/characters/71942288",
-          "avatarUrl": "https://www.dndbeyond.com/avatars/28417/823/1581111423-71942288.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
+          "avatarUrl": "https://www.dndbeyond.com/avatars/29053/84/1581111423-71942288.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
           "privacyType": 3,
           "campaignId": null,
           "isAssigned": true
@@ -6582,7 +6605,7 @@
       }
     ],
     "optionalClassFeatures": [],
-    "dateModified": "2022-09-23T20:18:08.873Z",
+    "dateModified": "2022-12-11T02:26:40.48Z",
     "providedFrom": "storage"
   },
   "pagination": null

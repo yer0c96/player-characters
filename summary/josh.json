@@ -9,7 +9,7 @@
     "wisdom": 10,
     "charisma": 15
   },
-  "hitPoints": { "base": 18, "current": 18, "temp": 9 },
+  "hitPoints": { "base": 18, "current": 5, "temp": 0 },
   "traits": {
     "personalityTraits": "I feel far more comfortable around animals than people.\nI have a lesson for every situation, drawn from observing nature.",
     "ideals": "Change. Life is like the seasons, in constant change, and we must change with it. (Chaotic)",
@@ -105,13 +105,16 @@
     "Proficiency: Athletics",
     "Proficiency: Survival",
     "Proficiency: Birdpipes",
+    "Sense: Darkvision",
     "Set: Subclass"
   ],
   "inventory": [
     "Backpack",
     "Bedroll",
     "Blanket",
+    "Block of Incense",
     "Clothes, Traveler's",
+    "Goggles of Night",
     "Lantern, Hooded",
     "Mess Kit",
     "Potion of Healing",
@@ -121,8 +124,8 @@
     "Staff",
     "Waterskin"
   ],
-  "currencies": { "cp": 3, "sp": 61, "gp": 21, "ep": 0, "pp": 0 },
-  "money": 27.13,
+  "currencies": { "cp": 3, "sp": 61, "gp": 20, "ep": 0, "pp": 0 },
+  "money": 26.13,
   "notes": {
     "allies": "Lancelot",
     "personalPossessions": "Sack of feathers",

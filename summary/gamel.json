@@ -9,7 +9,7 @@
     "wisdom": 15,
     "charisma": 12
   },
-  "hitPoints": { "base": 23, "current": 16, "temp": 9 },
+  "hitPoints": { "base": 23, "current": 9, "temp": 1 },
   "traits": {
     "personalityTraits": "I’ve enjoyed fine food, drink, and high society among my temple’s elite. Rough living grates on me.\nI’ve spent so long in the temple that I have little practical experience dealing with people in the outside world.",
     "ideals": "Change. We must help bring about the changes the gods are constantly working in the world. (Chaotic)",
@@ -110,8 +110,8 @@
     "Warhammer",
     "Waterskin"
   ],
-  "currencies": { "cp": 10, "sp": 9, "gp": 28, "ep": 0, "pp": 0 },
-  "money": 29,
+  "currencies": { "cp": 10, "sp": 9, "gp": 27, "ep": 0, "pp": 0 },
+  "money": 28,
   "notes": {
     "allies": "",
     "personalPossessions": "a prayer book\n5 sticks of incense",

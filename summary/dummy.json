@@ -14,12 +14,17 @@
   "bonusStats": {},
   "overrideStats": {},
   "feats": [],
-  "spells": ["Dancing Lights"],
+  "spells": ["Dancing Lights", "Fire Bolt"],
   "actions": ["Magical Tinkering"],
   "modifiers": [
     "Advantage: Saving Throws",
     "Bonus: Dexterity Score",
     "Bonus: Intelligence Score",
+    "Bonus: Ability Checks",
+    "Bonus: Saving Throws",
+    "Bonus: Melee Attacks",
+    "Bonus: Ranged Attacks",
+    "Bonus: Spell Attacks",
     "Immunity: Magical Sleep",
     "Language: Common",
     "Language: Elvish",
@@ -42,8 +47,17 @@
     "Proficiency: Constitution Saving Throws",
     "Set Base: Darkvision"
   ],
-  "inventory": ["Scroll: Duck Punch", "Silvered Longsword"],
+  "inventory": [
+    "Emotional Baggage",
+    "Scroll: Duck Punch",
+    "Silvered Longsword",
+    "Stress I",
+    "Stress II",
+    "Stress III",
+    "Stress IV",
+    "Stress V"
+  ],
   "currencies": { "cp": 0, "sp": 0, "gp": 0, "ep": 0, "pp": 0 },
   "money": 0,
-  "notes": { "personalPossessions": "" }
+  "notes": { "personalPossessions": "", "otherNotes": "" }
 }

@@ -9,7 +9,7 @@
     "wisdom": 10,
     "charisma": 15
   },
-  "hitPoints": { "base": 28, "current": 11, "temp": 7 },
+  "hitPoints": { "base": 28, "current": 28, "temp": 0 },
   "traits": {
     "flaws": "I can’t be comfortable around creatures larger than I am.\n\nFear of The Executioner."
   },

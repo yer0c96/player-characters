@@ -1,5 +1,19 @@
+const { default: axios } = require('axios')
 const fs = require('fs')
-const { pipe, map, flatten, sortBy, prop, values, uniq, pluck, filter, trim } = require('ramda')
+const moment = require('moment/moment')
+const {
+  pipe,
+  map,
+  flatten,
+  sortBy,
+  prop,
+  values,
+  uniq,
+  pluck,
+  filter,
+  trim,
+  omit,
+} = require('ramda')
 
 const statNames = {
   1: 'strength',
@@ -8,6 +22,15 @@ const statNames = {
   4: 'intelligence',
   5: 'wisdom',
   6: 'charisma',
+}
+
+const playerCharacterIds = {
+  corey: 71560080,
+  gamel: 71562753,
+  todd: 71559602,
+  josh: 72209867,
+  jen: 71942288,
+  dummy: 72798822,
 }
 
 const sources = ['race', 'background', 'class', 'item', 'feat']
@@ -41,10 +64,18 @@ const getInventoryItem = (item, characterValues) => {
   return name
 }
 
-const summarize = (player) => {
-  const raw = fs.readFileSync(`json/${player}.json`)
+const summarize = async (player) => {
+  const data = await axios
+    .get(
+      `https://character-service.dndbeyond.com/character/v3/character/${playerCharacterIds[player]}`,
+    )
+    .then(({ data }) => {
+      return pipe(omit(['providedFrom']))(data.data)
+    })
 
-  const data = JSON.parse(raw).data
+  fs.writeFileSync(`json/${player}.json`, JSON.stringify(data))
+
+  if (!data) return null
 
   const {
     characterValues,
@@ -106,9 +137,9 @@ const summarize = (player) => {
     )(modifiers),
     inventory: inventory.map((i) => getInventoryItem(i, characterValues)).sort(),
     currencies,
-    money: cp / 100 + sp / 10 + ep / 2 + gp + pp * 10,
+    money: cp * 0.01 + sp * 0.1 + ep * 0.5 + gp * 1 + pp * 10,
     notes: mapTrim(notes),
-    // dateModified: moment(dateModified).format('LLLL'),
+    // dateModified: moment(dateModified).format('YYYY.MM.DD - HH:mm'),
   }
 
   fs.writeFileSync(`summary/${player}.json`, JSON.stringify(final))

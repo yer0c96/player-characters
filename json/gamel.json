@@ -270,7 +270,7 @@
         "isHomebrew": false,
         "sources": [{ "sourceId": 1, "pageNumber": null, "sourceType": 1 }],
         "spellListIds": [],
-        "grantedFeatIds": []
+        "featList": null
       },
       "definitionId": null,
       "customBackground": {
@@ -4983,56 +4983,6 @@
           "ammunition": null
         },
         {
-          "componentId": 3021050,
-          "componentTypeId": 12168134,
-          "id": "2426099",
-          "entityTypeId": "222216831",
-          "limitedUse": {
-            "name": null,
-            "statModifierUsesId": null,
-            "resetType": 2,
-            "numberUsed": 0,
-            "minNumberConsumed": 1,
-            "maxNumberConsumed": 1,
-            "maxUses": 1,
-            "operator": 1,
-            "useProficiencyBonus": false,
-            "proficiencyBonusOperator": 1,
-            "resetDice": null
-          },
-          "name": "Harness Divine Power",
-          "description": "<p><em>2nd-level cleric feature</em><br />You can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain one expended spell slot, the level of which can be no higher than half your proficiency bonus (rounded up). The number of times you can use this feature is based on the level you&rsquo;ve reached in this class: 2nd level, once; 6th level, twice; and 18th level, thrice. You regain all expended uses when you finish a long rest.</p>",
-          "snippet": "You can expend a use of your <em>Channel Divinity</em> to fuel your spells. As a bonus action, you regain one expended spell slot of up to level {{(proficiency/2)@roundup#unsigned}}.\r\nYou regain all expended uses when you finish a long rest.",
-          "abilityModifierStatId": null,
-          "onMissDescription": "",
-          "saveFailDescription": "",
-          "saveSuccessDescription": "",
-          "saveStatId": null,
-          "fixedSaveDc": null,
-          "attackTypeRange": null,
-          "actionType": 3,
-          "attackSubtype": null,
-          "dice": null,
-          "value": null,
-          "damageTypeId": null,
-          "isMartialArts": false,
-          "isProficient": false,
-          "spellRangeType": null,
-          "displayAsAttack": null,
-          "range": {
-            "range": null,
-            "longRange": null,
-            "aoeType": null,
-            "aoeSize": null,
-            "hasAoeSpecialDescription": false,
-            "minimumRange": null
-          },
-          "activation": { "activationTime": null, "activationType": 3 },
-          "numberOfTargets": null,
-          "fixedToHit": null,
-          "ammunition": null
-        },
-        {
           "componentId": 2996540,
           "componentTypeId": 12168134,
           "id": "2409717",
@@ -5154,6 +5104,56 @@
             "minimumRange": null
           },
           "activation": { "activationTime": null, "activationType": 1 },
+          "numberOfTargets": null,
+          "fixedToHit": null,
+          "ammunition": null
+        },
+        {
+          "componentId": 3021050,
+          "componentTypeId": 12168134,
+          "id": "2426099",
+          "entityTypeId": "222216831",
+          "limitedUse": {
+            "name": null,
+            "statModifierUsesId": null,
+            "resetType": 2,
+            "numberUsed": 0,
+            "minNumberConsumed": 1,
+            "maxNumberConsumed": 1,
+            "maxUses": 1,
+            "operator": 1,
+            "useProficiencyBonus": false,
+            "proficiencyBonusOperator": 1,
+            "resetDice": null
+          },
+          "name": "Harness Divine Power",
+          "description": "<p><em>2nd-level cleric feature</em><br />You can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain one expended spell slot, the level of which can be no higher than half your proficiency bonus (rounded up). The number of times you can use this feature is based on the level you&rsquo;ve reached in this class: 2nd level, once; 6th level, twice; and 18th level, thrice. You regain all expended uses when you finish a long rest.</p>",
+          "snippet": "You can expend a use of your <em>Channel Divinity</em> to fuel your spells. As a bonus action, you regain one expended spell slot of up to level {{(proficiency/2)@roundup#unsigned}}.\r\nYou regain all expended uses when you finish a long rest.",
+          "abilityModifierStatId": null,
+          "onMissDescription": "",
+          "saveFailDescription": "",
+          "saveSuccessDescription": "",
+          "saveStatId": null,
+          "fixedSaveDc": null,
+          "attackTypeRange": null,
+          "actionType": 3,
+          "attackSubtype": null,
+          "dice": null,
+          "value": null,
+          "damageTypeId": null,
+          "isMartialArts": false,
+          "isProficient": false,
+          "spellRangeType": null,
+          "displayAsAttack": null,
+          "range": {
+            "range": null,
+            "longRange": null,
+            "aoeType": null,
+            "aoeSize": null,
+            "hasAoeSpecialDescription": false,
+            "minimumRange": null
+          },
+          "activation": { "activationTime": null, "activationType": 3 },
           "numberOfTargets": null,
           "fixedToHit": null,
           "ammunition": null
@@ -8234,7 +8234,7 @@
     ],
     "optionalClassFeatures": [],
     "dateModified": "2023-01-01T01:35:07.86Z",
-    "providedFrom": "storage"
+    "providedFrom": "database"
   },
   "pagination": null
 }

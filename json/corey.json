@@ -282,7 +282,7 @@
         "isHomebrew": false,
         "sources": [{ "sourceId": 2, "pageNumber": null, "sourceType": 1 }],
         "spellListIds": [],
-        "grantedFeatIds": []
+        "featList": null
       },
       "definitionId": null,
       "customBackground": {
@@ -1104,7 +1104,7 @@
           "isPack": false,
           "tags": ["Healing", "Combat", "Consumable"],
           "grantedModifiers": [],
-          "subType": null,
+          "subType": "Potion",
           "isConsumable": true,
           "weaponBehaviors": [],
           "baseItemId": null,
@@ -1182,7 +1182,7 @@
           "isPack": false,
           "tags": ["Healing", "Utility"],
           "grantedModifiers": [],
-          "subType": null,
+          "subType": "Tool",
           "isConsumable": false,
           "weaponBehaviors": [],
           "baseItemId": null,
@@ -7227,7 +7227,7 @@
     "optionalOrigins": [],
     "optionalClassFeatures": [],
     "dateModified": "2023-01-01T01:34:15.907Z",
-    "providedFrom": "storage"
+    "providedFrom": "database"
   },
   "pagination": null
 }

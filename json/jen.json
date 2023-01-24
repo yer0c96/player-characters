@@ -254,7 +254,7 @@
         "isHomebrew": false,
         "sources": [{ "sourceId": 26, "pageNumber": null, "sourceType": 1 }],
         "spellListIds": [],
-        "grantedFeatIds": []
+        "featList": null
       },
       "definitionId": null,
       "customBackground": {
@@ -9031,7 +9031,7 @@
     "optionalOrigins": [],
     "optionalClassFeatures": [],
     "dateModified": "2023-01-01T01:33:36.36Z",
-    "providedFrom": "storage"
+    "providedFrom": "database"
   },
   "pagination": null
 }

@@ -6,14 +6,7 @@
   "author": "Richard Jarrell <richardjarrell@yahoo.com>",
   "license": "MIT",
   "scripts": {
-    "corey": "curl -o json/corey.json https://character-service.dndbeyond.com/character/v3/character/71560080",
-    "gamel": "curl -o json/gamel.json https://character-service.dndbeyond.com/character/v3/character/71562753",
-    "todd": "curl -o json/todd.json https://character-service.dndbeyond.com/character/v3/character/71559602",
-    "josh": "curl -o json/josh.json https://character-service.dndbeyond.com/character/v3/character/72209867",
-    "jen": "curl -o json/jen.json https://character-service.dndbeyond.com/character/v3/character/71942288",
-    "all": "yarn corey && yarn gamel && yarn todd && yarn josh && yarn jen",
     "start": "yarn summarize && prettier json --write",
-    "collect": "yarn all && prettier json --write",
     "summarize": "node summary && node party && prettier summary --write",
     "test": "curl -o json/dummy.json https://character-service.dndbeyond.com/character/v3/character/72798822 && node summary && prettier json/dummy.json --write && prettier summary --write"
   },

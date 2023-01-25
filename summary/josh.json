@@ -9,6 +9,7 @@
     "wisdom": 10,
     "charisma": 15
   },
+  "stress": "Stress I",
   "hitPoints": { "base": 18, "current": 18, "temp": 0 },
   "traits": {
     "personalityTraits": "I feel far more comfortable around animals than people.\nI have a lesson for every situation, drawn from observing nature.",

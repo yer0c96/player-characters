@@ -126,7 +126,8 @@ const summarize = async (player) => {
         }`,
     ),
     stats: getStatObject('stats', data),
-    stress: inventory.filter((i) => i.equipped && i.definition.name.includes('Stress')),
+    stress: inventory.filter((i) => i.equipped && i.definition.name.includes('Stress'))[0]
+      ?.definition.name,
     hitPoints: {
       base: data.baseHitPoints,
       current: data.baseHitPoints - data.removedHitPoints,

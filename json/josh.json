@@ -720,9 +720,9 @@
       "displayAsAttack": null,
       "quantity": 1,
       "isAttuned": false,
-      "equipped": false,
-      "equippedEntityTypeId": null,
-      "equippedEntityId": null,
+      "equipped": true,
+      "equippedEntityTypeId": 1581111423,
+      "equippedEntityId": 72209867,
       "chargesUsed": 0,
       "limitedUse": null,
       "containerEntityId": 72209867,
@@ -7712,5 +7712,5 @@
   "creatures": [],
   "optionalOrigins": [],
   "optionalClassFeatures": [],
-  "dateModified": "2023-01-24T17:03:33.037Z"
+  "dateModified": "2023-01-25T06:13:51.55Z"
 }

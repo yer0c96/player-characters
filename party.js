@@ -2,7 +2,6 @@ const fs = require('fs')
 const { sum, pluck, pipe, flatten, sort, sortBy, prop, identity } = require('ramda')
 
 const ignoredItems = [
-  'Backpack',
   'Stress I',
   'Stress II',
   'Stress III',
@@ -20,9 +19,11 @@ const partySummary = () => {
 
   const party = [josh, corey, todd, gamel, jen]
 
-  const inventories = pipe(pluck('inventory'), flatten, sortBy(identity))(party)
-
-  const inventory = inventories
+  const inventory = pipe(
+    pluck('inventory'),
+    flatten,
+    sortBy(identity),
+  )(party)
     .reduce((a, b) => {
       const index = a.findIndex((item) => item.name === b)
       return index === -1 ? a.push({ name: b, count: 1 }) : a[index].count++, a
@@ -30,11 +31,22 @@ const partySummary = () => {
     .filter((item) => !ignoredItems.includes(item.name))
     .map((item) => (item.count > 1 ? `${item.name} x${item.count}` : item.name))
 
-  console.log(inventory)
+  const equipment = pipe(
+    pluck('equipment'),
+    flatten,
+    sortBy(identity),
+  )(party)
+    .reduce((a, b) => {
+      const index = a.findIndex((item) => item.name === b)
+      return index === -1 ? a.push({ name: b, count: 1 }) : a[index].count++, a
+    }, [])
+    .filter((item) => !ignoredItems.includes(item.name))
+    .map((item) => (item.count > 1 ? `${item.name} x${item.count}` : item.name))
 
   const summary = {
     classes: pipe(pluck('classes'))(party),
     money: sum(pluck('money', party)),
+    equipment,
     inventory,
   }
 
@@ -42,3 +54,5 @@ const partySummary = () => {
 }
 
 partySummary()
+
+module.exports = { ignoredItems }

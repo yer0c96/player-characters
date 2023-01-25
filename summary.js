@@ -14,6 +14,7 @@ const {
   trim,
   omit,
 } = require('ramda')
+const { ignoredItems } = require('./party')
 
 const statNames = {
   1: 'strength',
@@ -105,6 +106,17 @@ const summarize = async (player) => {
 
   const _classSpells = classSpells.map((cs) => cs.spells?.map((s) => s.definition.name)).flat()
 
+  const bags = inventory
+    .filter((i) => !i.equipped)
+    .map((i) => getInventoryItem(i, characterValues))
+    .filter((i) => !ignoredItems.includes(i))
+    .sort()
+  const gear = inventory
+    .filter((i) => i.equipped)
+    .map((i) => getInventoryItem(i, characterValues))
+    .filter((i) => !ignoredItems.includes(i))
+    .sort()
+
   const final = {
     name,
     classes: classes.map(
@@ -114,6 +126,7 @@ const summarize = async (player) => {
         }`,
     ),
     stats: getStatObject('stats', data),
+    stress: inventory.filter((i) => i.equipped && i.definition.name.includes('Stress')),
     hitPoints: {
       base: data.baseHitPoints,
       current: data.baseHitPoints - data.removedHitPoints,
@@ -135,7 +148,8 @@ const summarize = async (player) => {
       map((x) => `${x.friendlyTypeName}: ${x.friendlySubtypeName}`),
       uniq,
     )(modifiers),
-    inventory: inventory.map((i) => getInventoryItem(i, characterValues)).sort(),
+    equipment: gear,
+    inventory: bags,
     currencies,
     money: cp * 0.01 + sp * 0.1 + ep * 0.5 + gp * 1 + pp * 10,
     notes: mapTrim(notes),

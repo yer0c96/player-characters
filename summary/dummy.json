@@ -47,16 +47,8 @@
     "Proficiency: Constitution Saving Throws",
     "Set Base: Darkvision"
   ],
-  "inventory": [
-    "Emotional Baggage",
-    "Scroll: Duck Punch",
-    "Silvered Longsword",
-    "Stress I",
-    "Stress II",
-    "Stress III",
-    "Stress IV",
-    "Stress V"
-  ],
+  "equipment": [],
+  "inventory": ["Scroll: Duck Punch", "Silvered Longsword"],
   "currencies": { "cp": 0, "sp": 0, "gp": 0, "ep": 0, "pp": 0 },
   "money": 0,
   "notes": { "personalPossessions": "", "otherNotes": "" }

@@ -125,7 +125,7 @@ const summarize = async (player) => {
     background: background.hasCustomBackground
       ? background.customBackground?.name
       : background.definition?.name,
-    feats,
+    feats: feats.map((f) => f.definition.name).sort(),
     spells: _spells.concat(_classSpells).sort(),
     actions: pipe(values, flatten, filter(Boolean), sortBy(prop('name')), pluck('name'))(actions),
     modifiers: pipe(

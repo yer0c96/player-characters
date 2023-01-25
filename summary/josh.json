@@ -19,45 +19,7 @@
   "bonusStats": {},
   "overrideStats": {},
   "background": "Outlander",
-  "feats": [
-    {
-      "componentTypeId": 12168134,
-      "componentId": 318,
-      "definition": {
-        "id": 46,
-        "entityTypeId": 1088085227,
-        "definitionKey": "1088085227:46",
-        "name": "Spell Sniper (Bard, Sorcerer, Warlock)",
-        "description": "<p>You have learned techniques to enhance your attacks with certain kinds of spells, gaining the following benefits:</p>\r\n<ul>\r\n<li>When you cast a spell that requires you to make an attack roll, the spell's range is doubled.</li>\r\n<li>Your ranged spell attacks ignore half cover and three-quarters cover.</li>\r\n<li>You learn one cantrip that requires an attack roll. Choose the cantrip from the bard, sorcerer, or warlock spell list. Your spellcasting ability for this cantrip is Charisma.</li>\r\n</ul>",
-        "snippet": "When you cast a spell that requires you to make an attack roll, the spell's range is doubled. Your ranged spell attacks ignore half cover and three-quarters cover. You learn one cantrip that requires an attack roll from your chosen class spell list (CHA is your spellcasting ability for it).",
-        "activation": { "activationTime": null, "activationType": null },
-        "sourceId": null,
-        "sourcePageNumber": null,
-        "creatureRules": [],
-        "prerequisites": [
-          {
-            "description": "The ability to cast at least one spell",
-            "prerequisiteMappings": [
-              {
-                "id": 34,
-                "entityId": null,
-                "entityTypeId": null,
-                "type": "custom-value",
-                "subType": "the-ability-to-cast-at-least-one-spell",
-                "value": null,
-                "friendlyTypeName": "Custom Value",
-                "friendlySubTypeName": "The ability to cast at least one spell"
-              }
-            ]
-          }
-        ],
-        "isHomebrew": false,
-        "sources": [{ "sourceId": 2, "pageNumber": 170, "sourceType": 1 }],
-        "spellListIds": []
-      },
-      "definitionId": 0
-    }
-  ],
+  "feats": ["Spell Sniper (Bard, Sorcerer, Warlock)"],
   "spells": [
     "Arms of Hadar",
     "Calm Emotions",

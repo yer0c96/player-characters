@@ -965,6 +965,84 @@
       "currency": null
     },
     {
+      "id": 1029672243,
+      "entityTypeId": 1439493548,
+      "definition": {
+        "id": 72,
+        "baseTypeId": 2103445194,
+        "entityTypeId": 2103445194,
+        "definitionKey": "2103445194:72",
+        "canEquip": true,
+        "magic": false,
+        "name": "Pouch",
+        "snippet": null,
+        "weight": 1,
+        "weightMultiplier": 1,
+        "capacity": "",
+        "capacityWeight": 6,
+        "type": "Gear",
+        "description": "<p>A cloth or leather pouch can hold 1/5 cubic foot/ 6 pounds of gear - or up to 20 sling bullets or 50 blowgun needles, among other things. A compartmentalized pouch for holding spell components is called a component pouch.</p>",
+        "canAttune": false,
+        "attunementDescription": null,
+        "rarity": "Common",
+        "isHomebrew": false,
+        "version": null,
+        "sourceId": null,
+        "sourcePageNumber": null,
+        "stackable": false,
+        "bundleSize": 1,
+        "avatarUrl": null,
+        "largeAvatarUrl": null,
+        "filterType": "Other Gear",
+        "cost": 0.5,
+        "isPack": false,
+        "tags": ["Container"],
+        "grantedModifiers": [],
+        "subType": "Adventuring Gear",
+        "isConsumable": false,
+        "weaponBehaviors": [],
+        "baseItemId": null,
+        "baseArmorName": null,
+        "strengthRequirement": null,
+        "armorClass": null,
+        "stealthCheck": null,
+        "damage": null,
+        "damageType": null,
+        "fixedDamage": null,
+        "properties": null,
+        "attackType": null,
+        "categoryId": null,
+        "range": null,
+        "longRange": null,
+        "isMonkWeapon": false,
+        "levelInfusionGranted": null,
+        "sources": [
+          { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+          { "sourceId": 2, "pageNumber": null, "sourceType": 1 }
+        ],
+        "armorTypeId": null,
+        "gearTypeId": 1,
+        "groupedId": null,
+        "canBeAddedToInventory": true,
+        "isContainer": true,
+        "isCustomItem": false
+      },
+      "definitionId": 0,
+      "definitionTypeId": 0,
+      "displayAsAttack": null,
+      "quantity": 1,
+      "isAttuned": false,
+      "equipped": true,
+      "equippedEntityTypeId": 1581111423,
+      "equippedEntityId": 72209867,
+      "chargesUsed": 0,
+      "limitedUse": null,
+      "containerEntityId": 72209867,
+      "containerEntityTypeId": 1581111423,
+      "containerDefinitionKey": "1581111423:72209867",
+      "currency": null
+    },
+    {
       "id": 801944472,
       "entityTypeId": 1439493548,
       "definition": {
@@ -3690,7 +3768,7 @@
           }
         ],
         "isHomebrew": false,
-        "sources": [{ "sourceId": 2, "pageNumber": 170, "sourceType": 1 }],
+        "sources": [{ "sourceId": 39, "pageNumber": 170, "sourceType": 1 }],
         "spellListIds": []
       },
       "definitionId": 0
@@ -3726,6 +3804,15 @@
       "value": "The amount of stress weighing on a person",
       "notes": null,
       "valueId": "997013043",
+      "valueTypeId": "1439493548",
+      "contextId": null,
+      "contextTypeId": null
+    },
+    {
+      "typeId": 8,
+      "value": "Skin Sack",
+      "notes": null,
+      "valueId": "1029672243",
       "valueTypeId": "1439493548",
       "contextId": null,
       "contextTypeId": null
@@ -7616,15 +7703,6 @@
   ],
   "customItems": [
     {
-      "id": 12742781,
-      "name": "Bag made of skin",
-      "description": "Gross",
-      "weight": null,
-      "cost": null,
-      "quantity": 1,
-      "notes": null
-    },
-    {
       "id": 13037785,
       "name": "Wooden Sun Symbol",
       "description": null,
@@ -7712,5 +7790,5 @@
   "creatures": [],
   "optionalOrigins": [],
   "optionalClassFeatures": [],
-  "dateModified": "2023-01-25T06:13:51.55Z"
+  "dateModified": "2023-01-25T15:40:27.413Z"
 }

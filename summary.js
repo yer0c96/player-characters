@@ -34,8 +34,6 @@ const playerCharacterIds = {
   dummy: 72798822,
 }
 
-const sources = ['race', 'background', 'class', 'item', 'feat']
-
 const getStatName = (id) => statNames[id]
 
 const mapTrim = (obj) => map((x) => trim(x), removeNulls(obj))
@@ -91,7 +89,6 @@ const summarize = async (player) => {
     feats,
     spells,
     classSpells,
-    dateModified,
     modifiers,
   } = data
 
@@ -154,7 +151,6 @@ const summarize = async (player) => {
     currencies,
     money: cp * 0.01 + sp * 0.1 + ep * 0.5 + gp * 1 + pp * 10,
     notes: mapTrim(notes),
-    // dateModified: moment(dateModified).format('YYYY.MM.DD - HH:mm'),
   }
 
   fs.writeFileSync(`summary/${player}.json`, JSON.stringify(final))

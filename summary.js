@@ -68,7 +68,7 @@ const getInventoryItem = (item, characterValues) => {
 
 const sortInnerObjects = (obj) =>
   Object.fromEntries(
-    Object.entries(obj).map(([key, value]) => [key, value.sort((a, b) => a.id - b.id)]),
+    Object.entries(obj).map(([key, value]) => [key, value?.sort((a, b) => a.id - b.id)]),
   )
 const summarize = async (player) => {
   const data = await axios
@@ -76,9 +76,23 @@ const summarize = async (player) => {
       `https://character-service.dndbeyond.com/character/v3/character/${playerCharacterIds[player]}`,
     )
     .then(({ data: result }) => {
+      const { modifiers, classSpells } = result.data
+
       return pipe(omit(['providedFrom']))({
         ...result.data,
-        modifiers: sortInnerObjects(result.data.modifiers),
+        modifiers: sortInnerObjects(modifiers),
+        classSpells: classSpells.map((cs) => ({
+          ...cs,
+          spells: cs.spells
+            .sort((a, b) => a.definition.id - b.definition.id)
+            .map((spell) => ({
+              ...spell,
+              definition: {
+                ...spell.definition,
+                modifiers: spell.definition.modifiers?.sort((a, b) => a.id - b.id),
+              },
+            })),
+        })),
       })
     })
 

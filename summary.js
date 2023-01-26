@@ -68,19 +68,25 @@ const getInventoryItem = (item, characterValues) => {
 
 const sortInnerObjects = (obj) =>
   Object.fromEntries(
-    Object.entries(obj).map(([key, value]) => [key, value?.sort((a, b) => a.id - b.id)]),
+    Object.entries(obj).map(([key, value]) => [
+      key,
+      value?.sort((a, b) => a.id?.localeCompare(b.id)) ?? null,
+    ]),
   )
+
 const summarize = async (player) => {
   const data = await axios
     .get(
       `https://character-service.dndbeyond.com/character/v3/character/${playerCharacterIds[player]}`,
     )
     .then(({ data: result }) => {
-      const { modifiers, classSpells } = result.data
+      const { modifiers, classSpells, options, choices } = result.data
 
       return pipe(omit(['providedFrom']))({
         ...result.data,
         modifiers: sortInnerObjects(modifiers),
+        options: sortInnerObjects(options),
+        choices: sortInnerObjects(choices),
         classSpells: classSpells.map((cs) => ({
           ...cs,
           spells: cs.spells

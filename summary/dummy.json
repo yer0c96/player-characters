@@ -34,6 +34,8 @@
     "Proficiency: Shortsword",
     "Proficiency: Longbow",
     "Proficiency: Shortbow",
+    "Proficiency: Intelligence Saving Throws",
+    "Proficiency: Constitution Saving Throws",
     "Proficiency: Light Armor",
     "Proficiency: Medium Armor",
     "Proficiency: Shields",
@@ -43,8 +45,6 @@
     "Proficiency: Choose an Artisan's Tool",
     "Proficiency: Choose an Artificer Skill",
     "Proficiency: Firearms",
-    "Proficiency: Intelligence Saving Throws",
-    "Proficiency: Constitution Saving Throws",
     "Set Base: Darkvision"
   ],
   "equipment": [],

@@ -4893,6 +4893,117 @@
     "race": [],
     "class": [
       {
+        "componentId": 268,
+        "componentTypeId": 12168134,
+        "id": "1-268",
+        "parentChoiceId": null,
+        "type": 1,
+        "subType": null,
+        "optionValue": 695,
+        "label": null,
+        "isOptional": false,
+        "isInfinite": false,
+        "defaultSubtypes": [],
+        "displayOrder": null,
+        "options": [
+          { "id": 695, "label": "Ability Score Improvement", "description": null },
+          { "id": 696, "label": "Feat", "description": null }
+        ],
+        "optionIds": []
+      },
+      {
+        "componentId": 465,
+        "componentTypeId": 12168134,
+        "id": "2-1546",
+        "parentChoiceId": null,
+        "type": 2,
+        "subType": 1,
+        "optionValue": 4127,
+        "label": "Choose a Paladin Skill",
+        "isOptional": false,
+        "isInfinite": false,
+        "defaultSubtypes": [],
+        "displayOrder": null,
+        "options": [
+          { "id": 4123, "label": "Athletics", "description": null },
+          { "id": 4128, "label": "Religion", "description": null },
+          { "id": 4124, "label": "Insight", "description": null },
+          { "id": 4126, "label": "Medicine", "description": null },
+          { "id": 4125, "label": "Intimidation", "description": null },
+          { "id": 4127, "label": "Persuasion", "description": null }
+        ],
+        "optionIds": []
+      },
+      {
+        "componentId": 465,
+        "componentTypeId": 12168134,
+        "id": "2-1547",
+        "parentChoiceId": null,
+        "type": 2,
+        "subType": 1,
+        "optionValue": 4124,
+        "label": "Choose a Paladin Skill",
+        "isOptional": false,
+        "isInfinite": false,
+        "defaultSubtypes": [],
+        "displayOrder": null,
+        "options": [
+          { "id": 4123, "label": "Athletics", "description": null },
+          { "id": 4128, "label": "Religion", "description": null },
+          { "id": 4124, "label": "Insight", "description": null },
+          { "id": 4126, "label": "Medicine", "description": null },
+          { "id": 4125, "label": "Intimidation", "description": null },
+          { "id": 4127, "label": "Persuasion", "description": null }
+        ],
+        "optionIds": []
+      },
+      {
+        "componentId": 268,
+        "componentTypeId": 12168134,
+        "id": "2-1729",
+        "parentChoiceId": "1-268",
+        "type": 2,
+        "subType": 5,
+        "optionValue": 3522,
+        "label": "Choose an Ability Score",
+        "isOptional": false,
+        "isInfinite": false,
+        "defaultSubtypes": [],
+        "displayOrder": null,
+        "options": [
+          { "id": 3520, "label": "Strength Score", "description": null },
+          { "id": 3521, "label": "Dexterity Score", "description": null },
+          { "id": 3522, "label": "Constitution Score", "description": null },
+          { "id": 3523, "label": "Intelligence Score", "description": null },
+          { "id": 3524, "label": "Wisdom Score", "description": null },
+          { "id": 3525, "label": "Charisma Score", "description": null }
+        ],
+        "optionIds": []
+      },
+      {
+        "componentId": 268,
+        "componentTypeId": 12168134,
+        "id": "2-1821",
+        "parentChoiceId": "1-268",
+        "type": 2,
+        "subType": 5,
+        "optionValue": 3520,
+        "label": "Choose an Ability Score",
+        "isOptional": false,
+        "isInfinite": false,
+        "defaultSubtypes": [],
+        "displayOrder": null,
+        "options": [
+          { "id": 3520, "label": "Strength Score", "description": null },
+          { "id": 3521, "label": "Dexterity Score", "description": null },
+          { "id": 3522, "label": "Constitution Score", "description": null },
+          { "id": 3523, "label": "Intelligence Score", "description": null },
+          { "id": 3524, "label": "Wisdom Score", "description": null },
+          { "id": 3525, "label": "Charisma Score", "description": null }
+        ],
+        "optionIds": []
+      },
+      {
         "componentId": 262,
         "componentTypeId": 12168134,
         "id": "3-0-219832878",
@@ -5069,71 +5180,6 @@
         "optionIds": []
       },
       {
-        "componentId": 268,
-        "componentTypeId": 12168134,
-        "id": "1-268",
-        "parentChoiceId": null,
-        "type": 1,
-        "subType": null,
-        "optionValue": 695,
-        "label": null,
-        "isOptional": false,
-        "isInfinite": false,
-        "defaultSubtypes": [],
-        "displayOrder": null,
-        "options": [
-          { "id": 695, "label": "Ability Score Improvement", "description": null },
-          { "id": 696, "label": "Feat", "description": null }
-        ],
-        "optionIds": []
-      },
-      {
-        "componentId": 268,
-        "componentTypeId": 12168134,
-        "id": "2-1729",
-        "parentChoiceId": "1-268",
-        "type": 2,
-        "subType": 5,
-        "optionValue": 3522,
-        "label": "Choose an Ability Score",
-        "isOptional": false,
-        "isInfinite": false,
-        "defaultSubtypes": [],
-        "displayOrder": null,
-        "options": [
-          { "id": 3520, "label": "Strength Score", "description": null },
-          { "id": 3521, "label": "Dexterity Score", "description": null },
-          { "id": 3522, "label": "Constitution Score", "description": null },
-          { "id": 3523, "label": "Intelligence Score", "description": null },
-          { "id": 3524, "label": "Wisdom Score", "description": null },
-          { "id": 3525, "label": "Charisma Score", "description": null }
-        ],
-        "optionIds": []
-      },
-      {
-        "componentId": 268,
-        "componentTypeId": 12168134,
-        "id": "2-1821",
-        "parentChoiceId": "1-268",
-        "type": 2,
-        "subType": 5,
-        "optionValue": 3520,
-        "label": "Choose an Ability Score",
-        "isOptional": false,
-        "isInfinite": false,
-        "defaultSubtypes": [],
-        "displayOrder": null,
-        "options": [
-          { "id": 3520, "label": "Strength Score", "description": null },
-          { "id": 3521, "label": "Dexterity Score", "description": null },
-          { "id": 3522, "label": "Constitution Score", "description": null },
-          { "id": 3523, "label": "Intelligence Score", "description": null },
-          { "id": 3524, "label": "Wisdom Score", "description": null },
-          { "id": 3525, "label": "Charisma Score", "description": null }
-        ],
-        "optionIds": []
-      },
-      {
         "componentId": 266,
         "componentTypeId": 12168134,
         "id": "7-266",
@@ -5147,52 +5193,6 @@
         "defaultSubtypes": [],
         "displayOrder": null,
         "options": [],
-        "optionIds": []
-      },
-      {
-        "componentId": 465,
-        "componentTypeId": 12168134,
-        "id": "2-1546",
-        "parentChoiceId": null,
-        "type": 2,
-        "subType": 1,
-        "optionValue": 4127,
-        "label": "Choose a Paladin Skill",
-        "isOptional": false,
-        "isInfinite": false,
-        "defaultSubtypes": [],
-        "displayOrder": null,
-        "options": [
-          { "id": 4123, "label": "Athletics", "description": null },
-          { "id": 4128, "label": "Religion", "description": null },
-          { "id": 4124, "label": "Insight", "description": null },
-          { "id": 4126, "label": "Medicine", "description": null },
-          { "id": 4125, "label": "Intimidation", "description": null },
-          { "id": 4127, "label": "Persuasion", "description": null }
-        ],
-        "optionIds": []
-      },
-      {
-        "componentId": 465,
-        "componentTypeId": 12168134,
-        "id": "2-1547",
-        "parentChoiceId": null,
-        "type": 2,
-        "subType": 1,
-        "optionValue": 4124,
-        "label": "Choose a Paladin Skill",
-        "isOptional": false,
-        "isInfinite": false,
-        "defaultSubtypes": [],
-        "displayOrder": null,
-        "options": [
-          { "id": 4123, "label": "Athletics", "description": null },
-          { "id": 4128, "label": "Religion", "description": null },
-          { "id": 4124, "label": "Insight", "description": null },
-          { "id": 4126, "label": "Medicine", "description": null },
-          { "id": 4125, "label": "Intimidation", "description": null },
-          { "id": 4127, "label": "Persuasion", "description": null }
-        ],
         "optionIds": []
       }
     ],

@@ -5023,38 +5023,6 @@
         "optionIds": []
       },
       {
-        "componentId": 232,
-        "componentTypeId": 12168134,
-        "id": "6-232",
-        "parentChoiceId": "1-232",
-        "type": 6,
-        "subType": null,
-        "optionValue": 37,
-        "label": "Choose a Feat",
-        "isOptional": false,
-        "isInfinite": false,
-        "defaultSubtypes": [],
-        "displayOrder": null,
-        "options": [],
-        "optionIds": []
-      },
-      {
-        "componentId": 230,
-        "componentTypeId": 12168134,
-        "id": "7-230",
-        "parentChoiceId": null,
-        "type": 7,
-        "subType": null,
-        "optionValue": 653703,
-        "label": null,
-        "isOptional": false,
-        "isInfinite": false,
-        "defaultSubtypes": [],
-        "displayOrder": null,
-        "options": [],
-        "optionIds": []
-      },
-      {
         "componentId": 464,
         "componentTypeId": 12168134,
         "id": "2-1535",
@@ -5153,6 +5121,38 @@
           { "id": 4121, "label": "Religion", "description": null },
           { "id": 4120, "label": "Insight", "description": null }
         ],
+        "optionIds": []
+      },
+      {
+        "componentId": 232,
+        "componentTypeId": 12168134,
+        "id": "6-232",
+        "parentChoiceId": "1-232",
+        "type": 6,
+        "subType": null,
+        "optionValue": 37,
+        "label": "Choose a Feat",
+        "isOptional": false,
+        "isInfinite": false,
+        "defaultSubtypes": [],
+        "displayOrder": null,
+        "options": [],
+        "optionIds": []
+      },
+      {
+        "componentId": 230,
+        "componentTypeId": 12168134,
+        "id": "7-230",
+        "parentChoiceId": null,
+        "type": 7,
+        "subType": null,
+        "optionValue": 653703,
+        "label": null,
+        "isOptional": false,
+        "isInfinite": false,
+        "defaultSubtypes": [],
+        "displayOrder": null,
+        "options": [],
         "optionIds": []
       }
     ],

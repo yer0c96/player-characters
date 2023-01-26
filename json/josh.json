@@ -4682,6 +4682,71 @@
     ],
     "class": [
       {
+        "componentId": 318,
+        "componentTypeId": 12168134,
+        "id": "1-318",
+        "parentChoiceId": null,
+        "type": 1,
+        "subType": null,
+        "optionValue": 696,
+        "label": null,
+        "isOptional": false,
+        "isInfinite": false,
+        "defaultSubtypes": [],
+        "displayOrder": null,
+        "options": [
+          { "id": 695, "label": "Ability Score Improvement", "description": null },
+          { "id": 696, "label": "Feat", "description": null }
+        ],
+        "optionIds": []
+      },
+      {
+        "componentId": 468,
+        "componentTypeId": 12168134,
+        "id": "2-1579",
+        "parentChoiceId": null,
+        "type": 2,
+        "subType": 1,
+        "optionValue": 4148,
+        "label": "Choose a Sorcerer Skill",
+        "isOptional": false,
+        "isInfinite": false,
+        "defaultSubtypes": [],
+        "displayOrder": null,
+        "options": [
+          { "id": 4148, "label": "Arcana", "description": null },
+          { "id": 4153, "label": "Religion", "description": null },
+          { "id": 4150, "label": "Insight", "description": null },
+          { "id": 4149, "label": "Deception", "description": null },
+          { "id": 4151, "label": "Intimidation", "description": null },
+          { "id": 4152, "label": "Persuasion", "description": null }
+        ],
+        "optionIds": []
+      },
+      {
+        "componentId": 468,
+        "componentTypeId": 12168134,
+        "id": "2-1580",
+        "parentChoiceId": null,
+        "type": 2,
+        "subType": 1,
+        "optionValue": 4152,
+        "label": "Choose a Sorcerer Skill",
+        "isOptional": false,
+        "isInfinite": false,
+        "defaultSubtypes": [],
+        "displayOrder": null,
+        "options": [
+          { "id": 4148, "label": "Arcana", "description": null },
+          { "id": 4153, "label": "Religion", "description": null },
+          { "id": 4150, "label": "Insight", "description": null },
+          { "id": 4149, "label": "Deception", "description": null },
+          { "id": 4151, "label": "Intimidation", "description": null },
+          { "id": 4152, "label": "Persuasion", "description": null }
+        ],
+        "optionIds": []
+      },
+      {
         "componentId": 372,
         "componentTypeId": 12168134,
         "id": "3-24-241841893",
@@ -4808,25 +4873,6 @@
       {
         "componentId": 318,
         "componentTypeId": 12168134,
-        "id": "1-318",
-        "parentChoiceId": null,
-        "type": 1,
-        "subType": null,
-        "optionValue": 696,
-        "label": null,
-        "isOptional": false,
-        "isInfinite": false,
-        "defaultSubtypes": [],
-        "displayOrder": null,
-        "options": [
-          { "id": 695, "label": "Ability Score Improvement", "description": null },
-          { "id": 696, "label": "Feat", "description": null }
-        ],
-        "optionIds": []
-      },
-      {
-        "componentId": 318,
-        "componentTypeId": 12168134,
         "id": "6-318",
         "parentChoiceId": "1-318",
         "type": 6,
@@ -4854,52 +4900,6 @@
         "defaultSubtypes": [],
         "displayOrder": null,
         "options": [],
-        "optionIds": []
-      },
-      {
-        "componentId": 468,
-        "componentTypeId": 12168134,
-        "id": "2-1579",
-        "parentChoiceId": null,
-        "type": 2,
-        "subType": 1,
-        "optionValue": 4148,
-        "label": "Choose a Sorcerer Skill",
-        "isOptional": false,
-        "isInfinite": false,
-        "defaultSubtypes": [],
-        "displayOrder": null,
-        "options": [
-          { "id": 4148, "label": "Arcana", "description": null },
-          { "id": 4153, "label": "Religion", "description": null },
-          { "id": 4150, "label": "Insight", "description": null },
-          { "id": 4149, "label": "Deception", "description": null },
-          { "id": 4151, "label": "Intimidation", "description": null },
-          { "id": 4152, "label": "Persuasion", "description": null }
-        ],
-        "optionIds": []
-      },
-      {
-        "componentId": 468,
-        "componentTypeId": 12168134,
-        "id": "2-1580",
-        "parentChoiceId": null,
-        "type": 2,
-        "subType": 1,
-        "optionValue": 4152,
-        "label": "Choose a Sorcerer Skill",
-        "isOptional": false,
-        "isInfinite": false,
-        "defaultSubtypes": [],
-        "displayOrder": null,
-        "options": [
-          { "id": 4148, "label": "Arcana", "description": null },
-          { "id": 4153, "label": "Religion", "description": null },
-          { "id": 4150, "label": "Insight", "description": null },
-          { "id": 4149, "label": "Deception", "description": null },
-          { "id": 4151, "label": "Intimidation", "description": null },
-          { "id": 4152, "label": "Persuasion", "description": null }
-        ],
         "optionIds": []
       }
     ],

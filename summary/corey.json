@@ -66,8 +66,8 @@
     "Proficiency: Medicine",
     "Proficiency: Religion",
     "Proficiency: Herbalism Kit",
-    "Set: Unarmored Armor Class",
-    "Set: Subclass"
+    "Set: Subclass",
+    "Set: Unarmored Armor Class"
   ],
   "equipment": ["Backpack", "Butterfly Sword", "Eyes of the Eagle"],
   "inventory": [

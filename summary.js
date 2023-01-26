@@ -1,3 +1,4 @@
+const deepSorting = require('@romanhavryliv/deep-sorting')
 const { default: axios } = require('axios')
 const fs = require('fs')
 const moment = require('moment/moment')
@@ -24,6 +25,8 @@ const statNames = {
   5: 'wisdom',
   6: 'charisma',
 }
+
+const deepSort = (obj) => deepSorting(obj)
 
 const playerCharacterIds = {
   corey: 71560080,
@@ -63,13 +66,20 @@ const getInventoryItem = (item, characterValues) => {
   return name
 }
 
+const sortInnerObjects = (obj) =>
+  Object.fromEntries(
+    Object.entries(obj).map(([key, value]) => [key, value.sort((a, b) => a.id - b.id)]),
+  )
 const summarize = async (player) => {
   const data = await axios
     .get(
       `https://character-service.dndbeyond.com/character/v3/character/${playerCharacterIds[player]}`,
     )
-    .then(({ data }) => {
-      return pipe(omit(['providedFrom']))(data.data)
+    .then(({ data: result }) => {
+      return pipe(omit(['providedFrom']))({
+        ...result.data,
+        modifiers: sortInnerObjects(result.data.modifiers),
+      })
     })
 
   fs.writeFileSync(`json/${player}.json`, JSON.stringify(data))

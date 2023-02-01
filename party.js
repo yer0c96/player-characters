@@ -1,5 +1,5 @@
 const fs = require('fs')
-const { sum, pluck, pipe, flatten, sort, sortBy, prop, identity } = require('ramda')
+const { sum, pluck, pipe, flatten, sort, sortBy, prop, identity, uniq, sortWith } = require('ramda')
 
 const ignoredItems = [
   'Stress I',
@@ -43,11 +43,14 @@ const partySummary = () => {
     .filter((item) => !ignoredItems.includes(item.name))
     .map((item) => (item.count > 1 ? `${item.name} x${item.count}` : item.name))
 
+  const spells = pipe(pluck('spells'), flatten, sortBy(identity), uniq)(party)
+
   const summary = {
     classes: pipe(pluck('classes'))(party),
     money: sum(pluck('money', party)),
     equipment,
     inventory,
+    spells,
   }
 
   fs.writeFileSync(`summary/party.json`, JSON.stringify(summary))

@@ -1,6 +1,6 @@
 {
   "name": "Jassin Highwind",
-  "classes": ["Level 4 Monk | Way of the Astral Self"],
+  "classes": ["Level 5 Monk | Way of the Astral Self"],
   "stats": {
     "strength": 11,
     "dexterity": 15,
@@ -9,7 +9,7 @@
     "wisdom": 15,
     "charisma": 9
   },
-  "hitPoints": { "base": 23, "current": 23, "temp": 0 },
+  "hitPoints": { "base": 28, "current": 28, "temp": 0 },
   "traits": {
     "personalityTraits": "I feel tremendous empathy for all who suffer.",
     "ideals": "Greater Good. My gifts are meant to be shared with all, not used for my own benefit. (Good)",
@@ -28,12 +28,14 @@
     "Deflect Missiles",
     "Deflect Missiles Attack",
     "Flurry of Blows",
+    "Focused Aim",
     "Ki Points",
     "Ki-Fueled Attack",
     "Patient Defense",
     "Quickened Healing",
     "Slow Fall",
     "Step of the Wind",
+    "Stunning Strike",
     "Unarmed Strike"
   ],
   "modifiers": [
@@ -66,6 +68,7 @@
     "Proficiency: Medicine",
     "Proficiency: Religion",
     "Proficiency: Herbalism Kit",
+    "Set: Extra Attacks",
     "Set: Subclass",
     "Set: Unarmored Armor Class"
   ],

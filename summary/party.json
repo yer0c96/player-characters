@@ -73,8 +73,10 @@
     "Bless",
     "Calm Emotions",
     "Ceremony",
+    "Cloud of Daggers",
     "Color Spray",
     "Control Flames",
+    "Counterspell",
     "Cure Wounds",
     "Detect Thoughts",
     "Disguise Self",
@@ -83,6 +85,7 @@
     "Enhance Ability",
     "Fire Bolt",
     "Friends",
+    "Glyph of Warding",
     "Guidance",
     "Guiding Bolt",
     "Gust of Wind",
@@ -100,13 +103,13 @@
     "Sacred Flame",
     "Sending",
     "Shatter",
-    "Silent Image",
     "Spare the Dying",
     "Spider Climb",
     "Spiritual Weapon",
     "Sword Burst",
     "Thunderwave",
     "Toll the Dead",
+    "True Strike",
     "Word of Radiance"
   ]
 }

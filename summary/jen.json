@@ -22,15 +22,18 @@
   "feats": ["Spell Sniper (Bard, Sorcerer, Warlock)"],
   "spells": [
     "Blade Ward",
+    "Cloud of Daggers",
     "Cure Wounds",
     "Detect Thoughts",
     "Eldritch Blast",
+    "Glyph of Warding",
     "Guidance",
     "Heroism",
     "Hideous Laughter",
     "Prestidigitation",
-    "Silent Image",
-    "Thunderwave"
+    "Shatter",
+    "Thunderwave",
+    "True Strike"
   ],
   "actions": [
     "Bardic Inspiration",

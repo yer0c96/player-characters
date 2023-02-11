@@ -6874,6 +6874,95 @@
         {
           "overrideSaveDc": null,
           "limitedUse": null,
+          "id": 136448,
+          "entityTypeId": 435869154,
+          "definition": {
+            "id": 2051,
+            "name": "Counterspell",
+            "level": 3,
+            "school": "Abjuration",
+            "duration": {
+              "durationInterval": 0,
+              "durationUnit": null,
+              "durationType": "Instantaneous"
+            },
+            "activation": { "activationTime": 1, "activationType": 4 },
+            "range": { "origin": "Ranged", "rangeValue": 60, "aoeType": null, "aoeValue": null },
+            "asPartOfWeaponAttack": false,
+            "description": "<p>You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a success, the creature's spell fails and has no effect.</p>\r\n<p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used.</p>",
+            "snippet": "",
+            "concentration": false,
+            "ritual": false,
+            "rangeArea": null,
+            "damageEffect": null,
+            "components": [2],
+            "componentsDescription": "",
+            "saveDcAbilityId": null,
+            "healing": null,
+            "healingDice": [],
+            "tempHpDice": [],
+            "attackType": null,
+            "canCastAtHigherLevel": true,
+            "isHomebrew": false,
+            "version": null,
+            "sourceId": null,
+            "sourcePageNumber": 228,
+            "requiresSavingThrow": false,
+            "requiresAttackRoll": false,
+            "atHigherLevels": {
+              "scaleType": "spellscale",
+              "higherLevelDefinitions": [
+                {
+                  "level": null,
+                  "typeId": 12,
+                  "dice": null,
+                  "value": 0,
+                  "details": "(See Description)"
+                }
+              ],
+              "additionalAttacks": [],
+              "additionalTargets": [],
+              "areaOfEffect": [],
+              "duration": [],
+              "creatures": [],
+              "special": [],
+              "points": []
+            },
+            "modifiers": [],
+            "conditions": [],
+            "tags": ["Negation"],
+            "castingTimeDescription": "which you take when you see a creature within 60 feet of you casting a spell  ",
+            "scaleType": "spellscale",
+            "sources": [
+              { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+              { "sourceId": 2, "pageNumber": 228, "sourceType": 1 }
+            ],
+            "spellGroups": []
+          },
+          "definitionId": 0,
+          "prepared": false,
+          "countsAsKnownSpell": true,
+          "usesSpellSlot": true,
+          "castAtLevel": null,
+          "alwaysPrepared": false,
+          "restriction": null,
+          "spellCastingAbilityId": null,
+          "displayAsAttack": null,
+          "additionalDescription": null,
+          "castOnlyAsRitual": false,
+          "ritualCastingType": null,
+          "range": { "origin": "Ranged", "rangeValue": 60, "aoeType": null, "aoeValue": null },
+          "activation": { "activationTime": 1, "activationType": 4 },
+          "baseLevelAtWill": false,
+          "atWillLimitedUseLevel": null,
+          "isSignatureSpell": null,
+          "componentId": 0,
+          "componentTypeId": 0,
+          "spellListId": null
+        },
+        {
+          "overrideSaveDc": null,
+          "limitedUse": null,
           "id": 136608,
           "entityTypeId": 435869154,
           "definition": {
@@ -8080,5 +8169,5 @@
   "creatures": [],
   "optionalOrigins": [],
   "optionalClassFeatures": [],
-  "dateModified": "2023-02-11T02:21:35.997Z"
+  "dateModified": "2023-02-11T06:48:43.69Z"
 }

@@ -95,7 +95,7 @@ const summarize = async (player) => {
               ...spell,
               definition: {
                 ...spell.definition,
-                modifiers: spell.definition.modifiers?.sort((a, b) => a.id - b.id),
+                modifiers: spell.definition.modifiers?.sort(),
               },
             })),
         })),

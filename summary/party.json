@@ -1,10 +1,10 @@
 {
   "classes": [
-    ["Level 4 Sorcerer | Aberrant Mind"],
+    ["Level 5 Sorcerer | Aberrant Mind"],
     ["Level 5 Monk | Way of the Astral Self"],
-    ["Level 4 Paladin | Oath of Redemption"],
+    ["Level 5 Paladin | Oath of Redemption"],
     ["Level 5 Cleric | Twilight Domain"],
-    ["Level 4 Bard | College of Spirits"]
+    ["Level 5 Bard | College of Spirits"]
   ],
   "money": 247.99,
   "equipment": [
@@ -89,6 +89,7 @@
     "Healing Word",
     "Heroism",
     "Hideous Laughter",
+    "Hunger of Hadar",
     "Light",
     "Lightning Lure",
     "Magic Stone",
@@ -97,6 +98,7 @@
     "Minor Illusion",
     "Prestidigitation",
     "Sacred Flame",
+    "Sending",
     "Shatter",
     "Silent Image",
     "Spare the Dying",

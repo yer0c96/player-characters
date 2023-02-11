@@ -80,7 +80,7 @@
   "height": "2'11\"",
   "weight": null,
   "inspiration": false,
-  "baseHitPoints": 28,
+  "baseHitPoints": 34,
   "bonusHitPoints": null,
   "overrideHitPoints": null,
   "removedHitPoints": 0,
@@ -2999,7 +2999,7 @@
     {
       "id": 94972015,
       "entityTypeId": 1446578651,
-      "level": 4,
+      "level": 5,
       "isStartingClass": true,
       "hitDiceUsed": 0,
       "definitionId": 0,
@@ -5415,7 +5415,7 @@
           "numberUsed": 0,
           "minNumberConsumed": 1,
           "maxNumberConsumed": 1,
-          "maxUses": 20,
+          "maxUses": 25,
           "operator": 1,
           "useProficiencyBonus": false,
           "proficiencyBonusOperator": 1,
@@ -5537,6 +5537,44 @@
           "minimumRange": null
         },
         "activation": { "activationTime": 1, "activationType": 1 },
+        "numberOfTargets": null,
+        "fixedToHit": null,
+        "ammunition": null
+      },
+      {
+        "componentId": 269,
+        "componentTypeId": 12168134,
+        "id": "53379",
+        "entityTypeId": "222216831",
+        "limitedUse": null,
+        "name": "Extra Attack",
+        "description": null,
+        "snippet": "You can attack twice, instead of once, whenever you take the Attack action on your turn.",
+        "abilityModifierStatId": null,
+        "onMissDescription": null,
+        "saveFailDescription": null,
+        "saveSuccessDescription": null,
+        "saveStatId": null,
+        "fixedSaveDc": null,
+        "attackTypeRange": null,
+        "actionType": 3,
+        "attackSubtype": null,
+        "dice": null,
+        "value": null,
+        "damageTypeId": null,
+        "isMartialArts": false,
+        "isProficient": false,
+        "spellRangeType": null,
+        "displayAsAttack": null,
+        "range": {
+          "range": null,
+          "longRange": null,
+          "aoeType": null,
+          "aoeSize": null,
+          "hasAoeSpecialDescription": false,
+          "minimumRange": null
+        },
+        "activation": { "activationTime": null, "activationType": 8 },
         "numberOfTargets": null,
         "fixedToHit": null,
         "ammunition": null
@@ -5899,6 +5937,29 @@
       }
     ],
     "class": [
+      {
+        "fixedValue": 1,
+        "id": "1438",
+        "entityId": null,
+        "entityTypeId": null,
+        "type": "set",
+        "subType": "extra-attacks",
+        "dice": null,
+        "restriction": "",
+        "statId": null,
+        "requiresAttunement": false,
+        "duration": null,
+        "friendlyTypeName": "Set",
+        "friendlySubtypeName": "Extra Attacks",
+        "isGranted": true,
+        "bonusTypes": [],
+        "value": 1,
+        "availableToMulticlass": true,
+        "modifierTypeId": 9,
+        "modifierSubTypeId": 356,
+        "componentId": 269,
+        "componentTypeId": 12168134
+      },
       {
         "fixedValue": null,
         "id": "1540",
@@ -6977,5 +7038,5 @@
   "creatures": [],
   "optionalOrigins": [],
   "optionalClassFeatures": [],
-  "dateModified": "2023-01-24T17:03:50.123Z"
+  "dateModified": "2023-02-11T02:21:40.677Z"
 }

@@ -1,6 +1,6 @@
 {
   "name": "Ruffle Manfaers",
-  "classes": ["Level 4 Paladin | Oath of Redemption"],
+  "classes": ["Level 5 Paladin | Oath of Redemption"],
   "stats": {
     "strength": 14,
     "dexterity": 12,
@@ -9,7 +9,7 @@
     "wisdom": 10,
     "charisma": 15
   },
-  "hitPoints": { "base": 28, "current": 28, "temp": 0 },
+  "hitPoints": { "base": 34, "current": 34, "temp": 0 },
   "traits": {
     "flaws": "I can’t be comfortable around creatures larger than I am.\n\nFear of The Executioner."
   },
@@ -24,6 +24,7 @@
     "Channel Divinity: Rebuke the Violent",
     "Divine Sense",
     "Divine Smite",
+    "Extra Attack",
     "Harness Divine Power",
     "Lay on Hands Pool",
     "Sudden Cacophony"
@@ -58,6 +59,7 @@
     "Proficiency: Intimidation",
     "Proficiency: Playing Card Set",
     "Proficiency: Vehicles (Land)",
+    "Set: Extra Attacks",
     "Set: Subclass",
     "Set Base: Darkvision"
   ],

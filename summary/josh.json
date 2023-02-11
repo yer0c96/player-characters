@@ -1,6 +1,6 @@
 {
   "name": "Tenebrae",
-  "classes": ["Level 4 Sorcerer | Aberrant Mind"],
+  "classes": ["Level 5 Sorcerer | Aberrant Mind"],
   "stats": {
     "strength": 8,
     "dexterity": 12,
@@ -10,7 +10,7 @@
     "charisma": 15
   },
   "stress": "Stress I",
-  "hitPoints": { "base": 18, "current": 18, "temp": 0 },
+  "hitPoints": { "base": 22, "current": 22, "temp": 0 },
   "traits": {
     "personalityTraits": "I feel far more comfortable around animals than people.\nI have a lesson for every situation, drawn from observing nature.",
     "ideals": "Change. Life is like the seasons, in constant change, and we must change with it. (Chaotic)",
@@ -32,15 +32,18 @@
     "Fire Bolt",
     "Friends",
     "Gust of Wind",
+    "Hunger of Hadar",
     "Lightning Lure",
     "Magic Stone",
     "Mind Sliver",
+    "Sending",
     "Shatter",
     "Spider Climb",
     "Sword Burst"
   ],
   "actions": [
     "Convert Sorcery Points",
+    "Magical Guidance",
     "Metamagic - Careful Spell",
     "Metamagic - Empowered Spell",
     "Sorcery Points",

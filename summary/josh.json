@@ -9,7 +9,6 @@
     "wisdom": 10,
     "charisma": 15
   },
-  "stress": "Stress I",
   "hitPoints": { "base": 22, "current": 22, "temp": 0 },
   "traits": {
     "personalityTraits": "I feel far more comfortable around animals than people.\nI have a lesson for every situation, drawn from observing nature.",
@@ -93,8 +92,8 @@
     "Spellbook",
     "Waterskin"
   ],
-  "currencies": { "cp": 3, "sp": 61, "gp": 35, "ep": 0, "pp": 0 },
-  "money": 41.13,
+  "currencies": { "cp": 3, "sp": 61, "gp": 34, "ep": 0, "pp": 0 },
+  "money": 40.13,
   "notes": {
     "allies": "Lancelot",
     "personalPossessions": "Sack of feathers",

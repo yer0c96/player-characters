@@ -74,19 +74,26 @@ const sortInnerObjects = (obj) =>
     ]),
   )
 
+const sortById = (arr) => (arr ? arr.sort((a, b) => a.id - b.id) : arr)
+
 const summarize = async (player) => {
   const data = await axios
     .get(
       `https://character-service.dndbeyond.com/character/v3/character/${playerCharacterIds[player]}`,
     )
     .then(({ data: result }) => {
-      const { modifiers, classSpells, options, choices } = result.data
+      const { modifiers, classSpells, options, choices, actions } = result.data
 
       return pipe(omit(['providedFrom']))({
         ...result.data,
         modifiers: sortInnerObjects(modifiers),
         options: sortInnerObjects(options),
         choices: sortInnerObjects(choices),
+        actions: {
+          ...actions,
+          spells: sortById(actions.spells),
+          class: sortById(actions.class),
+        },
         classSpells: classSpells.map((cs) => ({
           ...cs,
           spells: cs.spells

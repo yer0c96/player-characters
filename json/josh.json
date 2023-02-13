@@ -79,7 +79,7 @@
   "skin": "Black",
   "height": "5'",
   "weight": 95,
-  "inspiration": false,
+  "inspiration": true,
   "baseHitPoints": 22,
   "bonusHitPoints": null,
   "overrideHitPoints": null,
@@ -1304,7 +1304,7 @@
       "currency": null
     },
     {
-      "id": 830006052,
+      "id": 1043419869,
       "entityTypeId": 1439493548,
       "definition": {
         "id": 26,
@@ -2030,9 +2030,9 @@
       "displayAsAttack": null,
       "quantity": 1,
       "isAttuned": false,
-      "equipped": true,
-      "equippedEntityTypeId": 1581111423,
-      "equippedEntityId": 72209867,
+      "equipped": false,
+      "equippedEntityTypeId": null,
+      "equippedEntityId": null,
       "chargesUsed": 0,
       "limitedUse": null,
       "containerEntityId": 997013043,
@@ -2805,7 +2805,7 @@
       "currency": null
     }
   ],
-  "currencies": { "cp": 3, "sp": 61, "gp": 35, "ep": 0, "pp": 0 },
+  "currencies": { "cp": 3, "sp": 61, "gp": 34, "ep": 0, "pp": 0 },
   "classes": [
     {
       "id": 95903657,
@@ -5477,44 +5477,6 @@
         "ammunition": null
       },
       {
-        "componentId": 3035908,
-        "componentTypeId": 12168134,
-        "id": "2438389",
-        "entityTypeId": "222216831",
-        "limitedUse": null,
-        "name": "Magical Guidance",
-        "description": "<p><em>5th-level sorcerer feature</em></p>\r\n<p>You can tap into your inner wellspring of magic to try to conjure success from failure. When you make an ability check that fails, you can spend 1 sorcery point to reroll the d20, and you must use the new roll, potentially turning the failure into a success.</p>",
-        "snippet": "When you make an ability check that fails, you can spend 1 sorcery point to reroll the d20, and you must use the new roll, potentially turning the failure into a success.",
-        "abilityModifierStatId": null,
-        "onMissDescription": "",
-        "saveFailDescription": "",
-        "saveSuccessDescription": "",
-        "saveStatId": null,
-        "fixedSaveDc": null,
-        "attackTypeRange": null,
-        "actionType": 3,
-        "attackSubtype": null,
-        "dice": null,
-        "value": null,
-        "damageTypeId": null,
-        "isMartialArts": false,
-        "isProficient": false,
-        "spellRangeType": null,
-        "displayAsAttack": null,
-        "range": {
-          "range": null,
-          "longRange": null,
-          "aoeType": null,
-          "aoeSize": null,
-          "hasAoeSpecialDescription": false,
-          "minimumRange": null
-        },
-        "activation": { "activationTime": null, "activationType": 8 },
-        "numberOfTargets": null,
-        "fixedToHit": null,
-        "ammunition": null
-      },
-      {
         "componentId": 2986535,
         "componentTypeId": 12168134,
         "id": "2408783",
@@ -5553,14 +5515,14 @@
         "ammunition": null
       },
       {
-        "componentId": 106,
-        "componentTypeId": 258900837,
-        "id": "2772328",
+        "componentId": 3035908,
+        "componentTypeId": 12168134,
+        "id": "2438389",
         "entityTypeId": "222216831",
         "limitedUse": null,
-        "name": "Metamagic - Careful Spell",
-        "description": "<p>When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell&rsquo;s full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw again<span class=\"No-Break\">st the spell.</span></p>",
-        "snippet": "You can spend <strong>1 sorcery point</strong> to allow up to {{modifier:cha@min:1#unsigned}} creatures to automatically succeed on the saving throw of a spell you cast.",
+        "name": "Magical Guidance",
+        "description": "<p><em>5th-level sorcerer feature</em></p>\r\n<p>You can tap into your inner wellspring of magic to try to conjure success from failure. When you make an ability check that fails, you can spend 1 sorcery point to reroll the d20, and you must use the new roll, potentially turning the failure into a success.</p>",
+        "snippet": "When you make an ability check that fails, you can spend 1 sorcery point to reroll the d20, and you must use the new roll, potentially turning the failure into a success.",
         "abilityModifierStatId": null,
         "onMissDescription": "",
         "saveFailDescription": "",
@@ -5599,6 +5561,44 @@
         "name": "Metamagic - Empowered Spell",
         "description": "<p class=\"Core-Styles_Core-Body\">When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use t<span class=\"No-Break\">he new rolls.</span></p>\r\n<p class=\"Core-Styles_Core-Body\">You can use Empowered Spell even if you have already used a different Metamagic option during the casting&nbsp;<span class=\"No-Break\">of the spell.</span></p>",
         "snippet": "When you roll damage for a spell, you can spend <strong>1 sorcery point</strong> to reroll up to {{modifier:cha@min:1#unsigned}} of the dice. You must use the new rolls and you can use this option even if you've already used another Metamagic option.",
+        "abilityModifierStatId": null,
+        "onMissDescription": "",
+        "saveFailDescription": "",
+        "saveSuccessDescription": "",
+        "saveStatId": null,
+        "fixedSaveDc": null,
+        "attackTypeRange": null,
+        "actionType": 3,
+        "attackSubtype": null,
+        "dice": null,
+        "value": null,
+        "damageTypeId": null,
+        "isMartialArts": false,
+        "isProficient": false,
+        "spellRangeType": null,
+        "displayAsAttack": null,
+        "range": {
+          "range": null,
+          "longRange": null,
+          "aoeType": null,
+          "aoeSize": null,
+          "hasAoeSpecialDescription": false,
+          "minimumRange": null
+        },
+        "activation": { "activationTime": null, "activationType": 8 },
+        "numberOfTargets": null,
+        "fixedToHit": null,
+        "ammunition": null
+      },
+      {
+        "componentId": 106,
+        "componentTypeId": 258900837,
+        "id": "2772328",
+        "entityTypeId": "222216831",
+        "limitedUse": null,
+        "name": "Metamagic - Careful Spell",
+        "description": "<p>When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell&rsquo;s full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw again<span class=\"No-Break\">st the spell.</span></p>",
+        "snippet": "You can spend <strong>1 sorcery point</strong> to allow up to {{modifier:cha@min:1#unsigned}} creatures to automatically succeed on the saving throw of a spell you cast.",
         "abilityModifierStatId": null,
         "onMissDescription": "",
         "saveFailDescription": "",
@@ -8098,6 +8098,15 @@
       "cost": null,
       "quantity": 2,
       "notes": null
+    },
+    {
+      "id": 16122768,
+      "name": "Creepy Doll",
+      "description": "Is no fun, is no blinksy!",
+      "weight": null,
+      "cost": null,
+      "quantity": 1,
+      "notes": null
     }
   ],
   "campaign": {
@@ -8169,5 +8178,5 @@
   "creatures": [],
   "optionalOrigins": [],
   "optionalClassFeatures": [],
-  "dateModified": "2023-02-11T06:48:43.69Z"
+  "dateModified": "2023-02-12T01:39:37.303Z"
 }

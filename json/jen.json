@@ -79,7 +79,7 @@
   "skin": "Tan",
   "height": "3'2\"",
   "weight": 35,
-  "inspiration": false,
+  "inspiration": true,
   "baseHitPoints": 28,
   "bonusHitPoints": null,
   "overrideHitPoints": null,
@@ -4008,7 +4008,7 @@
       "currency": null
     }
   ],
-  "currencies": { "cp": 0, "sp": 0, "gp": 97, "ep": 0, "pp": 0 },
+  "currencies": { "cp": 0, "sp": 0, "gp": 96, "ep": 0, "pp": 0 },
   "classes": [
     {
       "id": 95903758,
@@ -9811,6 +9811,25 @@
   },
   "creatures": [],
   "optionalOrigins": [],
-  "optionalClassFeatures": [],
-  "dateModified": "2023-02-11T15:35:22.4Z"
+  "optionalClassFeatures": [
+    {
+      "classFeatureId": 3017796,
+      "affectedClassFeatureId": null,
+      "classFeatureDefinitionKey": "class-feature:3017796",
+      "affectedClassFeatureDefinitionKey": null
+    },
+    {
+      "classFeatureId": 3017984,
+      "affectedClassFeatureId": null,
+      "classFeatureDefinitionKey": "class-feature:3017984",
+      "affectedClassFeatureDefinitionKey": null
+    },
+    {
+      "classFeatureId": 3020841,
+      "affectedClassFeatureId": null,
+      "classFeatureDefinitionKey": "class-feature:3020841",
+      "affectedClassFeatureDefinitionKey": null
+    }
+  ],
+  "dateModified": "2023-02-12T02:03:39.337Z"
 }

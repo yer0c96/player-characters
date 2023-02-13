@@ -9,6 +9,7 @@
     "wisdom": 15,
     "charisma": 9
   },
+  "stress": "Stress I",
   "hitPoints": { "base": 28, "current": 28, "temp": 0 },
   "traits": {
     "personalityTraits": "I feel tremendous empathy for all who suffer.",
@@ -89,8 +90,8 @@
     "Torch",
     "Waterskin"
   ],
-  "currencies": { "cp": 96, "sp": 10, "gp": 69, "ep": 0, "pp": 0 },
-  "money": 70.96,
+  "currencies": { "cp": 96, "sp": 10, "gp": 68, "ep": 0, "pp": 0 },
+  "money": 69.96,
   "notes": {
     "personalPossessions": "A scroll case stuffed full of notes from your studies or prayers",
     "otherNotes": "Represented by The Marionette"

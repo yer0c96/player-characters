@@ -6,7 +6,7 @@
     ["Level 5 Cleric | Twilight Domain"],
     ["Level 5 Bard | College of Spirits"]
   ],
-  "money": 247.99,
+  "money": 237.99,
   "equipment": [
     "Backpack x5",
     "Butterfly Sword",
@@ -41,7 +41,7 @@
     "Hammer",
     "Herbalism Kit",
     "Holy Symbol",
-    "Holy Water (flask)",
+    "Holy Water (flask) x2",
     "Lantern, Bullseye",
     "Lantern, Hooded",
     "Longsword",
@@ -65,12 +65,15 @@
     "Tinderbox x4",
     "Torch x3",
     "Vestments x2",
+    "Vial filled with water",
     "Waterskin x4"
   ],
   "spells": [
     "Arms of Hadar",
+    "Beacon of Hope",
     "Blade Ward",
     "Bless",
+    "Branding Smite",
     "Calm Emotions",
     "Ceremony",
     "Cloud of Daggers",
@@ -93,14 +96,17 @@
     "Heroism",
     "Hideous Laughter",
     "Hunger of Hadar",
+    "Life Transference",
     "Light",
     "Lightning Lure",
     "Magic Stone",
+    "Mass Healing Word",
     "Message",
     "Mind Sliver",
     "Minor Illusion",
     "Prestidigitation",
     "Sacred Flame",
+    "Searing Smite",
     "Sending",
     "Shatter",
     "Spare the Dying",
@@ -110,6 +116,7 @@
     "Thunderwave",
     "Toll the Dead",
     "True Strike",
-    "Word of Radiance"
+    "Word of Radiance",
+    "Zone of Truth"
   ]
 }

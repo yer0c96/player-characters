@@ -21,14 +21,18 @@
   "background": "Acolyte",
   "feats": ["Skill Expert"],
   "spells": [
+    "Beacon of Hope",
     "Bless",
     "Ceremony",
     "Enhance Ability",
     "Guidance",
     "Guiding Bolt",
     "Healing Word",
+    "Life Transference",
     "Light",
+    "Mass Healing Word",
     "Sacred Flame",
+    "Spare the Dying",
     "Spiritual Weapon",
     "Toll the Dead"
   ],
@@ -92,8 +96,8 @@
     "Vestments",
     "Waterskin"
   ],
-  "currencies": { "cp": 10, "sp": 9, "gp": 27, "ep": 0, "pp": 0 },
-  "money": 28,
+  "currencies": { "cp": 10, "sp": 9, "gp": 26, "ep": 0, "pp": 0 },
+  "money": 27,
   "notes": {
     "allies": "",
     "personalPossessions": "a prayer book\n5 sticks of incense",

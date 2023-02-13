@@ -17,7 +17,16 @@
   "overrideStats": {},
   "background": "Soldier",
   "feats": ["Dark Gift: Gathered Whispers"],
-  "spells": ["Message", "Minor Illusion", "Spare the Dying", "Word of Radiance"],
+  "spells": [
+    "Branding Smite",
+    "Ceremony",
+    "Message",
+    "Minor Illusion",
+    "Searing Smite",
+    "Spare the Dying",
+    "Word of Radiance",
+    "Zone of Truth"
+  ],
   "actions": [
     "Channel Divinity",
     "Channel Divinity: Emissary of Peace",
@@ -68,6 +77,7 @@
     "Bedroll",
     "Clothes, Traveler's",
     "Emblem",
+    "Holy Water (flask)",
     "Longsword",
     "Mess Kit",
     "Potion of Healing",
@@ -76,9 +86,14 @@
     "Soap",
     "Tinderbox",
     "Torch",
+    "Vial filled with water",
     "Waterskin"
   ],
-  "currencies": { "cp": 100, "sp": 19, "gp": 8, "ep": 0, "pp": 0 },
-  "money": 10.9,
-  "notes": { "otherNotes": "Represented by The Beast" }
+  "currencies": { "cp": 100, "sp": 19, "gp": 2, "ep": 0, "pp": 0 },
+  "money": 4.9,
+  "notes": {
+    "allies": "",
+    "backstory": "Gregory (Greggy) and Larissa (Issa)\n\n\nGreggy and Issa",
+    "otherNotes": "Represented by The Beast"
+  }
 }

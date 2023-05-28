@@ -6,7 +6,7 @@
     ["Level 5 Cleric | Twilight Domain"],
     ["Level 5 Bard | College of Spirits"]
   ],
-  "money": 237.99,
+  "money": 227.8,
   "equipment": [
     "Backpack x5",
     "Butterfly Sword",
@@ -15,7 +15,7 @@
     "Eyes of the Eagle",
     "Goggles of Night",
     "Leather",
-    "Shield",
+    "Shield x2",
     "Silvered Longsword",
     "Skin Sack",
     "Staff",
@@ -25,6 +25,7 @@
   "inventory": [
     "Alms Box",
     "Amulet",
+    "Antitoxin",
     "Ball Bearings (bag of 1,000)",
     "Bedroll x3",
     "Blanket x3",
@@ -58,9 +59,8 @@
     "Scroll: Poison Protection",
     "Scroll: Spiritual Weapon",
     "Scroll: null",
-    "Shield",
     "Soap x2",
-    "Spellbook",
+    "Spellbook x2",
     "Stake (Wooden)",
     "Tinderbox x4",
     "Torch x3",

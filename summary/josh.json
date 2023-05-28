@@ -81,6 +81,7 @@
   ],
   "equipment": ["Backpack", "Goggles of Night", "Skin Sack", "Staff"],
   "inventory": [
+    "Antitoxin",
     "Bedroll",
     "Blanket",
     "Block of Incense",
@@ -89,6 +90,7 @@
     "Mess Kit",
     "Rations (1 day)",
     "Rope, Hempen (50 feet)",
+    "Spellbook",
     "Spellbook",
     "Waterskin"
   ],

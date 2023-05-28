@@ -82,7 +82,7 @@ const summarize = async (player) => {
       `https://character-service.dndbeyond.com/character/v3/character/${playerCharacterIds[player]}`,
     )
     .then(({ data: result }) => {
-      const { modifiers, classSpells, options, choices, actions } = result.data
+      const { modifiers, classSpells, options, choices, actions, inventory } = result.data
 
       return pipe(omit(['providedFrom']))({
         ...result.data,
@@ -106,6 +106,15 @@ const summarize = async (player) => {
               },
             })),
         })),
+        inventory: inventory
+          .map((item) => ({
+            ...item,
+            definition: {
+              ...item.definition,
+              grantedModifiers: sortById(item.definition.grantedModifiers),
+            },
+          }))
+          .sort((a, b) => a.id - b.id),
       })
     })
 

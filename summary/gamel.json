@@ -79,7 +79,7 @@
     "Set: Subclass",
     "Set Base: Darkvision"
   ],
-  "equipment": ["Backpack", "Chain Mail", "Warhammer"],
+  "equipment": ["Backpack", "Chain Mail", "Shield", "Warhammer"],
   "inventory": [
     "Alms Box",
     "Amulet",
@@ -90,14 +90,13 @@
     "Clothes, Common",
     "Mace",
     "Rations (1 day)",
-    "Shield",
     "Tinderbox",
     "Vestments",
     "Vestments",
     "Waterskin"
   ],
-  "currencies": { "cp": 10, "sp": 9, "gp": 26, "ep": 0, "pp": 0 },
-  "money": 27,
+  "currencies": { "cp": 1, "sp": 8, "gp": 26, "ep": 0, "pp": 0 },
+  "money": 26.81,
   "notes": {
     "allies": "",
     "personalPossessions": "a prayer book\n5 sticks of incense",

@@ -83,7 +83,7 @@
   "baseHitPoints": 28,
   "bonusHitPoints": null,
   "overrideHitPoints": null,
-  "removedHitPoints": 2,
+  "removedHitPoints": 0,
   "temporaryHitPoints": 0,
   "currentXp": 0,
   "alignmentId": 2,
@@ -1540,7 +1540,7 @@
         "isPack": false,
         "tags": ["Healing", "Utility"],
         "grantedModifiers": [],
-        "subType": "Tool",
+        "subType": null,
         "isConsumable": false,
         "weaponBehaviors": [],
         "baseItemId": null,
@@ -1618,7 +1618,7 @@
         "isPack": false,
         "tags": ["Healing", "Combat", "Consumable"],
         "grantedModifiers": [],
-        "subType": null,
+        "subType": "Potion",
         "isConsumable": true,
         "weaponBehaviors": [],
         "baseItemId": null,
@@ -7317,5 +7317,5 @@
   "creatures": [],
   "optionalOrigins": [],
   "optionalClassFeatures": [],
-  "dateModified": "2023-05-29T00:11:55.79885Z"
+  "dateModified": "2023-06-17T22:50:17.244113Z"
 }

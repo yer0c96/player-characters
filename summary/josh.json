@@ -26,6 +26,7 @@
     "Color Spray",
     "Control Flames",
     "Counterspell",
+    "Detect Magic",
     "Detect Thoughts",
     "Disguise Self",
     "Dissonant Whispers",
@@ -82,6 +83,7 @@
   "equipment": ["Backpack", "Goggles of Night", "Skin Sack", "Staff"],
   "inventory": [
     "Antitoxin",
+    "Battleaxe",
     "Bedroll",
     "Blanket",
     "Block of Incense",
@@ -92,10 +94,11 @@
     "Rope, Hempen (50 feet)",
     "Spellbook",
     "Spellbook",
+    "Wand of Magic Detection",
     "Waterskin"
   ],
-  "currencies": { "cp": 3, "sp": 63, "gp": 34, "ep": 0, "pp": 0 },
-  "money": 40.33,
+  "currencies": { "cp": 3, "sp": 65, "gp": 34, "ep": 0, "pp": 0 },
+  "money": 40.53,
   "notes": {
     "allies": "Lancelot",
     "personalPossessions": "Sack of feathers",

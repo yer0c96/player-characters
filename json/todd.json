@@ -3137,7 +3137,7 @@
       "definitionId": 0,
       "definitionTypeId": 0,
       "displayAsAttack": null,
-      "quantity": 2,
+      "quantity": 1,
       "isAttuned": false,
       "equipped": false,
       "equippedEntityTypeId": null,
@@ -4595,7 +4595,7 @@
   "deathSaves": { "failCount": 0, "successCount": 0, "isStabilized": false },
   "adjustmentXp": null,
   "spellSlots": [
-    { "level": 1, "used": 2, "available": 0 },
+    { "level": 1, "used": 4, "available": 0 },
     { "level": 2, "used": 2, "available": 0 },
     { "level": 3, "used": 0, "available": 0 },
     { "level": 4, "used": 0, "available": 0 },
@@ -5618,7 +5618,7 @@
           "name": null,
           "statModifierUsesId": null,
           "resetType": 1,
-          "numberUsed": 0,
+          "numberUsed": 1,
           "minNumberConsumed": 1,
           "maxNumberConsumed": 1,
           "maxUses": 1,
@@ -5820,7 +5820,7 @@
           "name": null,
           "statModifierUsesId": null,
           "resetType": 2,
-          "numberUsed": 0,
+          "numberUsed": 1,
           "minNumberConsumed": 1,
           "maxNumberConsumed": 1,
           "maxUses": 1,
@@ -7835,5 +7835,5 @@
       "affectedClassFeatureDefinitionKey": null
     }
   ],
-  "dateModified": "2023-05-29T00:04:48.391443Z"
+  "dateModified": "2023-06-17T23:21:00.575007Z"
 }

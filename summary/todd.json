@@ -19,13 +19,13 @@
   "feats": ["Dark Gift: Gathered Whispers"],
   "spells": [
     "Branding Smite",
-    "Ceremony",
+    "Compelled Duel",
+    "Find Steed",
     "Message",
     "Minor Illusion",
     "Searing Smite",
     "Spare the Dying",
-    "Word of Radiance",
-    "Zone of Truth"
+    "Word of Radiance"
   ],
   "actions": [
     "Channel Divinity",

@@ -6,7 +6,7 @@
     ["Level 5 Cleric | Twilight Domain"],
     ["Level 5 Bard | College of Spirits"]
   ],
-  "money": 227.8,
+  "money": 223,
   "equipment": [
     "Backpack x5",
     "Butterfly Sword",
@@ -78,6 +78,7 @@
     "Ceremony",
     "Cloud of Daggers",
     "Color Spray",
+    "Compelled Duel",
     "Control Flames",
     "Counterspell",
     "Cure Wounds",
@@ -86,6 +87,7 @@
     "Dissonant Whispers",
     "Eldritch Blast",
     "Enhance Ability",
+    "Find Steed",
     "Fire Bolt",
     "Friends",
     "Glyph of Warding",
@@ -116,7 +118,6 @@
     "Thunderwave",
     "Toll the Dead",
     "True Strike",
-    "Word of Radiance",
-    "Zone of Truth"
+    "Word of Radiance"
   ]
 }

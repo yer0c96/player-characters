@@ -83,7 +83,7 @@
   "baseHitPoints": 22,
   "bonusHitPoints": null,
   "overrideHitPoints": null,
-  "removedHitPoints": 0,
+  "removedHitPoints": 11,
   "temporaryHitPoints": 0,
   "currentXp": 0,
   "alignmentId": 3,
@@ -2961,7 +2961,7 @@
       "currency": null
     }
   ],
-  "currencies": { "cp": 3, "sp": 61, "gp": 34, "ep": 0, "pp": 0 },
+  "currencies": { "cp": 3, "sp": 63, "gp": 34, "ep": 0, "pp": 0 },
   "classes": [
     {
       "id": 95903657,
@@ -3978,9 +3978,9 @@
   "deathSaves": { "failCount": 0, "successCount": 0, "isStabilized": false },
   "adjustmentXp": null,
   "spellSlots": [
-    { "level": 1, "used": 0, "available": 0 },
-    { "level": 2, "used": 0, "available": 0 },
-    { "level": 3, "used": 0, "available": 0 },
+    { "level": 1, "used": 1, "available": 0 },
+    { "level": 2, "used": 2, "available": 0 },
+    { "level": 3, "used": 1, "available": 0 },
     { "level": 4, "used": 0, "available": 0 },
     { "level": 5, "used": 0, "available": 0 },
     { "level": 6, "used": 0, "available": 0 },
@@ -8250,9 +8250,9 @@
       "id": 13655505,
       "name": "Clove of Garlic",
       "description": "Blehhhh",
-      "weight": null,
+      "weight": 0,
       "cost": null,
-      "quantity": 2,
+      "quantity": 1,
       "notes": null
     },
     {
@@ -8334,5 +8334,5 @@
   "creatures": [],
   "optionalOrigins": [],
   "optionalClassFeatures": [],
-  "dateModified": "2023-05-07T00:08:22.452717Z"
+  "dateModified": "2023-05-28T23:57:54.705885Z"
 }

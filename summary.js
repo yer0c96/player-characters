@@ -123,19 +123,19 @@ const summarize = async (player) => {
   if (!data) return null
 
   const {
-    characterValues,
+    actions,
     background,
-    inventory,
+    characterValues,
     classes,
+    classSpells,
+    currencies,
+    feats,
+    inventory,
+    modifiers,
     name,
     notes,
-    traits,
-    currencies,
-    actions,
-    feats,
     spells,
-    classSpells,
-    modifiers,
+    traits,
   } = data
 
   const { cp, sp, gp, ep, pp } = currencies

@@ -83,7 +83,7 @@
   "baseHitPoints": 28,
   "bonusHitPoints": null,
   "overrideHitPoints": null,
-  "removedHitPoints": 0,
+  "removedHitPoints": 2,
   "temporaryHitPoints": 0,
   "currentXp": 0,
   "alignmentId": 2,
@@ -1618,7 +1618,7 @@
         "isPack": false,
         "tags": ["Healing", "Combat", "Consumable"],
         "grantedModifiers": [],
-        "subType": "Potion",
+        "subType": null,
         "isConsumable": true,
         "weaponBehaviors": [],
         "baseItemId": null,
@@ -2959,7 +2959,7 @@
       "currency": null
     }
   ],
-  "currencies": { "cp": 96, "sp": 10, "gp": 68, "ep": 0, "pp": 0 },
+  "currencies": { "cp": 96, "sp": 10, "gp": 63, "ep": 0, "pp": 0 },
   "classes": [
     {
       "id": 96994691,
@@ -5379,7 +5379,7 @@
           "name": null,
           "statModifierUsesId": null,
           "resetType": 1,
-          "numberUsed": 0,
+          "numberUsed": 1,
           "minNumberConsumed": 1,
           "maxNumberConsumed": 1,
           "maxUses": 5,
@@ -7317,5 +7317,5 @@
   "creatures": [],
   "optionalOrigins": [],
   "optionalClassFeatures": [],
-  "dateModified": "2023-05-07T00:08:30.822688Z"
+  "dateModified": "2023-05-29T00:11:55.79885Z"
 }

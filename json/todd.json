@@ -949,7 +949,7 @@
         "weightMultiplier": 1,
         "capacity": null,
         "capacityWeight": 0,
-        "type": "Heavy Armor",
+        "type": "",
         "description": "<p>Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.</p>",
         "canAttune": false,
         "attunementDescription": null,
@@ -4595,8 +4595,8 @@
   "deathSaves": { "failCount": 0, "successCount": 0, "isStabilized": false },
   "adjustmentXp": null,
   "spellSlots": [
-    { "level": 1, "used": 4, "available": 0 },
-    { "level": 2, "used": 2, "available": 0 },
+    { "level": 1, "used": 0, "available": 0 },
+    { "level": 2, "used": 0, "available": 0 },
     { "level": 3, "used": 0, "available": 0 },
     { "level": 4, "used": 0, "available": 0 },
     { "level": 5, "used": 0, "available": 0 },
@@ -5618,7 +5618,7 @@
           "name": null,
           "statModifierUsesId": null,
           "resetType": 1,
-          "numberUsed": 1,
+          "numberUsed": 0,
           "minNumberConsumed": 1,
           "maxNumberConsumed": 1,
           "maxUses": 1,
@@ -5820,7 +5820,7 @@
           "name": null,
           "statModifierUsesId": null,
           "resetType": 2,
-          "numberUsed": 1,
+          "numberUsed": 0,
           "minNumberConsumed": 1,
           "maxNumberConsumed": 1,
           "maxUses": 1,
@@ -7835,5 +7835,5 @@
       "affectedClassFeatureDefinitionKey": null
     }
   ],
-  "dateModified": "2023-06-17T23:21:00.575007Z"
+  "dateModified": "2023-07-29T03:18:45.317425Z"
 }

@@ -47,7 +47,7 @@ const partySummary = () => {
 
   const summary = {
     classes: pipe(pluck('classes'))(party),
-    money: sum(pluck('money', party)),
+    money: pluck('money', party).reduce((acc, curr) => Math.floor(acc * 1000) / 1000 + curr, 0),
     equipment,
     inventory,
     spells,

@@ -707,7 +707,7 @@
         "isPack": false,
         "tags": ["Instrument"],
         "grantedModifiers": [],
-        "subType": "Tool",
+        "subType": null,
         "isConsumable": false,
         "weaponBehaviors": [],
         "baseItemId": null,
@@ -4069,7 +4069,7 @@
             "id": 84,
             "name": "Bard College",
             "prerequisite": null,
-            "description": "<p><span style=\"font-weight: 400;\">At 3rd level, you delve into the advanced techniques of a bard college of your choice: the College of Lore detailed at the end of the class description or another from the </span><i><span style=\"font-weight: 400;\">Player's Handbook</span></i><span style=\"font-weight: 400;\"> or other sources. Your choice grants you features at 3rd level and again at 6th and 14th level.</span></p>",
+            "description": "<p>At 3rd level, you delve into the advanced techniques of a bard college of your choice: the College of Lore detailed at the end of the class description or another from the <em>Player's Handbook</em> or other sources. Your choice grants you features at 3rd level and again at 6th and 14th level.</p>",
             "requiredLevel": 3,
             "displayOrder": 7
           },
@@ -4354,7 +4354,7 @@
             "id": 84,
             "name": "Bard College",
             "prerequisite": null,
-            "description": "<p><span style=\"font-weight: 400;\">At 3rd level, you delve into the advanced techniques of a bard college of your choice: the College of Lore detailed at the end of the class description or another from the </span><i><span style=\"font-weight: 400;\">Player's Handbook</span></i><span style=\"font-weight: 400;\"> or other sources. Your choice grants you features at 3rd level and again at 6th and 14th level.</span></p>",
+            "description": "<p>At 3rd level, you delve into the advanced techniques of a bard college of your choice: the College of Lore detailed at the end of the class description or another from the <em>Player's Handbook</em> or other sources. Your choice grants you features at 3rd level and again at 6th and 14th level.</p>",
             "requiredLevel": 3,
             "displayOrder": 7
           },
@@ -4913,7 +4913,7 @@
             "entityTypeId": 12168134,
             "displayOrder": 7,
             "name": "Bard College",
-            "description": "<p><span style=\"font-weight: 400;\">At 3rd level, you delve into the advanced techniques of a bard college of your choice: the College of Lore detailed at the end of the class description or another from the </span><i><span style=\"font-weight: 400;\">Player's Handbook</span></i><span style=\"font-weight: 400;\"> or other sources. Your choice grants you features at 3rd level and again at 6th and 14th level.</span></p>",
+            "description": "<p>At 3rd level, you delve into the advanced techniques of a bard college of your choice: the College of Lore detailed at the end of the class description or another from the <em>Player's Handbook</em> or other sources. Your choice grants you features at 3rd level and again at 6th and 14th level.</p>",
             "snippet": "",
             "activation": null,
             "multiClassDescription": "",
@@ -9831,5 +9831,5 @@
       "affectedClassFeatureDefinitionKey": null
     }
   ],
-  "dateModified": "2023-07-29T03:18:51.804323Z"
+  "dateModified": "2023-08-20T00:21:35.153095Z"
 }

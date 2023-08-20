@@ -6,19 +6,20 @@
     ["Level 5 Cleric | Twilight Domain"],
     ["Level 5 Bard | College of Spirits"]
   ],
-  "money": 223.2,
+  "money": 308.2,
   "equipment": [
     "Backpack x4",
     "Butterfly Sword",
-    "Chain Mail",
+    "Chain Mail x2",
     "Cloak of Protection",
     "Eyes of the Eagle",
     "Goggles of Night",
     "Leather",
-    "Shield",
+    "Shield x2",
     "Silvered Longsword",
     "Skin Sack",
     "Staff",
+    "Warhammer",
     "Whip x2"
   ],
   "inventory": [
@@ -33,7 +34,6 @@
     "Block of Incense x2",
     "Candle",
     "Censer",
-    "Chain Mail",
     "Chest",
     "Clothes, Common x3",
     "Clothes, Traveler's x2",
@@ -53,7 +53,7 @@
     "Mess Kit x3",
     "Mirror, Steel",
     "Oil (flask)",
-    "Potion of Healing x2",
+    "Potion of Healing x4",
     "Potion of Healing (Greater) x2",
     "Rations (1 day) x5",
     "Rope, Hempen (50 feet) x4",
@@ -61,7 +61,7 @@
     "Scroll: Poison Protection",
     "Scroll: Spiritual Weapon",
     "Scroll: null",
-    "Shield",
+    "Signet Ring",
     "Soap x2",
     "Spellbook x2",
     "Stake (Wooden)",
@@ -70,7 +70,6 @@
     "Vestments x2",
     "Vial filled with water",
     "Wand of Magic Detection",
-    "Warhammer",
     "Waterskin x4"
   ],
   "spells": [

@@ -79,7 +79,7 @@
   "skin": "",
   "height": "5'9\"",
   "weight": null,
-  "inspiration": false,
+  "inspiration": true,
   "baseHitPoints": 28,
   "bonusHitPoints": null,
   "overrideHitPoints": null,
@@ -1540,7 +1540,7 @@
         "isPack": false,
         "tags": ["Healing", "Utility"],
         "grantedModifiers": [],
-        "subType": null,
+        "subType": "Tool",
         "isConsumable": false,
         "weaponBehaviors": [],
         "baseItemId": null,
@@ -1618,7 +1618,7 @@
         "isPack": false,
         "tags": ["Healing", "Combat", "Consumable"],
         "grantedModifiers": [],
-        "subType": null,
+        "subType": "Potion",
         "isConsumable": true,
         "weaponBehaviors": [],
         "baseItemId": null,
@@ -1650,7 +1650,7 @@
       "definitionId": 0,
       "definitionTypeId": 0,
       "displayAsAttack": null,
-      "quantity": 1,
+      "quantity": 2,
       "isAttuned": false,
       "equipped": false,
       "equippedEntityTypeId": null,
@@ -2959,7 +2959,7 @@
       "currency": null
     }
   ],
-  "currencies": { "cp": 96, "sp": 10, "gp": 63, "ep": 0, "pp": 0 },
+  "currencies": { "cp": 96, "sp": 10, "gp": 73, "ep": 0, "pp": 0 },
   "classes": [
     {
       "id": 96994691,
@@ -7317,5 +7317,5 @@
   "creatures": [],
   "optionalOrigins": [],
   "optionalClassFeatures": [],
-  "dateModified": "2023-07-29T03:18:41.639367Z"
+  "dateModified": "2023-08-20T00:21:32.806743Z"
 }

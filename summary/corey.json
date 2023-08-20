@@ -90,8 +90,8 @@
     "Torch",
     "Waterskin"
   ],
-  "currencies": { "cp": 96, "sp": 10, "gp": 63, "ep": 0, "pp": 0 },
-  "money": 64.96,
+  "currencies": { "cp": 96, "sp": 10, "gp": 73, "ep": 0, "pp": 0 },
+  "money": 74.96,
   "notes": {
     "personalPossessions": "A scroll case stuffed full of notes from your studies or prayers",
     "otherNotes": "Represented by The Marionette"

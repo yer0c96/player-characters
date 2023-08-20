@@ -949,7 +949,7 @@
         "weightMultiplier": 1,
         "capacity": null,
         "capacityWeight": 0,
-        "type": "",
+        "type": "Heavy Armor",
         "description": "<p>Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.</p>",
         "canAttune": false,
         "attunementDescription": null,
@@ -1825,7 +1825,7 @@
         "isPack": false,
         "tags": ["Healing", "Combat", "Consumable"],
         "grantedModifiers": [],
-        "subType": "Potion",
+        "subType": null,
         "isConsumable": true,
         "weaponBehaviors": [],
         "baseItemId": null,
@@ -3059,7 +3059,7 @@
       "definitionId": 0,
       "definitionTypeId": 0,
       "displayAsAttack": null,
-      "quantity": 9,
+      "quantity": 8,
       "isAttuned": false,
       "equipped": false,
       "equippedEntityTypeId": null,
@@ -4586,6 +4586,15 @@
       "value": "Vial filled with water",
       "notes": null,
       "valueId": "1043428534",
+      "valueTypeId": "1439493548",
+      "contextId": null,
+      "contextTypeId": null
+    },
+    {
+      "typeId": 9,
+      "value": "Vial filled with Wine Goop",
+      "notes": null,
+      "valueId": "1182731823",
       "valueTypeId": "1439493548",
       "contextId": null,
       "contextTypeId": null
@@ -7751,6 +7760,15 @@
       "cost": null,
       "quantity": 5,
       "notes": null
+    },
+    {
+      "id": 18799523,
+      "name": "Vial filled with Wine Goop",
+      "description": "Vial filled with Wine Goop",
+      "weight": 1,
+      "cost": 1,
+      "quantity": 1,
+      "notes": "Vial filled with Wine Goop"
     }
   ],
   "campaign": {
@@ -7835,5 +7853,5 @@
       "affectedClassFeatureDefinitionKey": null
     }
   ],
-  "dateModified": "2023-07-29T03:18:45.317425Z"
+  "dateModified": "2023-08-19T23:05:29.07Z"
 }

@@ -1,5 +1,5 @@
 const fs = require('fs')
-const { sum, pluck, pipe, flatten, sort, sortBy, prop, identity, uniq, sortWith } = require('ramda')
+const { pluck, pipe, flatten, sortBy, identity, uniq } = require('ramda')
 
 const ignoredItems = [
   'Stress I',
@@ -45,12 +45,15 @@ const partySummary = () => {
 
   const spells = pipe(pluck('spells'), flatten, sortBy(identity), uniq)(party)
 
+  const languages = pipe(pluck('languages'), flatten, sortBy(identity), uniq)(party)
+
   const summary = {
     classes: pipe(pluck('classes'))(party),
     money: pluck('money', party).reduce((acc, curr) => Math.floor(acc * 1000) / 1000 + curr, 0),
     equipment,
     inventory,
     spells,
+    languages,
   }
 
   fs.writeFileSync(`summary/party.json`, JSON.stringify(summary))

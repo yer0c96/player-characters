@@ -14,6 +14,7 @@ const {
   filter,
   trim,
   omit,
+  includes,
 } = require('ramda')
 const { ignoredItems } = require('./party')
 
@@ -140,6 +141,11 @@ const summarize = async (player) => {
 
   const { cp, sp, gp, ep, pp } = currencies
 
+  const mods = modifiers.race
+    .concat(modifiers.class)
+    .concat(modifiers.background)
+    .concat(modifiers.item)
+
   const _spells = pipe(
     values,
     flatten,
@@ -185,11 +191,16 @@ const summarize = async (player) => {
     feats: feats.map((f) => f.definition.name).sort(),
     spells: _spells.concat(_classSpells).sort(),
     actions: pipe(values, flatten, filter(Boolean), sortBy(prop('name')), pluck('name'))(actions),
+    languages: mods
+      .filter((m) => m.type === 'language' && m.friendlySubtypeName !== 'Common')
+      .map((m) => m.friendlySubtypeName)
+      .sort(),
     modifiers: pipe(
       values,
       flatten,
       sortBy(prop('type')),
       map((x) => `${x.friendlyTypeName}: ${x.friendlySubtypeName}`),
+      filter((x) => !x.includes('Language')),
       uniq,
     )(modifiers),
     equipment: gear,

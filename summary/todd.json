@@ -1,6 +1,6 @@
 {
   "name": "Ruffle Manfaers",
-  "classes": ["Level 5 Paladin | Oath of Redemption"],
+  "classes": ["Level 6 Paladin | Oath of Redemption"],
   "stats": {
     "strength": 14,
     "dexterity": 12,
@@ -9,7 +9,7 @@
     "wisdom": 10,
     "charisma": 15
   },
-  "hitPoints": { "base": 34, "current": 34, "temp": 0 },
+  "hitPoints": { "base": 40, "current": 37, "temp": 8 },
   "traits": {
     "flaws": "I can’t be comfortable around creatures larger than I am.\n\nFear of The Executioner."
   },
@@ -19,8 +19,8 @@
   "feats": ["Dark Gift: Gathered Whispers"],
   "spells": [
     "Branding Smite",
-    "Compelled Duel",
-    "Find Steed",
+    "Cure Wounds",
+    "Lesser Restoration",
     "Message",
     "Minor Illusion",
     "Searing Smite",
@@ -38,22 +38,23 @@
     "Lay on Hands Pool",
     "Sudden Cacophony"
   ],
+  "languages": ["Gnomish"],
   "modifiers": [
     "Advantage: Charisma Saving Throws",
     "Advantage: Intelligence Saving Throws",
     "Advantage: Wisdom Saving Throws",
     "Bonus: Intelligence Score",
     "Bonus: Dexterity Score",
+    "Bonus: Saving Throws",
     "Bonus: Constitution Score",
     "Bonus: Strength Score",
+    "Bonus: Magic",
     "Bonus: Ability Checks",
-    "Bonus: Saving Throws",
     "Bonus: Melee Attacks",
     "Bonus: Ranged Attacks",
     "Bonus: Spell Attacks",
+    "Bonus: Temporary Hit Points",
     "Immunity: Disease",
-    "Language: Common",
-    "Language: Gnomish",
     "Proficiency: Light Armor",
     "Proficiency: Medium Armor",
     "Proficiency: Heavy Armor",
@@ -72,7 +73,7 @@
     "Set: Subclass",
     "Set Base: Darkvision"
   ],
-  "equipment": ["Backpack", "Chain Mail", "Shield", "Silvered Longsword"],
+  "equipment": ["Backpack", "Blood Spear", "Chain Mail", "Shield"],
   "inventory": [
     "Bedroll",
     "Clothes, Traveler's",
@@ -83,14 +84,15 @@
     "Potion of Healing",
     "Rations (1 day)",
     "Rope, Hempen (50 feet)",
+    "Silvered Longsword",
     "Soap",
     "Tinderbox",
     "Torch",
     "Vial filled with water",
     "Waterskin"
   ],
-  "currencies": { "cp": 100, "sp": 19, "gp": 2, "ep": 0, "pp": 0 },
-  "money": 4.9,
+  "currencies": { "cp": 100, "sp": 24, "gp": 6, "ep": 0, "pp": 0 },
+  "money": 9.4,
   "notes": {
     "allies": "",
     "backstory": "Gregory (Greggy) and Larissa (Issa)\n\n\nGreggy and Issa",

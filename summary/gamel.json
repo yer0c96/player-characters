@@ -1,6 +1,6 @@
 {
   "name": "Nova Beren",
-  "classes": ["Level 5 Cleric | Twilight Domain"],
+  "classes": ["Level 6 Cleric | Twilight Domain"],
   "stats": {
     "strength": 14,
     "dexterity": 8,
@@ -9,7 +9,7 @@
     "wisdom": 15,
     "charisma": 12
   },
-  "hitPoints": { "base": 28, "current": 28, "temp": 0 },
+  "hitPoints": { "base": 33, "current": 33, "temp": 9 },
   "traits": {
     "personalityTraits": "I’ve enjoyed fine food, drink, and high society among my temple’s elite. Rough living grates on me.\nI’ve spent so long in the temple that I have little practical experience dealing with people in the outside world.",
     "ideals": "Change. We must help bring about the changes the gods are constantly working in the world. (Chaotic)",
@@ -23,8 +23,8 @@
   "spells": [
     "Beacon of Hope",
     "Bless",
-    "Ceremony",
     "Enhance Ability",
+    "Gentle Repose",
     "Guidance",
     "Guiding Bolt",
     "Healing Word",
@@ -34,7 +34,8 @@
     "Sacred Flame",
     "Spare the Dying",
     "Spiritual Weapon",
-    "Toll the Dead"
+    "Toll the Dead",
+    "Tongues"
   ],
   "actions": [
     "Channel Divinity",
@@ -45,8 +46,10 @@
     "Harness Divine Power",
     "Healing Hands",
     "Radiant Consumption",
+    "Steps of Night",
     "Vigilant Blessing"
   ],
+  "languages": ["Celestial", "Draconic", "Sylvan"],
   "modifiers": [
     "Bonus: Wisdom Score",
     "Bonus: Constitution Score",
@@ -57,10 +60,6 @@
     "Bonus: Ranged Attacks",
     "Bonus: Spell Attacks",
     "Expertise: Perception",
-    "Language: Common",
-    "Language: Celestial",
-    "Language: Draconic",
-    "Language: Sylvan",
     "Proficiency: Light Armor",
     "Proficiency: Medium Armor",
     "Proficiency: Shields",

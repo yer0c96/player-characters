@@ -16,6 +16,7 @@
   "feats": [],
   "spells": ["Dancing Lights", "Fire Bolt"],
   "actions": ["Magical Tinkering"],
+  "languages": ["Choose a Language", "Elvish"],
   "modifiers": [
     "Advantage: Saving Throws",
     "Bonus: Dexterity Score",
@@ -26,9 +27,6 @@
     "Bonus: Ranged Attacks",
     "Bonus: Spell Attacks",
     "Immunity: Magical Sleep",
-    "Language: Choose a Language",
-    "Language: Common",
-    "Language: Elvish",
     "Proficiency: Perception",
     "Proficiency: Longsword",
     "Proficiency: Shortsword",

@@ -1,6 +1,6 @@
 {
   "name": "Tenebrae",
-  "classes": ["Level 5 Sorcerer | Aberrant Mind"],
+  "classes": ["Level 6 Sorcerer | Aberrant Mind"],
   "stats": {
     "strength": 8,
     "dexterity": 12,
@@ -9,7 +9,7 @@
     "wisdom": 10,
     "charisma": 15
   },
-  "hitPoints": { "base": 22, "current": 22, "temp": 0 },
+  "hitPoints": { "base": 26, "current": 24, "temp": 7 },
   "traits": {
     "personalityTraits": "I feel far more comfortable around animals than people.\nI have a lesson for every situation, drawn from observing nature.",
     "ideals": "Change. Life is like the seasons, in constant change, and we must change with it. (Chaotic)",
@@ -36,6 +36,7 @@
     "Hunger of Hadar",
     "Lightning Lure",
     "Magic Stone",
+    "Melf's Minute Meteors",
     "Mind Sliver",
     "Sending",
     "Shatter",
@@ -47,10 +48,13 @@
     "Magical Guidance",
     "Metamagic - Careful Spell",
     "Metamagic - Empowered Spell",
+    "Psionic Sorcery",
     "Sorcery Points",
     "Telepathic Speech"
   ],
+  "languages": ["Auran", "Elvish"],
   "modifiers": [
+    "Advantage: Saving Throws",
     "Bonus: Dexterity Score",
     "Bonus: Wisdom Score",
     "Bonus: Choose an Ability Score",
@@ -60,9 +64,6 @@
     "Bonus: Ranged Attacks",
     "Bonus: Spell Attacks",
     "Bonus: Spell Attack Range Multiplier",
-    "Language: Common",
-    "Language: Auran",
-    "Language: Elvish",
     "Proficiency: Sleight of Hand",
     "Proficiency: Deception",
     "Proficiency: Dagger",
@@ -77,6 +78,7 @@
     "Proficiency: Athletics",
     "Proficiency: Survival",
     "Proficiency: Birdpipes",
+    "Resistance: Psychic",
     "Sense: Darkvision",
     "Set: Subclass"
   ],
@@ -90,17 +92,17 @@
     "Clothes, Traveler's",
     "Lantern, Hooded",
     "Mess Kit",
-    "Potion of Healing",
     "Rations (1 day)",
     "Rope, Hempen (50 feet)",
+    "Scroll: null",
     "Signet Ring",
     "Spellbook",
     "Spellbook",
     "Wand of Magic Detection",
     "Waterskin"
   ],
-  "currencies": { "cp": 3, "sp": 65, "gp": 34, "ep": 150, "pp": 0 },
-  "money": 115.53,
+  "currencies": { "cp": 6, "sp": 70, "gp": 43, "ep": 150, "pp": 0 },
+  "money": 125.06,
   "notes": {
     "allies": "Lancelot",
     "personalPossessions": "Sack of feathers",

@@ -1,6 +1,6 @@
 {
   "name": "Jassin Highwind",
-  "classes": ["Level 5 Monk | Way of the Astral Self"],
+  "classes": ["Level 6 Monk | Way of the Astral Self"],
   "stats": {
     "strength": 11,
     "dexterity": 15,
@@ -9,8 +9,7 @@
     "wisdom": 15,
     "charisma": 9
   },
-  "stress": "Stress I",
-  "hitPoints": { "base": 28, "current": 28, "temp": 0 },
+  "hitPoints": { "base": 33, "current": 10, "temp": 11 },
   "traits": {
     "personalityTraits": "I feel tremendous empathy for all who suffer.",
     "ideals": "Greater Good. My gifts are meant to be shared with all, not used for my own benefit. (Good)",
@@ -37,8 +36,10 @@
     "Slow Fall",
     "Step of the Wind",
     "Stunning Strike",
-    "Unarmed Strike"
+    "Unarmed Strike",
+    "Visage of the Astral Self"
   ],
+  "languages": ["Dwarvish", "Elvish"],
   "modifiers": [
     "Advantage: Perception",
     "Bonus: Strength Score",
@@ -56,9 +57,6 @@
     "Bonus: Spell Attacks",
     "Bonus: Passive Perception",
     "Bonus: Passive Investigation",
-    "Language: Common",
-    "Language: Elvish",
-    "Language: Dwarvish",
     "Proficiency: Simple Weapons",
     "Proficiency: Shortsword",
     "Proficiency: Cook's Utensils",

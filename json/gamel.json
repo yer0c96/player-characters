@@ -3131,7 +3131,7 @@
         "isPack": false,
         "tags": ["Healing", "Combat", "Consumable"],
         "grantedModifiers": [],
-        "subType": "Potion",
+        "subType": null,
         "isConsumable": true,
         "weaponBehaviors": [],
         "baseItemId": null,
@@ -8772,50 +8772,6 @@
             "modifiers": [
               {
                 "fixedValue": null,
-                "id": "spell_14880_9971",
-                "entityId": null,
-                "entityTypeId": null,
-                "type": "bonus",
-                "subType": "hit-points",
-                "dice": null,
-                "restriction": "one creature of your choice that you can see within range regains a number of hit points equal to twice the necrotic damage you take",
-                "statId": null,
-                "requiresAttunement": false,
-                "duration": null,
-                "friendlyTypeName": "Bonus",
-                "friendlySubtypeName": "Hit Points",
-                "isGranted": false,
-                "bonusTypes": [],
-                "value": null,
-                "availableToMulticlass": null,
-                "modifierTypeId": 0,
-                "modifierSubTypeId": 0,
-                "componentId": 0,
-                "componentTypeId": 0,
-                "die": {
-                  "diceCount": null,
-                  "diceValue": null,
-                  "diceMultiplier": null,
-                  "fixedValue": null,
-                  "diceString": null
-                },
-                "count": 1,
-                "durationUnit": null,
-                "usePrimaryStat": false,
-                "atHigherLevels": {
-                  "scaleType": "spellscale",
-                  "higherLevelDefinitions": [],
-                  "additionalAttacks": [],
-                  "additionalTargets": [],
-                  "areaOfEffect": [],
-                  "duration": [],
-                  "creatures": [],
-                  "special": [],
-                  "points": []
-                }
-              },
-              {
-                "fixedValue": null,
                 "id": "spell_14880_9970",
                 "entityId": null,
                 "entityTypeId": null,
@@ -8863,6 +8819,50 @@
                       "details": ""
                     }
                   ],
+                  "additionalAttacks": [],
+                  "additionalTargets": [],
+                  "areaOfEffect": [],
+                  "duration": [],
+                  "creatures": [],
+                  "special": [],
+                  "points": []
+                }
+              },
+              {
+                "fixedValue": null,
+                "id": "spell_14880_9971",
+                "entityId": null,
+                "entityTypeId": null,
+                "type": "bonus",
+                "subType": "hit-points",
+                "dice": null,
+                "restriction": "one creature of your choice that you can see within range regains a number of hit points equal to twice the necrotic damage you take",
+                "statId": null,
+                "requiresAttunement": false,
+                "duration": null,
+                "friendlyTypeName": "Bonus",
+                "friendlySubtypeName": "Hit Points",
+                "isGranted": false,
+                "bonusTypes": [],
+                "value": null,
+                "availableToMulticlass": null,
+                "modifierTypeId": 0,
+                "modifierSubTypeId": 0,
+                "componentId": 0,
+                "componentTypeId": 0,
+                "die": {
+                  "diceCount": null,
+                  "diceValue": null,
+                  "diceMultiplier": null,
+                  "fixedValue": null,
+                  "diceString": null
+                },
+                "count": 1,
+                "durationUnit": null,
+                "usePrimaryStat": false,
+                "atHigherLevels": {
+                  "scaleType": "spellscale",
+                  "higherLevelDefinitions": [],
                   "additionalAttacks": [],
                   "additionalTargets": [],
                   "areaOfEffect": [],
@@ -9031,5 +9031,5 @@
       "affectedClassFeatureDefinitionKey": "class-feature:2996570"
     }
   ],
-  "dateModified": "2023-10-21T23:52:36.263907Z"
+  "dateModified": "2023-12-29T18:32:20.046694Z"
 }

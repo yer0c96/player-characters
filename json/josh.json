@@ -79,12 +79,12 @@
   "skin": "Black",
   "height": "5'",
   "weight": 95,
-  "inspiration": false,
+  "inspiration": true,
   "baseHitPoints": 26,
   "bonusHitPoints": null,
   "overrideHitPoints": null,
-  "removedHitPoints": 2,
-  "temporaryHitPoints": 7,
+  "removedHitPoints": 0,
+  "temporaryHitPoints": 0,
   "currentXp": 0,
   "alignmentId": 3,
   "lifestyleId": 4,
@@ -3303,7 +3303,7 @@
       "entityTypeId": 1446578651,
       "level": 6,
       "isStartingClass": true,
-      "hitDiceUsed": 3,
+      "hitDiceUsed": 0,
       "definitionId": 0,
       "subclassDefinitionId": null,
       "definition": {
@@ -4323,8 +4323,8 @@
   "adjustmentXp": null,
   "spellSlots": [
     { "level": 1, "used": 0, "available": 0 },
-    { "level": 2, "used": 2, "available": 0 },
-    { "level": 3, "used": 3, "available": 0 },
+    { "level": 2, "used": 0, "available": 0 },
+    { "level": 3, "used": 0, "available": 0 },
     { "level": 4, "used": 0, "available": 0 },
     { "level": 5, "used": 0, "available": 0 },
     { "level": 6, "used": 0, "available": 0 },
@@ -5912,7 +5912,13 @@
           { "id": 5961, "label": "Istarian", "description": null },
           { "id": 5962, "label": "Kothian", "description": null },
           { "id": 5963, "label": "Nerakese", "description": null },
-          { "id": 5964, "label": "Ogre", "description": null }
+          { "id": 5964, "label": "Ogre", "description": null },
+          { "id": 6025, "label": "Birdfolk", "description": null },
+          { "id": 6026, "label": "Cervan", "description": null },
+          { "id": 6027, "label": "Hedge", "description": null },
+          { "id": 6028, "label": "Jerbeen", "description": null },
+          { "id": 6029, "label": "Mapach", "description": null },
+          { "id": 6030, "label": "Vulpin", "description": null }
         ],
         "optionIds": []
       }
@@ -8924,8 +8930,17 @@
       "id": 19112447,
       "name": "Ivory Locket with a fugly man picture",
       "description": null,
-      "weight": null,
+      "weight": 0,
       "cost": 30,
+      "quantity": 1,
+      "notes": null
+    },
+    {
+      "id": 21126212,
+      "name": "Vial full of evil tree sap",
+      "description": null,
+      "weight": null,
+      "cost": null,
       "quantity": 1,
       "notes": null
     }
@@ -9024,5 +9039,5 @@
       "affectedClassFeatureDefinitionKey": null
     }
   ],
-  "dateModified": "2023-10-21T23:17:55.232625Z"
+  "dateModified": "2024-03-16T23:10:13.721026Z"
 }

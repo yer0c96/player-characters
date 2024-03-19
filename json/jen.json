@@ -83,8 +83,8 @@
   "baseHitPoints": 33,
   "bonusHitPoints": null,
   "overrideHitPoints": null,
-  "removedHitPoints": 3,
-  "temporaryHitPoints": 12,
+  "removedHitPoints": 0,
+  "temporaryHitPoints": 0,
   "currentXp": 0,
   "alignmentId": 3,
   "lifestyleId": 6,
@@ -1777,9 +1777,9 @@
       "displayAsAttack": null,
       "quantity": 1,
       "isAttuned": false,
-      "equipped": false,
-      "equippedEntityTypeId": null,
-      "equippedEntityId": null,
+      "equipped": true,
+      "equippedEntityTypeId": 1581111423,
+      "equippedEntityId": 71942288,
       "chargesUsed": 0,
       "limitedUse": null,
       "containerEntityId": 71942288,
@@ -3233,9 +3233,9 @@
       "displayAsAttack": null,
       "quantity": 1,
       "isAttuned": false,
-      "equipped": true,
-      "equippedEntityTypeId": 1581111423,
-      "equippedEntityId": 71942288,
+      "equipped": false,
+      "equippedEntityTypeId": null,
+      "equippedEntityId": null,
       "chargesUsed": 0,
       "limitedUse": null,
       "containerEntityId": 997013129,
@@ -4006,6 +4006,86 @@
       "containerEntityTypeId": 1439493548,
       "containerDefinitionKey": "1439493548:997013129",
       "currency": null
+    },
+    {
+      "id": 1318060894,
+      "entityTypeId": 1439493548,
+      "definition": {
+        "id": 7869324,
+        "baseTypeId": 2103445194,
+        "entityTypeId": 112130694,
+        "definitionKey": "112130694:7869324",
+        "canEquip": false,
+        "magic": true,
+        "name": "Water from the White Sun",
+        "snippet": "",
+        "weight": 0,
+        "weightMultiplier": 1,
+        "capacity": "",
+        "capacityWeight": 0,
+        "type": "Potion",
+        "description": "<p>When you drink this water it removes the blinded, deafened, paralyzed, and poisoned conditions.</p>",
+        "canAttune": false,
+        "attunementDescription": "",
+        "rarity": "Rare",
+        "isHomebrew": true,
+        "version": "",
+        "sourceId": null,
+        "sourcePageNumber": null,
+        "stackable": true,
+        "bundleSize": 1,
+        "avatarUrl": null,
+        "largeAvatarUrl": null,
+        "filterType": "Potion",
+        "cost": null,
+        "isPack": false,
+        "tags": [],
+        "grantedModifiers": [],
+        "subType": null,
+        "isConsumable": true,
+        "weaponBehaviors": [],
+        "baseItemId": null,
+        "baseArmorName": null,
+        "strengthRequirement": null,
+        "armorClass": null,
+        "stealthCheck": null,
+        "damage": null,
+        "damageType": null,
+        "fixedDamage": null,
+        "properties": null,
+        "attackType": null,
+        "categoryId": null,
+        "range": null,
+        "longRange": null,
+        "isMonkWeapon": false,
+        "levelInfusionGranted": null,
+        "sources": [],
+        "armorTypeId": null,
+        "gearTypeId": 3,
+        "groupedId": null,
+        "canBeAddedToInventory": true,
+        "isContainer": false,
+        "isCustomItem": false
+      },
+      "definitionId": 0,
+      "definitionTypeId": 0,
+      "displayAsAttack": null,
+      "quantity": 1,
+      "isAttuned": false,
+      "equipped": false,
+      "equippedEntityTypeId": null,
+      "equippedEntityId": null,
+      "chargesUsed": 0,
+      "limitedUse": {
+        "maxUses": 1,
+        "numberUsed": 0,
+        "resetType": "Consumable",
+        "resetTypeDescription": ""
+      },
+      "containerEntityId": 867150785,
+      "containerEntityTypeId": 1439493548,
+      "containerDefinitionKey": "1439493548:867150785",
+      "currency": null
     }
   ],
   "currencies": { "cp": 0, "sp": 0, "gp": 86, "ep": 0, "pp": 0 },
@@ -4015,7 +4095,7 @@
       "entityTypeId": 1446578651,
       "level": 6,
       "isStartingClass": true,
-      "hitDiceUsed": 2,
+      "hitDiceUsed": 0,
       "definitionId": 0,
       "subclassDefinitionId": null,
       "definition": {
@@ -5534,7 +5614,7 @@
   "spellSlots": [
     { "level": 1, "used": 0, "available": 0 },
     { "level": 2, "used": 0, "available": 0 },
-    { "level": 3, "used": 2, "available": 0 },
+    { "level": 3, "used": 0, "available": 0 },
     { "level": 4, "used": 0, "available": 0 },
     { "level": 5, "used": 0, "available": 0 },
     { "level": 6, "used": 0, "available": 0 },
@@ -6816,7 +6896,7 @@
           {
             "id": 2138,
             "label": "Haste",
-            "description": "<p>Choose a willing creature that you can see within range. Until the spell ends, the target's speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.</p>\r\n<p>When the spell ends, the target can't move or take actions until after its next turn, as a wave of lethargy sweeps over it.</p>"
+            "description": "<p>Choose a willing creature that you can see within range. Until the spell ends, the target’s speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.</p>\r\n<p>When the spell ends, the target can’t move or take actions until after its next turn, as a wave of lethargy sweeps over it.</p>"
           },
           {
             "id": 2139,
@@ -7504,6 +7584,11 @@
             "description": "<p>You create a magical zone that guards against deception in a 15-foot-radius sphere centered on a point of your choice within range. Until the spell ends, a creature that enters the spell's area for the first time on a turn or starts its turn there must make a Charisma saving throw. On a failed save, a creature can't speak a deliberate lie while in the radius. You know whether each creature succeeds or fails on its saving throw.</p>\r\n<p>An affected creature is aware of the spell and can thus avoid answering questions to which it would normally respond with a lie. Such a creature can be evasive in its answers as long as it remains within the boundaries of the truth.</p>"
           },
           {
+            "id": 2326,
+            "label": "Branding Smite",
+            "description": "<p>The next time you hit a creature with a weapon attack before this spell ends, the weapon gleams with astral radiance as you strike. The attack deals an extra 2d6 radiant damage to the target, which becomes visible if it is invisible, and the target sheds dim light in a 5-foot radius and can’t become invisible until the spell ends.&nbsp;</p>\r\n<p><strong>At Higher Levels.&nbsp;</strong>When you cast this spell using a spell slot of 3rd level or higher, the extra damage increases by 1d6 for each slot level above 2nd.</p>"
+          },
+          {
             "id": 2307,
             "label": "Blade Ward",
             "description": "<p>You extend your hand and trace a sigil of warding in the air. Until the end of your next turn, you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks.</p>"
@@ -7597,11 +7682,6 @@
             "id": 2325,
             "label": "Beast Sense",
             "description": "<p>You touch a willing beast. For the duration of the spell, you can use your action to see through the beast’s eyes and hear what it hears, and continue to do so until you use your action to return to your normal senses. While perceiving through the beast’s senses, you gain the benefits of any special senses possessed by that creature, though you are blinded and deafened to your own surroundings.</p>"
-          },
-          {
-            "id": 2326,
-            "label": "Branding Smite",
-            "description": "<p>The next time you hit a creature with a weapon attack before this spell ends, the weapon gleams with astral radiance as you strike. The attack deals an extra 2d6 radiant damage to the target, which becomes visible if it is invisible, and the target sheds dim light in a 5-foot radius and can’t become invisible until the spell ends.&nbsp;</p>\r\n<p><strong>At Higher Levels.&nbsp;</strong>When you cast this spell using a spell slot of 3rd level or higher, the extra damage increases by 1d6 for each slot level above 2nd.</p>"
           },
           {
             "id": 2327,
@@ -8324,16 +8404,6 @@
             "description": "<p>You call forth a fey spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Fey Spirit stat block. When you cast the spell, choose a mood: Fuming, Mirthful, or Tricksy. The creature resembles a fey creature of your choice marked by the chosen mood, which determines one of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.</p>\r\n<p>The creature is an ally to you and your companions. In combat, the creature shares your initiative&nbsp;count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its move to avoid danger.</p>\r\n<p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 4th level or higher, use the higher level wherever the spell’s level appears in the stat block.</p>\r\n<div class=\"Basic-Text-Frame stat-block-finder\">\r\n<p class=\"Stat-Block-Styles_Stat-Block-Title\">Fey Spirit</p>\r\n<p class=\"Stat-Block-Styles_Stat-Block-Metadata\">Small fey</p>\r\n<p class=\"Stat-Block-Styles_Stat-Block-Data\"><strong>Armor Class</strong> 12 + the level of the spell (natural armor)</p>\r\n<p class=\"Stat-Block-Styles_Stat-Block-Data\"><strong>Hit Points</strong> 30 + 10 for each spell level above 3rd</p>\r\n<p class=\"Stat-Block-Styles_Stat-Block-Data\"><strong>Speed</strong> 40 ft.</p>\r\n<div class=\"stat-block-ability-scores\">\r\n<div class=\"stat-block-ability-scores-stat\">\r\n<div class=\"stat-block-ability-scores-heading\">STR</div>\r\n<div class=\"stat-block-ability-scores-data\"><span class=\"stat-block-ability-scores-score\">13</span><span class=\"stat-block-ability-scores-modifier\">(+1)</span></div>\r\n</div>\r\n<div class=\"stat-block-ability-scores-stat\">\r\n<div class=\"stat-block-ability-scores-heading\">DEX</div>\r\n<div class=\"stat-block-ability-scores-data\"><span class=\"stat-block-ability-scores-score\">16</span><span class=\"stat-block-ability-scores-modifier\">(+3)</span></div>\r\n</div>\r\n<div class=\"stat-block-ability-scores-stat\">\r\n<div class=\"stat-block-ability-scores-heading\">CON</div>\r\n<div class=\"stat-block-ability-scores-data\"><span class=\"stat-block-ability-scores-score\">14</span><span class=\"stat-block-ability-scores-modifier\">(+2)</span></div>\r\n</div>\r\n<div class=\"stat-block-ability-scores-stat\">\r\n<div class=\"stat-block-ability-scores-heading\">INT</div>\r\n<div class=\"stat-block-ability-scores-data\"><span class=\"stat-block-ability-scores-score\">14</span><span class=\"stat-block-ability-scores-modifier\">(+2)</span></div>\r\n</div>\r\n<div class=\"stat-block-ability-scores-stat\">\r\n<div class=\"stat-block-ability-scores-heading\">WIS</div>\r\n<div class=\"stat-block-ability-scores-data\"><span class=\"stat-block-ability-scores-score\">11</span><span class=\"stat-block-ability-scores-modifier\">(+0)</span></div>\r\n</div>\r\n<div class=\"stat-block-ability-scores-stat\">\r\n<div class=\"stat-block-ability-scores-heading\">CHA</div>\r\n<div class=\"stat-block-ability-scores-data\"><span class=\"stat-block-ability-scores-score\">16</span><span class=\"stat-block-ability-scores-modifier\">(+3)</span></div>\r\n</div>\r\n</div>\r\n<p class=\"Stat-Block-Styles_Stat-Block-Data\"><strong>Condition Immunities</strong> charmed</p>\r\n<p class=\"Stat-Block-Styles_Stat-Block-Data\"><strong>Senses</strong> darkvision 60 ft., passive Perception 10</p>\r\n<p class=\"Stat-Block-Styles_Stat-Block-Data\"><strong>Languages</strong> Sylvan, understands the languages you speak</p>\r\n<p class=\"Stat-Block-Styles_Stat-Block-Data-Last\"><strong>Challenge</strong>&nbsp;&mdash;&nbsp;<strong>Proficiency Bonus</strong>&nbsp;equals your bonus</p>\r\n<p class=\"Stat-Block-Styles_Stat-Block-Heading\">Actions</p>\r\n<p class=\"Stat-Block-Styles_Stat-Block-Body\"><em><strong>Multiattack.</strong></em> The fey makes a number of attacks equal to half this spell’s level (rounded down).</p>\r\n<p class=\"Stat-Block-Styles_Stat-Block-Body\"><em><strong>Shortsword.</strong> Melee Weapon Attack:</em> your spell attack modifier to hit, reach 5 ft., one target. <em>Hit:</em> 1d6 + 3 + the spell’s level piercing damage + 1d6 force damage.</p>\r\n<p class=\"Stat-Block-Styles_Stat-Block-Heading\">Bonus Actions</p>\r\n<p class=\"Stat-Block-Styles_Stat-Block-Body\"><em><strong>Fey Step.</strong></em> The fey magically teleports up to 30 feet to an unoccupied space it can see. Then one of the following effects occurs, based on the fey’s chosen mood:</p>\r\n<p class=\"Stat-Block-Styles_Stat-Block-Body\"><strong>Fuming.</strong> The fey has advantage on the next attack roll it makes before the end of this turn.</p>\r\n<p class=\"Stat-Block-Styles_Stat-Block-Body\"><strong>Mirthful.</strong> The fey can force one creature it can see within 10 feet of it to make a Wisdom saving throw against your spell save DC. Unless the save succeeds, the target is charmed by you and the fey for 1 minute or until the target takes any damage.</p>\r\n<p class=\"Stat-Block-Styles_Stat-Block-Body\"><strong>Tricksy.</strong> The fey can fill a 5-foot cube within 5 feet of it with magical darkness, which lasts until the end of its next turn.</p>\r\n</div>"
           },
           {
-            "id": 1343136,
-            "label": "Freedom of the Waves",
-            "description": "<p>You conjure a deluge of seawater in a 15-foot-radius, 10-foot-tall cylinder centered on a point within range. This water takes the form of a tidal wave, a whirlpool, a waterspout, or another form of your choice. Each creature in the area must succeed on a Strength saving throw against your spell save DC or take 2d8 bludgeoning damage and fall prone. You can choose a number of creatures equal to your spellcasting modifier (minimum of 1) to automatically succeed on this saving throw.</p>\r\n<p>If you are within the spell’s area, as part of the action you use to cast the spell, you can vanish into the deluge and teleport to an unoccupied space that you can see within the spell’s area.</p>\r\n<blockquote>\r\n<p><span style=\"color: rgba(255, 0, 0, 1); text-transform: uppercase;\"><strong>This is Partnered Content</strong></span></p>\r\n<p>This content is available in your campaign with your DM’s permission but isn’t published by Wizards of the Coast. To use this content, enable <strong>Critical Role</strong> in the character builder.</p>\r\n</blockquote>"
-          },
-          {
-            "id": 1343171,
-            "label": "Freedom of the Winds",
-            "description": "<p>Wind wraps around your body, tugging at your hair and clothing as your feet lift off the ground. You gain a [rule]flying[/rule] speed of 60 feet. Additionally, you have advantage on ability checks to avoid being grappled, and on saving throws against being restrained or paralyzed.</p>\r\n<p>When you are targeted by a spell or attack while this spell is in effect, you can use a reaction to teleport up to 60 feet to an unoccupied space you can see. If this movement takes you out of range of the triggering spell or attack, you are unaffected by it. This spell then ends when you reappear.</p>\r\n<blockquote>\r\n<p><span style=\"color: rgba(255, 0, 0, 1); text-transform: uppercase;\"><strong>This is Partnered Content</strong></span></p>\r\n<p>This content is available in your campaign with your DM’s permission but isn’t published by Wizards of the Coast. To use this content, enable <strong>Critical Role</strong> in the character builder.</p>\r\n</blockquote>"
-          },
-          {
             "id": 1585025,
             "label": "Air Bubble",
             "description": "<p>You create a spectral globe around the head of a willing creature you can see within range. The globe is filled with fresh air that lasts until the spell ends. If the creature has more than one head, the globe of air appears around only one of its heads (which is all the creature needs to avoid [rule]suffocating;suffocation[/rule], assuming that all its heads share the same respiratory system).</p>\r\n<p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 3rd level or higher, you can create two additional globes of fresh air for each slot level above 2nd.</p>"
@@ -8342,6 +8412,31 @@
             "id": 1585026,
             "label": "Create Spelljamming Helm",
             "description": "<p>Holding the rod used in the casting of the spell, you touch a Large or smaller chair that is unoccupied. The rod disappears, and the chair is transformed into a spelljamming helm.</p>"
+          },
+          {
+            "id": 2158656,
+            "label": "Antagonize",
+            "description": "<p>You whisper magical words that antagonize one creature of your choice within range. The target must make a Wisdom saving throw. On a failed save, the target takes 4d4 psychic damage and must immediately use its reaction to make a melee attack against another creature of your choice that you can see. If the target can’t make this attack (for example, because there is no one within its reach or because its reaction is unavailable), the target instead has disadvantage on the next attack roll it makes before the start of your next turn. On a successful save, the target takes half as much damage only.</p>\r\n<p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d4 for each slot level above 3rd.</p>"
+          },
+          {
+            "id": 2158657,
+            "label": "Spirit of Death",
+            "description": "<p>You call forth a spirit that embodies death. The spirit manifests in an unoccupied space you can see within range and uses the reaper spirit stat block. The spirit disappears when it is reduced to 0 hit points or when the spell ends.</p>\r\n<p>The spirit is an ally to you and your companions. In combat, the spirit shares your initiative count and takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue the spirit any commands, it takes the Dodge action and uses its movement to avoid danger.</p>\r\n<div class=\"monster--stat-block\">\r\n<h5 id=\"ReaperSpirit\">Reaper Spirit</h5>\r\n<p>Medium Undead, Neutral</p>\r\n<p><strong>Armor Class</strong> 11 + the level of the spell (natural armor)</p>\r\n<p><strong>Hit Points</strong> 40 + 10 for each spell level above 4th</p>\r\n<p><strong>Speed</strong> 30 ft., fly 30 ft. (hover)</p>\r\n<div class=\"monster--stats\">\r\n<p>STR</p>\r\n<p>16 (+3)</p>\r\n<p>DEX</p>\r\n<p>16 (+3)</p>\r\n<p>CON</p>\r\n<p>16 (+3)</p>\r\n<p>INT</p>\r\n<p>16 (+3)</p>\r\n<p>WIS</p>\r\n<p>16 (+3)</p>\r\n<p>CHA</p>\r\n<p>16 (+3)</p>\r\n</div>\r\n<p><strong>Damage Immunities</strong> necrotic, poison</p>\r\n<p><strong>Condition Immunities</strong> charmed, exhaustion, frightened, paralyzed, poisoned</p>\r\n<p><strong>Senses</strong> darkvision 60 ft., passive Perception 13</p>\r\n<p><strong>Languages</strong> understands the languages you speak</p>\r\n<p class=\"monster--data-last\"><strong>Challenge</strong> &mdash; <strong>Proficiency Bonus</strong> equals your bonus</p>\r\n<p><em><strong>Incorporeal Movement.</strong></em> The spirit can move through other creatures and objects as if they were [rule]difficult terrain[/rule]. If it ends its turn inside an object, it is shunted to the nearest unoccupied space and takes 1d10 force damage for every 5 feet shunted.</p>\r\n<p class=\"monster--action-header\">Actions</p>\r\n<p><em><strong>Multiattack.</strong></em> The spirit makes a number of Reaping Scythe attacks equal to half the level of the spell (rounded down).</p>\r\n<p><em><strong>Reaping Scythe.</strong></em> <em>Melee Weapon Attack:</em> your spell attack modifier to hit (with advantage), reach 5 ft., the creature haunted by Haunt Creature. <em>Hit:</em> 1d8 + 3 + the spell’s level necrotic damage.</p>\r\n<p class=\"monster--action-header\">Bonus Actions</p>\r\n<p><em><strong>Haunt Creature.</strong></em> The spirit targets a creature it can see within 10 feet of itself and begins haunting it. While the target is haunted, you and the spirit sense the direction and distance to the target if it is on the same plane of existence as you. Additionally, if the target starts its turn within 10 feet of the spirit, the target must succeed on a Wisdom saving throw against your spell save DC or have the frightened condition until the start of the target’s next turn. The target remains haunted until it dies, the spirit disappears, or the spirit uses this action again.</p>\r\n</div>\r\n<p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 5th level or higher, use the higher level wherever the spell’s level appears in the reaper spirit stat block.</p>"
+          },
+          {
+            "id": 2158658,
+            "label": "Spray of Cards",
+            "description": "<p>You spray a 15-foot cone of spectral cards. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes 2d10 force damage and has the blinded condition until the end of its next turn. On a successful save, a creature takes half as much damage only.</p>\r\n<p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d10 for each slot level above 2nd.</p>"
+          },
+          {
+            "id": 1343136,
+            "label": "Freedom of the Waves",
+            "description": "<p>You conjure a deluge of seawater in a 15-foot-radius, 10-foot-tall cylinder centered on a point within range. This water takes the form of a tidal wave, a whirlpool, a waterspout, or another form of your choice. Each creature in the area must succeed on a Strength saving throw against your spell save DC or take 2d8 bludgeoning damage and fall prone. You can choose a number of creatures equal to your spellcasting modifier (minimum of 1) to automatically succeed on this saving throw.</p>\r\n<p>If you are within the spell’s area, as part of the action you use to cast the spell, you can vanish into the deluge and teleport to an unoccupied space that you can see within the spell’s area.</p>\r\n<blockquote>\r\n<p><span style=\"color: rgba(255, 0, 0, 1); text-transform: uppercase;\"><strong>This is Partnered Content</strong></span></p>\r\n<p>This content is available in your campaign with your DM’s permission but isn’t published by Wizards of the Coast. To use this content, enable <strong>Critical Role</strong> in the character builder.</p>\r\n</blockquote>"
+          },
+          {
+            "id": 1343171,
+            "label": "Freedom of the Winds",
+            "description": "<p>Wind wraps around your body, tugging at your hair and clothing as your feet lift off the ground. You gain a [rule]flying[/rule] speed of 60 feet. Additionally, you have advantage on ability checks to avoid being grappled, and on saving throws against being restrained or paralyzed.</p>\r\n<p>When you are targeted by a spell or attack while this spell is in effect, you can use a reaction to teleport up to 60 feet to an unoccupied space you can see. If this movement takes you out of range of the triggering spell or attack, you are unaffected by it. This spell then ends when you reappear.</p>\r\n<blockquote>\r\n<p><span style=\"color: rgba(255, 0, 0, 1); text-transform: uppercase;\"><strong>This is Partnered Content</strong></span></p>\r\n<p>This content is available in your campaign with your DM’s permission but isn’t published by Wizards of the Coast. To use this content, enable <strong>Critical Role</strong> in the character builder.</p>\r\n</blockquote>"
           }
         ],
         "optionIds": []
@@ -8529,7 +8624,13 @@
           { "id": 5961, "label": "Istarian", "description": null },
           { "id": 5962, "label": "Kothian", "description": null },
           { "id": 5963, "label": "Nerakese", "description": null },
-          { "id": 5964, "label": "Ogre", "description": null }
+          { "id": 5964, "label": "Ogre", "description": null },
+          { "id": 6025, "label": "Birdfolk", "description": null },
+          { "id": 6026, "label": "Cervan", "description": null },
+          { "id": 6027, "label": "Hedge", "description": null },
+          { "id": 6028, "label": "Jerbeen", "description": null },
+          { "id": 6029, "label": "Mapach", "description": null },
+          { "id": 6030, "label": "Vulpin", "description": null }
         ],
         "optionIds": []
       }
@@ -8608,7 +8709,7 @@
           "name": null,
           "statModifierUsesId": 6,
           "resetType": 1,
-          "numberUsed": 1,
+          "numberUsed": 0,
           "minNumberConsumed": 1,
           "maxNumberConsumed": 1,
           "maxUses": 0,
@@ -12213,6 +12314,15 @@
       "cost": null,
       "quantity": 1,
       "notes": null
+    },
+    {
+      "id": 21342592,
+      "name": "Lesser Restoration potion",
+      "description": null,
+      "weight": null,
+      "cost": null,
+      "quantity": 1,
+      "notes": null
     }
   ],
   "campaign": {
@@ -12303,5 +12413,5 @@
       "affectedClassFeatureDefinitionKey": null
     }
   ],
-  "dateModified": "2023-10-21T23:12:46.256001Z"
+  "dateModified": "2024-03-16T23:10:12.157574Z"
 }

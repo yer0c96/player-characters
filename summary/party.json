@@ -6,12 +6,14 @@
     ["Level 6 Cleric | Twilight Domain"],
     ["Level 6 Bard | College of Spirits"]
   ],
-  "money": 322.22900000000004,
+  "money": 324.629,
   "equipment": [
-    "Backpack x4",
+    "Alms Box",
+    "Backpack x5",
     "Blood Spear",
     "Butterfly Sword",
     "Chain Mail x2",
+    "Chest",
     "Cloak of Protection",
     "Eyes of the Eagle",
     "Goggles of Night",
@@ -23,10 +25,8 @@
     "Whip x2"
   ],
   "inventory": [
-    "Alms Box",
     "Amulet",
     "Antitoxin",
-    "Backpack",
     "Ball Bearings (bag of 1,000)",
     "Battleaxe",
     "Bedroll x3",
@@ -34,7 +34,6 @@
     "Block of Incense x2",
     "Candle",
     "Censer",
-    "Chest",
     "Clothes, Common x3",
     "Clothes, Traveler's x2",
     "Crowbar",
@@ -71,7 +70,9 @@
     "Vestments x2",
     "Vial filled with water",
     "Wand of Magic Detection",
-    "Waterskin x4"
+    "Water from the White Sun",
+    "Waterskin x4",
+    "Yester Hill Axe"
   ],
   "spells": [
     "Arms of Hadar",
@@ -102,7 +103,6 @@
     "Heroism",
     "Hideous Laughter",
     "Hunger of Hadar",
-    "Lesser Restoration",
     "Life Transference",
     "Light",
     "Lightning Lure",
@@ -118,6 +118,7 @@
     "Searing Smite",
     "Sending",
     "Shatter",
+    "Shield of Faith",
     "Spare the Dying",
     "Spider Climb",
     "Spiritual Weapon",
@@ -127,6 +128,7 @@
     "Tongues",
     "True Strike",
     "Word of Radiance",
+    "Zone of Truth",
     null
   ],
   "languages": [

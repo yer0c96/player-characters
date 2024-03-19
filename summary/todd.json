@@ -9,7 +9,7 @@
     "wisdom": 10,
     "charisma": 15
   },
-  "hitPoints": { "base": 40, "current": 37, "temp": 8 },
+  "hitPoints": { "base": 40, "current": 40, "temp": 0 },
   "traits": {
     "flaws": "I can’t be comfortable around creatures larger than I am.\n\nFear of The Executioner."
   },
@@ -19,13 +19,13 @@
   "feats": ["Dark Gift: Gathered Whispers"],
   "spells": [
     "Branding Smite",
-    "Cure Wounds",
-    "Lesser Restoration",
     "Message",
     "Minor Illusion",
     "Searing Smite",
+    "Shield of Faith",
     "Spare the Dying",
-    "Word of Radiance"
+    "Word of Radiance",
+    "Zone of Truth"
   ],
   "actions": [
     "Channel Divinity",
@@ -91,8 +91,8 @@
     "Vial filled with water",
     "Waterskin"
   ],
-  "currencies": { "cp": 100, "sp": 24, "gp": 6, "ep": 0, "pp": 0 },
-  "money": 9.4,
+  "currencies": { "cp": 840, "sp": 24, "gp": 6, "ep": 0, "pp": 0 },
+  "money": 16.8,
   "notes": {
     "allies": "",
     "backstory": "Gregory (Greggy) and Larissa (Issa)\n\n\nGreggy and Issa",

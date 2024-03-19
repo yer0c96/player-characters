@@ -9,7 +9,7 @@
     "wisdom": 15,
     "charisma": 12
   },
-  "hitPoints": { "base": 33, "current": 33, "temp": 9 },
+  "hitPoints": { "base": 33, "current": 33, "temp": 0 },
   "traits": {
     "personalityTraits": "I’ve enjoyed fine food, drink, and high society among my temple’s elite. Rough living grates on me.\nI’ve spent so long in the temple that I have little practical experience dealing with people in the outside world.",
     "ideals": "Change. We must help bring about the changes the gods are constantly working in the world. (Chaotic)",
@@ -59,6 +59,8 @@
     "Bonus: Melee Attacks",
     "Bonus: Ranged Attacks",
     "Bonus: Spell Attacks",
+    "Damage: Slashing",
+    "Damage: Piercing",
     "Expertise: Perception",
     "Proficiency: Light Armor",
     "Proficiency: Medium Armor",
@@ -78,11 +80,9 @@
     "Set: Subclass",
     "Set Base: Darkvision"
   ],
-  "equipment": ["Chain Mail", "Shield", "Warhammer"],
+  "equipment": ["Alms Box", "Backpack", "Chain Mail", "Shield", "Warhammer"],
   "inventory": [
-    "Alms Box",
     "Amulet",
-    "Backpack",
     "Blanket",
     "Block of Incense",
     "Candle",
@@ -94,7 +94,8 @@
     "Tinderbox",
     "Vestments",
     "Vestments",
-    "Waterskin"
+    "Waterskin",
+    "Yester Hill Axe"
   ],
   "currencies": { "cp": 1, "sp": 8, "gp": 26, "ep": 0, "pp": 0 },
   "money": 26.81,

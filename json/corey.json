@@ -83,8 +83,8 @@
   "baseHitPoints": 33,
   "bonusHitPoints": null,
   "overrideHitPoints": null,
-  "removedHitPoints": 23,
-  "temporaryHitPoints": 11,
+  "removedHitPoints": 0,
+  "temporaryHitPoints": 0,
   "currentXp": 0,
   "alignmentId": 2,
   "lifestyleId": 6,
@@ -510,7 +510,7 @@
     "appearance": null
   },
   "preferences": {
-    "useHomebrewContent": false,
+    "useHomebrewContent": true,
     "progressionType": 1,
     "encumbranceType": 1,
     "ignoreCoinWeight": true,
@@ -2959,14 +2959,14 @@
       "currency": null
     }
   ],
-  "currencies": { "cp": 96, "sp": 10, "gp": 73, "ep": 0, "pp": 0 },
+  "currencies": { "cp": 96, "sp": 10, "gp": 68, "ep": 0, "pp": 0 },
   "classes": [
     {
       "id": 96994691,
       "entityTypeId": 1446578651,
       "level": 6,
       "isStartingClass": true,
-      "hitDiceUsed": 1,
+      "hitDiceUsed": 0,
       "definitionId": 0,
       "subclassDefinitionId": null,
       "definition": {
@@ -4997,7 +4997,13 @@
           { "id": 5961, "label": "Istarian", "description": null },
           { "id": 5962, "label": "Kothian", "description": null },
           { "id": 5963, "label": "Nerakese", "description": null },
-          { "id": 5964, "label": "Ogre", "description": null }
+          { "id": 5964, "label": "Ogre", "description": null },
+          { "id": 6025, "label": "Birdfolk", "description": null },
+          { "id": 6026, "label": "Cervan", "description": null },
+          { "id": 6027, "label": "Hedge", "description": null },
+          { "id": 6028, "label": "Jerbeen", "description": null },
+          { "id": 6029, "label": "Mapach", "description": null },
+          { "id": 6030, "label": "Vulpin", "description": null }
         ],
         "optionIds": []
       }
@@ -5338,7 +5344,13 @@
           { "id": 5961, "label": "Istarian", "description": null },
           { "id": 5962, "label": "Kothian", "description": null },
           { "id": 5963, "label": "Nerakese", "description": null },
-          { "id": 5964, "label": "Ogre", "description": null }
+          { "id": 5964, "label": "Ogre", "description": null },
+          { "id": 6025, "label": "Birdfolk", "description": null },
+          { "id": 6026, "label": "Cervan", "description": null },
+          { "id": 6027, "label": "Hedge", "description": null },
+          { "id": 6028, "label": "Jerbeen", "description": null },
+          { "id": 6029, "label": "Mapach", "description": null },
+          { "id": 6030, "label": "Vulpin", "description": null }
         ],
         "optionIds": []
       }
@@ -5379,7 +5391,7 @@
           "name": null,
           "statModifierUsesId": null,
           "resetType": 1,
-          "numberUsed": 5,
+          "numberUsed": 0,
           "minNumberConsumed": 1,
           "maxNumberConsumed": 1,
           "maxUses": 6,
@@ -7307,6 +7319,15 @@
       "cost": null,
       "quantity": 3,
       "notes": null
+    },
+    {
+      "id": 22469380,
+      "name": "Bottle of wine",
+      "description": null,
+      "weight": null,
+      "cost": null,
+      "quantity": 1,
+      "notes": null
     }
   ],
   "campaign": {
@@ -7378,5 +7399,5 @@
   "creatures": [],
   "optionalOrigins": [],
   "optionalClassFeatures": [],
-  "dateModified": "2023-10-21T23:46:00.560425Z"
+  "dateModified": "2024-03-16T23:47:42.843213Z"
 }

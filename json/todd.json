@@ -80,7 +80,7 @@
   "height": "2'11\"",
   "weight": null,
   "inspiration": false,
-  "baseHitPoints": 40,
+  "baseHitPoints": 46,
   "bonusHitPoints": null,
   "overrideHitPoints": null,
   "removedHitPoints": 0,
@@ -949,7 +949,7 @@
         "weightMultiplier": 1,
         "capacity": null,
         "capacityWeight": 0,
-        "type": "",
+        "type": "Heavy Armor",
         "description": "<p>Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.</p>",
         "canAttune": false,
         "attunementDescription": null,
@@ -3302,7 +3302,7 @@
     {
       "id": 94972015,
       "entityTypeId": 1446578651,
-      "level": 6,
+      "level": 7,
       "isStartingClass": true,
       "hitDiceUsed": 0,
       "definitionId": 0,
@@ -3912,7 +3912,13 @@
             "entityType": "class-feature",
             "entityID": "713"
           },
-          "levelScale": null
+          "levelScale": {
+            "id": 65781,
+            "level": 7,
+            "description": "range 10 feet",
+            "dice": null,
+            "fixedValue": 10
+          }
         },
         {
           "definition": {
@@ -4762,7 +4768,7 @@
       "contextTypeId": null
     }
   ],
-  "conditions": [],
+  "conditions": [{ "id": 12, "level": null }],
   "deathSaves": { "failCount": 0, "successCount": 0, "isStabilized": false },
   "adjustmentXp": null,
   "spellSlots": [
@@ -5742,7 +5748,7 @@
           "numberUsed": 0,
           "minNumberConsumed": 1,
           "maxNumberConsumed": 1,
-          "maxUses": 30,
+          "maxUses": 35,
           "operator": 1,
           "useProficiencyBonus": false,
           "proficiencyBonusOperator": 1,
@@ -5945,6 +5951,44 @@
         "ammunition": null
       },
       {
+        "componentId": 713,
+        "componentTypeId": 12168134,
+        "id": "53483",
+        "entityTypeId": "222216831",
+        "limitedUse": null,
+        "name": "Aura of the Guardian",
+        "description": "",
+        "snippet": "When a creature within {{scalevalue}} ft. of you takes damage, you can use your reaction to magically take that damage instead.",
+        "abilityModifierStatId": null,
+        "onMissDescription": "",
+        "saveFailDescription": "",
+        "saveSuccessDescription": "",
+        "saveStatId": null,
+        "fixedSaveDc": null,
+        "attackTypeRange": null,
+        "actionType": 3,
+        "attackSubtype": null,
+        "dice": null,
+        "value": null,
+        "damageTypeId": null,
+        "isMartialArts": false,
+        "isProficient": false,
+        "spellRangeType": null,
+        "displayAsAttack": null,
+        "range": {
+          "range": null,
+          "longRange": null,
+          "aoeType": null,
+          "aoeSize": null,
+          "hasAoeSpecialDescription": false,
+          "minimumRange": null
+        },
+        "activation": { "activationTime": 1, "activationType": 4 },
+        "numberOfTargets": null,
+        "fixedToHit": null,
+        "ammunition": null
+      },
+      {
         "componentId": 712,
         "componentTypeId": 12168134,
         "id": "56244",
@@ -5994,7 +6038,7 @@
           "numberUsed": 0,
           "minNumberConsumed": 1,
           "maxNumberConsumed": 1,
-          "maxUses": 1,
+          "maxUses": 2,
           "operator": 1,
           "useProficiencyBonus": false,
           "proficiencyBonusOperator": 1,
@@ -7367,6 +7411,132 @@
         {
           "overrideSaveDc": null,
           "limitedUse": null,
+          "id": 136645,
+          "entityTypeId": 435869154,
+          "definition": {
+            "id": 2074,
+            "name": "Divine Favor",
+            "level": 1,
+            "school": "Evocation",
+            "duration": {
+              "durationInterval": 1,
+              "durationUnit": "Minute",
+              "durationType": "Concentration"
+            },
+            "activation": { "activationTime": 1, "activationType": 3 },
+            "range": { "origin": "Self", "rangeValue": 0, "aoeType": null, "aoeValue": null },
+            "asPartOfWeaponAttack": false,
+            "description": "<p>Your prayer empowers you with divine radiance. Until the spell ends, your weapon attacks deal an extra 1d4 radiant damage on a hit.</p>",
+            "snippet": "",
+            "concentration": true,
+            "ritual": false,
+            "rangeArea": null,
+            "damageEffect": null,
+            "components": [1, 2],
+            "componentsDescription": "",
+            "saveDcAbilityId": null,
+            "healing": null,
+            "healingDice": [],
+            "tempHpDice": [],
+            "attackType": null,
+            "canCastAtHigherLevel": false,
+            "isHomebrew": false,
+            "version": null,
+            "sourceId": null,
+            "sourcePageNumber": 234,
+            "requiresSavingThrow": false,
+            "requiresAttackRoll": false,
+            "atHigherLevels": {
+              "scaleType": null,
+              "higherLevelDefinitions": [],
+              "additionalAttacks": [],
+              "additionalTargets": [],
+              "areaOfEffect": [],
+              "duration": [],
+              "creatures": [],
+              "special": [],
+              "points": []
+            },
+            "modifiers": [
+              {
+                "fixedValue": null,
+                "id": "spell_2074_64",
+                "entityId": null,
+                "entityTypeId": null,
+                "type": "damage",
+                "subType": "radiant",
+                "dice": null,
+                "restriction": "Until spell ends",
+                "statId": null,
+                "requiresAttunement": false,
+                "duration": null,
+                "friendlyTypeName": "Damage",
+                "friendlySubtypeName": "Radiant",
+                "isGranted": false,
+                "bonusTypes": [],
+                "value": null,
+                "availableToMulticlass": null,
+                "modifierTypeId": 0,
+                "modifierSubTypeId": 0,
+                "componentId": 0,
+                "componentTypeId": 0,
+                "die": {
+                  "diceCount": 1,
+                  "diceValue": 4,
+                  "diceMultiplier": null,
+                  "fixedValue": null,
+                  "diceString": "1d4"
+                },
+                "count": 1,
+                "durationUnit": null,
+                "usePrimaryStat": false,
+                "atHigherLevels": {
+                  "scaleType": null,
+                  "higherLevelDefinitions": [],
+                  "additionalAttacks": [],
+                  "additionalTargets": [],
+                  "areaOfEffect": [],
+                  "duration": [],
+                  "creatures": [],
+                  "special": [],
+                  "points": []
+                }
+              }
+            ],
+            "conditions": [],
+            "tags": ["Damage"],
+            "castingTimeDescription": "",
+            "scaleType": null,
+            "sources": [
+              { "sourceId": 1, "pageNumber": null, "sourceType": 2 },
+              { "sourceId": 2, "pageNumber": 234, "sourceType": 1 }
+            ],
+            "spellGroups": []
+          },
+          "definitionId": 0,
+          "prepared": true,
+          "countsAsKnownSpell": true,
+          "usesSpellSlot": true,
+          "castAtLevel": null,
+          "alwaysPrepared": false,
+          "restriction": null,
+          "spellCastingAbilityId": null,
+          "displayAsAttack": null,
+          "additionalDescription": null,
+          "castOnlyAsRitual": false,
+          "ritualCastingType": null,
+          "range": { "origin": "Self", "rangeValue": 0, "aoeType": null, "aoeValue": null },
+          "activation": { "activationTime": 1, "activationType": 3 },
+          "baseLevelAtWill": false,
+          "atWillLimitedUseLevel": null,
+          "isSignatureSpell": null,
+          "componentId": 0,
+          "componentTypeId": 0,
+          "spellListId": null
+        },
+        {
+          "overrideSaveDc": null,
+          "limitedUse": null,
           "id": 138707,
           "entityTypeId": 435869154,
           "definition": {
@@ -8014,5 +8184,5 @@
       "affectedClassFeatureDefinitionKey": null
     }
   ],
-  "dateModified": "2024-03-16T23:10:12.477475Z"
+  "dateModified": "2024-04-21T23:09:18.616683Z"
 }

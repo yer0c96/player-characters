@@ -80,7 +80,7 @@
   "height": "5'9\"",
   "weight": null,
   "inspiration": false,
-  "baseHitPoints": 33,
+  "baseHitPoints": 38,
   "bonusHitPoints": null,
   "overrideHitPoints": null,
   "removedHitPoints": 0,
@@ -1540,7 +1540,7 @@
         "isPack": false,
         "tags": ["Healing", "Utility"],
         "grantedModifiers": [],
-        "subType": "Tool",
+        "subType": null,
         "isConsumable": false,
         "weaponBehaviors": [],
         "baseItemId": null,
@@ -2964,7 +2964,7 @@
     {
       "id": 96994691,
       "entityTypeId": 1446578651,
-      "level": 6,
+      "level": 7,
       "isStartingClass": true,
       "hitDiceUsed": 0,
       "definitionId": 0,
@@ -5394,7 +5394,7 @@
           "numberUsed": 0,
           "minNumberConsumed": 1,
           "maxNumberConsumed": 1,
-          "maxUses": 6,
+          "maxUses": 7,
           "operator": 1,
           "useProficiencyBonus": false,
           "proficiencyBonusOperator": 1,
@@ -5454,8 +5454,8 @@
           "diceCount": 1,
           "diceValue": 10,
           "diceMultiplier": null,
-          "fixedValue": 6,
-          "diceString": "1d10 + 6"
+          "fixedValue": 7,
+          "diceString": "1d10 + 7"
         },
         "value": null,
         "damageTypeId": null,
@@ -5548,6 +5548,44 @@
           "minimumRange": null
         },
         "activation": { "activationTime": null, "activationType": 8 },
+        "numberOfTargets": null,
+        "fixedToHit": null,
+        "ammunition": null
+      },
+      {
+        "componentId": 238,
+        "componentTypeId": 12168134,
+        "id": "53368",
+        "entityTypeId": "222216831",
+        "limitedUse": null,
+        "name": "Stillness of Mind",
+        "description": null,
+        "snippet": "You can use an action to end one effect on yourself that is causing you to be charmed or frightened.",
+        "abilityModifierStatId": null,
+        "onMissDescription": null,
+        "saveFailDescription": null,
+        "saveSuccessDescription": null,
+        "saveStatId": null,
+        "fixedSaveDc": null,
+        "attackTypeRange": null,
+        "actionType": 3,
+        "attackSubtype": null,
+        "dice": null,
+        "value": null,
+        "damageTypeId": null,
+        "isMartialArts": false,
+        "isProficient": false,
+        "spellRangeType": null,
+        "displayAsAttack": null,
+        "range": {
+          "range": null,
+          "longRange": null,
+          "aoeType": null,
+          "aoeSize": null,
+          "hasAoeSpecialDescription": false,
+          "minimumRange": null
+        },
+        "activation": { "activationTime": 1, "activationType": 1 },
         "numberOfTargets": null,
         "fixedToHit": null,
         "ammunition": null
@@ -7399,5 +7437,5 @@
   "creatures": [],
   "optionalOrigins": [],
   "optionalClassFeatures": [],
-  "dateModified": "2024-03-16T23:47:42.843213Z"
+  "dateModified": "2024-04-21T23:09:23.182295Z"
 }

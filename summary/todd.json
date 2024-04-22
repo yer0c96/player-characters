@@ -1,6 +1,6 @@
 {
   "name": "Ruffle Manfaers",
-  "classes": ["Level 6 Paladin | Oath of Redemption"],
+  "classes": ["Level 7 Paladin | Oath of Redemption"],
   "stats": {
     "strength": 14,
     "dexterity": 12,
@@ -9,7 +9,7 @@
     "wisdom": 10,
     "charisma": 15
   },
-  "hitPoints": { "base": 40, "current": 40, "temp": 0 },
+  "hitPoints": { "base": 46, "current": 46, "temp": 0 },
   "traits": {
     "flaws": "I can’t be comfortable around creatures larger than I am.\n\nFear of The Executioner."
   },
@@ -19,6 +19,7 @@
   "feats": ["Dark Gift: Gathered Whispers"],
   "spells": [
     "Branding Smite",
+    "Divine Favor",
     "Message",
     "Minor Illusion",
     "Searing Smite",
@@ -28,6 +29,7 @@
     "Zone of Truth"
   ],
   "actions": [
+    "Aura of the Guardian",
     "Channel Divinity",
     "Channel Divinity: Emissary of Peace",
     "Channel Divinity: Rebuke the Violent",

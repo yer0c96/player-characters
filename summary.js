@@ -71,7 +71,7 @@ const sortInnerObjects = (obj) =>
   Object.fromEntries(
     Object.entries(obj).map(([key, value]) => [
       key,
-      value?.sort((a, b) => a.id?.localeCompare(b.id)) ?? null,
+      Array.isArray(value) ? value?.sort((a, b) => a.id?.localeCompare(b.id)) ?? null : null,
     ]),
   )
 
@@ -80,7 +80,7 @@ const sortById = (arr) => (arr ? arr.sort((a, b) => a.id - b.id) : arr)
 const summarize = async (player) => {
   const data = await axios
     .get(
-      `https://character-service.dndbeyond.com/character/v3/character/${playerCharacterIds[player]}`,
+      `https://character-service.dndbeyond.com/character/v5/character/${playerCharacterIds[player]}`,
     )
     .then(({ data: result }) => {
       const { modifiers, classSpells, options, choices, actions, inventory } = result.data

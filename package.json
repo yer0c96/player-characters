@@ -8,7 +8,7 @@
   "scripts": {
     "start": "yarn summarize && prettier --write .",
     "summarize": "node summary && node party",
-    "test": "curl -o json/dummy.json https://character-service.dndbeyond.com/character/v3/character/72798822 && node summary && prettier json/dummy.json --write && prettier summary --write"
+    "test": "curl -o json/dummy.json https://character-service.dndbeyond.com/character/v5/character/72798822 && node summary && prettier json/dummy.json --write && prettier summary --write"
   },
   "devDependencies": {
     "prettier": "^2.6.2"

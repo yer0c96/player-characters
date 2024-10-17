@@ -1,0 +1,82 @@
+{
+  "name": "Aster",
+  "classes": ["Level 2 Bard"],
+  "stats": {
+    "strength": 12,
+    "dexterity": 14,
+    "constitution": 13,
+    "intelligence": 10,
+    "wisdom": 8,
+    "charisma": 15
+  },
+  "hitPoints": { "base": 13, "current": 9, "temp": 0 },
+  "traits": {
+    "personalityTraits": "I judge people by their actions, not their words.\nI’m confident in my own abilities and do what I can to instill confidence in others.",
+    "ideals": "Freedom. Tyrants must not be allowed to oppress the people. (Chaotic)",
+    "bonds": "I protect those who cannot protect themselves.",
+    "flaws": "The people who knew me when I was young know my shameful secret, so I can never go home again."
+  },
+  "bonusStats": {},
+  "overrideStats": {},
+  "background": "Folk Hero",
+  "feats": [],
+  "spells": [
+    "Charm Person",
+    "Cure Wounds",
+    "Hideous Laughter",
+    "Mending",
+    "Speak with Animals",
+    "Thunderwave",
+    "Vicious Mockery"
+  ],
+  "actions": ["Bardic Inspiration", "Charge: Hooves", "Hooves", "Magical Inspiration"],
+  "languages": ["Gnomish"],
+  "modifiers": [
+    "Bonus: Charisma Score",
+    "Bonus: Constitution Score",
+    "Bonus: Hit Points",
+    "Carrying Capacity: Large",
+    "Half Proficiency: Ability Checks",
+    "Half Proficiency: Initiative",
+    "Proficiency: Medicine",
+    "Proficiency: Light Armor",
+    "Proficiency: Simple Weapons",
+    "Proficiency: Crossbow, Hand",
+    "Proficiency: Longsword",
+    "Proficiency: Rapier",
+    "Proficiency: Shortsword",
+    "Proficiency: Bagpipes",
+    "Proficiency: Wargong",
+    "Proficiency: Dulcimer",
+    "Proficiency: Dexterity Saving Throws",
+    "Proficiency: Charisma Saving Throws",
+    "Proficiency: Performance",
+    "Proficiency: Nature",
+    "Proficiency: Persuasion",
+    "Proficiency: Animal Handling",
+    "Proficiency: Survival",
+    "Proficiency: Painter's Supplies",
+    "Proficiency: Vehicles (Land)"
+  ],
+  "equipment": ["Backpack", "Dagger", "Leather", "Morningstar", "Sickle"],
+  "inventory": [
+    "Bedroll",
+    "Candle",
+    "Cartographer's Tools",
+    "Cloak of Many Fashions",
+    "Clothes, Common",
+    "Clothes, Costume",
+    "Disguise Kit",
+    "Lute",
+    "Pot, Iron",
+    "Potion of Healing",
+    "Rations (1 day)",
+    "Shovel",
+    "Waterskin"
+  ],
+  "currencies": { "cp": 0, "sp": 0, "gp": 82, "ep": 0, "pp": 0 },
+  "money": 82,
+  "notes": {
+    "backstory": "Aster lived happily as a bard in a small sea side woodland village where her father was renowned as a folk hero and adventurer. As she grew her father began taking her on his adventures. \n\nDuring one of these adventures in the Fae realm while battling she met Varis a high elf from a powerful bloodline. The two began a secret friendship with eventually kindled to romance. Varis was set to be married, combining two powerful elven bloodlines. After finding this Varis and Aster attempted to run away together, after serval weeks they were found. Varis was taken back to his family to follow the plans set forth for him. \n\nAster began the treck alone back to her home village. While still in the fae realm she saw a vision of her family to be slaughtered. A curse lay over her town which had killed all her family and friends. As she stood in agony a green hag appeared in the village center. She placed a curse on aster which transformed her bard form into that of a centaur."
+  }
+}

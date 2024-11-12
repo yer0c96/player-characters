@@ -9,7 +9,7 @@
     "wisdom": 13,
     "charisma": 8
   },
-  "hitPoints": { "base": 16, "current": 13, "temp": 0 },
+  "hitPoints": { "base": 16, "current": 16, "temp": 0 },
   "traits": {
     "personalityTraits": "I’m full of inspiring and cautionary tales from my military experience relevant to almost every combat situation.\nI face problems head-on. A simple, direct solution is the best path to success.",
     "ideals": "Responsibility. I do what I must and obey just authority. (Lawful)",
@@ -63,7 +63,7 @@
     "Torch",
     "Waterskin"
   ],
-  "currencies": { "cp": 0, "sp": 0, "gp": 82, "ep": 0, "pp": 0 },
-  "money": 82,
+  "currencies": { "cp": 0, "sp": 0, "gp": 123, "ep": 0, "pp": 0 },
+  "money": 123,
   "notes": {}
 }

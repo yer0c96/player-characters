@@ -29,6 +29,7 @@
     "Healing Word",
     "Light",
     "Light",
+    "Magic Missile",
     "Sacred Flame",
     "Word of Radiance"
   ],
@@ -46,6 +47,7 @@
     "Bonus: Constitution Score",
     "Bonus: Strength Score",
     "Bonus: Hit Points",
+    "Bonus: Saving Throws",
     "Proficiency: Light Armor",
     "Proficiency: Medium Armor",
     "Proficiency: Shields",
@@ -62,7 +64,7 @@
     "Set Base: Darkvision",
     "Size: Medium"
   ],
-  "equipment": ["Crossbow, Light", "Mace", "Scale Mail", "Shield"],
+  "equipment": ["Crossbow, Light", "Lesser Robe of Stars", "Mace", "Scale Mail", "Shield"],
   "inventory": [
     "Amulet",
     "Backpack",
@@ -80,7 +82,7 @@
     "Vestments",
     "Waterskin"
   ],
-  "currencies": { "cp": 0, "sp": 0, "gp": 82, "ep": 0, "pp": 0 },
-  "money": 82,
+  "currencies": { "cp": 0, "sp": 0, "gp": 127, "ep": 0, "pp": 0 },
+  "money": 127,
   "notes": { "personalPossessions": "a prayer book\n5 sticks of incense\n5 sticks of incense" }
 }

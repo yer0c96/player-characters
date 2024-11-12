@@ -45,7 +45,7 @@
   "baseHitPoints": 16,
   "bonusHitPoints": null,
   "overrideHitPoints": null,
-  "removedHitPoints": 3,
+  "removedHitPoints": 0,
   "temporaryHitPoints": 0,
   "currentXp": 0,
   "alignmentId": null,
@@ -377,8 +377,8 @@
           "name": "Ability Score Increase",
           "description": "<p>Your Strength score increases by 2, and your Charisma score increases by 1.</p>",
           "snippet": "Your Strength score increases by 2, and your Charisma score increases by 1.",
-          "hideInBuilder": true,
-          "hideInSheet": true,
+          "hideInBuilder": false,
+          "hideInSheet": false,
           "activation": null,
           "sourceId": 1,
           "sourcePageNumber": 34,
@@ -2365,7 +2365,7 @@
       "currency": null
     }
   ],
-  "currencies": { "cp": 0, "sp": 0, "gp": 82, "ep": 0, "pp": 0 },
+  "currencies": { "cp": 0, "sp": 0, "gp": 123, "ep": 0, "pp": 0 },
   "classes": [
     {
       "id": 169532896,
@@ -3702,7 +3702,7 @@
           "name": null,
           "statModifierUsesId": null,
           "resetType": 1,
-          "numberUsed": 0,
+          "numberUsed": 1,
           "minNumberConsumed": 1,
           "maxNumberConsumed": 1,
           "maxUses": 1,
@@ -3760,7 +3760,7 @@
           "name": null,
           "statModifierUsesId": null,
           "resetType": 1,
-          "numberUsed": 1,
+          "numberUsed": 0,
           "minNumberConsumed": 1,
           "maxNumberConsumed": 1,
           "maxUses": 1,
@@ -4388,15 +4388,6 @@
       "cost": null,
       "quantity": 1,
       "notes": null
-    },
-    {
-      "id": 25483763,
-      "name": "Arrow of flame ",
-      "description": null,
-      "weight": 0,
-      "cost": null,
-      "quantity": 1,
-      "notes": null
     }
   ],
   "campaign": {
@@ -4415,7 +4406,7 @@
         "characterName": "Amaris",
         "characterUrl": "/profile/Jen30096/characters/125202167",
         "avatarUrl": null,
-        "privacyType": 2,
+        "privacyType": 3,
         "campaignId": null,
         "isAssigned": true
       },
@@ -4426,7 +4417,7 @@
         "characterName": "Bruiser",
         "characterUrl": "/profile/joedadi32/characters/125203249",
         "avatarUrl": "https://www.dndbeyond.com/avatars/43236/547/1581111423-125203249.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
-        "privacyType": 2,
+        "privacyType": 3,
         "campaignId": null,
         "isAssigned": true
       },
@@ -4436,8 +4427,8 @@
         "characterId": 125204240,
         "characterName": "Stanley the Stoic",
         "characterUrl": "/profile/braytonlarson1/characters/125204240",
-        "avatarUrl": null,
-        "privacyType": 2,
+        "avatarUrl": "https://www.dndbeyond.com/avatars/2770/12/636683299054921901.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
+        "privacyType": 3,
         "campaignId": null,
         "isAssigned": true
       },
@@ -4447,8 +4438,8 @@
         "characterId": 125840400,
         "characterName": "Aster",
         "characterUrl": "/profile/jewampl/characters/125840400",
-        "avatarUrl": null,
-        "privacyType": 2,
+        "avatarUrl": "https://www.dndbeyond.com/avatars/45158/989/1581111423-125840400.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
+        "privacyType": 3,
         "campaignId": null,
         "isAssigned": true
       },
@@ -4459,7 +4450,7 @@
         "characterName": "Sollux",
         "characterUrl": "/profile/justjeryl/characters/125291104",
         "avatarUrl": null,
-        "privacyType": 2,
+        "privacyType": 3,
         "campaignId": null,
         "isAssigned": true
       }
@@ -4468,7 +4459,7 @@
   "creatures": [],
   "optionalOrigins": [],
   "optionalClassFeatures": [],
-  "dateModified": "2024-10-17T03:20:16.395Z",
+  "dateModified": "2024-10-27T00:14:07.641Z",
   "canEdit": false,
   "status": 0,
   "statusSlug": null,

@@ -20,14 +20,13 @@
   "overrideStats": {},
   "background": "Criminal / Spy",
   "feats": [],
-  "spells": ["Magic Missile", "Minor Illusion", "Speak with Dead"],
+  "spells": ["Minor Illusion", "Speak with Dead"],
   "actions": ["Cunning Action", "Sneak Attack"],
   "languages": ["Infernal", "Thieves’ Cant"],
   "modifiers": [
     "Bonus: Charisma Score",
     "Bonus: Dexterity Score",
     "Bonus: Hit Points",
-    "Bonus: Saving Throws",
     "Expertise: Stealth",
     "Expertise: Thieves' Tools",
     "Proficiency: Light Armor",
@@ -51,11 +50,11 @@
     "Set Base: Darkvision"
   ],
   "equipment": [
+    "Cloak of Many Fashions",
     "Dagger",
     "Dagger",
     "Handaxe",
     "Leather",
-    "Lesser Robe of Stars",
     "Rapier",
     "Ring of Myrkul",
     "Shortbow",
@@ -77,12 +76,13 @@
     "Potion of Healing",
     "Rations (1 day)",
     "Rope, Hempen (50 feet)",
+    "Scimitar",
     "String",
     "Thieves' Tools",
     "Tinderbox",
     "Waterskin"
   ],
-  "currencies": { "cp": 0, "sp": 0, "gp": 82, "ep": 0, "pp": 0 },
-  "money": 82,
+  "currencies": { "cp": 0, "sp": 0, "gp": 127, "ep": 0, "pp": 0 },
+  "money": 127,
   "notes": {}
 }

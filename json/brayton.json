@@ -5,31 +5,41 @@
   "isAssignedToPlayer": true,
   "readonlyUrl": "https://dndbeyond.com/characters/125204240",
   "decorations": {
-    "avatarUrl": null,
-    "frameAvatarUrl": null,
-    "backdropAvatarUrl": null,
-    "smallBackdropAvatarUrl": null,
-    "largeBackdropAvatarUrl": null,
-    "thumbnailBackdropAvatarUrl": null,
+    "avatarUrl": "https://www.dndbeyond.com/avatars/2770/12/636683299054921901.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
+    "frameAvatarUrl": "https://www.dndbeyond.com/avatars/18435/714/637596254218666362.png",
+    "backdropAvatarUrl": "https://www.dndbeyond.com/avatars/43993/182/638609648307312605.jpeg",
+    "smallBackdropAvatarUrl": "https://www.dndbeyond.com/avatars/43993/183/638609648310742595.jpeg",
+    "largeBackdropAvatarUrl": "https://www.dndbeyond.com/avatars/43993/184/638609648313422594.jpeg",
+    "thumbnailBackdropAvatarUrl": "https://www.dndbeyond.com/avatars/43993/185/638609648315282593.jpeg",
     "defaultBackdrop": {
       "backdropAvatarUrl": "https://www.dndbeyond.com/avatars/61/471/636453122222914252.jpeg",
       "smallBackdropAvatarUrl": "https://www.dndbeyond.com/avatars/61/472/636453122223383028.jpeg",
       "largeBackdropAvatarUrl": "https://www.dndbeyond.com/avatars/61/473/636453122224164304.jpeg",
       "thumbnailBackdropAvatarUrl": "https://www.dndbeyond.com/avatars/61/474/636453122224476777.jpeg"
     },
-    "avatarId": null,
-    "portraitDecorationKey": null,
-    "frameAvatarDecorationKey": null,
-    "frameAvatarId": null,
-    "backdropAvatarDecorationKey": null,
-    "backdropAvatarId": null,
-    "smallBackdropAvatarDecorationKey": "",
-    "smallBackdropAvatarId": null,
-    "largeBackdropAvatarDecorationKey": "",
-    "largeBackdropAvatarId": null,
-    "thumbnailBackdropAvatarDecorationKey": "",
-    "thumbnailBackdropAvatarId": null,
-    "themeColor": null
+    "avatarId": 2770012,
+    "portraitDecorationKey": "458",
+    "frameAvatarDecorationKey": "ddb-pride",
+    "frameAvatarId": 18435714,
+    "backdropAvatarDecorationKey": "b7fd803d-9226-4dcf-b6f9-304b46fed77a",
+    "backdropAvatarId": 43993182,
+    "smallBackdropAvatarDecorationKey": "43993183",
+    "smallBackdropAvatarId": 43993183,
+    "largeBackdropAvatarDecorationKey": "43993184",
+    "largeBackdropAvatarId": 43993184,
+    "thumbnailBackdropAvatarDecorationKey": "43993185",
+    "thumbnailBackdropAvatarId": 43993185,
+    "themeColor": {
+      "themeColorId": 436,
+      "themeColor": "#4f7e61",
+      "backgroundColor": "#FEFEFE",
+      "name": "Ranger Emerald",
+      "raceId": null,
+      "subRaceId": null,
+      "classId": 5,
+      "tags": ["Class Themes"],
+      "decorationKey": "436"
+    }
   },
   "name": "Stanley the Stoic",
   "socialName": null,
@@ -276,7 +286,7 @@
           "description": "<p>Your Constitution score increases by 2, and one other ability score of your choice increases by 1.</p>",
           "snippet": "Your Constitution score increases by 2, and one other ability score of your choice increases by 1.",
           "hideInBuilder": false,
-          "hideInSheet": true,
+          "hideInSheet": false,
           "activation": null,
           "sourceId": 49,
           "sourcePageNumber": 36,
@@ -882,13 +892,13 @@
           {
             "id": 3,
             "name": "Heavy",
-            "description": "Creatures that are Small or Tiny have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small or Tiny creature to use effectively.",
+            "description": "<p>You have [rules]Disadvantage[/rules] on attack rolls with a Heavy weapon if it’s a Melee weapon and your Strength score isn’t at least 13 or if it’s a Ranged weapon and your Dexterity score isn’t at least 13.</p>",
             "notes": null
           },
           {
             "id": 11,
             "name": "Two-Handed",
-            "description": "This weapon requires two hands when you attack with it. ",
+            "description": "<p>A Two-Handed weapon requires two hands when you attack with it.</p>",
             "notes": null
           },
           {
@@ -983,13 +993,13 @@
           {
             "id": 4,
             "name": "Light",
-            "description": "A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons. ",
+            "description": "<p>When you take the [action]Attack[/action] action on your turn and attack with a Light weapon, you can make one extra attack as a Bonus Action later on the same turn. That extra attack must be made with a different Light weapon, and you don’t add your ability modifier to the extra attack’s damage unless that modifier is negative. For example, you can attack with a [items]Shortsword[/items] in one hand and a [items]Dagger[/items] in the other using the [action]Attack[/action] action and a Bonus Action, but you don’t add your Strength or Dexterity modifier to the damage roll of the Bonus Action unless that modifier is negative.</p>",
             "notes": null
           },
           {
             "id": 10,
             "name": "Thrown",
-            "description": "If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property. ",
+            "description": "<p>If a weapon has the Thrown property, you can throw the weapon to make a ranged attack, and you can draw that weapon as part of the attack. If the weapon is a Melee weapon, use the same ability modifier for the attack and damage rolls that you use for a melee attack with that weapon.</p>",
             "notes": null
           },
           {
@@ -1084,13 +1094,13 @@
           {
             "id": 4,
             "name": "Light",
-            "description": "A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons. ",
+            "description": "<p>When you take the [action]Attack[/action] action on your turn and attack with a Light weapon, you can make one extra attack as a Bonus Action later on the same turn. That extra attack must be made with a different Light weapon, and you don’t add your ability modifier to the extra attack’s damage unless that modifier is negative. For example, you can attack with a [items]Shortsword[/items] in one hand and a [items]Dagger[/items] in the other using the [action]Attack[/action] action and a Bonus Action, but you don’t add your Strength or Dexterity modifier to the damage roll of the Bonus Action unless that modifier is negative.</p>",
             "notes": null
           },
           {
             "id": 10,
             "name": "Thrown",
-            "description": "If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property. ",
+            "description": "<p>If a weapon has the Thrown property, you can throw the weapon to make a ranged attack, and you can draw that weapon as part of the attack. If the weapon is a Melee weapon, use the same ability modifier for the attack and damage rolls that you use for a melee attack with that weapon.</p>",
             "notes": null
           },
           {
@@ -1738,7 +1748,7 @@
           {
             "id": 10,
             "name": "Thrown",
-            "description": "If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property. ",
+            "description": "<p>If a weapon has the Thrown property, you can throw the weapon to make a ranged attack, and you can draw that weapon as part of the attack. If the weapon is a Melee weapon, use the same ability modifier for the attack and damage rolls that you use for a melee attack with that weapon.</p>",
             "notes": null
           },
           {
@@ -2207,14 +2217,14 @@
       "currency": null
     }
   ],
-  "currencies": { "cp": 6, "sp": 7, "gp": 99, "ep": 0, "pp": 0 },
+  "currencies": { "cp": 6, "sp": 7, "gp": 140, "ep": 0, "pp": 0 },
   "classes": [
     {
       "id": 169534274,
       "entityTypeId": 1446578651,
       "level": 2,
       "isStartingClass": true,
-      "hitDiceUsed": 0,
+      "hitDiceUsed": 2,
       "definitionId": 0,
       "subclassDefinitionId": null,
       "definition": {
@@ -3382,9 +3392,8 @@
         "optionIds": [
           4050, 4054, 4055, 4056, 4061, 4062, 4063, 4066, 4045, 4049, 4052, 4051, 4065, 4068, 4071,
           4074, 5064, 5172, 5109, 5108, 5110, 5111, 5173, 5174, 6153, 5199, 5198, 5197, 5206, 5928,
-          5929, 5954, 5955, 5956, 5957, 5958, 5959, 5960, 5961, 5962, 5963, 5964, 6328, 6025, 6026,
-          6027, 6028, 6029, 6030, 6035, 6036, 6037, 6038, 6039, 6040, 6041, 6042, 6043, 6044, 6045,
-          6046, 6047, 6048, 6049, 6050, 6327, 6329
+          5929, 5954, 5955, 5956, 5957, 5958, 5959, 5960, 5961, 5962, 5963, 5964, 6025, 6026, 6027,
+          6028, 6029, 6030, 6038, 6041, 6042, 6043, 6044, 6048, 6049, 6050, 6327, 6329
         ],
         "tagConstraints": []
       }
@@ -3712,26 +3721,17 @@
           { "id": 5962, "label": "Kothian", "description": null, "sourceId": null },
           { "id": 5963, "label": "Nerakese", "description": null, "sourceId": null },
           { "id": 5964, "label": "Ogre", "description": null, "sourceId": null },
-          { "id": 6328, "label": "Thieves’ Cant", "description": null, "sourceId": null },
           { "id": 6025, "label": "Birdfolk", "description": null, "sourceId": null },
           { "id": 6026, "label": "Cervan", "description": null, "sourceId": null },
           { "id": 6027, "label": "Hedge", "description": null, "sourceId": null },
           { "id": 6028, "label": "Jerbeen", "description": null, "sourceId": null },
           { "id": 6029, "label": "Mapach", "description": null, "sourceId": null },
           { "id": 6030, "label": "Vulpin", "description": null, "sourceId": null },
-          { "id": 6035, "label": "Birdfolk", "description": null, "sourceId": null },
-          { "id": 6036, "label": "Cervan", "description": null, "sourceId": null },
-          { "id": 6037, "label": "Hedge", "description": null, "sourceId": null },
           { "id": 6038, "label": "Feather Speech", "description": null, "sourceId": null },
-          { "id": 6039, "label": "Mapach", "description": null, "sourceId": null },
-          { "id": 6040, "label": "Vulpin", "description": null, "sourceId": null },
           { "id": 6041, "label": "Umbral", "description": null, "sourceId": null },
           { "id": 6042, "label": "Darakhul", "description": null, "sourceId": null },
           { "id": 6043, "label": "Erina", "description": null, "sourceId": null },
           { "id": 6044, "label": "Ravenfolk", "description": null, "sourceId": null },
-          { "id": 6045, "label": "Umbral", "description": null, "sourceId": null },
-          { "id": 6046, "label": "Darakhul", "description": null, "sourceId": null },
-          { "id": 6047, "label": "Erina", "description": null, "sourceId": null },
           { "id": 6048, "label": "Void Speech", "description": null, "sourceId": null },
           { "id": 6049, "label": "Huginn's Speech", "description": null, "sourceId": null },
           { "id": 6050, "label": "Northern Tongue", "description": null, "sourceId": null },
@@ -4518,7 +4518,7 @@
         "characterName": "Amaris",
         "characterUrl": "/profile/Jen30096/characters/125202167",
         "avatarUrl": null,
-        "privacyType": 2,
+        "privacyType": 3,
         "campaignId": null,
         "isAssigned": true
       },
@@ -4529,7 +4529,7 @@
         "characterName": "Bruiser",
         "characterUrl": "/profile/joedadi32/characters/125203249",
         "avatarUrl": "https://www.dndbeyond.com/avatars/43236/547/1581111423-125203249.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
-        "privacyType": 2,
+        "privacyType": 3,
         "campaignId": null,
         "isAssigned": true
       },
@@ -4539,8 +4539,8 @@
         "characterId": 125204240,
         "characterName": "Stanley the Stoic",
         "characterUrl": "/profile/braytonlarson1/characters/125204240",
-        "avatarUrl": null,
-        "privacyType": 2,
+        "avatarUrl": "https://www.dndbeyond.com/avatars/2770/12/636683299054921901.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
+        "privacyType": 3,
         "campaignId": null,
         "isAssigned": true
       },
@@ -4550,8 +4550,8 @@
         "characterId": 125840400,
         "characterName": "Aster",
         "characterUrl": "/profile/jewampl/characters/125840400",
-        "avatarUrl": null,
-        "privacyType": 2,
+        "avatarUrl": "https://www.dndbeyond.com/avatars/45158/989/1581111423-125840400.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
+        "privacyType": 3,
         "campaignId": null,
         "isAssigned": true
       },
@@ -4562,7 +4562,7 @@
         "characterName": "Sollux",
         "characterUrl": "/profile/justjeryl/characters/125291104",
         "avatarUrl": null,
-        "privacyType": 2,
+        "privacyType": 3,
         "campaignId": null,
         "isAssigned": true
       }
@@ -4571,7 +4571,7 @@
   "creatures": [],
   "optionalOrigins": [],
   "optionalClassFeatures": [],
-  "dateModified": "2024-10-17T03:19:26.324Z",
+  "dateModified": "2024-10-27T00:14:44.794914Z",
   "canEdit": false,
   "status": 0,
   "statusSlug": null,

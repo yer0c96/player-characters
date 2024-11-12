@@ -69,8 +69,8 @@
     "Torch",
     "Waterskin"
   ],
-  "currencies": { "cp": 6, "sp": 7, "gp": 99, "ep": 0, "pp": 0 },
-  "money": 99.76,
+  "currencies": { "cp": 6, "sp": 7, "gp": 140, "ep": 0, "pp": 0 },
+  "money": 140.76,
   "notes": {
     "personalPossessions": "a belaying pin (club)\na small stone with a hole in the center"
   }

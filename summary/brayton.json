@@ -1,6 +1,6 @@
 {
   "name": "Stanley the Stoic",
-  "classes": ["Level 2 Barbarian"],
+  "classes": ["Level 3 Barbarian | Path of the Storm Herald"],
   "stats": {
     "strength": 15,
     "dexterity": 13,
@@ -9,7 +9,7 @@
     "wisdom": 10,
     "charisma": 8
   },
-  "hitPoints": { "base": 19, "current": 19, "temp": 0 },
+  "hitPoints": { "base": 26, "current": 8, "temp": 0 },
   "traits": {
     "personalityTraits": "My friends know they can rely on me, no matter what.\nMy language is as foul as an otyugh nest.",
     "ideals": "Respect. The thing that keeps a ship together is mutual respect between captain and crew. (Good)",
@@ -21,7 +21,7 @@
   "background": "Sailor",
   "feats": [],
   "spells": [],
-  "actions": ["Rage"],
+  "actions": ["Rage", "Storm Aura: Sea"],
   "languages": ["Dwarvish"],
   "modifiers": [
     "Advantage: Saving Throws",
@@ -44,11 +44,13 @@
     "Proficiency: Constitution Saving Throws",
     "Proficiency: Athletics",
     "Proficiency: Perception",
+    "Proficiency: Choose a Barbarian Skill",
     "Proficiency: Insight",
-    "Proficiency: Choose a Skill",
+    "Proficiency: Investigation",
     "Proficiency: Navigator's Tools",
     "Proficiency: Leatherworker's Tools",
     "Resistance: Poison",
+    "Set: Subclass",
     "Set: Unarmored Armor Class"
   ],
   "equipment": ["Greataxe", "Handaxe", "Handaxe"],
@@ -58,6 +60,9 @@
     "Caltrops (bag of 20)",
     "Clothes, Common",
     "Grappling Hook",
+    "Greataxe",
+    "Handaxe",
+    "Handaxe",
     "Javelin",
     "Mess Kit",
     "Potion of Healing",
@@ -69,8 +74,8 @@
     "Torch",
     "Waterskin"
   ],
-  "currencies": { "cp": 6, "sp": 7, "gp": 140, "ep": 0, "pp": 0 },
-  "money": 140.76,
+  "currencies": { "cp": 6, "sp": 7, "gp": 145, "ep": 0, "pp": 0 },
+  "money": 145.76,
   "notes": {
     "personalPossessions": "a belaying pin (club)\na small stone with a hole in the center"
   }

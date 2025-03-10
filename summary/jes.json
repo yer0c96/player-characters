@@ -1,6 +1,6 @@
 {
   "name": "Aster",
-  "classes": ["Level 2 Bard"],
+  "classes": ["Level 3 Bard | College of Spirits"],
   "stats": {
     "strength": 12,
     "dexterity": 14,
@@ -9,7 +9,7 @@
     "wisdom": 8,
     "charisma": 15
   },
-  "hitPoints": { "base": 13, "current": 13, "temp": 0 },
+  "hitPoints": { "base": 18, "current": 18, "temp": 0 },
   "traits": {
     "personalityTraits": "I judge people by their actions, not their words.\nI’m confident in my own abilities and do what I can to instill confidence in others.",
     "ideals": "Freedom. Tyrants must not be allowed to oppress the people. (Chaotic)",
@@ -21,21 +21,32 @@
   "background": "Folk Hero",
   "feats": [],
   "spells": [
-    "Charm Person",
+    "Cloud of Daggers",
+    "Crown of Madness",
     "Cure Wounds",
+    "Guidance",
     "Hideous Laughter",
-    "Mending",
     "Speak with Animals",
+    "Thunderclap",
     "Thunderwave",
     "Vicious Mockery"
   ],
-  "actions": ["Bardic Inspiration", "Charge: Hooves", "Hooves", "Magical Inspiration"],
+  "actions": [
+    "Bardic Inspiration",
+    "Charge: Hooves",
+    "Hooves",
+    "Magical Inspiration",
+    "Tales from Beyond: Bestow Tale",
+    "Tales from Beyond: Determine Tale"
+  ],
   "languages": ["Gnomish"],
   "modifiers": [
     "Bonus: Charisma Score",
     "Bonus: Constitution Score",
     "Bonus: Hit Points",
     "Carrying Capacity: Large",
+    "Expertise: Nature",
+    "Expertise: Animal Handling",
     "Half Proficiency: Ability Checks",
     "Half Proficiency: Initiative",
     "Proficiency: Medicine",
@@ -56,10 +67,12 @@
     "Proficiency: Animal Handling",
     "Proficiency: Survival",
     "Proficiency: Painter's Supplies",
-    "Proficiency: Vehicles (Land)"
+    "Proficiency: Vehicles (Land)",
+    "Set: Subclass"
   ],
   "equipment": ["Backpack", "Dagger", "Leather", "Morningstar", "Sickle"],
   "inventory": [
+    "Bagpipes",
     "Bedroll",
     "Candle",
     "Cartographer's Tools",
@@ -68,15 +81,17 @@
     "Disguise Kit",
     "Herbalism Kit",
     "Lute",
-    "Oil (flask)",
     "Pot, Iron",
     "Potion of Healing",
+    "Potion of Poison",
     "Rations (1 day)",
+    "Scroll: Scroll of fire bolt ",
     "Shovel",
+    "Vial",
     "Waterskin"
   ],
-  "currencies": { "cp": 0, "sp": 0, "gp": 122, "ep": 0, "pp": 0 },
-  "money": 122,
+  "currencies": { "cp": 0, "sp": 10, "gp": 141, "ep": 0, "pp": 0 },
+  "money": 142,
   "notes": {
     "backstory": "Aster lived happily as a bard in a small sea side woodland village where her father was renowned as a folk hero and adventurer. As she grew her father began taking her on his adventures. \n\nDuring one of these adventures in the Fae realm while battling she met Varis a high elf from a powerful bloodline. The two began a secret friendship with eventually kindled to romance. Varis was set to be married, combining two powerful elven bloodlines. After finding this Varis and Aster attempted to run away together, after serval weeks they were found. Varis was taken back to his family to follow the plans set forth for him. \n\nAster began the treck alone back to her home village. While still in the fae realm she saw a vision of her family to be slaughtered. A curse lay over her town which had killed all her family and friends. As she stood in agony a green hag appeared in the village center. She placed a curse on aster which transformed her bard form into that of a centaur."
   }

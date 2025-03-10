@@ -11,13 +11,14 @@ const ignoredItems = [
 ]
 
 const partySummary = () => {
-  const josh = JSON.parse(fs.readFileSync('summary/josh.json'))
-  const corey = JSON.parse(fs.readFileSync('summary/corey.json'))
-  const todd = JSON.parse(fs.readFileSync('summary/todd.json'))
-  const gamel = JSON.parse(fs.readFileSync('summary/gamel.json'))
-  const jen = JSON.parse(fs.readFileSync('summary/jen.json'))
+  const brayton = JSON.parse(fs.readFileSync('summary/brayton.json'))
+  const jendi = JSON.parse(fs.readFileSync('summary/jendi.json'))
+  const jeryl = JSON.parse(fs.readFileSync('summary/jeryl.json'))
+  const jes = JSON.parse(fs.readFileSync('summary/jes.json'))
+  const joey = JSON.parse(fs.readFileSync('summary/joey.json'))
+  //const jazzlyn = JSON.parse(fs.readFileSync('summary/jazzlyn.json'))
 
-  const party = [josh, corey, todd, gamel, jen]
+  const party = [brayton, jendi, jeryl, jes, joey]
 
   const inventory = pipe(
     pluck('inventory'),

@@ -35,6 +35,7 @@ const playerCharacterIds = {
   joey: 125203249,
   jeryl: 125291104,
   brayton: 125204240,
+  jazzlyn: 141801332,
   //dummy: 72798822,
 }
 
@@ -213,4 +214,4 @@ const summarize = async (player) => {
   fs.writeFileSync(`summary/${player}.json`, JSON.stringify(final))
 }
 
-;['jendi', 'jes', 'joey', 'jeryl', 'brayton'].forEach((player) => summarize(player))
+;['jendi', 'jes', 'joey', 'jeryl', 'brayton', 'jazzlyn'].forEach((player) => summarize(player))

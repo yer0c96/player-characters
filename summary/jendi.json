@@ -1,6 +1,6 @@
 {
   "name": "Amaris",
-  "classes": ["Level 2 Rogue"],
+  "classes": ["Level 3 Rogue | Assassin"],
   "stats": {
     "strength": 13,
     "dexterity": 15,
@@ -9,7 +9,7 @@
     "wisdom": 8,
     "charisma": 14
   },
-  "hitPoints": { "base": 13, "current": 13, "temp": 0 },
+  "hitPoints": { "base": 18, "current": 18, "temp": 0 },
   "traits": {
     "personalityTraits": "I am incredibly slow to trust. Those who seem the fairest often have the most to hide.\nThe best way to get me to do something is to tell me I can’t do it.",
     "ideals": "Freedom. Chains are meant to be broken, as are those who would forge them. (Chaotic)",
@@ -20,8 +20,8 @@
   "overrideStats": {},
   "background": "Criminal / Spy",
   "feats": [],
-  "spells": ["Minor Illusion", "Speak with Dead"],
-  "actions": ["Cunning Action", "Sneak Attack"],
+  "spells": ["Disguise Self", "Minor Illusion", "Speak with Dead"],
+  "actions": ["Cunning Action", "Sneak Attack", "Steady Aim"],
   "languages": ["Infernal", "Thieves’ Cant"],
   "modifiers": [
     "Bonus: Charisma Score",
@@ -29,6 +29,8 @@
     "Bonus: Hit Points",
     "Expertise: Stealth",
     "Expertise: Thieves' Tools",
+    "Proficiency: Poisoner's Kit",
+    "Proficiency: Disguise Kit",
     "Proficiency: Light Armor",
     "Proficiency: Simple Weapons",
     "Proficiency: Crossbow, Hand",
@@ -45,8 +47,9 @@
     "Proficiency: Deception",
     "Proficiency: Perception",
     "Proficiency: Dice Set",
-    "Proficiency: Disguise Kit",
+    "Proficiency: Forgery Kit",
     "Resistance: Fire",
+    "Set: Subclass",
     "Set Base: Darkvision"
   ],
   "equipment": [
@@ -64,6 +67,7 @@
     "Arrows",
     "Backpack",
     "Ball Bearings (bag of 1,000)",
+    "Banded Agate",
     "Bell",
     "Candle",
     "Clothes, Common",
@@ -71,6 +75,7 @@
     "Crowbar",
     "Hammer",
     "Lantern, Hooded",
+    "Obsidian",
     "Oil (flask)",
     "Piton",
     "Potion of Healing",
@@ -79,10 +84,11 @@
     "Scimitar",
     "String",
     "Thieves' Tools",
+    "Tiger Eye",
     "Tinderbox",
     "Waterskin"
   ],
-  "currencies": { "cp": 0, "sp": 0, "gp": 127, "ep": 0, "pp": 0 },
-  "money": 127,
+  "currencies": { "cp": 0, "sp": 0, "gp": 163, "ep": 0, "pp": 0 },
+  "money": 163,
   "notes": {}
 }

@@ -1,6 +1,6 @@
 {
   "name": "Bruiser",
-  "classes": ["Level 2 Fighter"],
+  "classes": ["Level 3 Fighter | Battle Master"],
   "stats": {
     "strength": 12,
     "dexterity": 15,
@@ -9,7 +9,7 @@
     "wisdom": 13,
     "charisma": 8
   },
-  "hitPoints": { "base": 16, "current": 16, "temp": 0 },
+  "hitPoints": { "base": 22, "current": 17, "temp": 0 },
   "traits": {
     "personalityTraits": "I’m full of inspiring and cautionary tales from my military experience relevant to almost every combat situation.\nI face problems head-on. A simple, direct solution is the best path to success.",
     "ideals": "Responsibility. I do what I must and obey just authority. (Lawful)",
@@ -21,13 +21,23 @@
   "background": "Soldier",
   "feats": [],
   "spells": [],
-  "actions": ["Action Surge", "Breath Weapon (Blue)", "Second Wind"],
+  "actions": [
+    "Action Surge",
+    "Breath Weapon (Blue)",
+    "Maneuvers: Disarming Attack",
+    "Maneuvers: Parry",
+    "Maneuvers: Sweeping Attack",
+    "Second Wind",
+    "Superiority Dice"
+  ],
   "languages": ["Draconic"],
   "modifiers": [
     "Bonus: Strength Score",
     "Bonus: Charisma Score",
+    "Bonus: Magic",
     "Bonus: Hit Points",
     "Ignore: Dual Wield Modifier Restrictions",
+    "Proficiency: Calligrapher's Supplies",
     "Proficiency: Light Armor",
     "Proficiency: Medium Armor",
     "Proficiency: Heavy Armor",
@@ -42,9 +52,10 @@
     "Proficiency: Perception",
     "Proficiency: Dice Set",
     "Proficiency: Vehicles (Land)",
-    "Resistance: Lightning"
+    "Resistance: Lightning",
+    "Set: Subclass"
   ],
-  "equipment": ["Leather", "Longbow", "Shortsword", "Shortsword"],
+  "equipment": ["Leather", "Longbow", "Shortsword", "Shortsword, +1"],
   "inventory": [
     "Arrows",
     "Backpack",
@@ -59,11 +70,12 @@
     "Potion of Healing",
     "Rations (1 day)",
     "Rope, Hempen (50 feet)",
+    "Shortsword",
     "Tinderbox",
     "Torch",
     "Waterskin"
   ],
-  "currencies": { "cp": 0, "sp": 0, "gp": 123, "ep": 0, "pp": 0 },
-  "money": 123,
+  "currencies": { "cp": 0, "sp": 0, "gp": 136, "ep": 0, "pp": 0 },
+  "money": 136,
   "notes": {}
 }

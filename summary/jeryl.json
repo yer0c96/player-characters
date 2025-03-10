@@ -1,6 +1,6 @@
 {
   "name": "Sollux",
-  "classes": ["Level 2 Cleric | Light Domain"],
+  "classes": ["Level 3 Cleric | Light Domain"],
   "stats": {
     "strength": 14,
     "dexterity": 10,
@@ -9,7 +9,7 @@
     "wisdom": 15,
     "charisma": 12
   },
-  "hitPoints": { "base": 13, "current": 13, "temp": 0 },
+  "hitPoints": { "base": 18, "current": 18, "temp": 0 },
   "traits": {
     "personalityTraits": "Nothing can shake my optimistic attitude.\nI’ve enjoyed fine food, drink, and high society among my temple’s elite. Rough living grates on me.",
     "ideals": "Aspiration. I seek to prove myself worthy of my god’s favor by matching my actions against his or her teachings. (Any)",
@@ -30,10 +30,14 @@
     "Light",
     "Light",
     "Magic Missile",
+    "Revivify",
     "Sacred Flame",
+    "Spiritual Weapon",
     "Word of Radiance"
   ],
   "actions": [
+    "Celestial Revelation",
+    "Celestial Revelation (Radiant Soul)",
     "Channel Divinity",
     "Channel Divinity: Radiance of the Dawn",
     "Channel Divinity: Turn Undead",
@@ -75,14 +79,16 @@
     "Mace",
     "Mess Kit",
     "Potion of Healing",
+    "Potion of Healing",
     "Rations (1 day)",
     "Rope, Hempen (50 feet)",
+    "Scroll of Revivify",
     "Tinderbox",
     "Torch",
     "Vestments",
     "Waterskin"
   ],
-  "currencies": { "cp": 0, "sp": 0, "gp": 127, "ep": 0, "pp": 0 },
-  "money": 127,
+  "currencies": { "cp": 0, "sp": 0, "gp": 276, "ep": 0, "pp": 0 },
+  "money": 276,
   "notes": { "personalPossessions": "a prayer book\n5 sticks of incense\n5 sticks of incense" }
 }
